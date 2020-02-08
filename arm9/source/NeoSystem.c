@@ -437,6 +437,9 @@ void neoSystemSetEnabled(bool enable)
 			//only turn on arm7 if audio is on
 			neoIPCSendCommand(NEOARM7_RESUME);
 		}
+		//xonn83 ini mod
+		lcdSwap();
+		//xonn83 end mod
 	} else if(!enable && g_pauseCount == 0) {
 		//pausing
 		g_neo->active = false;
@@ -444,6 +447,9 @@ void neoSystemSetEnabled(bool enable)
 			//only turn on arm7 if audio is on
 			neoIPCSendCommand(NEOARM7_PAUSE);
 		}
+		//xonn83 ini mod
+		lcdSwap();
+		//xonn83 end mod
 	}
 
 	if(enable) g_pauseCount--;
