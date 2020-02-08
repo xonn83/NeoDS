@@ -229,7 +229,11 @@ bool neoVideoInit()
 		g_videoBounds.maxY, g_videoBounds.minY,
 		0, 1 << 12);
 	glMatrixMode(GL_MODELVIEW);
-
+	
+	//xonn83 ini mod
+	lcdSwap();
+	//xonn83 end mod
+	
 	return true;
 }
 
