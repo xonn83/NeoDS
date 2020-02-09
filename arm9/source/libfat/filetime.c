@@ -38,6 +38,7 @@
 
 
 #include "filetime.h"
+#include <time.h>
 
 #ifdef NDS
 #include <nds/ipc.h>
