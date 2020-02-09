@@ -47,8 +47,8 @@ void neoFixedInit()
 		BG_RS_64x64;
 
 	//blend 2 backgrounds together (3 has lower priority than 2)
-	BLEND_CR = BLEND_ALPHA | BLEND_SRC_BG2 | BLEND_DST_BG3;
-	BLEND_AB = (8 << 0) | (8 << 8);
+	REG_BLDALPHA = BLEND_ALPHA | BLEND_SRC_BG2 | BLEND_DST_BG3;
+	REG_BLDCNT = (8 << 0) | (8 << 8);
 
 	g_neo->pTileBuffer = (u16*)neoSystemVramHAlloc(64 * 32 * sizeof(u16));
 
