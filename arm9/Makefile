@@ -36,7 +36,7 @@ ASFLAGS	:=	-g $(ARCH) -march=armv5te -mtune=arm946e-s
 
 ASFLAGS	+=	$(INCLUDE)
 
-LDFLAGS	=	-specs=ds_arm9.specs -g $(ARCH) -mno-fpu -Wl,-Map,$(notdir $*.map)
+LDFLAGS	=	-specs=ds_arm9.specs -g $(ARCH) -Wl,-Map,$(notdir $*.map)
 #LDFLAGS	=	-specs=../NeoSpecs.specs -g $(ARCH) -mno-fpu -Wl,-Map,$(notdir $*.map)
 
 #---------------------------------------------------------------------------------
