@@ -135,10 +135,10 @@ static void vblankIntr()
 		BACKGROUND.bg3_rotation.dy = g_neo->tileOffsetY;
 	}
 	//scale
-	BACKGROUND.bg2_rotation.xdx = g_neo->tileScaleX;
-	BACKGROUND.bg2_rotation.ydy = g_neo->tileScaleY;
-	BACKGROUND.bg3_rotation.xdx = g_neo->tileScaleX;
-	BACKGROUND.bg3_rotation.ydy = g_neo->tileScaleY;
+	BACKGROUND.bg2_rotation.hdx = g_neo->tileScaleX;
+	BACKGROUND.bg2_rotation.vdy = g_neo->tileScaleY;
+	BACKGROUND.bg3_rotation.hdx = g_neo->tileScaleX;
+	BACKGROUND.bg3_rotation.vdy = g_neo->tileScaleY;
 
 	sTime++;
 	if(sTime >= 60) {
