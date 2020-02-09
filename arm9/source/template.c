@@ -9,7 +9,7 @@
 #include "LayoutRomSelect.h"
 #include "LayoutMain.h"
 
-STATIC_ASSERT(sizeof(TransferRegion) < 0x800);
+//STATIC_ASSERT(sizeof(TransferRegion) < 0x800);
 
 /*extern u16 __vram_lma[];
 extern u16 __vram_start[];
