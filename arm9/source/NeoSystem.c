@@ -2,6 +2,7 @@
 #include <fat.h>
 #include <sys/dir.h>
 #include <stdlib.h> //for qsort
+#include <string.h>
 
 #include "EmuSystem.h"
 #include "NeoSystem.h"
@@ -201,31 +202,29 @@ bool neoSystemInit()
 	g_romCount = 0;
 	memset(g_romNames, 0, sizeof(g_romNames));
 
-	DIR_ITER* dir;
-	struct stat st;
-	char szFilename[256];
+	DIR* dir;
+	struct dirent st, *stnext;
 
-	dir = diropen("/");
+	dir = opendir("/");
 	if(!dir) {
 		return false;
 	}
-
-	while(g_romCount < NEO_ROM_MAX && dirnext(dir, szFilename, &st) == 0) {
-		if(st.st_mode & S_IFDIR) {
+	while(g_romCount < 256 && readdir_r(dir,&st,&stnext)==0 && stnext!=NULL) {
+		if(st.d_type & S_IFDIR) {
 			continue;
 		}
-		const char* szExt = strchr(szFilename, '.');
-		if(strcmpi(".NEO", szExt)) {
+		const char* szExt = strchr(st.d_name, '.');
+		if(strcmp(".neo", szExt)) {
 			continue;
 		}
 		
 		g_romCount++;
-		g_romNames[g_romCount - 1] = strdup(szFilename);
+		g_romNames[g_romCount - 1] = strdup(st.d_name);
 		ASSERT(g_romNames[g_romCount - 1]);
 	}
 	qsort(g_romNames, g_romCount, sizeof(const char*), stringCompare);
 
-	dirclose(dir);
+	closedir(dir);
 
 	neoResetContext();
 	neoSystemSetClockDivide(2);
@@ -626,6 +625,3 @@ void neoSystemExecute()
 	}
 	profilerPop();
 }
-
-	
-		
