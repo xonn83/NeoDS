@@ -270,7 +270,7 @@ void neoAudioPause()
 	for(i = 11; i <= 15; i++) {
 		SCHANNEL_CR(i) = 0;
 	}
-	SOUND_CR = SOUND_ENABLE;
+	REG_SOUNDCNT = SOUND_ENABLE;
 }
 
 void neoAudioResume()
