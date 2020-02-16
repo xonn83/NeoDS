@@ -22,7 +22,7 @@
 	.type	timer0Intr, %function
 timer0Intr:
 .LFB168:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/EmuSystem.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/EmuSystem.c"
 	.loc 1 37 0
 	.loc 1 38 0
 	ldr	r3, .L3
@@ -366,7 +366,7 @@ systemFileSize:
 	bl	irqEnable
 .LBB17:
 .LBB18:
-	.file 2 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
+	.file 2 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
 	.loc 2 337 0
 	ldr	r0, [r4, #24]
 	ldr	r7, .L45
@@ -1672,11 +1672,11 @@ g_mainRam:
 	.file 11 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
 	.file 12 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/include/stdarg.h"
 	.file 13 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/types.h"
-	.file 14 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 15 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 16 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
+	.file 14 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 15 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 16 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
 	.file 17 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/stat.h"
-	.file 18 "C:/Users/GRX/NeoDS-master-old/arm9/source/LinearHeap.h"
+	.file 18 "C:/Users/GRX/NeoDS/arm9/source/LinearHeap.h"
 	.file 19 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.section	.debug_info
 	.4byte	0x1544
@@ -5222,9 +5222,6 @@ g_mainRam:
 	.ascii	"sramProtectLatch\000"
 .LASF119:
 	.ascii	"flags\000"
-.LASF309:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/EmuSystem"
-	.ascii	".c\000"
 .LASF158:
 	.ascii	"NEOROM_BIOS\000"
 .LASF140:
@@ -5305,6 +5302,8 @@ g_mainRam:
 	.ascii	"relative\000"
 .LASF105:
 	.ascii	"OBJCOLOR_16\000"
+.LASF309:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/EmuSystem.c\000"
 .LASF197:
 	.ascii	"pTileBuffer\000"
 .LASF262:

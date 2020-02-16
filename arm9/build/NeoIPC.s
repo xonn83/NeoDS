@@ -23,7 +23,7 @@
 	.type	neoIPCInit, %function
 neoIPCInit:
 .LFB166:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoIPC.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoIPC.c"
 	.loc 1 34 0
 	.loc 1 35 0
 	ldr	r2, .L3
@@ -843,11 +843,11 @@ g_ipcState:
 	.file 7 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 8 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 9 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoIPC.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 13 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 14 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoIPC.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 13 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 14 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
 	.file 15 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.section	.debug_info
 	.4byte	0x13cb
@@ -4820,8 +4820,6 @@ g_ipcState:
 	.ascii	"TRead32Func\000"
 .LASF266:
 	.ascii	"IPCSTATE_IDLE\000"
-.LASF62:
-	.ascii	"scaleX\000"
 .LASF42:
 	.ascii	"IRQ_MASKS\000"
 .LASF136:
@@ -4830,9 +4828,8 @@ g_ipcState:
 	.ascii	"mosaicShadow\000"
 .LASF8:
 	.ascii	"uint32_t\000"
-.LASF285:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/../common/source"
-	.ascii	"/NeoIPC.c\000"
+.LASF62:
+	.ascii	"scaleX\000"
 .LASF63:
 	.ascii	"scaleY\000"
 .LASF147:
@@ -4859,6 +4856,8 @@ g_ipcState:
 	.ascii	"paletteBank\000"
 .LASF68:
 	.ascii	"dirty\000"
+.LASF285:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/../common/source/NeoIPC.c\000"
 .LASF40:
 	.ascii	"IRQ_WIFI\000"
 .LASF210:

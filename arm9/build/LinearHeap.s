@@ -23,7 +23,7 @@
 	.type	linearHeapInit, %function
 linearHeapInit:
 .LFB166:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/LinearHeap.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/LinearHeap.c"
 	.loc 1 5 0
 .LVL0:
 	.loc 1 7 0
@@ -292,11 +292,11 @@ linearHeapGetFree:
 	.file 5 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 6 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 7 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 8 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 9 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/source/LinearHeap.h"
+	.file 8 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 9 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/source/LinearHeap.h"
 	.file 13 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.section	.debug_info
 	.4byte	0xee1
@@ -2971,9 +2971,6 @@ linearHeapGetFree:
 	.ascii	"OBJMODE_BITMAP\000"
 .LASF177:
 	.ascii	"cpuRead8Table\000"
-.LASF206:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/LinearHea"
-	.ascii	"p.c\000"
 .LASF196:
 	.ascii	"linearHeapAlloc\000"
 .LASF128:
@@ -3278,6 +3275,8 @@ linearHeapGetFree:
 	.ascii	"OBJSHAPE_WIDE\000"
 .LASF156:
 	.ascii	"vramOffset\000"
+.LASF206:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/LinearHeap.c\000"
 .LASF60:
 	.ascii	"OBJSIZE_64\000"
 .LASF48:

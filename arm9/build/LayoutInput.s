@@ -22,7 +22,7 @@
 	.type	keyGridHandler, %function
 keyGridHandler:
 .LFB173:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutInput.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/LayoutInput.c"
 	.loc 1 58 0
 	push	{r4, r5, r6, lr}
 .LCFI0:
@@ -1129,18 +1129,18 @@ __TGuiLayoutInputTypeHeader__:
 	.file 5 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 6 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 7 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 8 "C:/Users/GRX/NeoDS-master-old/arm9/source/Default.h"
-	.file 9 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
-	.file 13 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiEvent.h"
-	.file 14 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiObject.h"
-	.file 15 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiRender.h"
-	.file 16 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiLabel.h"
-	.file 17 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiButton.h"
-	.file 18 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiCheckbox.h"
-	.file 19 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutInput.h"
+	.file 8 "C:/Users/GRX/NeoDS/arm9/source/Default.h"
+	.file 9 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
+	.file 13 "C:/Users/GRX/NeoDS/arm9/source/guiEvent.h"
+	.file 14 "C:/Users/GRX/NeoDS/arm9/source/guiObject.h"
+	.file 15 "C:/Users/GRX/NeoDS/arm9/source/guiRender.h"
+	.file 16 "C:/Users/GRX/NeoDS/arm9/source/guiLabel.h"
+	.file 17 "C:/Users/GRX/NeoDS/arm9/source/guiButton.h"
+	.file 18 "C:/Users/GRX/NeoDS/arm9/source/guiCheckbox.h"
+	.file 19 "C:/Users/GRX/NeoDS/arm9/source/LayoutInput.h"
 	.file 20 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.section	.debug_info
 	.4byte	0x1536
@@ -5017,6 +5017,8 @@ __TGuiLayoutInputTypeHeader__:
 	.ascii	"pType\000"
 .LASF128:
 	.ascii	"pSpriteRam\000"
+.LASF30:
+	.ascii	"dirty\000"
 .LASF227:
 	.ascii	"GUIBORDER_PRESSED\000"
 .LASF134:
@@ -5105,8 +5107,8 @@ __TGuiLayoutInputTypeHeader__:
 	.ascii	"pVideoWriteTable\000"
 .LASF154:
 	.ascii	"paletteBank\000"
-.LASF30:
-	.ascii	"dirty\000"
+.LASF278:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/LayoutInput.c\000"
 .LASF133:
 	.ascii	"smaBankAddr\000"
 .LASF82:
@@ -5133,9 +5135,6 @@ __TGuiLayoutInputTypeHeader__:
 	.ascii	"TNeoADPCMStream\000"
 .LASF262:
 	.ascii	"backHandler\000"
-.LASF278:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutInp"
-	.ascii	"ut.c\000"
 .LASF160:
 	.ascii	"vramMod\000"
 	.ident	"GCC: (devkitARM release 30) 4.4.3"

@@ -1,13 +1,13 @@
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.c"
-# 1 "C:\\Users\\GRX\\NeoDS-master-old\\arm9\\build//"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.c"
+# 1 "C:\\Users\\GRX\\NeoDS\\arm9\\build//"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.c"
-# 76 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.c"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.h" 1
-# 36 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.h"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h" 1
-# 43 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.c"
+# 76 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.c"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.h" 1
+# 36 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h" 1
+# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h"
 # 1 "C:/devkitPro/libnds/include/nds/ndstypes.h" 1
 # 68 "C:/devkitPro/libnds/include/nds/ndstypes.h"
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 1 3
@@ -129,10 +129,10 @@ typedef enum { false, true } bool;
 typedef void ( * IntFn)(void);
 typedef void (* VoidFn)(void);
 typedef void (* fp)(void);
-# 44 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h" 2
-# 37 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.h" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h" 1
-# 61 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
+# 44 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h" 2
+# 37 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.h" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h" 1
+# 61 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
 typedef bool (* FN_MEDIUM_STARTUP)(void) ;
 typedef bool (* FN_MEDIUM_ISINSERTED)(void) ;
 typedef bool (* FN_MEDIUM_READSECTORS)(u32 sector, u32 numSectors, void* buffer) ;
@@ -152,7 +152,7 @@ struct IO_INTERFACE_STRUCT {
 } ;
 
 typedef struct IO_INTERFACE_STRUCT IO_INTERFACE ;
-# 38 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.h" 2
+# 38 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.h" 2
 
 
 
@@ -240,7 +240,7 @@ static inline u32 _FAT_disc_hostType (const IO_INTERFACE* disc) {
 static inline u32 _FAT_disc_features (const IO_INTERFACE* disc) {
  return disc->features;
 }
-# 77 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.c" 2
+# 77 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.c" 2
 
 
 
@@ -5088,43 +5088,43 @@ void decompress(const void* data, void* dst, DecompressType type);
 # 72 "C:/devkitPro/libnds/include/nds/arm9/decompress.h"
 void decompressStream(const void* data, void* dst, DecompressType type, getByteCallback readCB, getHeaderCallback getHeaderCB);
 # 202 "C:/devkitPro/libnds/include/nds.h" 2
-# 81 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.c" 2
+# 81 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.c" 2
 
 
 
 
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_dldi.h" 1
-# 42 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_dldi.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_dldi.h" 1
+# 42 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_dldi.h"
 extern const IO_INTERFACE _io_dldi ;
-# 86 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_njsd.h" 1
-# 46 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_njsd.h"
+# 86 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_njsd.h" 1
+# 46 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_njsd.h"
 extern const IO_INTERFACE _io_njsd;
-# 87 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_nmmc.h" 1
-# 49 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_nmmc.h"
+# 87 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_nmmc.h" 1
+# 49 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_nmmc.h"
 extern const IO_INTERFACE _io_nmmc;
-# 88 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_mpcf.h" 1
-# 43 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_mpcf.h"
+# 88 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_mpcf.h" 1
+# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_mpcf.h"
 extern const IO_INTERFACE _io_mpcf ;
-# 89 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_m3cf.h" 1
-# 43 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_m3cf.h"
+# 89 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_m3cf.h" 1
+# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_m3cf.h"
 extern const IO_INTERFACE _io_m3cf ;
-# 90 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sccf.h" 1
-# 43 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sccf.h"
+# 90 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sccf.h" 1
+# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sccf.h"
 extern const IO_INTERFACE _io_sccf;
-# 91 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_scsd.h" 1
-# 46 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_scsd.h"
+# 91 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_scsd.h" 1
+# 46 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_scsd.h"
 extern const IO_INTERFACE _io_scsd ;
-# 92 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_m3sd.h" 1
-# 46 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_m3sd.h"
+# 92 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_m3sd.h" 1
+# 46 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_m3sd.h"
 extern const IO_INTERFACE _io_m3sd ;
-# 93 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.c" 2
+# 93 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.c" 2
 
 const IO_INTERFACE* ioInterfaces[] = {
  &_io_dldi,
@@ -5161,7 +5161,7 @@ const IO_INTERFACE* _FAT_disc_gbaSlotFindInterface (void)
  }
  return 0;
 }
-# 137 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.c"
+# 137 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.c"
 const IO_INTERFACE* _FAT_disc_dsSlotFindInterface (void)
 {
 
@@ -5177,7 +5177,7 @@ const IO_INTERFACE* _FAT_disc_dsSlotFindInterface (void)
 
  return 0;
 }
-# 163 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.c"
+# 163 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.c"
 const IO_INTERFACE* _FAT_disc_findInterface (void)
 {
 

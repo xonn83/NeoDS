@@ -23,7 +23,7 @@
 	.type	_FAT_fstat_r, %function
 _FAT_fstat_r:
 .LFB25:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/fatfile.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatfile.c"
 	.loc 1 864 0
 	push	{r4, r5, r6, r7, lr}
 .LCFI0:
@@ -531,7 +531,7 @@ file_extend_r:
 	bhi	.L49
 .LBB75:
 .LBB76:
-	.file 2 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/file_allocation_table.h"
+	.file 2 "C:/Users/GRX/NeoDS/arm9/source/libfat/file_allocation_table.h"
 	.loc 2 61 0
 	cmp	r0, #1
 	bls	.L50
@@ -650,7 +650,7 @@ file_extend_r:
 .LBE79:
 .LBB81:
 .LBB82:
-	.file 3 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.h"
+	.file 3 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.h"
 	.loc 3 87 0
 	ldr	r3, [r3, #20]
 	mov	r1, #1
@@ -2026,7 +2026,7 @@ _FAT_close_r:
 	ldr	r3, [r4]
 .LBB127:
 .LBB128:
-	.file 4 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/bit_ops.h"
+	.file 4 "C:/Users/GRX/NeoDS/arm9/source/libfat/bit_ops.h"
 	.loc 4 53 0
 	lsr	r2, r3, #8
 	.loc 4 52 0
@@ -2335,7 +2335,7 @@ _FAT_open_r:
 	mov	r3, #17
 	b	.L214
 .L211:
-	.file 5 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/directory.h"
+	.file 5 "C:/Users/GRX/NeoDS/arm9/source/libfat/directory.h"
 	.loc 5 94 0
 	mov	r2, sp
 	ldrb	r3, [r2, #27]
@@ -3714,10 +3714,10 @@ _FAT_open_r:
 	.file 11 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/stat.h"
 	.file 12 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
 	.file 13 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-	.file 14 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
-	.file 15 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.h"
-	.file 16 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/partition.h"
-	.file 17 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/fatfile.h"
+	.file 14 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
+	.file 15 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.h"
+	.file 16 "C:/Users/GRX/NeoDS/arm9/source/libfat/partition.h"
+	.file 17 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatfile.h"
 	.section	.debug_info
 	.4byte	0x1b8b
 	.2byte	0x2
@@ -8125,8 +8125,8 @@ _FAT_open_r:
 	.ascii	"rwPosition\000"
 .LASF261:
 	.ascii	"clusterTableOffset\000"
-.LASF27:
-	.ascii	"_Bigint\000"
+.LASF282:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/libfat/fatfile.c\000"
 .LASF35:
 	.ascii	"__tm_wday\000"
 .LASF77:
@@ -8429,6 +8429,8 @@ _FAT_open_r:
 	.ascii	"DIR_ENTRY_aDate\000"
 .LASF2:
 	.ascii	"short int\000"
+.LASF27:
+	.ascii	"_Bigint\000"
 .LASF9:
 	.ascii	"long int\000"
 .LASF192:
@@ -8599,9 +8601,6 @@ _FAT_open_r:
 	.ascii	"_rand_next\000"
 .LASF175:
 	.ascii	"numberOfPages\000"
-.LASF282:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/fa"
-	.ascii	"tfile.c\000"
 .LASF231:
 	.ascii	"read\000"
 .LASF56:

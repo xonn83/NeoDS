@@ -23,7 +23,7 @@
 	.type	guiCheckboxSetChecked, %function
 guiCheckboxSetChecked:
 .LFB169:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiCheckbox.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/guiCheckbox.c"
 	.loc 1 40 0
 	push	{r4, lr}
 .LCFI0:
@@ -359,17 +359,17 @@ __TGuiCheckboxTypeHeader__:
 	.file 5 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 6 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 7 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 8 "C:/Users/GRX/NeoDS-master-old/arm9/source/Default.h"
-	.file 9 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
-	.file 13 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiEvent.h"
-	.file 14 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiObject.h"
-	.file 15 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiRender.h"
-	.file 16 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiLabel.h"
-	.file 17 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiButton.h"
-	.file 18 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiCheckbox.h"
+	.file 8 "C:/Users/GRX/NeoDS/arm9/source/Default.h"
+	.file 9 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
+	.file 13 "C:/Users/GRX/NeoDS/arm9/source/guiEvent.h"
+	.file 14 "C:/Users/GRX/NeoDS/arm9/source/guiObject.h"
+	.file 15 "C:/Users/GRX/NeoDS/arm9/source/guiRender.h"
+	.file 16 "C:/Users/GRX/NeoDS/arm9/source/guiLabel.h"
+	.file 17 "C:/Users/GRX/NeoDS/arm9/source/guiButton.h"
+	.file 18 "C:/Users/GRX/NeoDS/arm9/source/guiCheckbox.h"
 	.file 19 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.section	.debug_info
 	.4byte	0x12c0
@@ -3605,6 +3605,8 @@ __TGuiCheckboxTypeHeader__:
 	.ascii	"_TPoint\000"
 .LASF38:
 	.ascii	"GL_TEXTURE\000"
+.LASF278:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/guiCheckbox.c\000"
 .LASF173:
 	.ascii	"paletteRamLatch\000"
 .LASF29:
@@ -3623,9 +3625,6 @@ __TGuiCheckboxTypeHeader__:
 	.ascii	"write16\000"
 .LASF264:
 	.ascii	"__arg__\000"
-.LASF278:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/guiCheckb"
-	.ascii	"ox.c\000"
 .LASF104:
 	.ascii	"TNeoADPCMBStream\000"
 .LASF89:

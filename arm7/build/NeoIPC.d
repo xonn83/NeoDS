@@ -1,4 +1,4 @@
-NeoIPC.o: C:/Users/GRX/NeoDS-master-old/arm7/../common/source/NeoIPC.c \
+NeoIPC.o: C:/Users/GRX/NeoDS/arm7/../common/source/NeoIPC.c \
  C:/devkitPro/libnds/include/nds.h \
  C:/devkitPro/libnds/include/nds/libversion.h \
  C:/devkitPro/libnds/include/nds/ndstypes.h \
@@ -26,11 +26,11 @@ NeoIPC.o: C:/Users/GRX/NeoDS-master-old/arm7/../common/source/NeoIPC.c \
  C:/devkitPro/libnds/include/nds/arm7/touch.h \
  C:/devkitPro/libnds/include/nds/touch.h \
  C:/devkitPro/libnds/include/nds/arm7/input.h \
- C:/Users/GRX/NeoDS-master-old/arm7/../common/source/NeoIPC.h \
- C:/Users/GRX/NeoDS-master-old/arm7/source/NeoSystem7.h \
- C:/Users/GRX/NeoDS-master-old/arm7/../common/source/NeoSystemCommon.h \
- C:/Users/GRX/NeoDS-master-old/arm7/source/NeoCpuZ80.h \
- C:/Users/GRX/NeoDS-master-old/arm7/source/DrZ80.h
+ C:/Users/GRX/NeoDS/arm7/../common/source/NeoIPC.h \
+ C:/Users/GRX/NeoDS/arm7/source/NeoSystem7.h \
+ C:/Users/GRX/NeoDS/arm7/../common/source/NeoSystemCommon.h \
+ C:/Users/GRX/NeoDS/arm7/source/NeoCpuZ80.h \
+ C:/Users/GRX/NeoDS/arm7/source/DrZ80.h
 
 C:/devkitPro/libnds/include/nds.h:
 
@@ -86,12 +86,12 @@ C:/devkitPro/libnds/include/nds/touch.h:
 
 C:/devkitPro/libnds/include/nds/arm7/input.h:
 
-C:/Users/GRX/NeoDS-master-old/arm7/../common/source/NeoIPC.h:
+C:/Users/GRX/NeoDS/arm7/../common/source/NeoIPC.h:
 
-C:/Users/GRX/NeoDS-master-old/arm7/source/NeoSystem7.h:
+C:/Users/GRX/NeoDS/arm7/source/NeoSystem7.h:
 
-C:/Users/GRX/NeoDS-master-old/arm7/../common/source/NeoSystemCommon.h:
+C:/Users/GRX/NeoDS/arm7/../common/source/NeoSystemCommon.h:
 
-C:/Users/GRX/NeoDS-master-old/arm7/source/NeoCpuZ80.h:
+C:/Users/GRX/NeoDS/arm7/source/NeoCpuZ80.h:
 
-C:/Users/GRX/NeoDS-master-old/arm7/source/DrZ80.h:
+C:/Users/GRX/NeoDS/arm7/source/DrZ80.h:

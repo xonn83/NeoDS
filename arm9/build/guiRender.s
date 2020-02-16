@@ -23,7 +23,7 @@
 	.type	guiRenderLogo, %function
 guiRenderLogo:
 .LFB168:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiRender.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/guiRender.c"
 	.loc 1 79 0
 	push	{lr}
 .LCFI0:
@@ -1484,12 +1484,12 @@ g_palette:
 	.file 7 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 8 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 9 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/source/Default.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 13 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 14 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
-	.file 15 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiRender.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/source/Default.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 13 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 14 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
+	.file 15 "C:/Users/GRX/NeoDS/arm9/source/guiRender.h"
 	.section	.debug_info
 	.4byte	0x13b7
 	.2byte	0x2
@@ -4965,6 +4965,8 @@ g_palette:
 	.ascii	"MODE_3_3D\000"
 .LASF38:
 	.ascii	"MODE_5_3D\000"
+.LASF256:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/guiRender.c\000"
 .LASF87:
 	.ascii	"_TPoint\000"
 .LASF62:
@@ -5341,9 +5343,6 @@ g_palette:
 	.ascii	"fixedBank\000"
 .LASF81:
 	.ascii	"OBJSIZE_8\000"
-.LASF256:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/guiRender"
-	.ascii	".c\000"
 .LASF95:
 	.ascii	"state_flags\000"
 .LASF182:

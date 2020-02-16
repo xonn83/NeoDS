@@ -23,7 +23,7 @@
 	.type	neoWriteSystemLatch16, %function
 neoWriteSystemLatch16:
 .LFB169:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/NeoIO.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/NeoIO.c"
 	.loc 1 132 0
 	push	{r4, lr}
 .LCFI0:
@@ -445,11 +445,11 @@ neoWriteAudioCommand8:
 	.file 5 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 6 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 7 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 8 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 9 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoIPC.h"
+	.file 8 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 9 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoIPC.h"
 	.file 13 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.section	.debug_info
 	.4byte	0x109d
@@ -3453,6 +3453,8 @@ neoWriteAudioCommand8:
 	.ascii	"active\000"
 .LASF142:
 	.ascii	"pTileBuffer\000"
+.LASF238:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/NeoIO.c\000"
 .LASF63:
 	.ascii	"Cyclone\000"
 .LASF120:
@@ -3513,8 +3515,6 @@ neoWriteAudioCommand8:
 	.ascii	"smaAddr0\000"
 .LASF129:
 	.ascii	"smaAddr1\000"
-.LASF238:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/NeoIO.c\000"
 .LASF138:
 	.ascii	"displayCounter\000"
 .LASF100:

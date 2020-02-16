@@ -23,7 +23,7 @@
 	.type	_FAT_filetime_to_time_t, %function
 _FAT_filetime_to_time_t:
 .LFB4:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/filetime.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/filetime.c"
 	.loc 1 116 0
 	push	{r4, lr}
 .LCFI0:
@@ -964,9 +964,6 @@ _FAT_filetime_getTimeFromRTC:
 	.ascii	"tm_mon\000"
 .LASF2:
 	.ascii	"short int\000"
-.LASF34:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/fi"
-	.ascii	"letime.c\000"
 .LASF9:
 	.ascii	"uint16_t\000"
 .LASF19:
@@ -975,6 +972,8 @@ _FAT_filetime_getTimeFromRTC:
 	.ascii	"long int\000"
 .LASF0:
 	.ascii	"signed char\000"
+.LASF34:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/libfat/filetime.c\000"
 .LASF32:
 	.ascii	"_FAT_filetime_getDateFromRTC\000"
 .LASF17:

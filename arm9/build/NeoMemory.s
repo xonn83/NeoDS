@@ -23,7 +23,7 @@
 	.type	neoSetRomBankAddr, %function
 neoSetRomBankAddr:
 .LFB168:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/NeoMemory.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/NeoMemory.c"
 	.loc 1 41 0
 .LVL0:
 	.loc 1 45 0
@@ -2003,11 +2003,11 @@ g_cacheOwner:
 	.file 5 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 6 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 7 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 8 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 9 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoIPC.h"
+	.file 8 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 9 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoIPC.h"
 	.file 13 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.section	.debug_info
 	.4byte	0x14eb
@@ -6023,9 +6023,6 @@ g_cacheOwner:
 	.ascii	"uint16_t\000"
 .LASF74:
 	.ascii	"read32\000"
-.LASF266:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/NeoMemory"
-	.ascii	".c\000"
 .LASF217:
 	.ascii	"TCacheOwnerEntry\000"
 .LASF257:
@@ -6170,6 +6167,8 @@ g_cacheOwner:
 	.ascii	"TNeoADPCMStream\000"
 .LASF186:
 	.ascii	"startAddr\000"
+.LASF266:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/NeoMemory.c\000"
 .LASF157:
 	.ascii	"vramMod\000"
 .LASF226:

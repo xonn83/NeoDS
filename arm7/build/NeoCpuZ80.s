@@ -20,7 +20,7 @@
 	.type	neoZ80RebasePC, %function
 neoZ80RebasePC:
 .LFB27:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoCpuZ80.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm7/source/NeoCpuZ80.c"
 	.loc 1 19 0
 	@ Function supports interworking.
 	@ args = 0, pretend = 0, frame = 0
@@ -993,10 +993,10 @@ g_z80Rom:
 	.4byte	0x0
 	.file 2 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
 	.file 3 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-	.file 4 "C:/Users/GRX/NeoDS-master-old/arm7/../common/source/NeoIPC.h"
-	.file 5 "C:/Users/GRX/NeoDS-master-old/arm7/source/DrZ80.h"
-	.file 6 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoCpuZ80.h"
-	.file 7 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoSystem7.h"
+	.file 4 "C:/Users/GRX/NeoDS/arm7/../common/source/NeoIPC.h"
+	.file 5 "C:/Users/GRX/NeoDS/arm7/source/DrZ80.h"
+	.file 6 "C:/Users/GRX/NeoDS/arm7/source/NeoCpuZ80.h"
+	.file 7 "C:/Users/GRX/NeoDS/arm7/source/NeoSystem7.h"
 	.section	.debug_info
 	.4byte	0x81e
 	.2byte	0x2
@@ -2712,6 +2712,8 @@ g_z80Rom:
 	.ascii	"audioStreamCount\000"
 .LASF10:
 	.ascii	"uint8_t\000"
+.LASF105:
+	.ascii	"C:/Users/GRX/NeoDS/arm7/source/NeoCpuZ80.c\000"
 .LASF31:
 	.ascii	"arm7FifoSent\000"
 .LASF91:
@@ -2736,9 +2738,6 @@ g_z80Rom:
 	.ascii	"long long int\000"
 .LASF9:
 	.ascii	"char\000"
-.LASF105:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm7/source/NeoCpuZ80"
-	.ascii	".c\000"
 .LASF7:
 	.ascii	"long int\000"
 .LASF67:

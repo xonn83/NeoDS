@@ -1,8 +1,8 @@
-disc.o: C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.c \
- C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.h \
- C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h \
+disc.o: C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.c \
+ C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.h \
+ C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h \
  C:/devkitPro/libnds/include/nds/ndstypes.h \
- C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h \
+ C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h \
  C:/devkitPro/libnds/include/nds.h \
  C:/devkitPro/libnds/include/nds/libversion.h \
  C:/devkitPro/libnds/include/nds/ndstypes.h \
@@ -51,22 +51,22 @@ disc.o: C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.c \
  C:/devkitPro/libnds/include/nds/arm9/sprite.h \
  C:/devkitPro/libnds/include/nds/system.h \
  C:/devkitPro/libnds/include/nds/arm9/decompress.h \
- C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_dldi.h \
- C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_njsd.h \
- C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_nmmc.h \
- C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_mpcf.h \
- C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_m3cf.h \
- C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sccf.h \
- C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_scsd.h \
- C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_m3sd.h
+ C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_dldi.h \
+ C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_njsd.h \
+ C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_nmmc.h \
+ C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_mpcf.h \
+ C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_m3cf.h \
+ C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sccf.h \
+ C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_scsd.h \
+ C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_m3sd.h
 
-C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.h:
+C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.h:
 
-C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h:
+C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h:
 
 C:/devkitPro/libnds/include/nds/ndstypes.h:
 
-C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h:
+C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h:
 
 C:/devkitPro/libnds/include/nds.h:
 
@@ -164,18 +164,18 @@ C:/devkitPro/libnds/include/nds/system.h:
 
 C:/devkitPro/libnds/include/nds/arm9/decompress.h:
 
-C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_dldi.h:
+C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_dldi.h:
 
-C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_njsd.h:
+C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_njsd.h:
 
-C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_nmmc.h:
+C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_nmmc.h:
 
-C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_mpcf.h:
+C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_mpcf.h:
 
-C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_m3cf.h:
+C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_m3cf.h:
 
-C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sccf.h:
+C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sccf.h:
 
-C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_scsd.h:
+C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_scsd.h:
 
-C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_m3sd.h:
+C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_m3sd.h:

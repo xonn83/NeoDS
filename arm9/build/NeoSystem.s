@@ -23,7 +23,7 @@
 	.type	neoSystemIPCSync, %function
 neoSystemIPCSync:
 .LFB168:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/NeoSystem.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/NeoSystem.c"
 	.loc 1 59 0
 	.loc 1 68 0
 	@ sp needed for prologue
@@ -807,7 +807,7 @@ neoSystemClose:
 	neg	r3, r3
 .LBB55:
 .LBB56:
-	.file 3 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
+	.file 3 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
 	.loc 3 337 0
 	ldr	r7, .L76+4
 .LBE56:
@@ -2920,13 +2920,13 @@ g_vramHHeap:
 	.file 11 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 12 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
 	.file 13 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/types.h"
-	.file 14 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 15 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 16 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
+	.file 14 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 15 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 16 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
 	.file 17 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/stat.h"
 	.file 18 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/dir.h"
-	.file 19 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoIPC.h"
-	.file 20 "C:/Users/GRX/NeoDS-master-old/arm9/source/LinearHeap.h"
+	.file 19 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoIPC.h"
+	.file 20 "C:/Users/GRX/NeoDS/arm9/source/LinearHeap.h"
 	.file 21 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.section	.debug_info
 	.4byte	0x1ca9
@@ -8343,6 +8343,8 @@ g_vramHHeap:
 	.ascii	"OBJMODE_WINDOWED\000"
 .LASF46:
 	.ascii	"PM_BACKLIGHT_TOP\000"
+.LASF396:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/NeoSystem.c\000"
 .LASF50:
 	.ascii	"POWER_MATRIX\000"
 .LASF280:
@@ -8615,9 +8617,6 @@ g_vramHHeap:
 	.ascii	"IRQ_HBLANK\000"
 .LASF132:
 	.ascii	"reserved\000"
-.LASF396:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/NeoSystem"
-	.ascii	".c\000"
 .LASF220:
 	.ascii	"pVramBase\000"
 .LASF192:

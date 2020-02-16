@@ -1,15 +1,15 @@
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_m3_common.c"
-# 1 "C:\\Users\\GRX\\NeoDS-master-old\\arm9\\build//"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_m3_common.c"
+# 1 "C:\\Users\\GRX\\NeoDS\\arm9\\build//"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_m3_common.c"
-# 33 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_m3_common.c"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_m3_common.h" 1
-# 39 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_m3_common.h"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h" 1
-# 39 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h" 1
-# 43 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_m3_common.c"
+# 33 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_m3_common.c"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_m3_common.h" 1
+# 39 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_m3_common.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h" 1
+# 39 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h" 1
+# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h"
 # 1 "C:/devkitPro/libnds/include/nds/ndstypes.h" 1
 # 68 "C:/devkitPro/libnds/include/nds/ndstypes.h"
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 1 3
@@ -131,9 +131,9 @@ typedef enum { false, true } bool;
 typedef void ( * IntFn)(void);
 typedef void (* VoidFn)(void);
 typedef void (* fp)(void);
-# 44 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h" 2
-# 40 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h" 2
-# 61 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
+# 44 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h" 2
+# 40 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h" 2
+# 61 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
 typedef bool (* FN_MEDIUM_STARTUP)(void) ;
 typedef bool (* FN_MEDIUM_ISINSERTED)(void) ;
 typedef bool (* FN_MEDIUM_READSECTORS)(u32 sector, u32 numSectors, void* buffer) ;
@@ -153,14 +153,14 @@ struct IO_INTERFACE_STRUCT {
 } ;
 
 typedef struct IO_INTERFACE_STRUCT IO_INTERFACE ;
-# 40 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_m3_common.h" 2
+# 40 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_m3_common.h" 2
 
 
 
 
 
 extern void _M3_changeMode (u32 mode);
-# 34 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_m3_common.c" 2
+# 34 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_m3_common.c" 2
 
 static u16 _M3_readHalfword (u32 addr) {
  return *((vu16*)addr);

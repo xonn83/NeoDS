@@ -1,15 +1,15 @@
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sccf.c"
-# 1 "C:\\Users\\GRX\\NeoDS-master-old\\arm9\\build//"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sccf.c"
+# 1 "C:\\Users\\GRX\\NeoDS\\arm9\\build//"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sccf.c"
-# 37 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sccf.c"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sccf.h" 1
-# 40 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sccf.h"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h" 1
-# 39 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h" 1
-# 43 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sccf.c"
+# 37 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sccf.c"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sccf.h" 1
+# 40 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sccf.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h" 1
+# 39 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h" 1
+# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h"
 # 1 "C:/devkitPro/libnds/include/nds/ndstypes.h" 1
 # 68 "C:/devkitPro/libnds/include/nds/ndstypes.h"
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 1 3
@@ -131,9 +131,9 @@ typedef enum { false, true } bool;
 typedef void ( * IntFn)(void);
 typedef void (* VoidFn)(void);
 typedef void (* fp)(void);
-# 44 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h" 2
-# 40 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h" 2
-# 61 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
+# 44 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h" 2
+# 40 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h" 2
+# 61 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
 typedef bool (* FN_MEDIUM_STARTUP)(void) ;
 typedef bool (* FN_MEDIUM_ISINSERTED)(void) ;
 typedef bool (* FN_MEDIUM_READSECTORS)(u32 sector, u32 numSectors, void* buffer) ;
@@ -153,17 +153,17 @@ struct IO_INTERFACE_STRUCT {
 } ;
 
 typedef struct IO_INTERFACE_STRUCT IO_INTERFACE ;
-# 41 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sccf.h" 2
+# 41 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sccf.h" 2
 
 
 extern const IO_INTERFACE _io_sccf;
-# 38 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sccf.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sc_common.h" 1
-# 43 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sc_common.h"
+# 38 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sccf.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sc_common.h" 1
+# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sc_common.h"
 extern void _SC_changeMode (u8 mode);
-# 39 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sccf.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_cf_common.h" 1
-# 43 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_cf_common.h"
+# 39 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sccf.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_cf_common.h" 1
+# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_cf_common.h"
 typedef struct {
  vu16* data;
  vu16* status;
@@ -175,15 +175,15 @@ typedef struct {
  vu16* lba3;
  vu16* lba4;
 } CF_REGISTERS;
-# 71 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_cf_common.h"
+# 71 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_cf_common.h"
 bool _CF_isInserted (void);
 bool _CF_clearStatus (void);
 bool _CF_readSectors (u32 sector, u32 numSectors, void* buffer);
 bool _CF_writeSectors (u32 sector, u32 numSectors, void* buffer);
 bool _CF_shutdown(void);
 bool _CF_startup(const CF_REGISTERS *usableCfRegs);
-# 40 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sccf.c" 2
-# 55 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sccf.c"
+# 40 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sccf.c" 2
+# 55 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sccf.c"
 static const CF_REGISTERS _SCCF_Registers = {
  ((vu16*)0x09000000),
  ((vu16*)0x098C0000),

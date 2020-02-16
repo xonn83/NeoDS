@@ -22,7 +22,7 @@
 	.type	_EFA2_nand_id, %function
 _EFA2_nand_id:
 .LFB8:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_efa2.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
 	.loc 1 135 0
 	push	{r4, r5, r6, r7, lr}
 .LCFI0:
@@ -987,7 +987,7 @@ _io_efa2:
 	.4byte	0x0
 	.file 2 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
 	.file 3 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-	.file 4 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
+	.file 4 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
 	.section	.debug_info
 	.4byte	0x591
 	.2byte	0x2
@@ -2453,9 +2453,8 @@ _io_efa2:
 	.ascii	"_EFA2_readSectors\000"
 .LASF2:
 	.ascii	"short int\000"
-.LASF49:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/di"
-	.ascii	"sc_io/io_efa2.c\000"
+.LASF21:
+	.ascii	"ioType\000"
 .LASF24:
 	.ascii	"fn_isInserted\000"
 .LASF45:
@@ -2492,8 +2491,6 @@ _io_efa2:
 	.ascii	"_EFA2_shutdown\000"
 .LASF41:
 	.ascii	"byte\000"
-.LASF21:
-	.ascii	"ioType\000"
 .LASF39:
 	.ascii	"numSecs\000"
 .LASF27:
@@ -2540,6 +2537,9 @@ _io_efa2:
 	.ascii	"_EFA2_startUp\000"
 .LASF54:
 	.ascii	"_io_efa2\000"
+.LASF49:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_ef"
+	.ascii	"a2.c\000"
 .LASF26:
 	.ascii	"fn_writeSectors\000"
 .LASF16:

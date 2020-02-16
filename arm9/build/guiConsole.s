@@ -23,7 +23,7 @@
 	.type	guiConsoleLog, %function
 guiConsoleLog:
 .LFB170:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiConsole.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/guiConsole.c"
 	.loc 1 67 0
 	push	{r4, r5, r6, lr}
 .LCFI0:
@@ -130,7 +130,7 @@ __TGuiConsoleTypeHandler__:
 .LBB11:
 .LBB12:
 .LBB13:
-	.file 2 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiObject.h"
+	.file 2 "C:/Users/GRX/NeoDS/arm9/source/guiObject.h"
 	.loc 2 105 0
 	ldr	r2, [r0, #36]
 .LVL10:
@@ -777,14 +777,14 @@ g_logCount:
 	.file 7 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 8 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
 	.file 9 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/include/stdarg.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/source/Default.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 13 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 14 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
-	.file 15 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiEvent.h"
-	.file 16 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiRender.h"
-	.file 17 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiConsole.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/source/Default.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 13 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 14 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
+	.file 15 "C:/Users/GRX/NeoDS/arm9/source/guiEvent.h"
+	.file 16 "C:/Users/GRX/NeoDS/arm9/source/guiRender.h"
+	.file 17 "C:/Users/GRX/NeoDS/arm9/source/guiConsole.h"
 	.file 18 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.section	.debug_info
 	.4byte	0x1313
@@ -4589,9 +4589,6 @@ g_logCount:
 	.ascii	"lastCount\000"
 .LASF44:
 	.ascii	"texturePtrs\000"
-.LASF264:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/guiConsol"
-	.ascii	"e.c\000"
 .LASF208:
 	.ascii	"TGuiEventID\000"
 .LASF129:
@@ -4632,6 +4629,8 @@ g_logCount:
 	.ascii	"OBJSIZE_32\000"
 .LASF255:
 	.ascii	"mosaicShadowSub\000"
+.LASF264:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/guiConsole.c\000"
 .LASF117:
 	.ascii	"pVideoWriteTable\000"
 .LASF156:

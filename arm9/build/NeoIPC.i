@@ -1,8 +1,8 @@
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoIPC.c"
-# 1 "C:\\Users\\GRX\\NeoDS-master-old\\arm9\\build//"
+# 1 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoIPC.c"
+# 1 "C:\\Users\\GRX\\NeoDS\\arm9\\build//"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoIPC.c"
+# 1 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoIPC.c"
 # 1 "C:/devkitPro/libnds/include/nds.h" 1
 # 166 "C:/devkitPro/libnds/include/nds.h"
 # 1 "C:/devkitPro/libnds/include/nds/libversion.h" 1
@@ -4971,9 +4971,9 @@ void decompress(const void* data, void* dst, DecompressType type);
 # 72 "C:/devkitPro/libnds/include/nds/arm9/decompress.h"
 void decompressStream(const void* data, void* dst, DecompressType type, getByteCallback readCB, getHeaderCallback getHeaderCB);
 # 202 "C:/devkitPro/libnds/include/nds.h" 2
-# 2 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoIPC.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoIPC.h" 1
-# 61 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoIPC.h"
+# 2 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoIPC.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoIPC.h" 1
+# 61 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoIPC.h"
 typedef enum _TNeoAdpcmCommand {
  NEOADPCM_NONE,
  NEOADPCM_STOP,
@@ -5040,7 +5040,7 @@ typedef enum _TNeoIPCCommand {
  NEOARM9_READAUDIO,
  NEOARM9_AUDIORESULT,
 } TNeoIPCCommand;
-# 139 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoIPC.h"
+# 139 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoIPC.h"
 void neoIPCInit();
 u32 neoIPCSendCommandAsync(TNeoIPCCommand command);
 void neoIPCSendCommand(TNeoIPCCommand command);
@@ -5049,12 +5049,12 @@ void neoIPCWaitCommandDone(u32 message);
 u32 neoIPCRecvCommand();
 u32 neoIPCWaitCommand(TNeoIPCCommand command);
 void neoIPCAckCommand();
-# 3 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoIPC.c" 2
+# 3 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoIPC.c" 2
 
 
 
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/include/EmuSystem.h" 1
-# 24 "C:/Users/GRX/NeoDS-master-old/arm9/include/EmuSystem.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/include/EmuSystem.h" 1
+# 24 "C:/Users/GRX/NeoDS/arm9/include/EmuSystem.h"
 bool systemInit();
 bool systemSelectRom(char* szName);
 
@@ -5094,24 +5094,24 @@ void systemWrite(s32 file, const void* pSrc, u32 size);
 void systemClose(s32 file);
 void systemSeek(s32 file, s32 offset, bool relative);
 u32 systemFileSize(s32 file);
-# 78 "C:/Users/GRX/NeoDS-master-old/arm9/include/EmuSystem.h"
+# 78 "C:/Users/GRX/NeoDS/arm9/include/EmuSystem.h"
 extern volatile u32 g_currentFps;
 extern volatile u32 g_frames;
-# 7 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoIPC.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h" 1
-# 123 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoSystemCommon.h" 1
-# 124 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h" 2
+# 7 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoIPC.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h" 1
+# 123 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoSystemCommon.h" 1
+# 124 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h" 2
 
 
 
 
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h" 1
+# 1 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h" 1
 
 
 
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h" 1
-# 18 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h" 1
+# 18 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
 extern int CycloneVer;
 
 struct Cyclone
@@ -5168,7 +5168,7 @@ void CycloneUnpack(struct Cyclone *pcy, const void *save_buffer);
 
 
 void CycloneSetRealTAS(int use_real);
-# 5 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h" 2
+# 5 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h" 2
 
 typedef struct Cyclone TCycloneContext;
 
@@ -5211,9 +5211,9 @@ u32 cpuUnmapped32();
 u8 neoDefaultRead8(u32 a);
 u32 neoDefaultRead32(u32 a);
 void neoDefaultWrite32(u32 a, u32 d);
-# 129 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoMemory.h" 1
-# 22 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoMemory.h"
+# 129 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/include/NeoMemory.h" 1
+# 22 "C:/Users/GRX/NeoDS/arm9/include/NeoMemory.h"
 extern u16 g_paletteMem[8*(1<<10)];
 
 
@@ -5282,13 +5282,13 @@ u8 neoReadBankedRom8Uncached(u32 a);
 u16 neoReadBankedRom16Uncached(u32 a);
 u32 neoReadBankedRom32Uncached(u32 a);
 u32 neoBankedPcUncached(u32 a);
-# 99 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoMemory.h"
+# 99 "C:/Users/GRX/NeoDS/arm9/include/NeoMemory.h"
 void neoMemoryLoadProgramVector();
 void neoMemoryLoadBiosVector();
 void neoMemoryInit();
-# 130 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h" 1
-# 23 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
+# 130 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h" 1
+# 23 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
 typedef struct _TNeoADPCMStream {
  u32 offset;
  u32 end;
@@ -5306,8 +5306,8 @@ typedef struct _TNeoADPCMBStream {
 void neoAudioStreamInit();
 void neoAudioStreamReset();
 void neoAudioStreamProcess();
-# 131 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h" 2
-# 141 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
+# 131 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h" 2
+# 141 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
 typedef enum _TNeoRomProtection {
  NEOPROT_NONE,
  NEOPROT_PVC,
@@ -5505,10 +5505,10 @@ extern TNeoRomHeader g_header;
 
 static inline void neoClearContext() { g_neo = 0; }
 static inline void neoResetContext() { g_neo = &g_neoContext; }
-# 8 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoIPC.c" 2
+# 8 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoIPC.c" 2
 
 struct __STATICASSERTSTRUCT9__ { u8 staticAssert[(sizeof(TNeoIPC) <= 2048) - 1]; };
-# 21 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoIPC.c"
+# 21 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoIPC.c"
 enum {
  IPCSTATE_IDLE,
  IPCSTATE_RECVD,

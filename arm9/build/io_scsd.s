@@ -22,7 +22,7 @@
 	.type	_SCSD_getResponse, %function
 _SCSD_getResponse:
 .LFB3:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_scsd.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_scsd.c"
 	.loc 1 135 0
 	push	{r4, r5, r6, lr}
 .LCFI0:
@@ -1807,7 +1807,7 @@ _SCSD_relativeCardAddress:
 	.4byte	0x0
 	.file 2 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
 	.file 3 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-	.file 4 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
+	.file 4 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
 	.section	.debug_info
 	.4byte	0x775
 	.2byte	0x2
@@ -3537,8 +3537,9 @@ _SCSD_relativeCardAddress:
 	.ascii	"unsigned int\000"
 .LASF12:
 	.ascii	"false\000"
-.LASF4:
-	.ascii	"uint16_t\000"
+.LASF68:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sc"
+	.ascii	"sd.c\000"
 .LASF66:
 	.ascii	"_SCSD_relativeCardAddress\000"
 .LASF40:
@@ -3559,6 +3560,8 @@ _SCSD_relativeCardAddress:
 	.ascii	"FN_MEDIUM_WRITESECTORS\000"
 .LASF50:
 	.ascii	"tempDataPtr\000"
+.LASF4:
+	.ascii	"uint16_t\000"
 .LASF52:
 	.ascii	"_SCSD_initCard\000"
 .LASF33:
@@ -3581,9 +3584,6 @@ _SCSD_relativeCardAddress:
 	.ascii	"double\000"
 .LASF71:
 	.ascii	"_io_scsd\000"
-.LASF68:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/di"
-	.ascii	"sc_io/io_scsd.c\000"
 .LASF26:
 	.ascii	"fn_writeSectors\000"
 .LASF16:

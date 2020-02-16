@@ -22,7 +22,7 @@
 	.type	__TGuiMenuTypeHandler__, %function
 __TGuiMenuTypeHandler__:
 .LFB170:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiMenu.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/guiMenu.c"
 	.loc 1 6 0
 	push	{r4, r5, r6, lr}
 .LCFI0:
@@ -117,7 +117,7 @@ __TGuiMenuTypeHandler__:
 .LBB12:
 .LBB13:
 .LBB14:
-	.file 2 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiObject.h"
+	.file 2 "C:/Users/GRX/NeoDS/arm9/source/guiObject.h"
 	.loc 2 105 0
 	ldr	r2, [r0, #28]
 .LBE14:
@@ -596,15 +596,15 @@ __TGuiMenuTypeHeader__:
 	.file 6 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 7 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 8 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 9 "C:/Users/GRX/NeoDS-master-old/arm9/source/Default.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
+	.file 9 "C:/Users/GRX/NeoDS/arm9/source/Default.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
 	.file 13 "C:/devkitPro/libnds/include/nds/input.h"
-	.file 14 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
-	.file 15 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiEvent.h"
-	.file 16 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiRender.h"
-	.file 17 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiMenu.h"
+	.file 14 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
+	.file 15 "C:/Users/GRX/NeoDS/arm9/source/guiEvent.h"
+	.file 16 "C:/Users/GRX/NeoDS/arm9/source/guiRender.h"
+	.file 17 "C:/Users/GRX/NeoDS/arm9/source/guiMenu.h"
 	.file 18 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.section	.debug_info
 	.4byte	0x1362
@@ -4131,9 +4131,6 @@ __TGuiMenuTypeHeader__:
 	.ascii	"long unsigned int\000"
 .LASF126:
 	.ascii	"NEOROM_SPRITEDATA\000"
-.LASF273:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/guiMenu.c"
-	.ascii	"\000"
 .LASF63:
 	.ascii	"OBJMODE_NORMAL\000"
 .LASF255:
@@ -4150,6 +4147,8 @@ __TGuiMenuTypeHeader__:
 	.ascii	"displayControlMask\000"
 .LASF208:
 	.ascii	"GUIEVENT_CREATE\000"
+.LASF273:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/guiMenu.c\000"
 .LASF102:
 	.ascii	"TCycloneContext\000"
 .LASF123:

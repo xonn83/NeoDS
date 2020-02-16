@@ -24,7 +24,7 @@
 	.type	__TGuiStatusTypeHandler__, %function
 __TGuiStatusTypeHandler__:
 .LFB168:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiStatus.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/guiStatus.c"
 	.loc 1 9 0
 	push	{r4, r5, r6, lr}
 .LCFI0:
@@ -350,17 +350,17 @@ __TGuiStatusTypeHeader__:
 	.file 5 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 6 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 7 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 8 "C:/Users/GRX/NeoDS-master-old/arm9/source/Default.h"
-	.file 9 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
-	.file 13 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiEvent.h"
-	.file 14 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiObject.h"
-	.file 15 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiRender.h"
-	.file 16 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiStatus.h"
+	.file 8 "C:/Users/GRX/NeoDS/arm9/source/Default.h"
+	.file 9 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
+	.file 13 "C:/Users/GRX/NeoDS/arm9/source/guiEvent.h"
+	.file 14 "C:/Users/GRX/NeoDS/arm9/source/guiObject.h"
+	.file 15 "C:/Users/GRX/NeoDS/arm9/source/guiRender.h"
+	.file 16 "C:/Users/GRX/NeoDS/arm9/source/guiStatus.h"
 	.file 17 "C:/devkitPro/libnds/include/nds/arm9/video.h"
-	.file 18 "C:/Users/GRX/NeoDS-master-old/arm9/include/EmuSystem.h"
+	.file 18 "C:/Users/GRX/NeoDS/arm9/include/EmuSystem.h"
 	.section	.debug_info
 	.4byte	0x11c2
 	.2byte	0x2
@@ -3499,6 +3499,8 @@ __TGuiStatusTypeHeader__:
 	.ascii	"BgState\000"
 .LASF67:
 	.ascii	"unused\000"
+.LASF256:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/guiStatus.c\000"
 .LASF170:
 	.ascii	"screenDarkLatch\000"
 .LASF69:
@@ -3529,9 +3531,6 @@ __TGuiStatusTypeHeader__:
 	.ascii	"cpuClockDivide\000"
 .LASF138:
 	.ascii	"frameCount\000"
-.LASF256:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/guiStatus"
-	.ascii	".c\000"
 .LASF258:
 	.ascii	"fill\000"
 .LASF56:

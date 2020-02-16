@@ -23,7 +23,7 @@
 	.type	cpuNullWrite8, %function
 cpuNullWrite8:
 .LFB166:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/NeoCpu.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/NeoCpu.c"
 	.loc 1 10 0
 .LVL0:
 	.loc 1 10 0
@@ -917,7 +917,7 @@ neoInvalidPc:
 	.size	neoInvalidPc, .-neoInvalidPc
 	.section	.rodata.str1.1,"aMS",%progbits,1
 .LC59:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/NeoCpu.c\000"
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/NeoCpu.c\000"
 .LC61:
 	.ascii	"Invalid PC: %08X\000"
 	.section	.debug_frame,"",%progbits
@@ -1260,10 +1260,10 @@ neoInvalidPc:
 	.file 5 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 6 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 7 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 8 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 9 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
+	.file 8 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 9 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
 	.file 12 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.section	.debug_info
 	.4byte	0xfbd
@@ -4307,8 +4307,6 @@ neoInvalidPc:
 	.ascii	"pRam\000"
 .LASF38:
 	.ascii	"GL_TEXTURE\000"
-.LASF211:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/NeoCpu.c\000"
 .LASF133:
 	.ascii	"smaRand\000"
 .LASF86:
@@ -4423,8 +4421,8 @@ neoInvalidPc:
 	.ascii	"float\000"
 .LASF199:
 	.ascii	"ranCycles\000"
-.LASF59:
-	.ascii	"OBJSIZE_32\000"
+.LASF211:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/NeoCpu.c\000"
 .LASF66:
 	.ascii	"prev_pc\000"
 .LASF41:
@@ -4471,6 +4469,8 @@ neoInvalidPc:
 	.ascii	"internal\000"
 .LASF178:
 	.ascii	"cpuRead16Table\000"
+.LASF59:
+	.ascii	"OBJSIZE_32\000"
 .LASF77:
 	.ascii	"write32\000"
 .LASF197:

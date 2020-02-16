@@ -20,7 +20,7 @@
 	.type	neoVideoPaletteBank, %function
 neoVideoPaletteBank:
 .LFB166:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/NeoVideoPalette.arm.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/NeoVideoPalette.arm.c"
 	.loc 1 12 0
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
@@ -767,10 +767,10 @@ g_endTransfer:
 	.file 7 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 8 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 9 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 13 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 13 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
 	.section	.debug_info
 	.4byte	0x1137
 	.2byte	0x2
@@ -3867,9 +3867,6 @@ g_endTransfer:
 	.ascii	"start\000"
 .LASF175:
 	.ascii	"spriteMask\000"
-.LASF250:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/NeoVideoP"
-	.ascii	"alette.arm.c\000"
 .LASF198:
 	.ascii	"ctrl3Reg\000"
 .LASF115:
@@ -4078,8 +4075,9 @@ g_endTransfer:
 	.ascii	"Cyclone\000"
 .LASF246:
 	.ascii	"glGlobalData\000"
-.LASF155:
-	.ascii	"pBios\000"
+.LASF250:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/NeoVideoPalette.arm."
+	.ascii	"c\000"
 .LASF49:
 	.ascii	"VRAM_G_MAIN_SPRITE_0x06414000\000"
 .LASF222:
@@ -4102,6 +4100,8 @@ g_endTransfer:
 	.ascii	"smaRand\000"
 .LASF128:
 	.ascii	"_TNeoADPCMStream\000"
+.LASF155:
+	.ascii	"pBios\000"
 .LASF126:
 	.ascii	"TWrite32Func\000"
 .LASF249:

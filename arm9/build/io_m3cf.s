@@ -23,7 +23,7 @@
 	.type	_M3CF_startup, %function
 _M3CF_startup:
 .LFB0:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_m3cf.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_m3cf.c"
 	.loc 1 81 0
 	push	{r4, lr}
 .LCFI0:
@@ -121,8 +121,8 @@ _io_m3cf:
 	.4byte	0x0
 	.file 2 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
 	.file 3 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-	.file 4 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
-	.file 5 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_cf_common.h"
+	.file 4 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
+	.file 5 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_cf_common.h"
 	.section	.debug_info
 	.4byte	0x2a3
 	.2byte	0x2
@@ -770,6 +770,9 @@ _io_m3cf:
 	.ascii	"long long int\000"
 .LASF28:
 	.ascii	"IO_INTERFACE\000"
+.LASF40:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_m3"
+	.ascii	"cf.c\000"
 .LASF34:
 	.ascii	"lba1\000"
 .LASF23:
@@ -808,9 +811,6 @@ _io_m3cf:
 	.ascii	"status\000"
 .LASF35:
 	.ascii	"lba2\000"
-.LASF40:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/di"
-	.ascii	"sc_io/io_m3cf.c\000"
 .LASF11:
 	.ascii	"true\000"
 .LASF42:

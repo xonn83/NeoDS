@@ -24,7 +24,7 @@
 	.type	fmtint, %function
 fmtint:
 .LFB168:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/Sprintf.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/Sprintf.c"
 	.loc 1 363 0
 	push	{r4, r5, r6, lr}
 .LCFI0:
@@ -2134,10 +2134,10 @@ neoSprintf:
 	.file 7 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 8 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
 	.file 9 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/include/stdarg.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 13 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 13 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
 	.file 14 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.file 15 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/ctype.h"
 	.section	.debug_info
@@ -5773,6 +5773,8 @@ neoSprintf:
 	.ascii	"unused\000"
 .LASF148:
 	.ascii	"tileScaleX\000"
+.LASF226:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/Sprintf.c\000"
 .LASF160:
 	.ascii	"vramMod\000"
 .LASF64:
@@ -5935,9 +5937,6 @@ neoSprintf:
 	.ascii	"TRead32Func\000"
 .LASF2:
 	.ascii	"uint8_t\000"
-.LASF226:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/Sprintf.c"
-	.ascii	"\000"
 .LASF113:
 	.ascii	"NEOROM_TILEUSAGE\000"
 .LASF68:

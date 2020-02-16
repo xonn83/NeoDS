@@ -1,9 +1,9 @@
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMain.c"
-# 1 "C:\\Users\\GRX\\NeoDS-master-old\\arm9\\build//"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/LayoutMain.c"
+# 1 "C:\\Users\\GRX\\NeoDS\\arm9\\build//"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMain.c"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/Default.h" 1
+# 1 "C:/Users/GRX/NeoDS/arm9/source/LayoutMain.c"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/Default.h" 1
 
 
 
@@ -4975,7 +4975,7 @@ void decompress(const void* data, void* dst, DecompressType type);
 # 72 "C:/devkitPro/libnds/include/nds/arm9/decompress.h"
 void decompressStream(const void* data, void* dst, DecompressType type, getByteCallback readCB, getHeaderCallback getHeaderCB);
 # 202 "C:/devkitPro/libnds/include/nds.h" 2
-# 5 "C:/Users/GRX/NeoDS-master-old/arm9/source/Default.h" 2
+# 5 "C:/Users/GRX/NeoDS/arm9/source/Default.h" 2
 
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdio.h" 1 3
 # 34 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdio.h" 3
@@ -5441,11 +5441,11 @@ FILE *fopencookie (void *__cookie, const char *__mode, cookie_io_functions_t __f
 FILE *_fopencookie_r (struct _reent *, void *__cookie, const char *__mode, cookie_io_functions_t __functions);
 # 687 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdio.h" 3
 
-# 7 "C:/Users/GRX/NeoDS-master-old/arm9/source/Default.h" 2
+# 7 "C:/Users/GRX/NeoDS/arm9/source/Default.h" 2
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/include/stdarg.h" 1 3 4
 # 102 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/include/stdarg.h" 3 4
 typedef __gnuc_va_list va_list;
-# 8 "C:/Users/GRX/NeoDS-master-old/arm9/source/Default.h" 2
+# 8 "C:/Users/GRX/NeoDS/arm9/source/Default.h" 2
 
 
 
@@ -5478,8 +5478,8 @@ static inline bool boundsTest(const TBounds* pBounds, s32 x, s32 y)
 
 
 
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/include/EmuSystem.h" 1
-# 24 "C:/Users/GRX/NeoDS-master-old/arm9/include/EmuSystem.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/include/EmuSystem.h" 1
+# 24 "C:/Users/GRX/NeoDS/arm9/include/EmuSystem.h"
 bool systemInit();
 bool systemSelectRom(char* szName);
 
@@ -5519,24 +5519,24 @@ void systemWrite(s32 file, const void* pSrc, u32 size);
 void systemClose(s32 file);
 void systemSeek(s32 file, s32 offset, bool relative);
 u32 systemFileSize(s32 file);
-# 78 "C:/Users/GRX/NeoDS-master-old/arm9/include/EmuSystem.h"
+# 78 "C:/Users/GRX/NeoDS/arm9/include/EmuSystem.h"
 extern volatile u32 g_currentFps;
 extern volatile u32 g_frames;
-# 41 "C:/Users/GRX/NeoDS-master-old/arm9/source/Default.h" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h" 1
-# 123 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoSystemCommon.h" 1
-# 124 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h" 2
+# 41 "C:/Users/GRX/NeoDS/arm9/source/Default.h" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h" 1
+# 123 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoSystemCommon.h" 1
+# 124 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h" 2
 
 
 
 
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h" 1
+# 1 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h" 1
 
 
 
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h" 1
-# 18 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h" 1
+# 18 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
 extern int CycloneVer;
 
 struct Cyclone
@@ -5593,7 +5593,7 @@ void CycloneUnpack(struct Cyclone *pcy, const void *save_buffer);
 
 
 void CycloneSetRealTAS(int use_real);
-# 5 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h" 2
+# 5 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h" 2
 
 typedef struct Cyclone TCycloneContext;
 
@@ -5636,9 +5636,9 @@ u32 cpuUnmapped32();
 u8 neoDefaultRead8(u32 a);
 u32 neoDefaultRead32(u32 a);
 void neoDefaultWrite32(u32 a, u32 d);
-# 129 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoMemory.h" 1
-# 22 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoMemory.h"
+# 129 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/include/NeoMemory.h" 1
+# 22 "C:/Users/GRX/NeoDS/arm9/include/NeoMemory.h"
 extern u16 g_paletteMem[8*(1<<10)];
 
 
@@ -5707,13 +5707,13 @@ u8 neoReadBankedRom8Uncached(u32 a);
 u16 neoReadBankedRom16Uncached(u32 a);
 u32 neoReadBankedRom32Uncached(u32 a);
 u32 neoBankedPcUncached(u32 a);
-# 99 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoMemory.h"
+# 99 "C:/Users/GRX/NeoDS/arm9/include/NeoMemory.h"
 void neoMemoryLoadProgramVector();
 void neoMemoryLoadBiosVector();
 void neoMemoryInit();
-# 130 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h" 1
-# 23 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
+# 130 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h" 1
+# 23 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
 typedef struct _TNeoADPCMStream {
  u32 offset;
  u32 end;
@@ -5731,8 +5731,8 @@ typedef struct _TNeoADPCMBStream {
 void neoAudioStreamInit();
 void neoAudioStreamReset();
 void neoAudioStreamProcess();
-# 131 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h" 2
-# 141 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
+# 131 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h" 2
+# 141 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
 typedef enum _TNeoRomProtection {
  NEOPROT_NONE,
  NEOPROT_PVC,
@@ -5930,26 +5930,26 @@ extern TNeoRomHeader g_header;
 
 static inline void neoClearContext() { g_neo = 0; }
 static inline void neoResetContext() { g_neo = &g_neoContext; }
-# 42 "C:/Users/GRX/NeoDS-master-old/arm9/source/Default.h" 2
+# 42 "C:/Users/GRX/NeoDS/arm9/source/Default.h" 2
 
 int neoSprintf (char *str, const char *fmt, ...);
 int neoVsnprintf (char *str, size_t count, const char *fmt, va_list args);
-# 2 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMain.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoVideo.h" 1
+# 2 "C:/Users/GRX/NeoDS/arm9/source/LayoutMain.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/include/NeoVideo.h" 1
 
 
 
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoIO.h" 1
+# 1 "C:/Users/GRX/NeoDS/arm9/include/NeoIO.h" 1
 
 
 
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h" 1
-# 5 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoIO.h" 2
-# 38 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoIO.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h" 1
+# 5 "C:/Users/GRX/NeoDS/arm9/include/NeoIO.h" 2
+# 38 "C:/Users/GRX/NeoDS/arm9/include/NeoIO.h"
 u8 neoReadVideo8(u32 a);
 u16 neoReadVideo16(u32 a);
 u32 neoReadVideo32(u32 a);
-# 51 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoIO.h"
+# 51 "C:/Users/GRX/NeoDS/arm9/include/NeoIO.h"
 u16 neoReadCtrl116(u32 a);
 u16 neoReadCtrl216(u32 a);
 u16 neoReadCtrl316(u32 a);
@@ -5969,15 +5969,15 @@ void neoWrite4990a16(u32 a, u16 d);
 void neoWriteVideo8(u32 a, u8 d);
 void neoWriteVideo16(u32 a, u16 d);
 void neoWriteVideo32(u32 a, u32 d);
-# 79 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoIO.h"
+# 79 "C:/Users/GRX/NeoDS/arm9/include/NeoIO.h"
 void neoWriteWatchdog8(u32 a, u8 d);
 void neoWriteWatchdog16(u32 a, u16 d);
 
 void neoWriteAudioCommand8(u32 a, u8 d);
 void neoWriteAudioCommand16(u32 a, u16 d);
-# 92 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoIO.h"
+# 92 "C:/Users/GRX/NeoDS/arm9/include/NeoIO.h"
 void neoIOInit();
-# 5 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoVideo.h" 2
+# 5 "C:/Users/GRX/NeoDS/arm9/include/NeoVideo.h" 2
 
 typedef struct _TNeoVideoBounds {
  s32 minX;
@@ -6010,7 +6010,7 @@ void neoVideoFinishFrame();
 bool neoVideoIsFramePending();
 void neoVideoSetSize(TNeoVideoSize size);
 TNeoVideoSize neoVideoGetSize();
-# 82 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoVideo.h"
+# 82 "C:/Users/GRX/NeoDS/arm9/include/NeoVideo.h"
 extern TNeoVideoBounds g_videoBounds __attribute__((section(".sbss")));
 
 
@@ -6019,9 +6019,9 @@ extern TNeoVideoBounds g_videoBounds __attribute__((section(".sbss")));
 
 
 extern u16 g_frameCount __attribute__((section(".sbss")));
-# 3 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMain.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoIPC.h" 1
-# 61 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoIPC.h"
+# 3 "C:/Users/GRX/NeoDS/arm9/source/LayoutMain.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoIPC.h" 1
+# 61 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoIPC.h"
 typedef enum _TNeoAdpcmCommand {
  NEOADPCM_NONE,
  NEOADPCM_STOP,
@@ -6088,7 +6088,7 @@ typedef enum _TNeoIPCCommand {
  NEOARM9_READAUDIO,
  NEOARM9_AUDIORESULT,
 } TNeoIPCCommand;
-# 139 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoIPC.h"
+# 139 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoIPC.h"
 void neoIPCInit();
 u32 neoIPCSendCommandAsync(TNeoIPCCommand command);
 void neoIPCSendCommand(TNeoIPCCommand command);
@@ -6097,25 +6097,25 @@ void neoIPCWaitCommandDone(u32 message);
 u32 neoIPCRecvCommand();
 u32 neoIPCWaitCommand(TNeoIPCCommand command);
 void neoIPCAckCommand();
-# 4 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMain.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/NeoConfig.h" 1
+# 4 "C:/Users/GRX/NeoDS/arm9/source/LayoutMain.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/NeoConfig.h" 1
 
 
 
 bool neoLoadConfig(const char* szFileName);
 bool neoSaveConfig();
-# 5 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMain.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiBase.h" 1
+# 5 "C:/Users/GRX/NeoDS/arm9/source/LayoutMain.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/guiBase.h" 1
 
 
 
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiObject.h" 1
+# 1 "C:/Users/GRX/NeoDS/arm9/source/guiObject.h" 1
 
 
 
 
 
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiEvent.h" 1
+# 1 "C:/Users/GRX/NeoDS/arm9/source/guiEvent.h" 1
 
 
 
@@ -6144,7 +6144,7 @@ typedef enum _TGuiEventReturn {
  GUIEVENTRET_HANDLED,
  GUIEVENTRET_NOTHANDLED,
 } TGuiEventReturn;
-# 40 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiEvent.h"
+# 40 "C:/Users/GRX/NeoDS/arm9/source/guiEvent.h"
 typedef void* TGUIEVENT_ENABLEArg;
 typedef void* TGUIEVENT_DISABLEArg;
 typedef void* TGUIEVENT_CREATEArg;
@@ -6165,7 +6165,7 @@ struct TGUIEVENT_KEYREPEATArg; typedef struct TGUIEVENT_KEYREPEATArg TGUIEVENT_K
 };
 typedef struct TGUIEVENT_KEYREPEATArg TGUIEVENT_KEYDOWNArg;
 typedef struct TGUIEVENT_KEYREPEATArg TGUIEVENT_KEYUPArg;
-# 7 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiObject.h" 2
+# 7 "C:/Users/GRX/NeoDS/arm9/source/guiObject.h" 2
 
 struct _TGuiObject;
 
@@ -6194,7 +6194,7 @@ typedef struct _TGuiObject {
  u32 flags;
  TBounds bounds;
 } TGuiObject;
-# 83 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiObject.h"
+# 83 "C:/Users/GRX/NeoDS/arm9/source/guiObject.h"
 typedef void (*TGuiObjIterator)(TGuiObject* pObj, void* arg);
 
 
@@ -6204,7 +6204,7 @@ TGuiEventHandler guiObjSetHandler(TGuiObject* this, TGuiEventHandler handler);
 TGuiEventReturn guiObjSendEvent(TGuiObject* this, TGuiEventID e, void* arg);
 void guiObjForeachChild(const TGuiObject* this, TGuiObjIterator iterator, void* arg);
 bool guiObjIsType_r(const TGuiObject* this, const TGuiTypeHeader* pType);
-# 104 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiObject.h"
+# 104 "C:/Users/GRX/NeoDS/arm9/source/guiObject.h"
 static inline s32 guiObjGetHeight(const TGuiObject* this) {
  return this->bounds.y1 - this->bounds.y0 + 1;
 }
@@ -6212,8 +6212,8 @@ static inline bool guiObjIsRoot(const TGuiObject* this) {
 
  return this == ((void *)0) || this->pParent == ((void *)0);
 }
-# 5 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiBase.h" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiRender.h" 1
+# 5 "C:/Users/GRX/NeoDS/arm9/source/guiBase.h" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/guiRender.h" 1
 
 
 
@@ -6255,7 +6255,7 @@ void guiRenderChar(s32 x, s32 y, char c);
 void guiRenderStringn(s32 x, s32 y, u32 n, const char* szString);
 void guiRenderClearBounds(const TBounds* pBounds);
 void guiRenderClear();
-# 6 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiBase.h" 2
+# 6 "C:/Users/GRX/NeoDS/arm9/source/guiBase.h" 2
 
 
 
@@ -6275,8 +6275,8 @@ TGuiObject* guiObjAllocChild_r(const TGuiTypeHeader* pType, TGuiObject* pParent,
           const TBounds* pBounds);
 TGuiObject* guiObjCreateChild_r(const TGuiTypeHeader* pType, TGuiObject* pParent,
      const TBounds* pBounds);
-# 6 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMain.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiLabel.h" 1
+# 6 "C:/Users/GRX/NeoDS/arm9/source/LayoutMain.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/guiLabel.h" 1
 
 
 
@@ -6288,8 +6288,8 @@ extern const TGuiTypeHeader __TGuiLabelTypeHeader__; struct _TGuiLabel; typedef 
 
 void guiLabelSetText(TGuiLabel* this, const char* szText);
 void guiLabelSetTextv(TGuiLabel* this, const char* szFormat, ...);
-# 7 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMain.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiButton.h" 1
+# 7 "C:/Users/GRX/NeoDS/arm9/source/LayoutMain.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/guiButton.h" 1
 
 
 
@@ -6303,8 +6303,8 @@ typedef enum _TGuiButtonState {
 extern const TGuiTypeHeader __TGuiButtonTypeHeader__; struct _TGuiButton; typedef struct _TGuiButton TGuiButton; struct _TGuiButton { TGuiLabel parent;
  TGuiButtonState state;
 };
-# 8 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMain.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiMenu.h" 1
+# 8 "C:/Users/GRX/NeoDS/arm9/source/LayoutMain.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/guiMenu.h" 1
 
 
 
@@ -6337,8 +6337,8 @@ static inline const TGuiMenuItem* guiMenuGetSelected(const TGuiMenu* this)
  }
  return &this->pItem[this->selected];
 }
-# 9 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMain.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiStatus.h" 1
+# 9 "C:/Users/GRX/NeoDS/arm9/source/LayoutMain.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/guiStatus.h" 1
 
 
 
@@ -6350,8 +6350,8 @@ extern const TGuiTypeHeader __TGuiStatusTypeHeader__; struct _TGuiStatus; typede
  char szFps[8];
  char szSpriteCount[8];
 };
-# 10 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMain.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiCheckbox.h" 1
+# 10 "C:/Users/GRX/NeoDS/arm9/source/LayoutMain.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/guiCheckbox.h" 1
 
 
 
@@ -6362,8 +6362,8 @@ extern const TGuiTypeHeader __TGuiCheckboxTypeHeader__; struct _TGuiCheckbox; ty
 };
 
 void guiCheckboxSetChecked(TGuiCheckbox* this, bool checked);
-# 11 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMain.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiRadioButton.h" 1
+# 11 "C:/Users/GRX/NeoDS/arm9/source/LayoutMain.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/guiRadioButton.h" 1
 
 
 
@@ -6374,8 +6374,8 @@ extern const TGuiTypeHeader __TGuiRadioButtonTypeHeader__; struct _TGuiRadioButt
 };
 
 void guiRadioButtonSetGroup(TGuiRadioButton* this, u32 group);
-# 12 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMain.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutRomSelect.h" 1
+# 12 "C:/Users/GRX/NeoDS/arm9/source/LayoutMain.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/LayoutRomSelect.h" 1
 
 
 
@@ -6385,8 +6385,8 @@ extern const TGuiTypeHeader __TGuiLayoutRomSelectTypeHeader__; struct _TGuiLayou
  bool romEnabled;
  bool globalAudioEnabled;
 };
-# 13 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMain.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutDebug.h" 1
+# 13 "C:/Users/GRX/NeoDS/arm9/source/LayoutMain.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/LayoutDebug.h" 1
 
 
 
@@ -6394,8 +6394,8 @@ extern const TGuiTypeHeader __TGuiLayoutRomSelectTypeHeader__; struct _TGuiLayou
 
 extern const TGuiTypeHeader __TGuiLayoutDebugTypeHeader__; struct _TGuiLayoutDebug; typedef struct _TGuiLayoutDebug TGuiLayoutDebug; struct _TGuiLayoutDebug { TGuiObject parent;
 };
-# 14 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMain.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutInput.h" 1
+# 14 "C:/Users/GRX/NeoDS/arm9/source/LayoutMain.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/LayoutInput.h" 1
 
 
 
@@ -6406,8 +6406,8 @@ extern const TGuiTypeHeader __TGuiLayoutInputTypeHeader__; struct _TGuiLayoutInp
  TGuiCheckbox* pKeyGrid[8][8];
  bool romEnabled;
 };
-# 15 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMain.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMain.h" 1
+# 15 "C:/Users/GRX/NeoDS/arm9/source/LayoutMain.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/LayoutMain.h" 1
 
 
 
@@ -6425,8 +6425,8 @@ extern const TGuiTypeHeader __TGuiLayoutMainTypeHeader__; struct _TGuiLayoutMain
 extern const TGuiTypeHeader __TGuiLayoutScreenOffTypeHeader__; struct _TGuiLayoutScreenOff; typedef struct _TGuiLayoutScreenOff TGuiLayoutScreenOff; struct _TGuiLayoutScreenOff { TGuiObject parent;
  u32 saveMode;
 };
-# 16 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMain.c" 2
-# 25 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMain.c"
+# 16 "C:/Users/GRX/NeoDS/arm9/source/LayoutMain.c" 2
+# 25 "C:/Users/GRX/NeoDS/arm9/source/LayoutMain.c"
 static TGuiEventReturn normalSizeHandler (struct _TGuiObject* __pObj__, TGuiEventID e, void* __arg__) { TGuiRadioButton* this __attribute__ ((unused)) = (TGuiRadioButton*)__pObj__; TGuiEventReturn __ret__ = GUIEVENTRET_NOTHANDLED; switch(e) { case GUIEVENT_NULL: {
 break; } case GUIEVENT_SELECTED: { TGUIEVENT_SELECTEDArg* arg __attribute__ ((unused)) = (TGUIEVENT_SELECTEDArg*)__arg__;
 {
@@ -6505,7 +6505,7 @@ break; } case GUIEVENT_SELECTED: { TGUIEVENT_SELECTEDArg* arg __attribute__ ((un
  __ret__ = GUIEVENTRET_HANDLED;
 }
 break; } default: break; } return __ret__; }
-# 114 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMain.c"
+# 114 "C:/Users/GRX/NeoDS/arm9/source/LayoutMain.c"
 extern const TGuiTypeHeader __TGuiObjectTypeHeader__; static TGuiEventReturn __TGuiLayoutMainTypeHandler__ (struct _TGuiObject* __pObj__, TGuiEventID e, void* __arg__); const TGuiTypeHeader __TGuiLayoutMainTypeHeader__ = { __TGuiLayoutMainTypeHandler__, &__TGuiObjectTypeHeader__, sizeof(TGuiLayoutMain), "TGuiLayoutMain" }; static TGuiEventReturn __TGuiLayoutMainTypeHandler__ (struct _TGuiObject* __pObj__, TGuiEventID e, void* __arg__) { TGuiLayoutMain* this __attribute__ ((unused)) = (TGuiLayoutMain*)__pObj__; TGuiEventReturn __ret__ = GUIEVENTRET_NOTHANDLED; switch(e) { case GUIEVENT_NULL: {
 break; } case GUIEVENT_CREATE: { TGUIEVENT_CREATEArg* arg __attribute__ ((unused)) = (TGUIEVENT_CREATEArg*)__arg__;
 {
@@ -6554,7 +6554,7 @@ break; } case GUIEVENT_CREATE: { TGUIEVENT_CREATEArg* arg __attribute__ ((unused
  guiObjSetHandler(&pScreenOff->parent.parent, screenOffHandler);
  guiObjSetHandler(&pInput->parent.parent, inputHandler);
  guiObjSetHandler(&pSave->parent.parent, saveHandler);
-# 180 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMain.c"
+# 180 "C:/Users/GRX/NeoDS/arm9/source/LayoutMain.c"
  TGuiLabel* pCpuFrame = ((TGuiLabel*)guiObjCreateChild_r(&__TGuiLabelTypeHeader__, guiGetRoot(), &cpuFrameBounds));
  TGuiLabel* pCpuLabel = ((TGuiLabel*)guiObjCreateChild_r(&__TGuiLabelTypeHeader__, (TGuiObject*)pCpuFrame, &cpuLabelBounds));
  this->pFastClock = ((TGuiRadioButton*)guiObjCreateChild_r(&__TGuiRadioButtonTypeHeader__, (TGuiObject*)pCpuFrame, &cpuFastBounds));

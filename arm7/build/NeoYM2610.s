@@ -20,7 +20,7 @@
 	.type	ymFinishChannelControl, %function
 ymFinishChannelControl:
 .LFB34:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoYM2610.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm7/source/NeoYM2610.c"
 	.loc 1 213 0
 	@ Function supports interworking.
 	@ args = 0, pretend = 0, frame = 0
@@ -3634,11 +3634,11 @@ g_ym2610:
 	.4byte	0x0
 	.file 2 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
 	.file 3 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-	.file 4 "C:/Users/GRX/NeoDS-master-old/arm7/../common/source/NeoIPC.h"
-	.file 5 "C:/Users/GRX/NeoDS-master-old/arm7/source/DrZ80.h"
-	.file 6 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoCpuZ80.h"
-	.file 7 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoSystem7.h"
-	.file 8 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoYM2610.h"
+	.file 4 "C:/Users/GRX/NeoDS/arm7/../common/source/NeoIPC.h"
+	.file 5 "C:/Users/GRX/NeoDS/arm7/source/DrZ80.h"
+	.file 6 "C:/Users/GRX/NeoDS/arm7/source/NeoCpuZ80.h"
+	.file 7 "C:/Users/GRX/NeoDS/arm7/source/NeoSystem7.h"
+	.file 8 "C:/Users/GRX/NeoDS/arm7/source/NeoYM2610.h"
 	.section	.debug_info
 	.4byte	0x12e9
 	.2byte	0x2
@@ -7203,6 +7203,8 @@ g_ym2610:
 	.ascii	"audioFrame\000"
 .LASF46:
 	.ascii	"arm9Args\000"
+.LASF186:
+	.ascii	"C:/Users/GRX/NeoDS/arm7/source/NeoYM2610.c\000"
 .LASF145:
 	.ascii	"adpcmArriveEnd\000"
 .LASF37:
@@ -7311,8 +7313,6 @@ g_ym2610:
 	.ascii	"audioStreamCount\000"
 .LASF22:
 	.ascii	"NEOADPCM_START\000"
-.LASF109:
-	.ascii	"SSG_CHANNEL_WAIT_NOISE\000"
 .LASF83:
 	.ascii	"z80_read8\000"
 .LASF144:
@@ -7573,9 +7573,8 @@ g_ym2610:
 	.ascii	"TADPCMAChannel\000"
 .LASF141:
 	.ascii	"addrPort\000"
-.LASF186:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm7/source/NeoYM2610"
-	.ascii	".c\000"
+.LASF109:
+	.ascii	"SSG_CHANNEL_WAIT_NOISE\000"
 .LASF180:
 	.ascii	"pendingCount\000"
 .LASF102:

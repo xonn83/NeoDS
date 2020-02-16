@@ -1,6 +1,5 @@
-ram.o: C:/Users/GRX/NeoDS-master-old/arm9/source/ram.c \
- C:/Users/GRX/NeoDS-master-old/arm9/source/ram.h \
- C:/devkitPro/libnds/include/nds.h \
+ram.o: C:/Users/GRX/NeoDS/arm9/source/ram.c \
+ C:/Users/GRX/NeoDS/arm9/source/ram.h C:/devkitPro/libnds/include/nds.h \
  C:/devkitPro/libnds/include/nds/libversion.h \
  C:/devkitPro/libnds/include/nds/ndstypes.h \
  C:/devkitPro/libnds/include/nds/bios.h \
@@ -50,7 +49,7 @@ ram.o: C:/Users/GRX/NeoDS-master-old/arm9/source/ram.c \
  C:/devkitPro/libnds/include/nds/system.h \
  C:/devkitPro/libnds/include/nds/arm9/decompress.h
 
-C:/Users/GRX/NeoDS-master-old/arm9/source/ram.h:
+C:/Users/GRX/NeoDS/arm9/source/ram.h:
 
 C:/devkitPro/libnds/include/nds.h:
 

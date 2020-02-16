@@ -1,15 +1,15 @@
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_cf_common.c"
-# 1 "C:\\Users\\GRX\\NeoDS-master-old\\arm9\\build//"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_cf_common.c"
+# 1 "C:\\Users\\GRX\\NeoDS\\arm9\\build//"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_cf_common.c"
-# 38 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_cf_common.c"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_cf_common.h" 1
-# 41 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_cf_common.h"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h" 1
-# 39 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h" 1
-# 43 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_cf_common.c"
+# 38 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_cf_common.c"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_cf_common.h" 1
+# 41 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_cf_common.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h" 1
+# 39 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h" 1
+# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h"
 # 1 "C:/devkitPro/libnds/include/nds/ndstypes.h" 1
 # 68 "C:/devkitPro/libnds/include/nds/ndstypes.h"
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 1 3
@@ -131,9 +131,9 @@ typedef enum { false, true } bool;
 typedef void ( * IntFn)(void);
 typedef void (* VoidFn)(void);
 typedef void (* fp)(void);
-# 44 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h" 2
-# 40 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h" 2
-# 61 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
+# 44 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h" 2
+# 40 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h" 2
+# 61 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
 typedef bool (* FN_MEDIUM_STARTUP)(void) ;
 typedef bool (* FN_MEDIUM_ISINSERTED)(void) ;
 typedef bool (* FN_MEDIUM_READSECTORS)(u32 sector, u32 numSectors, void* buffer) ;
@@ -153,7 +153,7 @@ struct IO_INTERFACE_STRUCT {
 } ;
 
 typedef struct IO_INTERFACE_STRUCT IO_INTERFACE ;
-# 42 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_cf_common.h" 2
+# 42 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_cf_common.h" 2
 
 typedef struct {
  vu16* data;
@@ -166,15 +166,15 @@ typedef struct {
  vu16* lba3;
  vu16* lba4;
 } CF_REGISTERS;
-# 71 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_cf_common.h"
+# 71 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_cf_common.h"
 bool _CF_isInserted (void);
 bool _CF_clearStatus (void);
 bool _CF_readSectors (u32 sector, u32 numSectors, void* buffer);
 bool _CF_writeSectors (u32 sector, u32 numSectors, void* buffer);
 bool _CF_shutdown(void);
 bool _CF_startup(const CF_REGISTERS *usableCfRegs);
-# 39 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_cf_common.c" 2
-# 56 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_cf_common.c"
+# 39 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_cf_common.c" 2
+# 56 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_cf_common.c"
 CF_REGISTERS cfRegisters = {0};
 
 
@@ -214,7 +214,7 @@ bool _CF_clearStatus (void) {
 
  return true;
 }
-# 106 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_cf_common.c"
+# 106 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_cf_common.c"
 bool _CF_readSectors (u32 sector, u32 numSectors, void* buffer) {
  int i;
 
@@ -265,7 +265,7 @@ bool _CF_readSectors (u32 sector, u32 numSectors, void* buffer) {
   }
   if (i >= 10000000)
    return false;
-# 168 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_cf_common.c"
+# 168 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_cf_common.c"
   i=256;
   if ((u32)buff_u8 & 0x01) {
    while(i--)
@@ -290,7 +290,7 @@ bool _CF_readSectors (u32 sector, u32 numSectors, void* buffer) {
 
  return true;
 }
-# 204 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_cf_common.c"
+# 204 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_cf_common.c"
 bool _CF_writeSectors (u32 sector, u32 numSectors, void* buffer) {
  int i;
 
@@ -342,7 +342,7 @@ bool _CF_writeSectors (u32 sector, u32 numSectors, void* buffer) {
   }
   if (i >= 10000000)
    return false;
-# 267 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_cf_common.c"
+# 267 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_cf_common.c"
   i=256;
   if ((u32)buff_u8 & 0x01) {
    while(i--)

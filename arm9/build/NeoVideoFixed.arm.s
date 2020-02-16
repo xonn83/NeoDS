@@ -20,7 +20,7 @@
 	.type	neoFixedExit, %function
 neoFixedExit:
 .LFB167:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/NeoVideoFixed.arm.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/NeoVideoFixed.arm.c"
 	.loc 1 82 0
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
@@ -1002,11 +1002,11 @@ g_cacheIndex:
 	.file 6 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 7 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 8 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 9 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
-	.file 13 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoVideo.h"
+	.file 9 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
+	.file 13 "C:/Users/GRX/NeoDS/arm9/include/NeoVideo.h"
 	.file 14 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.section	.debug_info
 	.4byte	0x13db
@@ -4725,9 +4725,6 @@ g_cacheIndex:
 	.ascii	"maxY\000"
 .LASF214:
 	.ascii	"sramProtectLatch\000"
-.LASF283:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/NeoVideoF"
-	.ascii	"ixed.arm.c\000"
 .LASF278:
 	.ascii	"g_neoContext\000"
 .LASF229:
@@ -4884,6 +4881,8 @@ g_cacheIndex:
 	.ascii	"smaBankAddr\000"
 .LASF112:
 	.ascii	"fetch16\000"
+.LASF283:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/NeoVideoFixed.arm.c\000"
 .LASF86:
 	.ascii	"OBJSHAPE_SQUARE\000"
 .LASF178:

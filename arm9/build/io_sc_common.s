@@ -23,7 +23,7 @@
 	.type	_SC_changeMode, %function
 _SC_changeMode:
 .LFB0:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sc_common.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sc_common.c"
 	.loc 1 39 0
 .LVL0:
 	.loc 1 41 0
@@ -336,15 +336,15 @@ _SC_changeMode:
 	.ascii	"unlockAddress\000"
 .LASF10:
 	.ascii	"long unsigned int\000"
-.LASF12:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/di"
-	.ascii	"sc_io/io_sc_common.c\000"
 .LASF6:
 	.ascii	"long long unsigned int\000"
 .LASF9:
 	.ascii	"uint8_t\000"
 .LASF1:
 	.ascii	"unsigned char\000"
+.LASF12:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sc"
+	.ascii	"_common.c\000"
 .LASF13:
 	.ascii	"_SC_changeMode\000"
 .LASF8:

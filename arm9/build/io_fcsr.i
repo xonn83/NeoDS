@@ -1,15 +1,15 @@
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_fcsr.c"
-# 1 "C:\\Users\\GRX\\NeoDS-master-old\\arm9\\build//"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_fcsr.c"
+# 1 "C:\\Users\\GRX\\NeoDS\\arm9\\build//"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_fcsr.c"
-# 38 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_fcsr.c"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_fcsr.h" 1
-# 39 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_fcsr.h"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h" 1
-# 39 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h" 1
-# 43 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_fcsr.c"
+# 38 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_fcsr.c"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_fcsr.h" 1
+# 39 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_fcsr.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h" 1
+# 39 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h" 1
+# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h"
 # 1 "C:/devkitPro/libnds/include/nds/ndstypes.h" 1
 # 68 "C:/devkitPro/libnds/include/nds/ndstypes.h"
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 1 3
@@ -131,9 +131,9 @@ typedef enum { false, true } bool;
 typedef void ( * IntFn)(void);
 typedef void (* VoidFn)(void);
 typedef void (* fp)(void);
-# 44 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h" 2
-# 40 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h" 2
-# 61 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
+# 44 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h" 2
+# 40 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h" 2
+# 61 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
 typedef bool (* FN_MEDIUM_STARTUP)(void) ;
 typedef bool (* FN_MEDIUM_ISINSERTED)(void) ;
 typedef bool (* FN_MEDIUM_READSECTORS)(u32 sector, u32 numSectors, void* buffer) ;
@@ -153,11 +153,11 @@ struct IO_INTERFACE_STRUCT {
 } ;
 
 typedef struct IO_INTERFACE_STRUCT IO_INTERFACE ;
-# 40 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_fcsr.h" 2
+# 40 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_fcsr.h" 2
 
 
 extern const IO_INTERFACE _io_fcsr ;
-# 39 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_fcsr.c" 2
+# 39 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_fcsr.c" 2
 
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/string.h" 1 3
 # 10 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/string.h" 3
@@ -573,8 +573,8 @@ char *strupr (char *);
 # 101 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/string.h" 2 3
 
 
-# 41 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_fcsr.c" 2
-# 64 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_fcsr.c"
+# 41 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_fcsr.c" 2
+# 64 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_fcsr.c"
 const char _FCSR_LabelString[] = " Chishm FAT";
 
 u8* _FCSR_FileSysPointer = 0;
@@ -619,7 +619,7 @@ bool _FCSR_clearStatus (void)
 {
  return true;
 }
-# 119 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_fcsr.c"
+# 119 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_fcsr.c"
 bool _FCSR_readSectors (u32 sector, u32 numSectors, void* buffer)
 {
  int i;
@@ -658,7 +658,7 @@ bool _FCSR_readSectors (u32 sector, u32 numSectors, void* buffer)
    *dst++ = *src++;
   }
  } else {
-# 170 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_fcsr.c"
+# 170 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_fcsr.c"
   memcpy (buffer, src, readLength);
 
 
@@ -666,7 +666,7 @@ bool _FCSR_readSectors (u32 sector, u32 numSectors, void* buffer)
 
  return true;
 }
-# 187 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_fcsr.c"
+# 187 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_fcsr.c"
 bool _FCSR_writeSectors (u32 sector, u8 numSectors, void* buffer)
 {
  int i;

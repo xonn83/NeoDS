@@ -22,7 +22,7 @@
 	.type	audioEnableHandler, %function
 audioEnableHandler:
 .LFB172:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutRomSelect.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/LayoutRomSelect.c"
 	.loc 1 35 0
 	push	{r4, lr}
 .LCFI0:
@@ -362,7 +362,7 @@ romMenuHandler:
 .LVL35:
 .LBB14:
 .LBB15:
-	.file 2 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiMenu.h"
+	.file 2 "C:/Users/GRX/NeoDS/arm9/source/guiMenu.h"
 	.loc 2 28 0
 	ldr	r3, [r4, #52]
 .LBE15:
@@ -842,18 +842,18 @@ __TGuiLayoutRomSelectTypeHeader__:
 	.file 6 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 7 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 8 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 9 "C:/Users/GRX/NeoDS-master-old/arm9/source/Default.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 13 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
-	.file 14 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoIPC.h"
-	.file 15 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiEvent.h"
-	.file 16 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiObject.h"
-	.file 17 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiLabel.h"
-	.file 18 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiButton.h"
-	.file 19 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiCheckbox.h"
-	.file 20 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutRomSelect.h"
+	.file 9 "C:/Users/GRX/NeoDS/arm9/source/Default.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 13 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
+	.file 14 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoIPC.h"
+	.file 15 "C:/Users/GRX/NeoDS/arm9/source/guiEvent.h"
+	.file 16 "C:/Users/GRX/NeoDS/arm9/source/guiObject.h"
+	.file 17 "C:/Users/GRX/NeoDS/arm9/source/guiLabel.h"
+	.file 18 "C:/Users/GRX/NeoDS/arm9/source/guiButton.h"
+	.file 19 "C:/Users/GRX/NeoDS/arm9/source/guiCheckbox.h"
+	.file 20 "C:/Users/GRX/NeoDS/arm9/source/LayoutRomSelect.h"
 	.file 21 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.section	.debug_info
 	.4byte	0x174a
@@ -4753,6 +4753,8 @@ __TGuiLayoutRomSelectTypeHeader__:
 	.ascii	"write32\000"
 .LASF308:
 	.ascii	"__TGuiButtonTypeHeader__\000"
+.LASF313:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/LayoutRomSelect.c\000"
 .LASF50:
 	.ascii	"OBJMODE_BLENDED\000"
 .LASF179:
@@ -5167,9 +5169,6 @@ __TGuiLayoutRomSelectTypeHeader__:
 	.ascii	"GUIEVENT_TOUCHUP\000"
 .LASF47:
 	.ascii	"nextPBlock\000"
-.LASF313:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutRom"
-	.ascii	"Select.c\000"
 .LASF3:
 	.ascii	"int16_t\000"
 .LASF85:

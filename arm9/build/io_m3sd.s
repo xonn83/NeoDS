@@ -22,7 +22,7 @@
 	.type	_M3SD_sendCommand, %function
 _M3SD_sendCommand:
 .LFB3:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_m3sd.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_m3sd.c"
 	.loc 1 101 0
 	push	{r4, lr}
 .LCFI0:
@@ -2359,7 +2359,7 @@ _M3SD_relativeCardAddress:
 	.4byte	0x0
 	.file 2 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
 	.file 3 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-	.file 4 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
+	.file 4 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
 	.section	.debug_info
 	.4byte	0x942
 	.2byte	0x2
@@ -4418,9 +4418,6 @@ _M3SD_relativeCardAddress:
 	.ascii	"FN_MEDIUM_CLEARSTATUS\000"
 .LASF17:
 	.ascii	"FN_MEDIUM_READSECTORS\000"
-.LASF74:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/di"
-	.ascii	"sc_io/io_m3sd.c\000"
 .LASF60:
 	.ascii	"buff_u8\000"
 .LASF39:
@@ -4537,6 +4534,9 @@ _M3SD_relativeCardAddress:
 	.ascii	"long unsigned int\000"
 .LASF11:
 	.ascii	"double\000"
+.LASF74:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_m3"
+	.ascii	"sd.c\000"
 .LASF72:
 	.ascii	"_M3SD_relativeCardAddress\000"
 .LASF76:

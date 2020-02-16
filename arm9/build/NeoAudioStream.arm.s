@@ -19,7 +19,7 @@
 	.type	neoAudioCommand, %function
 neoAudioCommand:
 .LFB173:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/NeoAudioStream.arm.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/NeoAudioStream.arm.c"
 	.loc 1 491 0
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
@@ -2941,11 +2941,11 @@ g_adpcmbTable2:
 	.file 5 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 6 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 7 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 8 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 9 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoIPC.h"
+	.file 8 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 9 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoIPC.h"
 	.file 13 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.section	.debug_info
 	.4byte	0x1ac9
@@ -7656,15 +7656,15 @@ g_adpcmbTable2:
 	.ascii	"pRam\000"
 .LASF33:
 	.ascii	"DynamicArray\000"
-.LASF310:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/NeoAudioS"
-	.ascii	"tream.arm.c\000"
 .LASF233:
 	.ascii	"audioCommandPending\000"
 .LASF21:
 	.ascii	"long unsigned int\000"
 .LASF108:
 	.ascii	"NEOROM_SPRITEDATA\000"
+.LASF310:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/NeoAudioStream.arm.c"
+	.ascii	"\000"
 .LASF50:
 	.ascii	"OBJMODE_NORMAL\000"
 .LASF226:

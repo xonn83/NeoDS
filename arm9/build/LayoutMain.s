@@ -22,7 +22,7 @@
 	.type	__TGuiLayoutScreenOffTypeHandler__, %function
 __TGuiLayoutScreenOffTypeHandler__:
 .LFB181:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMain.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/LayoutMain.c"
 	.loc 1 240 0
 	push	{r4, r5, lr}
 .LCFI0:
@@ -2060,24 +2060,24 @@ __TGuiLayoutMainTypeHeader__:
 	.file 6 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 7 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 8 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 9 "C:/Users/GRX/NeoDS-master-old/arm9/source/Default.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 13 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
-	.file 14 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoVideo.h"
-	.file 15 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoIPC.h"
-	.file 16 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiEvent.h"
-	.file 17 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiObject.h"
-	.file 18 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiRender.h"
-	.file 19 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiLabel.h"
-	.file 20 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiButton.h"
-	.file 21 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiStatus.h"
-	.file 22 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiCheckbox.h"
-	.file 23 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiRadioButton.h"
-	.file 24 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMain.h"
-	.file 25 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutRomSelect.h"
-	.file 26 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutInput.h"
+	.file 9 "C:/Users/GRX/NeoDS/arm9/source/Default.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 13 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
+	.file 14 "C:/Users/GRX/NeoDS/arm9/include/NeoVideo.h"
+	.file 15 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoIPC.h"
+	.file 16 "C:/Users/GRX/NeoDS/arm9/source/guiEvent.h"
+	.file 17 "C:/Users/GRX/NeoDS/arm9/source/guiObject.h"
+	.file 18 "C:/Users/GRX/NeoDS/arm9/source/guiRender.h"
+	.file 19 "C:/Users/GRX/NeoDS/arm9/source/guiLabel.h"
+	.file 20 "C:/Users/GRX/NeoDS/arm9/source/guiButton.h"
+	.file 21 "C:/Users/GRX/NeoDS/arm9/source/guiStatus.h"
+	.file 22 "C:/Users/GRX/NeoDS/arm9/source/guiCheckbox.h"
+	.file 23 "C:/Users/GRX/NeoDS/arm9/source/guiRadioButton.h"
+	.file 24 "C:/Users/GRX/NeoDS/arm9/source/LayoutMain.h"
+	.file 25 "C:/Users/GRX/NeoDS/arm9/source/LayoutRomSelect.h"
+	.file 26 "C:/Users/GRX/NeoDS/arm9/source/LayoutInput.h"
 	.section	.debug_info
 	.4byte	0x1b99
 	.2byte	0x2
@@ -6605,9 +6605,6 @@ __TGuiLayoutMainTypeHeader__:
 	.ascii	"bool\000"
 .LASF83:
 	.ascii	"TPoint\000"
-.LASF358:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMai"
-	.ascii	"n.c\000"
 .LASF98:
 	.ascii	"write16\000"
 .LASF174:
@@ -6648,6 +6645,8 @@ __TGuiLayoutMainTypeHeader__:
 	.ascii	"short int\000"
 .LASF261:
 	.ascii	"GUIBORDER_NORMAL\000"
+.LASF358:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/LayoutMain.c\000"
 .LASF197:
 	.ascii	"varEnd\000"
 .LASF182:

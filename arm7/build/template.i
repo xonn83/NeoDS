@@ -1,8 +1,8 @@
-# 1 "C:/Users/GRX/NeoDS-master-old/arm7/source/template.c"
-# 1 "C:\\Users\\GRX\\NeoDS-master-old\\arm7\\build//"
+# 1 "C:/Users/GRX/NeoDS/arm7/source/template.c"
+# 1 "C:\\Users\\GRX\\NeoDS\\arm7\\build//"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm7/source/template.c"
+# 1 "C:/Users/GRX/NeoDS/arm7/source/template.c"
 # 1 "C:/devkitPro/libnds/include/nds.h" 1
 # 166 "C:/devkitPro/libnds/include/nds.h"
 # 1 "C:/devkitPro/libnds/include/nds/libversion.h" 1
@@ -1637,7 +1637,7 @@ uint32 touchReadTemperature(int * t1, int * t2);
 # 10 "C:/devkitPro/libnds/include/nds/arm7/input.h"
  void inputGetAndSend(void);
 # 216 "C:/devkitPro/libnds/include/nds.h" 2
-# 2 "C:/Users/GRX/NeoDS-master-old/arm7/source/template.c" 2
+# 2 "C:/Users/GRX/NeoDS/arm7/source/template.c" 2
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdlib.h" 1 3
 # 10 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdlib.h" 3
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/machine/ieeefp.h" 1 3
@@ -1837,17 +1837,17 @@ extern long double wcstold (const wchar_t *, wchar_t **);
 
 
 
-# 3 "C:/Users/GRX/NeoDS-master-old/arm7/source/template.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoSystem7.h" 1
+# 3 "C:/Users/GRX/NeoDS/arm7/source/template.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm7/source/NeoSystem7.h" 1
 
 
 
-# 1 "C:/Users/GRX/NeoDS-master-old/arm7/../common/source/NeoSystemCommon.h" 1
-# 5 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoSystem7.h" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoCpuZ80.h" 1
-# 10 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoCpuZ80.h"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm7/source/DrZ80.h" 1
-# 16 "C:/Users/GRX/NeoDS-master-old/arm7/source/DrZ80.h"
+# 1 "C:/Users/GRX/NeoDS/arm7/../common/source/NeoSystemCommon.h" 1
+# 5 "C:/Users/GRX/NeoDS/arm7/source/NeoSystem7.h" 2
+# 1 "C:/Users/GRX/NeoDS/arm7/source/NeoCpuZ80.h" 1
+# 10 "C:/Users/GRX/NeoDS/arm7/source/NeoCpuZ80.h"
+# 1 "C:/Users/GRX/NeoDS/arm7/source/DrZ80.h" 1
+# 16 "C:/Users/GRX/NeoDS/arm7/source/DrZ80.h"
 extern int DrZ80Ver;
 
 struct DrZ80
@@ -1888,7 +1888,7 @@ struct DrZ80
 };
 
 extern void DrZ80Run(struct DrZ80 *pcy,unsigned int cyc);
-# 11 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoCpuZ80.h" 2
+# 11 "C:/Users/GRX/NeoDS/arm7/source/NeoCpuZ80.h" 2
 
 typedef struct DrZ80 TDrZ80Context;
 
@@ -1899,8 +1899,8 @@ void neoZ80Irq();
 void neoZ80ClearIrq();
 s32 neoZ80Execute(s32 cycles);
 void neoZ80Reset();
-# 6 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoSystem7.h" 2
-# 31 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoSystem7.h"
+# 6 "C:/Users/GRX/NeoDS/arm7/source/NeoSystem7.h" 2
+# 31 "C:/Users/GRX/NeoDS/arm7/source/NeoSystem7.h"
 typedef struct _TNeoContext7 {
  TDrZ80Context z80;
 
@@ -1917,11 +1917,11 @@ void neoSystem7Reset();
 void neoSystem7Execute();
 
 void systemPanic();
-# 57 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoSystem7.h"
+# 57 "C:/Users/GRX/NeoDS/arm7/source/NeoSystem7.h"
 register TNeoContext7* g_neo7 asm("r5");
-# 4 "C:/Users/GRX/NeoDS-master-old/arm7/source/template.c" 2
+# 4 "C:/Users/GRX/NeoDS/arm7/source/template.c" 2
 
-# 1 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoYM2610.h" 1
+# 1 "C:/Users/GRX/NeoDS/arm7/source/NeoYM2610.h" 1
 
 
 
@@ -2025,9 +2025,9 @@ u8 neoYM2610Read(u16 a);
 
 void neoYM2610Init();
 void neoYM2610Process();
-# 6 "C:/Users/GRX/NeoDS-master-old/arm7/source/template.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm7/../common/source/NeoIPC.h" 1
-# 61 "C:/Users/GRX/NeoDS-master-old/arm7/../common/source/NeoIPC.h"
+# 6 "C:/Users/GRX/NeoDS/arm7/source/template.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm7/../common/source/NeoIPC.h" 1
+# 61 "C:/Users/GRX/NeoDS/arm7/../common/source/NeoIPC.h"
 typedef enum _TNeoAdpcmCommand {
  NEOADPCM_NONE,
  NEOADPCM_STOP,
@@ -2094,7 +2094,7 @@ typedef enum _TNeoIPCCommand {
  NEOARM9_READAUDIO,
  NEOARM9_AUDIORESULT,
 } TNeoIPCCommand;
-# 139 "C:/Users/GRX/NeoDS-master-old/arm7/../common/source/NeoIPC.h"
+# 139 "C:/Users/GRX/NeoDS/arm7/../common/source/NeoIPC.h"
 void neoIPCInit();
 u32 neoIPCSendCommandAsync(TNeoIPCCommand command);
 void neoIPCSendCommand(TNeoIPCCommand command);
@@ -2103,9 +2103,9 @@ void neoIPCWaitCommandDone(u32 message);
 u32 neoIPCRecvCommand();
 u32 neoIPCWaitCommand(TNeoIPCCommand command);
 void neoIPCAckCommand();
-# 7 "C:/Users/GRX/NeoDS-master-old/arm7/source/template.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoAudio.h" 1
-# 12 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoAudio.h"
+# 7 "C:/Users/GRX/NeoDS/arm7/source/template.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm7/source/NeoAudio.h" 1
+# 12 "C:/Users/GRX/NeoDS/arm7/source/NeoAudio.h"
 void neoAudioInit();
 void neoAudioReset();
 void neoAudioShutdown();
@@ -2118,14 +2118,14 @@ void neoAudioUpdate();
 
 void neoAudioBufferWrite16(vu16* reg, u16 value, u16 mask);
 void neoAudioBufferWrite32(vu32* reg, u32 value, u32 mask);
-# 8 "C:/Users/GRX/NeoDS-master-old/arm7/source/template.c" 2
+# 8 "C:/Users/GRX/NeoDS/arm7/source/template.c" 2
 
 
 
 
 static void handleInput()
 {
-# 63 "C:/Users/GRX/NeoDS-master-old/arm7/source/template.c"
+# 63 "C:/Users/GRX/NeoDS/arm7/source/template.c"
 }
 
 static void VcountHandler()

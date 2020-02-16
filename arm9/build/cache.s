@@ -22,7 +22,7 @@
 	.type	_FAT_cache_getSector, %function
 _FAT_cache_getSector:
 .LFB14:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.c"
 	.loc 1 105 0
 	push	{r3, r4, r5, r6, r7, lr}
 .LCFI0:
@@ -102,7 +102,7 @@ _FAT_cache_getSector:
 	bne	.L8
 .LBB14:
 .LBB15:
-	.file 2 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.h"
+	.file 2 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.h"
 	.loc 2 87 0
 	ldr	r1, [r4, #12]
 .LVL9:
@@ -515,7 +515,7 @@ _FAT_cache_readPartialSector:
 	.type	_FAT_mem_free, %function
 _FAT_mem_free:
 .LFB11:
-	.file 3 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/mem_allocate.h"
+	.file 3 "C:/Users/GRX/NeoDS/arm9/source/libfat/mem_allocate.h"
 	.loc 3 43 0
 	push	{r4, lr}
 .LCFI7:
@@ -1462,8 +1462,8 @@ _FAT_cache_constructor:
 	.file 4 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/include/stddef.h"
 	.file 5 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
 	.file 6 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-	.file 7 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
-	.file 8 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.h"
+	.file 7 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
+	.file 8 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.h"
 	.section	.debug_info
 	.4byte	0x6f0
 	.2byte	0x2
@@ -2802,9 +2802,6 @@ _FAT_cache_constructor:
 	.ascii	"true\000"
 .LASF10:
 	.ascii	"size_t\000"
-.LASF62:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/ca"
-	.ascii	"che.c\000"
 .LASF63:
 	.ascii	"IO_INTERFACE_STRUCT\000"
 .LASF40:
@@ -2925,6 +2922,8 @@ _FAT_cache_constructor:
 	.ascii	"CACHE_ENTRY\000"
 .LASF46:
 	.ascii	"_FAT_mem_allocate\000"
+.LASF62:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/libfat/cache.c\000"
 .LASF48:
 	.ascii	"cache\000"
 .LASF57:

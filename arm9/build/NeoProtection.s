@@ -22,7 +22,7 @@
 	.type	neoPvcProt1, %function
 neoPvcProt1:
 .LFB168:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/NeoProtection.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/NeoProtection.c"
 	.loc 1 20 0
 	push	{r4, r5, r6, lr}
 .LCFI0:
@@ -2557,10 +2557,10 @@ g_fatFury2Prot:
 	.file 5 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 6 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 7 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 8 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 9 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
+	.file 8 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 9 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
 	.file 12 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.section	.debug_info
 	.4byte	0x15ec
@@ -6674,6 +6674,8 @@ g_fatFury2Prot:
 	.ascii	"neoPvcProt1\000"
 .LASF250:
 	.ascii	"neoPvcProt2\000"
+.LASF247:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/NeoProtection.c\000"
 .LASF68:
 	.ascii	"state_flags\000"
 .LASF129:
@@ -6780,9 +6782,6 @@ g_fatFury2Prot:
 	.ascii	"pvc_w8\000"
 .LASF223:
 	.ascii	"neoWriteRomBankSma8\000"
-.LASF247:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/NeoProtec"
-	.ascii	"tion.c\000"
 .LASF180:
 	.ascii	"vramMod\000"
 	.ident	"GCC: (devkitARM release 30) 4.4.3"

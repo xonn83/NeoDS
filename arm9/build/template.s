@@ -23,13 +23,13 @@
 	.type	main, %function
 main:
 .LFB168:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/template.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/template.c"
 	.loc 1 49 0
 	push	{r4, lr}
 .LCFI0:
 .LBB4:
 .LBB5:
-	.file 2 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
+	.file 2 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
 	.loc 2 336 0
 	mov	r7, #0
 .LBE5:
@@ -106,8 +106,7 @@ main:
 	.size	main, .-main
 	.section	.rodata.str1.1,"aMS",%progbits,1
 .LC0:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/template."
-	.ascii	"c\000"
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/template.c\000"
 .LC2:
 	.ascii	"systemInit failed\000"
 	.section	.debug_frame,"",%progbits
@@ -165,16 +164,16 @@ main:
 	.file 6 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 7 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 8 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 9 "C:/Users/GRX/NeoDS-master-old/arm9/source/Default.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 13 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoIPC.h"
-	.file 14 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiEvent.h"
-	.file 15 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiObject.h"
+	.file 9 "C:/Users/GRX/NeoDS/arm9/source/Default.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 13 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoIPC.h"
+	.file 14 "C:/Users/GRX/NeoDS/arm9/source/guiEvent.h"
+	.file 15 "C:/Users/GRX/NeoDS/arm9/source/guiObject.h"
 	.file 16 "C:/devkitPro/libnds/include/nds/arm9/video.h"
-	.file 17 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutRomSelect.h"
-	.file 18 "C:/Users/GRX/NeoDS-master-old/arm9/source/LayoutMain.h"
+	.file 17 "C:/Users/GRX/NeoDS/arm9/source/LayoutRomSelect.h"
+	.file 18 "C:/Users/GRX/NeoDS/arm9/source/LayoutMain.h"
 	.section	.debug_info
 	.4byte	0x1235
 	.2byte	0x2
@@ -3266,9 +3265,6 @@ main:
 	.ascii	"nameCount\000"
 .LASF257:
 	.ascii	"g_neo\000"
-.LASF262:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/template."
-	.ascii	"c\000"
 .LASF182:
 	.ascii	"cpuRead32Table\000"
 .LASF39:
@@ -3623,6 +3619,8 @@ main:
 	.ascii	"adpcmaFinished\000"
 .LASF158:
 	.ascii	"sramProtection\000"
+.LASF262:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/template.c\000"
 .LASF204:
 	.ascii	"pAdpcmBuffer\000"
 .LASF251:

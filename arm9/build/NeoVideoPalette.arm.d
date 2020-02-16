@@ -1,6 +1,6 @@
 NeoVideoPalette.arm.o: \
- C:/Users/GRX/NeoDS-master-old/arm9/source/NeoVideoPalette.arm.c \
- C:/Users/GRX/NeoDS-master-old/arm9/source/Default.h \
+ C:/Users/GRX/NeoDS/arm9/source/NeoVideoPalette.arm.c \
+ C:/Users/GRX/NeoDS/arm9/source/Default.h \
  C:/devkitPro/libnds/include/nds.h \
  C:/devkitPro/libnds/include/nds/libversion.h \
  C:/devkitPro/libnds/include/nds/ndstypes.h \
@@ -50,19 +50,19 @@ NeoVideoPalette.arm.o: \
  C:/devkitPro/libnds/include/nds/arm9/sprite.h \
  C:/devkitPro/libnds/include/nds/system.h \
  C:/devkitPro/libnds/include/nds/arm9/decompress.h \
- C:/Users/GRX/NeoDS-master-old/arm9/include/EmuSystem.h \
- C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h \
- C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoSystemCommon.h \
- C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h \
- C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h \
- C:/Users/GRX/NeoDS-master-old/arm9/include/NeoMemory.h \
- C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h \
- C:/Users/GRX/NeoDS-master-old/arm9/include/NeoVideo.h \
- C:/Users/GRX/NeoDS-master-old/arm9/include/NeoIO.h \
- C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h \
- C:/Users/GRX/NeoDS-master-old/arm9/include/NeoMemory.h
+ C:/Users/GRX/NeoDS/arm9/include/EmuSystem.h \
+ C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h \
+ C:/Users/GRX/NeoDS/arm9/../common/source/NeoSystemCommon.h \
+ C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h \
+ C:/Users/GRX/NeoDS/arm9/include/cyclone.h \
+ C:/Users/GRX/NeoDS/arm9/include/NeoMemory.h \
+ C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h \
+ C:/Users/GRX/NeoDS/arm9/include/NeoVideo.h \
+ C:/Users/GRX/NeoDS/arm9/include/NeoIO.h \
+ C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h \
+ C:/Users/GRX/NeoDS/arm9/include/NeoMemory.h
 
-C:/Users/GRX/NeoDS-master-old/arm9/source/Default.h:
+C:/Users/GRX/NeoDS/arm9/source/Default.h:
 
 C:/devkitPro/libnds/include/nds.h:
 
@@ -162,24 +162,24 @@ C:/devkitPro/libnds/include/nds/system.h:
 
 C:/devkitPro/libnds/include/nds/arm9/decompress.h:
 
-C:/Users/GRX/NeoDS-master-old/arm9/include/EmuSystem.h:
+C:/Users/GRX/NeoDS/arm9/include/EmuSystem.h:
 
-C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h:
+C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h:
 
-C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoSystemCommon.h:
+C:/Users/GRX/NeoDS/arm9/../common/source/NeoSystemCommon.h:
 
-C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h:
+C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h:
 
-C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h:
+C:/Users/GRX/NeoDS/arm9/include/cyclone.h:
 
-C:/Users/GRX/NeoDS-master-old/arm9/include/NeoMemory.h:
+C:/Users/GRX/NeoDS/arm9/include/NeoMemory.h:
 
-C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h:
+C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h:
 
-C:/Users/GRX/NeoDS-master-old/arm9/include/NeoVideo.h:
+C:/Users/GRX/NeoDS/arm9/include/NeoVideo.h:
 
-C:/Users/GRX/NeoDS-master-old/arm9/include/NeoIO.h:
+C:/Users/GRX/NeoDS/arm9/include/NeoIO.h:
 
-C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h:
+C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h:
 
-C:/Users/GRX/NeoDS-master-old/arm9/include/NeoMemory.h:
+C:/Users/GRX/NeoDS/arm9/include/NeoMemory.h:

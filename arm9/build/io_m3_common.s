@@ -23,7 +23,7 @@
 	.type	_M3_changeMode, %function
 _M3_changeMode:
 .LFB1:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_m3_common.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_m3_common.c"
 	.loc 1 39 0
 	push	{lr}
 .LCFI0:
@@ -716,6 +716,9 @@ _M3_changeMode:
 	.ascii	"mode\000"
 .LASF14:
 	.ascii	"_M3_readHalfword\000"
+.LASF13:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_m3"
+	.ascii	"_common.c\000"
 .LASF11:
 	.ascii	"long unsigned int\000"
 .LASF8:
@@ -742,7 +745,4 @@ _M3_changeMode:
 	.ascii	"float\000"
 .LASF2:
 	.ascii	"short int\000"
-.LASF13:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/di"
-	.ascii	"sc_io/io_m3_common.c\000"
 	.ident	"GCC: (devkitARM release 30) 4.4.3"

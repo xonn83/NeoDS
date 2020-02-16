@@ -601,7 +601,7 @@ Linker script and memory map
  .debug_pubnames
                 0x000002ff       0xd3 NeoIPC.o
 
-.debug_info     0x00000000     0x459d
+.debug_info     0x00000000     0x4571
  *(.debug_info)
  .debug_info    0x00000000      0xd19 NeoAudio.o
  .debug_info    0x00000d19      0x822 NeoCpuZ80.o
@@ -609,12 +609,12 @@ Linker script and memory map
  .debug_info    0x00001f5c     0x12ed NeoYM2610.o
  .debug_info    0x00003249      0x524 template.o
  .debug_info    0x0000376d      0xa1d NeoIPC.o
- .debug_info    0x0000418a       0x83 DrZ80.o
- .debug_info    0x0000420d       0x8a NeoCpuZ80Asm.o
- .debug_info    0x00004297       0xbc C:/devkitPro/libnds/lib\libnds7.a(intrwait.o)
- .debug_info    0x00004353       0xbf C:/devkitPro/libnds/lib\libnds7.a(biosCalls.o)
- .debug_info    0x00004412       0xc9 C:/devkitPro/libnds/lib\libnds7.a(interruptDispatcher.o)
- .debug_info    0x000044db       0xc2 C:/devkitPro/libnds/lib\libnds7.a(swiSoftReset.o)
+ .debug_info    0x0000418a       0x6d DrZ80.o
+ .debug_info    0x000041f7       0x74 NeoCpuZ80Asm.o
+ .debug_info    0x0000426b       0xbc C:/devkitPro/libnds/lib\libnds7.a(intrwait.o)
+ .debug_info    0x00004327       0xbf C:/devkitPro/libnds/lib\libnds7.a(biosCalls.o)
+ .debug_info    0x000043e6       0xc9 C:/devkitPro/libnds/lib\libnds7.a(interruptDispatcher.o)
+ .debug_info    0x000044af       0xc2 C:/devkitPro/libnds/lib\libnds7.a(swiSoftReset.o)
 
 .debug_abbrev   0x00000000     0x1035
  *(.debug_abbrev)
@@ -631,20 +631,20 @@ Linker script and memory map
  .debug_abbrev  0x0000100d       0x14 C:/devkitPro/libnds/lib\libnds7.a(interruptDispatcher.o)
  .debug_abbrev  0x00001021       0x14 C:/devkitPro/libnds/lib\libnds7.a(swiSoftReset.o)
 
-.debug_line     0x00000000     0x1cb8
+.debug_line     0x00000000     0x1c1e
  *(.debug_line)
- .debug_line    0x00000000      0x2f1 NeoAudio.o
- .debug_line    0x000002f1      0x212 NeoCpuZ80.o
- .debug_line    0x00000503      0x256 NeoSystem7.o
- .debug_line    0x00000759      0x50c NeoYM2610.o
- .debug_line    0x00000c65      0x19f template.o
- .debug_line    0x00000e04      0x1ff NeoIPC.o
- .debug_line    0x00001003      0x97e DrZ80.o
- .debug_line    0x00001981       0x8e NeoCpuZ80Asm.o
- .debug_line    0x00001a0f       0x95 C:/devkitPro/libnds/lib\libnds7.a(intrwait.o)
- .debug_line    0x00001aa4       0xc1 C:/devkitPro/libnds/lib\libnds7.a(biosCalls.o)
- .debug_line    0x00001b65       0xc6 C:/devkitPro/libnds/lib\libnds7.a(interruptDispatcher.o)
- .debug_line    0x00001c2b       0x8d C:/devkitPro/libnds/lib\libnds7.a(swiSoftReset.o)
+ .debug_line    0x00000000      0x2db NeoAudio.o
+ .debug_line    0x000002db      0x1fc NeoCpuZ80.o
+ .debug_line    0x000004d7      0x240 NeoSystem7.o
+ .debug_line    0x00000717      0x4f6 NeoYM2610.o
+ .debug_line    0x00000c0d      0x189 template.o
+ .debug_line    0x00000d96      0x1e9 NeoIPC.o
+ .debug_line    0x00000f7f      0x973 DrZ80.o
+ .debug_line    0x000018f2       0x83 NeoCpuZ80Asm.o
+ .debug_line    0x00001975       0x95 C:/devkitPro/libnds/lib\libnds7.a(intrwait.o)
+ .debug_line    0x00001a0a       0xc1 C:/devkitPro/libnds/lib\libnds7.a(biosCalls.o)
+ .debug_line    0x00001acb       0xc6 C:/devkitPro/libnds/lib\libnds7.a(interruptDispatcher.o)
+ .debug_line    0x00001b91       0x8d C:/devkitPro/libnds/lib\libnds7.a(swiSoftReset.o)
 
 .debug_frame    0x00000000      0x5e0
  *(.debug_frame)
@@ -655,20 +655,20 @@ Linker script and memory map
  .debug_frame   0x000004c8       0x5c template.o
  .debug_frame   0x00000524       0xbc NeoIPC.o
 
-.debug_str      0x00000000     0x126d
+.debug_str      0x00000000     0x122b
  *(.debug_str)
- .debug_str     0x00000000      0x57c NeoAudio.o
-                                0x605 (size before relaxing)
- .debug_str     0x0000057c      0x11a NeoCpuZ80.o
-                                0x4c3 (size before relaxing)
- .debug_str     0x00000696      0x468 NeoSystem7.o
-                                0x81a (size before relaxing)
- .debug_str     0x00000afe      0x4c9 NeoYM2610.o
-                                0x8de (size before relaxing)
- .debug_str     0x00000fc7       0x8e template.o
-                                0x447 (size before relaxing)
- .debug_str     0x00001055      0x218 NeoIPC.o
-                                0x79a (size before relaxing)
+ .debug_str     0x00000000      0x571 NeoAudio.o
+                                0x5fa (size before relaxing)
+ .debug_str     0x00000571      0x10f NeoCpuZ80.o
+                                0x4b8 (size before relaxing)
+ .debug_str     0x00000680      0x45d NeoSystem7.o
+                                0x80f (size before relaxing)
+ .debug_str     0x00000add      0x4be NeoYM2610.o
+                                0x8d3 (size before relaxing)
+ .debug_str     0x00000f9b       0x83 template.o
+                                0x43c (size before relaxing)
+ .debug_str     0x0000101e      0x20d NeoIPC.o
+                                0x78f (size before relaxing)
 
 .debug_loc      0x00000000     0x10e1
  *(.debug_loc)
@@ -717,7 +717,7 @@ LOAD c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/l
 END GROUP
 LOAD c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtend.o
 LOAD c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/crtn.o
-OUTPUT(C:/Users/GRX/NeoDS-master-old/arm7/NeoDS-master-old.arm7.elf elf32-littlearm)
+OUTPUT(C:/Users/GRX/NeoDS/arm7/NeoDS.arm7.elf elf32-littlearm)
 
 .debug_ranges   0x00000000      0x6e0
  .debug_ranges  0x00000000      0x2d0 NeoAudio.o

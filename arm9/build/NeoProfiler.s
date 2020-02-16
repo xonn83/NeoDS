@@ -23,10 +23,10 @@
 	.file 4 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 5 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 6 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 7 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 8 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 9 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
+	.file 7 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 8 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 9 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
 	.file 11 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.section	.debug_info
 	.4byte	0xd7e
@@ -2384,6 +2384,8 @@
 	.ascii	"membase\000"
 .LASF14:
 	.ascii	"double\000"
+.LASF193:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/NeoProfiler.c\000"
 .LASF186:
 	.ascii	"mosaicShadowSub\000"
 .LASF165:
@@ -2580,9 +2582,6 @@
 	.ascii	"fetch8\000"
 .LASF94:
 	.ascii	"offset\000"
-.LASF193:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/NeoProfil"
-	.ascii	"er.c\000"
 .LASF57:
 	.ascii	"OBJSIZE_8\000"
 .LASF56:

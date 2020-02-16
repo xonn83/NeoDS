@@ -20,7 +20,7 @@
 	.type	neoSpriteExit, %function
 neoSpriteExit:
 .LFB167:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/NeoVideoSprites.arm.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/NeoVideoSprites.arm.c"
 	.loc 1 191 0
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
@@ -1694,11 +1694,11 @@ g_spriteTable:
 	.file 7 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 8 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 9 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 13 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
-	.file 14 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoVideo.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 13 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
+	.file 14 "C:/Users/GRX/NeoDS/arm9/include/NeoVideo.h"
 	.section	.debug_info
 	.4byte	0x16f3
 	.2byte	0x2
@@ -5745,6 +5745,9 @@ g_spriteTable:
 	.ascii	"fetch8\000"
 .LASF277:
 	.ascii	"pDst\000"
+.LASF342:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/NeoVideoSprites.arm."
+	.ascii	"c\000"
 .LASF237:
 	.ascii	"keyGrid\000"
 .LASF68:
@@ -5897,9 +5900,6 @@ g_spriteTable:
 	.ascii	"getSpriteIndex\000"
 .LASF171:
 	.ascii	"NEOROM_SPRITEDATA\000"
-.LASF342:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/NeoVideoS"
-	.ascii	"prites.arm.c\000"
 .LASF113:
 	.ascii	"OBJMODE_NORMAL\000"
 .LASF279:

@@ -22,7 +22,7 @@
 	.type	_NJSD_sendCMDR, %function
 _NJSD_sendCMDR:
 .LFB167:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_njsd.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_njsd.c"
 	.loc 1 135 0
 	push	{r4, r5, r6, r7, lr}
 .LCFI0:
@@ -2811,7 +2811,7 @@ _NJSD_relativeCardAddress:
 	.4byte	0x0
 	.file 2 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
 	.file 3 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-	.file 4 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
+	.file 4 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
 	.file 5 "C:/devkitPro/libnds/include/nds/arm9/background.h"
 	.file 6 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 7 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
@@ -5634,8 +5634,6 @@ _NJSD_relativeCardAddress:
 	.ascii	"true\000"
 .LASF16:
 	.ascii	"bool\000"
-.LASF43:
-	.ascii	"IRQ_DMA2\000"
 .LASF75:
 	.ascii	"GL_POSITION\000"
 .LASF59:
@@ -5864,6 +5862,9 @@ _NJSD_relativeCardAddress:
 	.ascii	"uint32_t\000"
 .LASF57:
 	.ascii	"char\000"
+.LASF150:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_nj"
+	.ascii	"sd.c\000"
 .LASF8:
 	.ascii	"unsigned int\000"
 .LASF130:
@@ -5872,9 +5873,8 @@ _NJSD_relativeCardAddress:
 	.ascii	"IRQ_DMA0\000"
 .LASF42:
 	.ascii	"IRQ_DMA1\000"
-.LASF150:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/di"
-	.ascii	"sc_io/io_njsd.c\000"
+.LASF43:
+	.ascii	"IRQ_DMA2\000"
 .LASF44:
 	.ascii	"IRQ_DMA3\000"
 .LASF88:

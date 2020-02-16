@@ -20,7 +20,7 @@
 	.type	neoAudioEventHandler, %function
 neoAudioEventHandler:
 .LFB28:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoAudio.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm7/source/NeoAudio.c"
 	.loc 1 48 0
 	@ Function supports interworking.
 	@ args = 0, pretend = 0, frame = 0
@@ -1813,10 +1813,10 @@ g_audioIOMap:
 	.4byte	0x0
 	.file 2 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
 	.file 3 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-	.file 4 "C:/Users/GRX/NeoDS-master-old/arm7/source/DrZ80.h"
-	.file 5 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoCpuZ80.h"
-	.file 6 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoSystem7.h"
-	.file 7 "C:/Users/GRX/NeoDS-master-old/arm7/../common/source/NeoIPC.h"
+	.file 4 "C:/Users/GRX/NeoDS/arm7/source/DrZ80.h"
+	.file 5 "C:/Users/GRX/NeoDS/arm7/source/NeoCpuZ80.h"
+	.file 6 "C:/Users/GRX/NeoDS/arm7/source/NeoSystem7.h"
+	.file 7 "C:/Users/GRX/NeoDS/arm7/../common/source/NeoIPC.h"
 	.section	.debug_info
 	.4byte	0xd15
 	.2byte	0x2
@@ -4669,9 +4669,6 @@ g_audioIOMap:
 	.ascii	"arm7FifoProcessed\000"
 .LASF67:
 	.ascii	"arm9FifoProcessed\000"
-.LASF124:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm7/source/NeoAudio."
-	.ascii	"c\000"
 .LASF52:
 	.ascii	"z80Ram\000"
 .LASF58:
@@ -4748,6 +4745,8 @@ g_audioIOMap:
 	.ascii	"neoAudioPause\000"
 .LASF1:
 	.ascii	"unsigned char\000"
+.LASF124:
+	.ascii	"C:/Users/GRX/NeoDS/arm7/source/NeoAudio.c\000"
 .LASF120:
 	.ascii	"g_eventProcessed\000"
 .LASF53:

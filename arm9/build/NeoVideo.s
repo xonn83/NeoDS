@@ -23,7 +23,7 @@
 	.type	neoVideoSetSize, %function
 neoVideoSetSize:
 .LFB168:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/NeoVideo.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/NeoVideo.c"
 	.loc 1 47 0
 .LVL0:
 	.loc 1 49 0
@@ -144,7 +144,7 @@ vblankIntr:
 	ldrh	r3, [r4, #2]
 .LBB66:
 .LBB67:
-	.file 2 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
+	.file 2 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
 	.loc 2 337 0
 	ldr	r7, .L23+4
 .LBE67:
@@ -1503,11 +1503,11 @@ sTime.7283:
 	.file 9 "C:/devkitPro/libnds/include/nds/arm9/background.h"
 	.file 10 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 11 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 13 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 14 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 13 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 14 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
 	.file 15 "C:/devkitPro/libnds/include/nds/interrupts.h"
-	.file 16 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoVideo.h"
+	.file 16 "C:/Users/GRX/NeoDS/arm9/include/NeoVideo.h"
 	.section	.debug_info
 	.4byte	0x17c1
 	.2byte	0x2
@@ -5615,6 +5615,8 @@ sTime.7283:
 	.ascii	"MODE_5_3D\000"
 .LASF82:
 	.ascii	"VRAM_G_BG_EXT_PALETTE_SLOT01\000"
+.LASF365:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/NeoVideo.c\000"
 .LASF165:
 	.ascii	"GL_TEXTURE\000"
 .LASF203:
@@ -5825,9 +5827,6 @@ sTime.7283:
 	.ascii	"TCycloneContext\000"
 .LASF51:
 	.ascii	"VRAM_E_TYPE\000"
-.LASF365:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/NeoVideo."
-	.ascii	"c\000"
 .LASF45:
 	.ascii	"long unsigned int\000"
 .LASF236:

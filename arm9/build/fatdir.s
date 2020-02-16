@@ -23,7 +23,7 @@
 	.type	_FAT_link_r, %function
 _FAT_link_r:
 .LFB19:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/fatdir.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatdir.c"
 	.loc 1 97 0
 .LVL0:
 	.loc 1 98 0
@@ -362,7 +362,7 @@ _FAT_diropen_r:
 	.loc 1 463 0
 	b	.L31
 .L34:
-	.file 2 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/directory.h"
+	.file 2 "C:/Users/GRX/NeoDS/arm9/source/libfat/directory.h"
 	.loc 2 94 0
 	mov	r2, sp
 	ldrb	r3, [r2, #11]
@@ -546,7 +546,7 @@ _FAT_mkdir_r:
 	bl	_FAT_filetime_getTimeFromRTC
 .LBB32:
 .LBB33:
-	.file 3 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/bit_ops.h"
+	.file 3 "C:/Users/GRX/NeoDS/arm9/source/libfat/bit_ops.h"
 	.loc 3 47 0
 	strb	r0, [r6, #14]
 	.loc 3 48 0
@@ -709,7 +709,7 @@ _FAT_mkdir_r:
 	ldr	r0, [r4, #4]
 .LBB56:
 .LBB57:
-	.file 4 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/file_allocation_table.h"
+	.file 4 "C:/Users/GRX/NeoDS/arm9/source/libfat/file_allocation_table.h"
 	.loc 4 61 0
 	cmp	r7, #1
 	bls	.L53
@@ -2166,10 +2166,10 @@ _FAT_unlink_r:
 	.file 11 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/dir.h"
 	.file 12 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
 	.file 13 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-	.file 14 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
-	.file 15 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.h"
-	.file 16 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/partition.h"
-	.file 17 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/fatdir.h"
+	.file 14 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
+	.file 15 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.h"
+	.file 16 "C:/Users/GRX/NeoDS/arm9/source/libfat/partition.h"
+	.file 17 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatdir.h"
 	.section	.debug_info
 	.4byte	0x1651
 	.2byte	0x2
@@ -5890,8 +5890,8 @@ _FAT_unlink_r:
 	.ascii	"FN_MEDIUM_CLEARSTATUS\000"
 .LASF38:
 	.ascii	"_on_exit_args\000"
-.LASF146:
-	.ascii	"dirStruct\000"
+.LASF267:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/libfat/fatdir.c\000"
 .LASF106:
 	.ascii	"_wctomb_state\000"
 .LASF229:
@@ -6002,9 +6002,6 @@ _FAT_unlink_r:
 	.ascii	"st_mtime\000"
 .LASF251:
 	.ascii	"_FAT_mkdir_r\000"
-.LASF267:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/fa"
-	.ascii	"tdir.c\000"
 .LASF89:
 	.ascii	"__FILE\000"
 .LASF61:
@@ -6013,6 +6010,8 @@ _FAT_unlink_r:
 	.ascii	"_FAT_directory_isDot\000"
 .LASF217:
 	.ascii	"DIR_ENTRY_cTime\000"
+.LASF204:
+	.ascii	"PARTITION\000"
 .LASF169:
 	.ascii	"fn_writeSectors\000"
 .LASF233:
@@ -6075,8 +6074,8 @@ _FAT_unlink_r:
 	.ascii	"count\000"
 .LASF198:
 	.ascii	"dataStart\000"
-.LASF204:
-	.ascii	"PARTITION\000"
+.LASF146:
+	.ascii	"dirStruct\000"
 .LASF114:
 	.ascii	"_wcsrtombs_state\000"
 .LASF104:

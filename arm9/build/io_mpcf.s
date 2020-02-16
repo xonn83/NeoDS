@@ -23,7 +23,7 @@
 	.type	_MPCF_startup, %function
 _MPCF_startup:
 .LFB0:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_mpcf.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_mpcf.c"
 	.loc 1 84 0
 	push	{r4, lr}
 .LCFI0:
@@ -117,8 +117,8 @@ _io_mpcf:
 	.4byte	0x0
 	.file 2 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
 	.file 3 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-	.file 4 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
-	.file 5 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_cf_common.h"
+	.file 4 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
+	.file 5 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_cf_common.h"
 	.section	.debug_info
 	.4byte	0x2a3
 	.2byte	0x2
@@ -794,9 +794,6 @@ _io_mpcf:
 	.ascii	"unsigned int\000"
 .LASF10:
 	.ascii	"false\000"
-.LASF40:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/di"
-	.ascii	"sc_io/io_mpcf.c\000"
 .LASF41:
 	.ascii	"IO_INTERFACE_STRUCT\000"
 .LASF20:
@@ -819,6 +816,9 @@ _io_mpcf:
 	.ascii	"double\000"
 .LASF38:
 	.ascii	"CF_REGISTERS\000"
+.LASF40:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_mp"
+	.ascii	"cf.c\000"
 .LASF24:
 	.ascii	"fn_writeSectors\000"
 .LASF32:

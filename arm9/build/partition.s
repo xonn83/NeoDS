@@ -23,7 +23,7 @@
 	.type	_FAT_partition_setDefaultInterface, %function
 _FAT_partition_setDefaultInterface:
 .LFB24:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/partition.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/partition.c"
 	.loc 1 340 0
 	push	{lr}
 .LCFI0:
@@ -212,7 +212,7 @@ _FAT_partition_destructor:
 	bl	_FAT_cache_destructor
 .LBB32:
 .LBB33:
-	.file 2 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.h"
+	.file 2 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.h"
 	.loc 2 109 0
 	ldr	r3, [r4]
 .LBE33:
@@ -228,7 +228,7 @@ _FAT_partition_destructor:
 .LBE35:
 .LBB36:
 .LBB37:
-	.file 3 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/mem_allocate.h"
+	.file 3 "C:/Users/GRX/NeoDS/arm9/source/libfat/mem_allocate.h"
 	.loc 3 44 0
 	mov	r0, r4
 	bl	free
@@ -555,7 +555,7 @@ _FAT_partition_constructor:
 .L56:
 .LBB40:
 .LBB41:
-	.file 4 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/bit_ops.h"
+	.file 4 "C:/Users/GRX/NeoDS/arm9/source/libfat/bit_ops.h"
 	.loc 4 43 0
 	add	r3, r3, #8
 .LVL44:
@@ -1590,9 +1590,9 @@ _FAT_partitions:
 	.4byte	0x0
 	.file 5 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
 	.file 6 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-	.file 7 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
-	.file 8 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.h"
-	.file 9 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/partition.h"
+	.file 7 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
+	.file 8 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.h"
+	.file 9 "C:/Users/GRX/NeoDS/arm9/source/libfat/partition.h"
 	.file 10 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/include/stddef.h"
 	.file 11 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/ctype.h"
 	.section	.debug_info
@@ -3525,6 +3525,8 @@ _FAT_partitions:
 	.ascii	"cwdCluster\000"
 .LASF10:
 	.ascii	"float\000"
+.LASF137:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/libfat/partition.c\000"
 .LASF32:
 	.ascii	"count\000"
 .LASF107:
@@ -3583,9 +3585,6 @@ _FAT_partitions:
 	.ascii	"namelen\000"
 .LASF130:
 	.ascii	"_FAT_partition_mountCustomInterface\000"
-.LASF137:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/pa"
-	.ascii	"rtition.c\000"
 .LASF17:
 	.ascii	"FN_MEDIUM_READSECTORS\000"
 .LASF55:

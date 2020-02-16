@@ -1,15 +1,15 @@
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/ram.c"
-# 1 "C:\\Users\\GRX\\NeoDS-master-old\\arm9\\build//"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/ram.c"
+# 1 "C:\\Users\\GRX\\NeoDS\\arm9\\build//"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/ram.c"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/ram.c"
 
 
 
 
 
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/ram.h" 1
-# 9 "C:/Users/GRX/NeoDS-master-old/arm9/source/ram.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/ram.h" 1
+# 9 "C:/Users/GRX/NeoDS/arm9/source/ram.h"
 # 1 "C:/devkitPro/libnds/include/nds.h" 1
 # 166 "C:/devkitPro/libnds/include/nds.h"
 # 1 "C:/devkitPro/libnds/include/nds/libversion.h" 1
@@ -4978,7 +4978,7 @@ void decompress(const void* data, void* dst, DecompressType type);
 # 72 "C:/devkitPro/libnds/include/nds/arm9/decompress.h"
 void decompressStream(const void* data, void* dst, DecompressType type, getByteCallback readCB, getHeaderCallback getHeaderCB);
 # 202 "C:/devkitPro/libnds/include/nds.h" 2
-# 10 "C:/Users/GRX/NeoDS-master-old/arm9/source/ram.h" 2
+# 10 "C:/Users/GRX/NeoDS/arm9/source/ram.h" 2
 
 
 
@@ -5008,8 +5008,8 @@ void ram_lock ();
 
 
 void ram_turbo (bool enable);
-# 7 "C:/Users/GRX/NeoDS-master-old/arm9/source/ram.c" 2
-# 16 "C:/Users/GRX/NeoDS-master-old/arm9/source/ram.c"
+# 7 "C:/Users/GRX/NeoDS/arm9/source/ram.c" 2
+# 16 "C:/Users/GRX/NeoDS/arm9/source/ram.c"
 vu16 *_sc_unlock ()
 
 {
@@ -5195,7 +5195,7 @@ void _ez_lock ()
     *(vu16*)0x9C40000 = 0x1500;
     *(vu16*)0x9FC0000 = 0x1500;
 }
-# 209 "C:/Users/GRX/NeoDS-master-old/arm9/source/ram.c"
+# 209 "C:/Users/GRX/NeoDS/arm9/source/ram.c"
 static vu16* (*_unlock) () = 0;
 static void (*_lock) () = 0;
 static u32 _size = 0;

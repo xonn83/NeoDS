@@ -22,7 +22,7 @@
 	.type	__TGuiObjectTypeHandler__, %function
 __TGuiObjectTypeHandler__:
 .LFB168:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiObject.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/guiObject.c"
 	.loc 1 5 0
 .LVL0:
 	.loc 1 7 0
@@ -215,7 +215,7 @@ guiObjRenderDirty:
 	ldr	r0, [r0, #4]
 .LBB4:
 .LBB5:
-	.file 2 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiObject.h"
+	.file 2 "C:/Users/GRX/NeoDS/arm9/source/guiObject.h"
 	.loc 2 109 0
 	cmp	r0, #0
 	bne	.L21
@@ -992,12 +992,12 @@ __TGuiObjectTypeHeader__:
 	.file 6 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 7 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 8 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 9 "C:/Users/GRX/NeoDS-master-old/arm9/source/Default.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 13 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
-	.file 14 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiEvent.h"
+	.file 9 "C:/Users/GRX/NeoDS/arm9/source/Default.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 13 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
+	.file 14 "C:/Users/GRX/NeoDS/arm9/source/guiEvent.h"
 	.file 15 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.section	.debug_info
 	.4byte	0x1316
@@ -4386,9 +4386,6 @@ __TGuiObjectTypeHeader__:
 	.ascii	"keyGrid\000"
 .LASF231:
 	.ascii	"guiObjGetGlobalBounds\000"
-.LASF249:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/guiObject"
-	.ascii	".c\000"
 .LASF80:
 	.ascii	"write32\000"
 .LASF220:
@@ -4539,6 +4536,8 @@ __TGuiObjectTypeHeader__:
 	.ascii	"pBios\000"
 .LASF247:
 	.ascii	"__TGuiObjectTypeHeader__\000"
+.LASF249:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/guiObject.c\000"
 .LASF228:
 	.ascii	"pBounds\000"
 .LASF21:

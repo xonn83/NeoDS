@@ -22,7 +22,7 @@
 	.type	__TGuiButtonTypeHandler__, %function
 __TGuiButtonTypeHandler__:
 .LFB168:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiButton.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/guiButton.c"
 	.loc 1 6 0
 	push	{r4, r5, r6, lr}
 .LCFI0:
@@ -305,16 +305,16 @@ __TGuiButtonTypeHeader__:
 	.file 5 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 6 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 7 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 8 "C:/Users/GRX/NeoDS-master-old/arm9/source/Default.h"
-	.file 9 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
-	.file 13 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiEvent.h"
-	.file 14 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiObject.h"
-	.file 15 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiRender.h"
-	.file 16 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiLabel.h"
-	.file 17 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiButton.h"
+	.file 8 "C:/Users/GRX/NeoDS/arm9/source/Default.h"
+	.file 9 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
+	.file 13 "C:/Users/GRX/NeoDS/arm9/source/guiEvent.h"
+	.file 14 "C:/Users/GRX/NeoDS/arm9/source/guiObject.h"
+	.file 15 "C:/Users/GRX/NeoDS/arm9/source/guiRender.h"
+	.file 16 "C:/Users/GRX/NeoDS/arm9/source/guiLabel.h"
+	.file 17 "C:/Users/GRX/NeoDS/arm9/source/guiButton.h"
 	.file 18 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.section	.debug_info
 	.4byte	0x1241
@@ -3657,6 +3657,8 @@ __TGuiButtonTypeHeader__:
 	.ascii	"TGuiTypeHeader\000"
 .LASF186:
 	.ascii	"cpuCheckPcTable\000"
+.LASF261:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/guiButton.c\000"
 .LASF46:
 	.ascii	"nextBlock\000"
 .LASF192:
@@ -3685,9 +3687,6 @@ __TGuiButtonTypeHeader__:
 	.ascii	"initOffset\000"
 .LASF254:
 	.ascii	"bgState\000"
-.LASF261:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/guiButton"
-	.ascii	".c\000"
 .LASF26:
 	.ascii	"scrollX\000"
 .LASF27:

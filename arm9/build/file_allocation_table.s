@@ -23,7 +23,7 @@
 	.type	_FAT_fat_nextCluster, %function
 _FAT_fat_nextCluster:
 .LFB11:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/file_allocation_table.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/file_allocation_table.c"
 	.loc 1 48 0
 	push	{r4, r5, r6, r7, lr}
 .LCFI0:
@@ -684,7 +684,7 @@ _FAT_fat_linkFreeClusterCleared:
 	bl	memset
 .LBB6:
 .LBB8:
-	.file 2 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/file_allocation_table.h"
+	.file 2 "C:/Users/GRX/NeoDS/arm9/source/libfat/file_allocation_table.h"
 	.loc 2 61 0
 	sub	r1, r6, #2
 .LBE8:
@@ -721,7 +721,7 @@ _FAT_fat_linkFreeClusterCleared:
 .LBE11:
 .LBB12:
 .LBB13:
-	.file 3 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.h"
+	.file 3 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.h"
 	.loc 3 87 0
 	add	r0, r0, r5
 	ldr	r3, [r2, #20]
@@ -1497,9 +1497,9 @@ _FAT_fat_linkFreeClusterCleared:
 	.4byte	0x0
 	.file 4 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
 	.file 5 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-	.file 6 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
-	.file 7 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.h"
-	.file 8 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/partition.h"
+	.file 6 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
+	.file 7 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.h"
+	.file 8 "C:/Users/GRX/NeoDS/arm9/source/libfat/partition.h"
 	.section	.debug_info
 	.4byte	0x6fa
 	.2byte	0x2
@@ -2944,15 +2944,15 @@ _FAT_fat_linkFreeClusterCleared:
 	.ascii	"value\000"
 .LASF6:
 	.ascii	"unsigned int\000"
-.LASF84:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/fi"
-	.ascii	"le_allocation_table.c\000"
 .LASF30:
 	.ascii	"sector\000"
 .LASF28:
 	.ascii	"long unsigned int\000"
 .LASF40:
 	.ascii	"FS_FAT12\000"
+.LASF84:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/libfat/file_allocati"
+	.ascii	"on_table.c\000"
 .LASF3:
 	.ascii	"short unsigned int\000"
 .LASF41:

@@ -22,7 +22,7 @@
 	.type	_FAT_directory_entryGetAlias, %function
 _FAT_directory_entryGetAlias:
 .LFB20:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/directory.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/directory.c"
 	.loc 1 155 0
 	push	{r4, r5, lr}
 .LCFI0:
@@ -183,7 +183,7 @@ _FAT_directory_entryStat:
 	str	r2, [r4, #4]
 .LBB70:
 .LBB71:
-	.file 2 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/directory.h"
+	.file 2 "C:/Users/GRX/NeoDS/arm9/source/libfat/directory.h"
 	.loc 2 94 0
 	ldrb	r1, [r5, #11]
 .LBE71:
@@ -371,7 +371,7 @@ _FAT_directory_getRootEntry:
 	mov	r0, #1
 .LBB72:
 .LBB73:
-	.file 3 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/bit_ops.h"
+	.file 3 "C:/Users/GRX/NeoDS/arm9/source/libfat/bit_ops.h"
 	.loc 3 47 0
 	strb	r3, [r4, #26]
 	.loc 3 48 0
@@ -561,7 +561,7 @@ _FAT_directory_removeEntry:
 .LVL47:
 .LBB76:
 .LBB77:
-	.file 4 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/file_allocation_table.h"
+	.file 4 "C:/Users/GRX/NeoDS/arm9/source/libfat/file_allocation_table.h"
 	.loc 4 61 0
 	cmp	r2, #1
 	bls	.L38
@@ -4468,10 +4468,10 @@ LFN_offset_table:
 	.file 8 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/stat.h"
 	.file 9 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
 	.file 10 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.h"
-	.file 13 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/partition.h"
-	.file 14 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.h"
+	.file 13 "C:/Users/GRX/NeoDS/arm9/source/libfat/partition.h"
+	.file 14 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.h"
 	.file 15 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/ctype.h"
 	.section	.debug_info
 	.4byte	0x12a1
@@ -7841,6 +7841,8 @@ LFN_offset_table:
 	.ascii	"uint8_t\000"
 .LASF15:
 	.ascii	"time_t\000"
+.LASF202:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/libfat/directory.c\000"
 .LASF63:
 	.ascii	"fn_clearStatus\000"
 .LASF198:
@@ -7951,9 +7953,6 @@ LFN_offset_table:
 	.ascii	"LFN_offset_checkSum\000"
 .LASF112:
 	.ascii	"DIR_ENTRY_aDate\000"
-.LASF202:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/di"
-	.ascii	"rectory.c\000"
 .LASF2:
 	.ascii	"short int\000"
 .LASF7:

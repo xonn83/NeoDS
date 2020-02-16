@@ -23,7 +23,7 @@
 	.type	_SCCF_startup, %function
 _SCCF_startup:
 .LFB0:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sccf.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sccf.c"
 	.loc 1 68 0
 	push	{r4, lr}
 .LCFI0:
@@ -120,8 +120,8 @@ _io_sccf:
 	.4byte	0x0
 	.file 2 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
 	.file 3 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-	.file 4 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
-	.file 5 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_cf_common.h"
+	.file 4 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
+	.file 5 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_cf_common.h"
 	.section	.debug_info
 	.4byte	0x2a3
 	.2byte	0x2
@@ -757,6 +757,9 @@ _io_sccf:
 	.ascii	"FN_MEDIUM_SHUTDOWN\000"
 .LASF29:
 	.ascii	"data\000"
+.LASF40:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sc"
+	.ascii	"cf.c\000"
 .LASF12:
 	.ascii	"bool\000"
 .LASF13:
@@ -779,9 +782,6 @@ _io_sccf:
 	.ascii	"lba3\000"
 .LASF37:
 	.ascii	"lba4\000"
-.LASF40:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/di"
-	.ascii	"sc_io/io_sccf.c\000"
 .LASF25:
 	.ascii	"fn_clearStatus\000"
 .LASF1:

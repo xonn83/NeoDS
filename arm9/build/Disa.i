@@ -1,5 +1,5 @@
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/Disa.c"
-# 1 "C:\\Users\\GRX\\NeoDS-master-old\\arm9\\build//"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/Disa.c"
+# 1 "C:\\Users\\GRX\\NeoDS\\arm9\\build//"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/Disa.c"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/Disa.c"

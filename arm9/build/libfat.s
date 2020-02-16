@@ -23,7 +23,7 @@
 	.type	fatSetDefaultInterface, %function
 fatSetDefaultInterface:
 .LFB19:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/libfat.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/libfat.c"
 	.loc 1 139 0
 	push	{r4, lr}
 .LCFI0:
@@ -526,8 +526,8 @@ dotab_fat:
 	.file 12 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/iosupport.h"
 	.file 13 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
 	.file 14 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-	.file 15 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
-	.file 16 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/partition.h"
+	.file 15 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
+	.file 16 "C:/Users/GRX/NeoDS/arm9/source/libfat/partition.h"
 	.section	.debug_info
 	.4byte	0x128f
 	.2byte	0x2
@@ -3502,8 +3502,6 @@ dotab_fat:
 	.ascii	"_Bigint\000"
 .LASF37:
 	.ascii	"__tm_wday\000"
-.LASF78:
-	.ascii	"__cleanup\000"
 .LASF79:
 	.ascii	"_result\000"
 .LASF151:
@@ -3518,6 +3516,8 @@ dotab_fat:
 	.ascii	"devoptab_t\000"
 .LASF19:
 	.ascii	"__count\000"
+.LASF229:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/libfat/libfat.c\000"
 .LASF193:
 	.ascii	"float\000"
 .LASF32:
@@ -3686,9 +3686,8 @@ dotab_fat:
 	.ascii	"ioType\000"
 .LASF156:
 	.ascii	"f_frsize\000"
-.LASF229:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/li"
-	.ascii	"bfat.c\000"
+.LASF78:
+	.ascii	"__cleanup\000"
 .LASF21:
 	.ascii	"_mbstate_t\000"
 .LASF41:

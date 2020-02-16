@@ -1,13 +1,13 @@
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/filetime.c"
-# 1 "C:\\Users\\GRX\\NeoDS-master-old\\arm9\\build//"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/filetime.c"
+# 1 "C:\\Users\\GRX\\NeoDS\\arm9\\build//"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/filetime.c"
-# 40 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/filetime.c"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/filetime.h" 1
-# 35 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/filetime.h"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/common.h" 1
-# 43 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/common.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/filetime.c"
+# 40 "C:/Users/GRX/NeoDS/arm9/source/libfat/filetime.c"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/filetime.h" 1
+# 35 "C:/Users/GRX/NeoDS/arm9/source/libfat/filetime.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/common.h" 1
+# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/common.h"
 # 1 "C:/devkitPro/libnds/include/nds/ndstypes.h" 1
 # 68 "C:/devkitPro/libnds/include/nds/ndstypes.h"
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 1 3
@@ -129,8 +129,8 @@ typedef enum { false, true } bool;
 typedef void ( * IntFn)(void);
 typedef void (* VoidFn)(void);
 typedef void (* fp)(void);
-# 44 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/common.h" 2
-# 36 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/filetime.h" 2
+# 44 "C:/Users/GRX/NeoDS/arm9/source/libfat/common.h" 2
+# 36 "C:/Users/GRX/NeoDS/arm9/source/libfat/filetime.h" 2
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/types.h" 1 3
 # 20 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/types.h" 3
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/_ansi.h" 1 3
@@ -373,13 +373,13 @@ typedef __uint32_t fsfilcnt_t;
 
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/features.h" 1 3
 # 265 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/types.h" 2 3
-# 37 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/filetime.h" 2
+# 37 "C:/Users/GRX/NeoDS/arm9/source/libfat/filetime.h" 2
 
 u16 _FAT_filetime_getTimeFromRTC (void);
 u16 _FAT_filetime_getDateFromRTC (void);
 
 time_t _FAT_filetime_to_time_t (u16 time, u16 date);
-# 41 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/filetime.c" 2
+# 41 "C:/Users/GRX/NeoDS/arm9/source/libfat/filetime.c" 2
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/time.h" 1 3
 # 10 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/time.h" 3
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/_ansi.h" 1 3
@@ -679,7 +679,7 @@ __tzinfo_type *__gettzinfo (void);
 extern long _timezone;
 extern int _daylight;
 extern char *_tzname[2];
-# 42 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/filetime.c" 2
+# 42 "C:/Users/GRX/NeoDS/arm9/source/libfat/filetime.c" 2
 
 
 # 1 "C:/devkitPro/libnds/include/nds/ipc.h" 1
@@ -720,8 +720,8 @@ enum IPC_CONTROL_BITS {
  IPC_FIFO_ERROR = (1<<14),
  IPC_FIFO_ENABLE = (1<<15)
 };
-# 45 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/filetime.c" 2
-# 68 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/filetime.c"
+# 45 "C:/Users/GRX/NeoDS/arm9/source/libfat/filetime.c" 2
+# 68 "C:/Users/GRX/NeoDS/arm9/source/libfat/filetime.c"
 u16 _FAT_filetime_getTimeFromRTC (void) {
 
 

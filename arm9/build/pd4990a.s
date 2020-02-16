@@ -23,7 +23,7 @@
 	.type	pd4990a_init, %function
 pd4990a_init:
 .LFB167:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/pd4990a.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/pd4990a.c"
 	.loc 1 84 0
 	.loc 1 87 0
 	ldr	r2, .L3
@@ -1219,11 +1219,11 @@ clock_line.7306:
 	.file 5 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 6 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 7 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 8 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 9 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/include/pd4990a.h"
+	.file 8 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 9 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/include/pd4990a.h"
 	.file 13 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.section	.debug_info
 	.4byte	0x10bd
@@ -4397,9 +4397,6 @@ clock_line.7306:
 	.ascii	"OBJMODE_BITMAP\000"
 .LASF177:
 	.ascii	"cpuRead8Table\000"
-.LASF229:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/pd4990a.c"
-	.ascii	"\000"
 .LASF128:
 	.ascii	"smaAddr0\000"
 .LASF129:
@@ -4650,6 +4647,8 @@ clock_line.7306:
 	.ascii	"internal\000"
 .LASF178:
 	.ascii	"cpuRead16Table\000"
+.LASF229:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/pd4990a.c\000"
 .LASF195:
 	.ascii	"pd4990a_process_command\000"
 .LASF227:

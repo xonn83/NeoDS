@@ -23,7 +23,7 @@
 	.type	_FAT_disc_gbaSlotFindInterface, %function
 _FAT_disc_gbaSlotFindInterface:
 .LFB171:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.c"
 	.loc 1 111 0
 	push	{r4, r5, r6, lr}
 .LCFI0:
@@ -372,20 +372,20 @@ ioInterfaces:
 	.4byte	0x0
 	.file 3 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
 	.file 4 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-	.file 5 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
+	.file 5 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
 	.file 6 "C:/devkitPro/libnds/include/nds/arm9/background.h"
 	.file 7 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 8 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 9 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
 	.file 10 "C:/devkitPro/libnds/include/nds/arm9/video.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_dldi.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_njsd.h"
-	.file 13 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_nmmc.h"
-	.file 14 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_mpcf.h"
-	.file 15 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_m3cf.h"
-	.file 16 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sccf.h"
-	.file 17 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_scsd.h"
-	.file 18 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_m3sd.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_dldi.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_njsd.h"
+	.file 13 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_nmmc.h"
+	.file 14 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_mpcf.h"
+	.file 15 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_m3cf.h"
+	.file 16 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sccf.h"
+	.file 17 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_scsd.h"
+	.file 18 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_m3sd.h"
 	.section	.debug_info
 	.4byte	0x676
 	.2byte	0x2
@@ -1698,6 +1698,9 @@ ioInterfaces:
 	.ascii	"OBJSIZE_16\000"
 .LASF25:
 	.ascii	"fn_isInserted\000"
+.LASF101:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc."
+	.ascii	"c\000"
 .LASF51:
 	.ascii	"GL_MODELVIEW\000"
 .LASF21:
@@ -1834,9 +1837,6 @@ ioInterfaces:
 	.ascii	"_io_scsd\000"
 .LASF43:
 	.ascii	"size\000"
-.LASF101:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/di"
-	.ascii	"sc_io/disc.c\000"
 .LASF61:
 	.ascii	"nextPBlock\000"
 .LASF15:

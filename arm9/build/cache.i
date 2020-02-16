@@ -1,9 +1,9 @@
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.c"
-# 1 "C:\\Users\\GRX\\NeoDS-master-old\\arm9\\build//"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.c"
+# 1 "C:\\Users\\GRX\\NeoDS\\arm9\\build//"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.c"
-# 36 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.c"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.c"
+# 36 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.c"
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/string.h" 1 3
 # 10 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/string.h" 3
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/_ansi.h" 1 3
@@ -418,10 +418,10 @@ char *strupr (char *);
 # 101 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/string.h" 2 3
 
 
-# 37 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.c" 2
+# 37 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.c" 2
 
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/common.h" 1
-# 43 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/common.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/common.h" 1
+# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/common.h"
 # 1 "C:/devkitPro/libnds/include/nds/ndstypes.h" 1
 # 68 "C:/devkitPro/libnds/include/nds/ndstypes.h"
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 1 3
@@ -543,15 +543,15 @@ typedef enum { false, true } bool;
 typedef void ( * IntFn)(void);
 typedef void (* VoidFn)(void);
 typedef void (* fp)(void);
-# 44 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/common.h" 2
-# 39 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.h" 1
-# 43 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.h"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h" 1
-# 39 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h" 1
-# 40 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h" 2
-# 61 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
+# 44 "C:/Users/GRX/NeoDS/arm9/source/libfat/common.h" 2
+# 39 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.h" 1
+# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h" 1
+# 39 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h" 1
+# 40 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h" 2
+# 61 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
 typedef bool (* FN_MEDIUM_STARTUP)(void) ;
 typedef bool (* FN_MEDIUM_ISINSERTED)(void) ;
 typedef bool (* FN_MEDIUM_READSECTORS)(u32 sector, u32 numSectors, void* buffer) ;
@@ -571,7 +571,7 @@ struct IO_INTERFACE_STRUCT {
 } ;
 
 typedef struct IO_INTERFACE_STRUCT IO_INTERFACE ;
-# 44 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.h" 2
+# 44 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.h" 2
 
 
 
@@ -587,11 +587,11 @@ typedef struct {
  CACHE_ENTRY* cacheEntries;
  u8* pages;
 } CACHE;
-# 68 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.h"
+# 68 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.h"
 bool _FAT_cache_readPartialSector (CACHE* cache, void* buffer, u32 sector, u32 offset, u32 size);
-# 78 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.h"
+# 78 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.h"
 bool _FAT_cache_writePartialSector (CACHE* cache, const void* buffer, u32 sector, u32 offset, u32 size);
-# 88 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.h"
+# 88 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.h"
 bool _FAT_cache_eraseWritePartialSector (CACHE* cache, const void* buffer, u32 sector, u32 offset, u32 size);
 
 
@@ -621,11 +621,11 @@ void _FAT_cache_invalidate (CACHE* cache);
 CACHE* _FAT_cache_constructor (u32 numberOfPages, const IO_INTERFACE* discInterface);
 
 void _FAT_cache_destructor (CACHE* cache);
-# 40 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.h" 1
-# 37 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.h"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h" 1
-# 38 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.h" 2
+# 40 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.h" 1
+# 37 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h" 1
+# 38 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.h" 2
 
 
 
@@ -713,10 +713,10 @@ static inline u32 _FAT_disc_hostType (const IO_INTERFACE* disc) {
 static inline u32 _FAT_disc_features (const IO_INTERFACE* disc) {
  return disc->features;
 }
-# 41 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.c" 2
+# 41 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.c" 2
 
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/mem_allocate.h" 1
-# 37 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/mem_allocate.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/mem_allocate.h" 1
+# 37 "C:/Users/GRX/NeoDS/arm9/source/libfat/mem_allocate.h"
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/malloc.h" 1 3
 # 10 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/malloc.h" 3
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/include/stddef.h" 1 3 4
@@ -850,7 +850,7 @@ extern void mstats (char *);
 extern void _mstats_r (struct _reent *, char *);
 # 162 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/malloc.h" 3
 extern void cfree (void *);
-# 38 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/mem_allocate.h" 2
+# 38 "C:/Users/GRX/NeoDS/arm9/source/libfat/mem_allocate.h" 2
 
 static inline void* _FAT_mem_allocate (size_t size) {
  return malloc (size);
@@ -859,7 +859,7 @@ static inline void* _FAT_mem_allocate (size_t size) {
 static inline void _FAT_mem_free (void* mem) {
  return free (mem);
 }
-# 43 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.c" 2
+# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.c" 2
 
 
 

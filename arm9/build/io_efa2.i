@@ -1,15 +1,15 @@
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_efa2.c"
-# 1 "C:\\Users\\GRX\\NeoDS-master-old\\arm9\\build//"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
+# 1 "C:\\Users\\GRX\\NeoDS\\arm9\\build//"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_efa2.c"
-# 17 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_efa2.c"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_efa2.h" 1
-# 18 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_efa2.h"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h" 1
-# 39 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h" 1
-# 43 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
+# 17 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.h" 1
+# 18 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h" 1
+# 39 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h" 1
+# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h"
 # 1 "C:/devkitPro/libnds/include/nds/ndstypes.h" 1
 # 68 "C:/devkitPro/libnds/include/nds/ndstypes.h"
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 1 3
@@ -131,9 +131,9 @@ typedef enum { false, true } bool;
 typedef void ( * IntFn)(void);
 typedef void (* VoidFn)(void);
 typedef void (* fp)(void);
-# 44 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h" 2
-# 40 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h" 2
-# 61 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
+# 44 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h" 2
+# 40 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h" 2
+# 61 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
 typedef bool (* FN_MEDIUM_STARTUP)(void) ;
 typedef bool (* FN_MEDIUM_ISINSERTED)(void) ;
 typedef bool (* FN_MEDIUM_READSECTORS)(u32 sector, u32 numSectors, void* buffer) ;
@@ -153,12 +153,12 @@ struct IO_INTERFACE_STRUCT {
 } ;
 
 typedef struct IO_INTERFACE_STRUCT IO_INTERFACE ;
-# 19 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_efa2.h" 2
+# 19 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.h" 2
 
 
 extern const IO_INTERFACE _io_efa2;
-# 18 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_efa2.c" 2
-# 56 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_efa2.c"
+# 18 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c" 2
+# 56 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
 static inline void _EFA2_rtc_deactivate(void) {
  (*(vu16*)0x080000c8) = 0;
 }
@@ -182,7 +182,7 @@ static void _EFA2_global_unlock(void) {
  *(vu16*)0x09880000 = 0x08000;
  _EFA2_reg_lock();
 }
-# 87 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_efa2.c"
+# 87 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
 static void _EFA2_nand_unlock(void) {
  _EFA2_reg_unlock();
  (*(vu16*)0x09c40000) = 0x01500;
@@ -195,7 +195,7 @@ static void _EFA2_nand_lock(void) {
  (*(vu16*)0x09c40000) = 0x0d200;
  _EFA2_reg_lock();
 }
-# 110 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_efa2.c"
+# 110 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
 static void _EFA2_nand_enable(u16 val) {
  _EFA2_reg_unlock();
  (*(vu16*)0x09400000) = val;
@@ -209,7 +209,7 @@ static void _EFA2_nand_enable(u16 val) {
 static inline void _EFA2_nand_reset(void) {
  (*(vu8*)0x09ffffe2) = 0xff;
 }
-# 135 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_efa2.c"
+# 135 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
 static u32 _EFA2_nand_id(void) {
  u8 byte;
  u32 id;
@@ -232,7 +232,7 @@ static u32 _EFA2_nand_id(void) {
  _EFA2_nand_lock();
  return (id);
 }
-# 167 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_efa2.c"
+# 167 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
 bool _EFA2_clearStatus (void)
 {
 
@@ -250,11 +250,11 @@ bool _EFA2_isInserted (void)
  _EFA2_clearStatus();
  return (_EFA2_nand_id() == 0xEC79A5C0);
 }
-# 194 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_efa2.c"
+# 194 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
 bool _EFA2_readSectors (u32 sector, u32 numSecs, void* buffer)
 {
  int i;
-# 211 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_efa2.c"
+# 211 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
  u32 page = 0x40 + sector;
 
 
@@ -285,14 +285,14 @@ bool _EFA2_readSectors (u32 sector, u32 numSecs, void* buffer)
 
   for (i=0 ; i < 512 ; i++)
    ((u8*)buffer)[i] = (*(vu8*)0x09ffc000);
-# 251 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_efa2.c"
+# 251 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
  }
 
  _EFA2_nand_enable(0);
  _EFA2_nand_lock();
  return true;
 }
-# 268 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_efa2.c"
+# 268 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
 bool _EFA2_writeSectors (u32 sector, u8 numSecs, void* buffer)
 {
 

@@ -20,7 +20,7 @@
 	.type	systemPanic, %function
 systemPanic:
 .LFB35:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoSystem7.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm7/source/NeoSystem7.c"
 	.loc 1 192 0
 	@ Function supports interworking.
 	@ args = 0, pretend = 0, frame = 0
@@ -779,11 +779,11 @@ g_neoContext7:
 	.file 3 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
 	.file 4 "C:/devkitPro/libnds/include/nds/ndstypes.h"
 	.file 5 "C:/devkitPro/libnds/include/nds/fifocommon.h"
-	.file 6 "C:/Users/GRX/NeoDS-master-old/arm7/source/DrZ80.h"
-	.file 7 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoCpuZ80.h"
-	.file 8 "C:/Users/GRX/NeoDS-master-old/arm7/../common/source/NeoIPC.h"
+	.file 6 "C:/Users/GRX/NeoDS/arm7/source/DrZ80.h"
+	.file 7 "C:/Users/GRX/NeoDS/arm7/source/NeoCpuZ80.h"
+	.file 8 "C:/Users/GRX/NeoDS/arm7/../common/source/NeoIPC.h"
 	.file 9 "C:/devkitPro/libnds/include/nds/interrupts.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoSystem7.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm7/source/NeoSystem7.h"
 	.section	.debug_info
 	.4byte	0xa1d
 	.2byte	0x2
@@ -2827,9 +2827,6 @@ g_neoContext7:
 	.ascii	"z80_read16\000"
 .LASF66:
 	.ascii	"PM_GAIN_160\000"
-.LASF169:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm7/source/NeoSystem"
-	.ascii	"7.c\000"
 .LASF63:
 	.ascii	"PM_GAIN_20\000"
 .LASF139:
@@ -2852,8 +2849,8 @@ g_neoContext7:
 	.ascii	"arm7FifoSent\000"
 .LASF35:
 	.ascii	"IRQ_CARD_LINE\000"
-.LASF109:
-	.ascii	"DrZ80\000"
+.LASF169:
+	.ascii	"C:/Users/GRX/NeoDS/arm7/source/NeoSystem7.c\000"
 .LASF17:
 	.ascii	"IRQ_VBLANK\000"
 .LASF2:
@@ -2864,6 +2861,8 @@ g_neoContext7:
 	.ascii	"PM_BACKLIGHT_LEVEL\000"
 .LASF122:
 	.ascii	"arm7FifoProcessed\000"
+.LASF109:
+	.ascii	"DrZ80\000"
 .LASF140:
 	.ascii	"NEOARM7_PAUSE\000"
 .LASF138:

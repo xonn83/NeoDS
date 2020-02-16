@@ -23,7 +23,7 @@
 	.type	neoSaveConfig, %function
 neoSaveConfig:
 .LFB170:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/NeoConfig.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/NeoConfig.c"
 	.loc 1 132 0
 	push	{r4, r5, r6, lr}
 .LCFI0:
@@ -627,11 +627,11 @@ g_szConfigFile:
 	.file 5 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 6 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 7 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 8 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 9 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoVideo.h"
+	.file 8 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 9 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/include/NeoVideo.h"
 	.file 13 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.section	.debug_info
 	.4byte	0xf83
@@ -3642,9 +3642,6 @@ g_szConfigFile:
 	.ascii	"GL_PROJECTION\000"
 .LASF58:
 	.ascii	"OBJSIZE_16\000"
-.LASF216:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/NeoConfig"
-	.ascii	".c\000"
 .LASF23:
 	.ascii	"centerY\000"
 .LASF218:
@@ -3741,6 +3738,8 @@ g_szConfigFile:
 	.ascii	"OBJSHAPE_WIDE\000"
 .LASF156:
 	.ascii	"vramOffset\000"
+.LASF216:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/NeoConfig.c\000"
 .LASF60:
 	.ascii	"OBJSIZE_64\000"
 .LASF48:

@@ -22,7 +22,7 @@
 	.type	_Neo_SendMMCCommand, %function
 _Neo_SendMMCCommand:
 .LFB9:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_nmmc.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_nmmc.c"
 	.loc 1 127 0
 	push	{r4, lr}
 .LCFI0:
@@ -2924,7 +2924,7 @@ _NMMC_spi_freq:
 	.4byte	0x0
 	.file 2 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
 	.file 3 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-	.file 4 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
+	.file 4 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
 	.section	.debug_info
 	.4byte	0xd6e
 	.2byte	0x2
@@ -5591,8 +5591,8 @@ _NMMC_spi_freq:
 	.ascii	"config\000"
 .LASF4:
 	.ascii	"uint8_t\000"
-.LASF49:
-	.ascii	"sector\000"
+.LASF48:
+	.ascii	"_Neo_EnableMMC\000"
 .LASF13:
 	.ascii	"bool\000"
 .LASF14:
@@ -5617,6 +5617,8 @@ _NMMC_spi_freq:
 	.ascii	"transSpeed\000"
 .LASF38:
 	.ascii	"_Neo_ReadMK2Config\000"
+.LASF49:
+	.ascii	"sector\000"
 .LASF26:
 	.ascii	"fn_clearStatus\000"
 .LASF1:
@@ -5649,8 +5651,9 @@ _NMMC_spi_freq:
 	.ascii	"short unsigned int\000"
 .LASF17:
 	.ascii	"FN_MEDIUM_WRITESECTORS\000"
-.LASF48:
-	.ascii	"_Neo_EnableMMC\000"
+.LASF62:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_nm"
+	.ascii	"mc.c\000"
 .LASF12:
 	.ascii	"true\000"
 .LASF22:
@@ -5687,9 +5690,6 @@ _NMMC_spi_freq:
 	.ascii	"FN_MEDIUM_ISINSERTED\000"
 .LASF61:
 	.ascii	"GNU C 4.4.3\000"
-.LASF62:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/di"
-	.ascii	"sc_io/io_nmmc.c\000"
 .LASF52:
 	.ascii	"_NMMC_readSectors\000"
 .LASF44:

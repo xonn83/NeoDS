@@ -23,7 +23,7 @@
 	.type	_FCSR_clearStatus, %function
 _FCSR_clearStatus:
 .LFB1:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_fcsr.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_fcsr.c"
 	.loc 1 105 0
 	.loc 1 107 0
 	mov	r0, #1
@@ -1085,7 +1085,7 @@ _FCSR_FileSysPointer:
 	.4byte	0x0
 	.file 2 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
 	.file 3 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-	.file 4 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
+	.file 4 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
 	.section	.debug_info
 	.4byte	0x4af
 	.2byte	0x2
@@ -2239,9 +2239,9 @@ _FCSR_FileSysPointer:
 	.ascii	"uint8_t\000"
 .LASF44:
 	.ascii	"fileSysPointer\000"
+.LASF55:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_fc"
+	.ascii	"sr.c\000"
 .LASF37:
 	.ascii	"_FCSR_writeSectors\000"
-.LASF55:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/di"
-	.ascii	"sc_io/io_fcsr.c\000"
 	.ident	"GCC: (devkitARM release 30) 4.4.3"

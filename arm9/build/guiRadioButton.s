@@ -23,7 +23,7 @@
 	.type	guiRadioButtonSetGroup, %function
 guiRadioButtonSetGroup:
 .LFB170:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiRadioButton.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/guiRadioButton.c"
 	.loc 1 54 0
 .LVL0:
 	.loc 1 55 0
@@ -480,18 +480,18 @@ __TGuiRadioButtonTypeHeader__:
 	.file 5 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 6 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 7 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 8 "C:/Users/GRX/NeoDS-master-old/arm9/source/Default.h"
-	.file 9 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
-	.file 13 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiEvent.h"
-	.file 14 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiObject.h"
-	.file 15 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiRender.h"
-	.file 16 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiLabel.h"
-	.file 17 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiButton.h"
-	.file 18 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiCheckbox.h"
-	.file 19 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiRadioButton.h"
+	.file 8 "C:/Users/GRX/NeoDS/arm9/source/Default.h"
+	.file 9 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
+	.file 13 "C:/Users/GRX/NeoDS/arm9/source/guiEvent.h"
+	.file 14 "C:/Users/GRX/NeoDS/arm9/source/guiObject.h"
+	.file 15 "C:/Users/GRX/NeoDS/arm9/source/guiRender.h"
+	.file 16 "C:/Users/GRX/NeoDS/arm9/source/guiLabel.h"
+	.file 17 "C:/Users/GRX/NeoDS/arm9/source/guiButton.h"
+	.file 18 "C:/Users/GRX/NeoDS/arm9/source/guiCheckbox.h"
+	.file 19 "C:/Users/GRX/NeoDS/arm9/source/guiRadioButton.h"
 	.file 20 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.section	.debug_info
 	.4byte	0x136e
@@ -3961,9 +3961,6 @@ __TGuiRadioButtonTypeHeader__:
 	.ascii	"OBJSHAPE_FORBIDDEN\000"
 .LASF15:
 	.ascii	"false\000"
-.LASF283:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/guiRadioB"
-	.ascii	"utton.c\000"
 .LASF210:
 	.ascii	"TGUIEVENT_RENDERArg\000"
 .LASF241:
@@ -4080,6 +4077,8 @@ __TGuiRadioButtonTypeHeader__:
 	.ascii	"GUIEVENT_ENABLE\000"
 .LASF167:
 	.ascii	"ctrl4Reg\000"
+.LASF283:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/guiRadioButton.c\000"
 .LASF250:
 	.ascii	"parent\000"
 .LASF131:

@@ -1,13 +1,13 @@
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/file_allocation_table.c"
-# 1 "C:\\Users\\GRX\\NeoDS-master-old\\arm9\\build//"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/file_allocation_table.c"
+# 1 "C:\\Users\\GRX\\NeoDS\\arm9\\build//"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/file_allocation_table.c"
-# 40 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/file_allocation_table.c"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/file_allocation_table.h" 1
-# 39 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/file_allocation_table.h"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/common.h" 1
-# 43 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/common.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/file_allocation_table.c"
+# 40 "C:/Users/GRX/NeoDS/arm9/source/libfat/file_allocation_table.c"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/file_allocation_table.h" 1
+# 39 "C:/Users/GRX/NeoDS/arm9/source/libfat/file_allocation_table.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/common.h" 1
+# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/common.h"
 # 1 "C:/devkitPro/libnds/include/nds/ndstypes.h" 1
 # 68 "C:/devkitPro/libnds/include/nds/ndstypes.h"
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 1 3
@@ -129,16 +129,16 @@ typedef enum { false, true } bool;
 typedef void ( * IntFn)(void);
 typedef void (* VoidFn)(void);
 typedef void (* fp)(void);
-# 44 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/common.h" 2
-# 40 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/file_allocation_table.h" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/partition.h" 1
-# 38 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/partition.h"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.h" 1
-# 36 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.h"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h" 1
-# 37 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.h" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h" 1
-# 61 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
+# 44 "C:/Users/GRX/NeoDS/arm9/source/libfat/common.h" 2
+# 40 "C:/Users/GRX/NeoDS/arm9/source/libfat/file_allocation_table.h" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/partition.h" 1
+# 38 "C:/Users/GRX/NeoDS/arm9/source/libfat/partition.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.h" 1
+# 36 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h" 1
+# 37 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.h" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h" 1
+# 61 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
 typedef bool (* FN_MEDIUM_STARTUP)(void) ;
 typedef bool (* FN_MEDIUM_ISINSERTED)(void) ;
 typedef bool (* FN_MEDIUM_READSECTORS)(u32 sector, u32 numSectors, void* buffer) ;
@@ -158,7 +158,7 @@ struct IO_INTERFACE_STRUCT {
 } ;
 
 typedef struct IO_INTERFACE_STRUCT IO_INTERFACE ;
-# 38 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc.h" 2
+# 38 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.h" 2
 
 
 
@@ -246,11 +246,11 @@ static inline u32 _FAT_disc_hostType (const IO_INTERFACE* disc) {
 static inline u32 _FAT_disc_features (const IO_INTERFACE* disc) {
  return disc->features;
 }
-# 39 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/partition.h" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.h" 1
-# 43 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.h"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h" 1
-# 44 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.h" 2
+# 39 "C:/Users/GRX/NeoDS/arm9/source/libfat/partition.h" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.h" 1
+# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h" 1
+# 44 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.h" 2
 
 
 
@@ -266,11 +266,11 @@ typedef struct {
  CACHE_ENTRY* cacheEntries;
  u8* pages;
 } CACHE;
-# 68 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.h"
+# 68 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.h"
 bool _FAT_cache_readPartialSector (CACHE* cache, void* buffer, u32 sector, u32 offset, u32 size);
-# 78 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.h"
+# 78 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.h"
 bool _FAT_cache_writePartialSector (CACHE* cache, const void* buffer, u32 sector, u32 offset, u32 size);
-# 88 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/cache.h"
+# 88 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.h"
 bool _FAT_cache_eraseWritePartialSector (CACHE* cache, const void* buffer, u32 sector, u32 offset, u32 size);
 
 
@@ -300,7 +300,7 @@ void _FAT_cache_invalidate (CACHE* cache);
 CACHE* _FAT_cache_constructor (u32 numberOfPages, const IO_INTERFACE* discInterface);
 
 void _FAT_cache_destructor (CACHE* cache);
-# 40 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/partition.h" 2
+# 40 "C:/Users/GRX/NeoDS/arm9/source/libfat/partition.h" 2
 
 
 extern const char* DEVICE_NAME;
@@ -384,8 +384,8 @@ bool _FAT_partition_setDefaultPartition (PARTITION* partition);
 
 
 PARTITION* _FAT_partition_getPartitionFromPath (const char* path);
-# 41 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/file_allocation_table.h" 2
-# 51 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/file_allocation_table.h"
+# 41 "C:/Users/GRX/NeoDS/arm9/source/libfat/file_allocation_table.h" 2
+# 51 "C:/Users/GRX/NeoDS/arm9/source/libfat/file_allocation_table.h"
 u32 _FAT_fat_nextCluster(PARTITION* partition, u32 cluster);
 
 u32 _FAT_fat_linkFreeCluster(PARTITION* partition, u32 cluster);
@@ -398,7 +398,7 @@ u32 _FAT_fat_lastCluster (PARTITION* partition, u32 cluster);
 static inline u32 _FAT_fat_clusterToSector (PARTITION* partition, u32 cluster) {
  return (cluster >= 2) ? ((cluster - 2) * partition->sectorsPerCluster) + partition->dataStart : partition->rootDirStart;
 }
-# 41 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/file_allocation_table.c" 2
+# 41 "C:/Users/GRX/NeoDS/arm9/source/libfat/file_allocation_table.c" 2
 
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/string.h" 1 3
 # 10 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/string.h" 3
@@ -814,7 +814,7 @@ char *strupr (char *);
 # 101 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/string.h" 2 3
 
 
-# 43 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/file_allocation_table.c" 2
+# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/file_allocation_table.c" 2
 
 
 

@@ -23,7 +23,7 @@
 	.type	_SD_CRC7, %function
 _SD_CRC7:
 .LFB0:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sd_common.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sd_common.c"
 	.loc 1 50 0
 	push	{r4, r5, r6, r7, lr}
 .LCFI0:
@@ -802,7 +802,7 @@ _SD_InitCard:
 	.4byte	0x0
 	.file 2 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
 	.file 3 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-	.file 4 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sd_common.h"
+	.file 4 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sd_common.h"
 	.section	.debug_info
 	.4byte	0x29d
 	.2byte	0x2
@@ -1492,11 +1492,11 @@ _SD_InitCard:
 	.ascii	"false\000"
 .LASF34:
 	.ascii	"crcConst\000"
+.LASF32:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sd"
+	.ascii	"_common.c\000"
 .LASF3:
 	.ascii	"short unsigned int\000"
-.LASF32:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/di"
-	.ascii	"sc_io/io_sd_common.c\000"
 .LASF27:
 	.ascii	"cmd_6byte_response\000"
 .LASF21:

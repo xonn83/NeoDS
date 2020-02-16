@@ -20,7 +20,7 @@
 	.type	neoIPCInit, %function
 neoIPCInit:
 .LFB28:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm7/../common/source/NeoIPC.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm7/../common/source/NeoIPC.c"
 	.loc 1 34 0
 	@ Function supports interworking.
 	@ args = 0, pretend = 0, frame = 0
@@ -680,10 +680,10 @@ g_ipcState:
 	.file 3 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
 	.file 4 "C:/devkitPro/libnds/include/nds/ndstypes.h"
 	.file 5 "C:/devkitPro/libnds/include/nds/interrupts.h"
-	.file 6 "C:/Users/GRX/NeoDS-master-old/arm7/../common/source/NeoIPC.h"
-	.file 7 "C:/Users/GRX/NeoDS-master-old/arm7/source/DrZ80.h"
-	.file 8 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoCpuZ80.h"
-	.file 9 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoSystem7.h"
+	.file 6 "C:/Users/GRX/NeoDS/arm7/../common/source/NeoIPC.h"
+	.file 7 "C:/Users/GRX/NeoDS/arm7/source/DrZ80.h"
+	.file 8 "C:/Users/GRX/NeoDS/arm7/source/NeoCpuZ80.h"
+	.file 9 "C:/Users/GRX/NeoDS/arm7/source/NeoSystem7.h"
 	.section	.debug_info
 	.4byte	0xa19
 	.2byte	0x2
@@ -2829,6 +2829,8 @@ g_ipcState:
 	.ascii	"IRQ_ALL\000"
 .LASF80:
 	.ascii	"audioStreamCount\000"
+.LASF148:
+	.ascii	"C:/Users/GRX/NeoDS/arm7/../common/source/NeoIPC.c\000"
 .LASF52:
 	.ascii	"IPC_FIFO_ERROR\000"
 .LASF127:
@@ -2901,9 +2903,6 @@ g_ipcState:
 	.ascii	"IRQ_CART\000"
 .LASF72:
 	.ascii	"arm7FifoProcessed\000"
-.LASF148:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm7/../common/source"
-	.ascii	"/NeoIPC.c\000"
 .LASF98:
 	.ascii	"TNeoIPCCommand\000"
 .LASF15:

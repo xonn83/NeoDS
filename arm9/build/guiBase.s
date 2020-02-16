@@ -23,7 +23,7 @@
 	.type	guiFramePush_r, %function
 guiFramePush_r:
 .LFB169:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiBase.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/guiBase.c"
 	.loc 1 47 0
 .LVL0:
 	.loc 1 49 0
@@ -181,7 +181,7 @@ guiFindObjectAt:
 .L26:
 .LBB6:
 .LBB7:
-	.file 2 "C:/Users/GRX/NeoDS-master-old/arm9/source/Default.h"
+	.file 2 "C:/Users/GRX/NeoDS/arm9/source/Default.h"
 	.loc 2 33 0
 	ldr	r4, [r2, #24]
 	str	r4, [sp, #4]
@@ -1553,13 +1553,13 @@ pTouchDownObj.7286:
 	.file 7 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 8 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 9 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
 	.file 13 "C:/devkitPro/libnds/include/nds/input.h"
-	.file 14 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
-	.file 15 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiEvent.h"
-	.file 16 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiObject.h"
+	.file 14 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
+	.file 15 "C:/Users/GRX/NeoDS/arm9/source/guiEvent.h"
+	.file 16 "C:/Users/GRX/NeoDS/arm9/source/guiObject.h"
 	.file 17 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.section	.debug_info
 	.4byte	0x1753
@@ -5833,9 +5833,6 @@ pTouchDownObj.7286:
 	.ascii	"char\000"
 .LASF38:
 	.ascii	"BgState\000"
-.LASF307:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/guiBase.c"
-	.ascii	"\000"
 .LASF84:
 	.ascii	"unused\000"
 .LASF278:
@@ -6060,6 +6057,8 @@ pTouchDownObj.7286:
 	.ascii	"offset\000"
 .LASF127:
 	.ascii	"NEOROM_AUDIOBIOS\000"
+.LASF307:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/guiBase.c\000"
 .LASF140:
 	.ascii	"pRom0\000"
 .LASF122:

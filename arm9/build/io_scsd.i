@@ -1,15 +1,15 @@
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_scsd.c"
-# 1 "C:\\Users\\GRX\\NeoDS-master-old\\arm9\\build//"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_scsd.c"
+# 1 "C:\\Users\\GRX\\NeoDS\\arm9\\build//"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_scsd.c"
-# 50 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_scsd.c"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_scsd.h" 1
-# 43 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_scsd.h"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h" 1
-# 39 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h" 1
-# 43 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_scsd.c"
+# 50 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_scsd.c"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_scsd.h" 1
+# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_scsd.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h" 1
+# 39 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h" 1
+# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h"
 # 1 "C:/devkitPro/libnds/include/nds/ndstypes.h" 1
 # 68 "C:/devkitPro/libnds/include/nds/ndstypes.h"
 # 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 1 3
@@ -131,9 +131,9 @@ typedef enum { false, true } bool;
 typedef void ( * IntFn)(void);
 typedef void (* VoidFn)(void);
 typedef void (* fp)(void);
-# 44 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/../common.h" 2
-# 40 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h" 2
-# 61 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/disc_io.h"
+# 44 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h" 2
+# 40 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h" 2
+# 61 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
 typedef bool (* FN_MEDIUM_STARTUP)(void) ;
 typedef bool (* FN_MEDIUM_ISINSERTED)(void) ;
 typedef bool (* FN_MEDIUM_READSECTORS)(u32 sector, u32 numSectors, void* buffer) ;
@@ -153,13 +153,13 @@ struct IO_INTERFACE_STRUCT {
 } ;
 
 typedef struct IO_INTERFACE_STRUCT IO_INTERFACE ;
-# 44 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_scsd.h" 2
+# 44 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_scsd.h" 2
 
 
 extern const IO_INTERFACE _io_scsd ;
-# 51 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_scsd.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sd_common.h" 1
-# 94 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sd_common.h"
+# 51 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_scsd.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sd_common.h" 1
+# 94 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sd_common.h"
 extern u8 _SD_CRC7(u8* data, int size);
 
 
@@ -170,17 +170,17 @@ extern void _SD_CRC16 (u8* buff, int buffLength, u8* crc16buff);
 
 typedef bool (*_SD_FN_CMD_6BYTE_RESPONSE) (u8* responseBuffer, u8 command, u32 data);
 typedef bool (*_SD_FN_CMD_17BYTE_RESPONSE) (u8* responseBuffer, u8 command, u32 data);
-# 112 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sd_common.h"
+# 112 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sd_common.h"
 extern bool _SD_InitCard (_SD_FN_CMD_6BYTE_RESPONSE cmd_6byte_response,
        _SD_FN_CMD_17BYTE_RESPONSE cmd_17byte_response,
        bool use4bitBus,
        u32 *RCA);
-# 52 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_scsd.c" 2
-# 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sc_common.h" 1
-# 43 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_sc_common.h"
+# 52 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_scsd.c" 2
+# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sc_common.h" 1
+# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_sc_common.h"
 extern void _SC_changeMode (u8 mode);
-# 53 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_scsd.c" 2
-# 83 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_scsd.c"
+# 53 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_scsd.c" 2
+# 83 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_scsd.c"
 static u32 _SCSD_relativeCardAddress = 0;
 
 

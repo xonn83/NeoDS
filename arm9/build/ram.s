@@ -23,7 +23,7 @@
 	.type	_sc_unlock, %function
 _sc_unlock:
 .LFB163:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/ram.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/ram.c"
 	.loc 1 18 0
 	.loc 1 19 0
 	ldr	r3, .L3
@@ -1745,7 +1745,7 @@ _size:
 	.file 6 "C:/devkitPro/libnds/include/nds/dynamicArray.h"
 	.file 7 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 8 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
-	.file 9 "C:/Users/GRX/NeoDS-master-old/arm9/source/ram.h"
+	.file 9 "C:/Users/GRX/NeoDS/arm9/source/ram.h"
 	.file 10 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.section	.debug_info
 	.4byte	0x775
@@ -3517,6 +3517,8 @@ _size:
 	.ascii	"mosaicShadowSub\000"
 .LASF78:
 	.ascii	"_g6_lock\000"
+.LASF100:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/ram.c\000"
 .LASF98:
 	.ascii	"_types\000"
 .LASF70:
@@ -3689,8 +3691,6 @@ _size:
 	.ascii	"_ram_test\000"
 .LASF55:
 	.ascii	"OBJSIZE_8\000"
-.LASF100:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/ram.c\000"
 .LASF54:
 	.ascii	"OBJSHAPE_FORBIDDEN\000"
 .LASF91:

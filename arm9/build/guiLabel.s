@@ -22,7 +22,7 @@
 	.type	__TGuiLabelTypeHandler__, %function
 __TGuiLabelTypeHandler__:
 .LFB168:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiLabel.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/guiLabel.c"
 	.loc 1 6 0
 	push	{r4, r5, lr}
 .LCFI0:
@@ -378,15 +378,15 @@ __TGuiLabelTypeHeader__:
 	.file 6 "C:/devkitPro/libnds/include/nds/arm9/videoGL.h"
 	.file 7 "C:/devkitPro/libnds/include/nds/arm9/sprite.h"
 	.file 8 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/include/stdarg.h"
-	.file 9 "C:/Users/GRX/NeoDS-master-old/arm9/source/Default.h"
-	.file 10 "C:/Users/GRX/NeoDS-master-old/arm9/include/cyclone.h"
-	.file 11 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoCpu.h"
-	.file 12 "C:/Users/GRX/NeoDS-master-old/arm9/../common/source/NeoAudioStream.h"
-	.file 13 "C:/Users/GRX/NeoDS-master-old/arm9/include/NeoSystem.h"
-	.file 14 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiEvent.h"
-	.file 15 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiObject.h"
-	.file 16 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiRender.h"
-	.file 17 "C:/Users/GRX/NeoDS-master-old/arm9/source/guiLabel.h"
+	.file 9 "C:/Users/GRX/NeoDS/arm9/source/Default.h"
+	.file 10 "C:/Users/GRX/NeoDS/arm9/include/cyclone.h"
+	.file 11 "C:/Users/GRX/NeoDS/arm9/include/NeoCpu.h"
+	.file 12 "C:/Users/GRX/NeoDS/arm9/../common/source/NeoAudioStream.h"
+	.file 13 "C:/Users/GRX/NeoDS/arm9/include/NeoSystem.h"
+	.file 14 "C:/Users/GRX/NeoDS/arm9/source/guiEvent.h"
+	.file 15 "C:/Users/GRX/NeoDS/arm9/source/guiObject.h"
+	.file 16 "C:/Users/GRX/NeoDS/arm9/source/guiRender.h"
+	.file 17 "C:/Users/GRX/NeoDS/arm9/source/guiLabel.h"
 	.file 18 "C:/devkitPro/libnds/include/nds/arm9/video.h"
 	.section	.debug_info
 	.4byte	0x11e2
@@ -3820,6 +3820,8 @@ __TGuiLabelTypeHeader__:
 	.ascii	"tileOffsetY\000"
 .LASF17:
 	.ascii	"bool\000"
+.LASF254:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/guiLabel.c\000"
 .LASF107:
 	.ascii	"NEOROM_MAINPROGRAM\000"
 .LASF45:
@@ -3968,9 +3970,6 @@ __TGuiLabelTypeHeader__:
 	.ascii	"fetch16\000"
 .LASF200:
 	.ascii	"GUIEVENT_RENDER\000"
-.LASF254:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/guiLabel."
-	.ascii	"c\000"
 .LASF53:
 	.ascii	"OBJSHAPE_SQUARE\000"
 .LASF137:

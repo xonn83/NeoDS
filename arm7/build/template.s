@@ -19,7 +19,7 @@
 	.type	VcountHandler, %function
 VcountHandler:
 .LFB28:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm7/source/template.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm7/source/template.c"
 	.loc 1 66 0
 	@ Function supports interworking.
 	@ args = 0, pretend = 0, frame = 0
@@ -223,12 +223,12 @@ main:
 	.byte	0x51
 	.4byte	0x0
 	.4byte	0x0
-	.file 3 "C:/Users/GRX/NeoDS-master-old/arm7/source/DrZ80.h"
+	.file 3 "C:/Users/GRX/NeoDS/arm7/source/DrZ80.h"
 	.file 4 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
-	.file 5 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoCpuZ80.h"
-	.file 6 "C:/Users/GRX/NeoDS-master-old/arm7/source/NeoSystem7.h"
+	.file 5 "C:/Users/GRX/NeoDS/arm7/source/NeoCpuZ80.h"
+	.file 6 "C:/Users/GRX/NeoDS/arm7/source/NeoSystem7.h"
 	.file 7 "C:/devkitPro/libnds/include/nds/interrupts.h"
-	.file 8 "C:/Users/GRX/NeoDS-master-old/arm7/../common/source/NeoIPC.h"
+	.file 8 "C:/Users/GRX/NeoDS/arm7/../common/source/NeoIPC.h"
 	.file 9 "C:/devkitPro/libnds/include/nds/ndstypes.h"
 	.section	.debug_info
 	.4byte	0x520
@@ -1320,8 +1320,7 @@ main:
 .LASF94:
 	.ascii	"SetYtrigger\000"
 .LASF92:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm7/source/template."
-	.ascii	"c\000"
+	.ascii	"C:/Users/GRX/NeoDS/arm7/source/template.c\000"
 .LASF31:
 	.ascii	"IRQ_SPI\000"
 .LASF85:

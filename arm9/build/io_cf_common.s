@@ -23,7 +23,7 @@
 	.type	_CF_isInserted, %function
 _CF_isInserted:
 .LFB0:
-	.file 1 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_cf_common.c"
+	.file 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_cf_common.c"
 	.loc 1 64 0
 	.loc 1 66 0
 	ldr	r3, .L3
@@ -1093,7 +1093,7 @@ cfRegisters:
 	.4byte	0x0
 	.file 2 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h"
 	.file 3 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-	.file 4 "C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/disc_io/io_cf_common.h"
+	.file 4 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_cf_common.h"
 	.section	.debug_info
 	.4byte	0x32b
 	.2byte	0x2
@@ -1927,9 +1927,6 @@ cfRegisters:
 	.ascii	"lba4\000"
 .LASF41:
 	.ascii	"cfRegisters\000"
-.LASF40:
-	.ascii	"C:/Users/GRX/NeoDS-master-old/arm9/source/libfat/di"
-	.ascii	"sc_io/io_cf_common.c\000"
 .LASF1:
 	.ascii	"unsigned char\000"
 .LASF20:
@@ -1970,6 +1967,9 @@ cfRegisters:
 	.ascii	"error\000"
 .LASF39:
 	.ascii	"GNU C 4.4.3\000"
+.LASF40:
+	.ascii	"C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_cf"
+	.ascii	"_common.c\000"
 .LASF37:
 	.ascii	"_CF_startup\000"
 .LASF18:
