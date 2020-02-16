@@ -1,8 +1,3 @@
---- xonn83 ini mod ---
-I'm trying to configure screen swap feature everytime the user press pause button (L shoulder) or a new rom is loaded.
-The main objetive is allow using this great emulator in a GameBoy Macro (a DS console with only the lower screen).
---- xonn83 end mod ---
-
 NeoDS v0.2.0 by Ben Ingram
 Website: http://groups.google.com/group/neods
 Forums: http://boards.pocketheaven.com/viewforum.php?f=43

@@ -1,0 +1,2915 @@
+Archive member included because of file (symbol)
+
+C:/devkitPro/libnds/lib\libnds9.a(keys.o)
+                              EmuSystem.o (scanKeys)
+C:/devkitPro/libnds/lib\libnds9.a(touch.o)
+                              guiBase.o (touchRead)
+C:/devkitPro/libnds/lib\libnds9.a(video.o)
+                              NeoVideoSprites.arm.o (vramSetMainBanks)
+C:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb/ds_arm9_crt0.o (initSystem)
+C:/devkitPro/libnds/lib\libnds9.a(card.o)
+                              io_nmmc.o (cardWriteCommand)
+C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+                              C:/devkitPro/libnds/lib\libnds9.a(initSystem.o) (fifoSetValue32Handler)
+C:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+                              EmuSystem.o (irqSet)
+C:/devkitPro/libnds/lib\libnds9.a(libnds_exit.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb/ds_arm9_crt0.o (__libnds_exit)
+C:/devkitPro/libnds/lib\libnds9.a(dcache.o)
+                              guiRender.o (DC_FlushAll)
+C:/devkitPro/libnds/lib\libnds9.a(mpu_setup.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb/ds_arm9_crt0.o (__libnds_mpu_setup)
+C:/devkitPro/libnds/lib\libnds9.a(biosCalls.o)
+                              NeoVideo.o (swiIntrWait)
+C:/devkitPro/libnds/lib\libnds9.a(interruptDispatcher.o)
+                              C:/devkitPro/libnds/lib\libnds9.a(interrupts.o) (IntrMain)
+C:/devkitPro/libnds/lib\libnds9.a(swiSoftReset.o)
+                              C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o) (swiSoftReset)
+C:/devkitPro/libnds/lib\libnds9.a(system.o)
+                              C:/devkitPro/libnds/lib\libnds9.a(libnds_exit.o) (powerOn)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb\libgcc.a(_udivsi3.o)
+                              guiStatus.o (__aeabi_uidiv)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb\libgcc.a(_divsi3.o)
+                              NeoVideoFixed.arm.o (__aeabi_idiv)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb\libgcc.a(_dvmd_tls.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb\libgcc.a(_udivsi3.o) (__div0)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-ctype_.o)
+                              Sprintf.o (__ctype_ptr__)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-init.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb/ds_arm9_crt0.o (__libc_init_array)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-lcltime.o)
+                              filetime.o (localtime)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-lcltime_r.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-lcltime.o) (localtime_r)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-malloc.o)
+                              cache.o (free)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-mallocr.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-malloc.o) (_malloc_r)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-memcpy.o)
+                              NeoConfig.o (memcpy)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-memmove.o)
+                              directory.o (memmove)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-memset.o)
+                              guiBase.o (memset)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-mktm_r.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-lcltime_r.o) (_mktm_r)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-mlock.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-mallocr.o) (__malloc_lock)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-qsort.o)
+                              NeoSystem.o (qsort)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-realloc.o)
+                              EmuSystem.o (realloc)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-reallocr.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-realloc.o) (_realloc_r)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcasecmp.o)
+                              NeoSystem.o (strcasecmp)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcat.o)
+                              NeoConfig.o (strcat)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strchr.o)
+                              NeoSystem.o (strchr)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcmp.o)
+                              NeoSystem.o (strcmp)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcpy.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcat.o) (strcpy)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strdup.o)
+                              NeoSystem.o (strdup)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strdup_r.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strdup.o) (_strdup_r)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strlen.o)
+                              directory.o (strlen)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strncasecmp.o)
+                              directory.o (strncasecmp)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strncmp.o)
+                              directory.o (strncmp)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strncpy.o)
+                              guiLabel.o (strncpy)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strnlen.o)
+                              directory.o (strnlen)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strpbrk.o)
+                              directory.o (strpbrk)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strrchr.o)
+                              NeoConfig.o (strrchr)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strupr.o)
+                              directory.o (strupr)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysclose.o)
+                              EmuSystem.o (close)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysfstat.o)
+                              EmuSystem.o (fstat)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-syslseek.o)
+                              EmuSystem.o (lseek)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysopen.o)
+                              EmuSystem.o (open)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysread.o)
+                              EmuSystem.o (read)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-syswrite.o)
+                              EmuSystem.o (write)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-time.o)
+                              filetime.o (time)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-tzlock.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-mktm_r.o) (__tz_lock)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-tzvars.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-mktm_r.o) (_daylight)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-freer.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-malloc.o) (_free_r)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-gettzinfo.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-mktm_r.o) (__gettzinfo)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-impure.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-lcltime.o) (_impure_ptr)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(iosupport.o)
+                              libfat.o (AddDevice)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(close.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysclose.o) (_close_r)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(fstat.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysfstat.o) (_fstat_r)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(lseek.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-syslseek.o) (_lseek_r)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(open.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysopen.o) (_open_r)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(read.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysread.o) (_read_r)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(sbrk.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-mallocr.o) (_sbrk_r)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(times.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-time.o) (_gettimeofday_r)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(write.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-syswrite.o) (_write_r)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(malloc_vars.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb/ds_arm9_crt0.o (fake_heap_end)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(chdir.o)
+                              libfat.o (chdir)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(dir.o)
+                              NeoSystem.o (dirnext)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(build_argv.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb/ds_arm9_crt0.o (build_argv)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(syscall_support.o)
+                              C:/devkitPro/libnds/lib\libnds9.a(initSystem.o) (__syscalls)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(handle_manager.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(close.o) (__get_handle)
+c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-errno.o)
+                              c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(times.o) (__errno)
+
+Allocating common symbols
+Common symbol       size              file
+
+g_jediTable         0xc40             NeoAudioStream.arm.o
+fifo_datamsg_data   0x40              C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+fifo_buffer         0x800             C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+g_header            0x74              NeoSystem.o
+fifo_value32_func   0x40              C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+fifo_address_func   0x40              C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+g_currentFps        0x4               NeoVideo.o
+g_frames            0x4               NeoVideo.o
+fifo_value32_data   0x40              C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+fifo_value32_queue  0x40              C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+fifo_data_queue     0x40              C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+punixTime           0x4               c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(times.o)
+fifo_address_data   0x40              C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+g_spriteCount       0x4               NeoVideoSprites.arm.o
+fifo_datamsg_func   0x40              C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+fifo_address_queue  0x40              C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x08000000         0x02000000
+ewram            0x02000000         0x003ff000
+dtcm             0x0b000000         0x00004000
+vectors          0x01000000         0x00000100
+itcm             0x01000100         0x00007f00
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x01000000                __vectors_start = 0x1000000
+                0x01000100                __itcm_start = 0x1000100
+                0x023ff000                __ewram_end = 0x23ff000
+                0x023ff000                __eheap_end = 0x23ff000
+                0x0b000000                __dtcm_start = 0xb000000
+                0x0b004000                __dtcm_top = 0xb004000
+                0x0b003ff8                __irq_flags = (__dtcm_top - 0x8)
+                0x0b003ffc                __irq_vector = (__dtcm_top - 0x4)
+                0x0b003f00                __sp_svc = (__dtcm_top - 0x100)
+                0x0b003e00                __sp_irq = (__sp_svc - 0x100)
+                0x0b003d00                __sp_usr = (__sp_irq - 0x100)
+
+.init           0x02000000      0x23c
+                0x02000000                __text_start = .
+ *(.init)
+ .init          0x02000000      0x230 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb/ds_arm9_crt0.o
+                0x02000000                _start
+ .init          0x02000230        0x4 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crti.o
+                0x02000230                _init
+ .init          0x02000234        0x8 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtn.o
+                0x0200023c                . = ALIGN (0x4)
+
+.plt
+ *(.plt)
+
+.text           0x02000240    0x2dc48
+ *(EXCLUDE_FILE(*.itcm*) .text)
+ .text          0x02000240        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb/ds_arm9_crt0.o
+ .text          0x02000240        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crti.o
+ .text          0x02000240       0x6c c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtbegin.o
+ .text          0x020002ac        0x0 gui.bin.o
+ .text          0x020002ac        0x0 Disa.o
+ .text          0x020002ac      0x294 EmuSystem.o
+                0x020002bc                systemGetMs
+                0x020002c8                systemWaitKey
+                0x020002f8                systemPanic_d
+                0x0200033c                systemRamReset
+                0x0200034c                systemGetRamFree
+                0x0200035c                systemRamAlloc
+                0x02000370                systemIsSlot2Active
+                0x0200037c                systemInit
+                0x020003e0                systemFileSize
+                0x02000408                systemClose
+                0x02000428                systemWrite
+                0x02000470                systemSeek
+                0x0200049c                systemRead
+                0x020004c4                systemReadOffset
+                0x020004fc                systemOpen
+                0x02000530                systemRealloc
+                0x02000538                systemAlloc
+ .text          0x02000540      0x3a4 guiBase.o
+                0x02000540                guiFramePush_r
+                0x02000550                guiFrameNew_r
+                0x02000560                guiFramePop
+                0x0200056c                guiGetRoot
+                0x02000580                guiHeapAlloc
+                0x02000598                guiFindObjectAt
+                0x02000620                guiBroadcastEvent
+                0x02000644                guiSystemRender
+                0x02000650                guiObjAllocChild_r
+                0x020006ac                guiObjCreateChild_r
+                0x020006c0                guiSystemProcess
+                0x020008bc                guiSystemInit
+ .text          0x020008e4       0x74 guiButton.o
+ .text          0x02000958       0x90 guiCheckbox.o
+                0x02000958                guiCheckboxSetChecked
+ .text          0x020009e8      0x150 guiConsole.o
+                0x020009e8                guiConsoleLog
+                0x02000ac4                guiConsoleLogfv
+                0x02000ae0                guiConsoleLogf
+                0x02000af8                guiConsoleDump
+ .text          0x02000b38       0x6c guiLabel.o
+                0x02000b74                guiLabelSetTextv
+                0x02000b90                guiLabelSetText
+ .text          0x02000ba4      0x138 guiMenu.o
+                0x02000c90                guiMenuAddItem
+                0x02000cb0                guiMenuCreateChild
+ .text          0x02000cdc      0x154 guiObject.o
+                0x02000ce0                guiObjIsType_r
+                0x02000cf8                guiObjGetGlobalBounds
+                0x02000d58                guiObjRenderDirty
+                0x02000d9c                guiObjSetHandler
+                0x02000da4                guiObjForeachChild
+                0x02000dbc                guiObjSendEvent
+ .text          0x02000e30       0xd0 guiRadioButton.o
+                0x02000e30                guiRadioButtonSetGroup
+ .text          0x02000f00      0x314 guiRender.o
+                0x02000f00                guiRenderLogo
+                0x02000f4c                guiRenderFrame
+                0x02001014                guiRenderFrameBounds
+                0x02001038                guiRenderChar
+                0x0200104c                guiRenderVertString
+                0x0200107c                guiRenderString
+                0x020010b0                guiRenderStringn
+                0x020010e8                guiRenderClearBounds
+                0x02001138                guiRenderClear
+                0x0200115c                guiRenderInit
+ .text          0x02001214       0xfc guiStatus.o
+ .text          0x02001310        0x0 LayoutDebug.o
+ .text          0x02001310      0x33c LayoutInput.o
+ .text          0x0200164c      0x524 LayoutMain.o
+ .text          0x02001b70      0x1fc LayoutRomSelect.o
+ .text          0x02001d6c       0x48 LinearHeap.o
+                0x02001d6c                linearHeapInit
+                0x02001d78                linearHeapAlloc
+                0x02001d90                linearHeapReset
+                0x02001d98                linearHeapClear
+                0x02001dac                linearHeapGetFree
+ .text          0x02001db4      0xcec NeoAudioStream.arm.o
+                0x020024ec                neoAudioStreamProcess
+                0x02002838                neoAudioStreamReset
+                0x0200291c                neoAudioStreamInit
+ .text          0x02002aa0      0x298 NeoConfig.o
+                0x02002aa0                neoSaveConfig
+                0x02002bb4                neoLoadConfig
+ .text          0x02002d38      0x468 NeoCpu.o
+                0x02002d38                cpuNullWrite8
+                0x02002d3c                cpuNullWrite16
+                0x02002d40                cpuNullWrite32
+                0x02002d44                cpuUnmapped8
+                0x02002d48                cpuUnmapped16
+                0x02002d50                cpuUnmapped32
+                0x02002d58                neoCpuInitMemoryTable
+                0x020030c0                neoDebugCpuCheckPc
+                0x020030d8                cpuReset
+                0x02003100                cpuDisassemble
+                0x02003104                cpuInterrupt
+                0x0200310c                cpuGetPC
+                0x02003114                cpuExecute
+                0x02003128                cpuInit
+ .text          0x020031a0       0xc8 NeoIO.o
+                0x020031a0                neoWriteSystemLatch16
+                0x02003214                neoWriteAudioCommand16
+                0x02003240                neoWriteAudioCommand8
+ .text          0x02003268      0x588 NeoMemory.o
+                0x02003268                neoSetRomBankAddr
+                0x02003278                neoWriteRomBank
+                0x020032b4                neoReadCard16
+                0x020032e4                neoWriteCard8
+                0x0200330c                neoWriteCard16
+                0x02003330                neoEvictBank
+                0x02003350                neoEvictBank2
+                0x02003370                neoMemoryLoadProgramVector
+                0x02003394                neoMemoryLoadBiosVector
+                0x020033a8                neoMemoryInit
+                0x02003668                neoLoadBank
+                0x020036b4                neoLoadBank2
+                0x02003758                neoBankPC
+                0x020037dc                neoBankedRomPc
+ .text          0x020037f0        0x0 NeoProfiler.o
+ .text          0x020037f0      0x6d0 NeoProtection.o
+                0x020039f0                neoInstallProtection
+ .text          0x02003ec0      0x7e8 NeoSystem.o
+                0x02003ec0                neoSystemIPCSync
+                0x02003ec4                neoSystemRegionSize
+                0x02003ed4                neoSystemSetClockDivide
+                0x02003ef0                neoSystemGetRomCount
+                0x02003efc                neoSystemGetRomName
+                0x02003f0c                neoSystemSetEnabled
+                0x020040bc                neoSystemExecute
+                0x020041c4                neoSystemIrq
+                0x020041d8                neoSystemIrqAk
+                0x02004214                neoSystemClose
+                0x02004238                neoSystemOpen
+                0x020044a4                neoSystemInit
+                0x02004584                stringCompare
+                0x02004590                neoSystemVramHAlloc
+                0x020045a4                neoSystemReadRom
+                0x020045c0                neoSystemReadRegion
+                0x020045dc                neoSystemLoadRegionEx
+                0x02004610                neoSystemLoadRegion
+                0x0200461c                neoSystemReset
+                0x02004660                neoSystemLoadTile
+                0x02004678                neoSystemLoadSprite2
+                0x02004690                neoSystemLoadSprite
+ .text          0x020046a8      0x530 NeoVideo.o
+                0x020046a8                neoVideoSetSize
+                0x020046b4                neoVideoGetSize
+                0x020046f0                neoVideoExit
+                0x020049ac                neoVideoInit
+                0x02004ae0                neoVideoDrawFrame
+ .text          0x02004bd8      0x598 NeoVideoFixed.arm.o
+                0x02004bd8                neoFixedExit
+                0x02004bdc                neoLoadTiles
+                0x02004c74                neoDrawFixed
+                0x02005078                neoFixedInit
+ .text          0x02005170      0x384 NeoVideoPalette.arm.o
+                0x02005170                neoVideoPaletteBank
+                0x02005194                neoPaletteExit
+                0x02005198                neoUpdatePalette
+                0x02005368                neoLoadPalette
+                0x020054d8                neoPaletteInit
+ .text          0x020054f4      0x8e8 NeoVideoSprites.arm.o
+                0x020054f4                neoSpriteExit
+                0x020054f8                neoLoadSprites
+                0x0200558c                neoDrawSprites
+                0x02005ba8                neoSpriteInit
+ .text          0x02005ddc      0x368 pd4990a.o
+                0x02005ddc                pd4990a_init
+                0x02005e10                pd4990a_increment_month
+                0x02005e4c                pd4990a_increment_day
+                0x02005efc                pd4990a_addretrace
+                0x02005f8c                read_4990_output
+                0x02005fa4                read_4990_testbit
+                0x02005fb0                read_4990_databit
+                0x02006030                pd4990a_serial_control
+                0x02006134                neoWrite4990a16
+ .text          0x02006144      0x550 ram.o
+                0x02006144                _sc_unlock
+                0x02006160                _sc_lock
+                0x02006178                _m3_unlock
+                0x020061fc                _m3_lock
+                0x02006280                _opera_unlock
+                0x02006290                _opera_lock
+                0x0200629c                _g6_unlock
+                0x02006310                _g6_lock
+                0x02006380                _ez_unlock
+                0x020063f4                _ez_lock
+                0x0200649c                ram_init
+                0x020065f4                ram_type
+                0x02006600                ram_type_string
+                0x02006614                ram_size
+                0x02006620                ram_unlock
+                0x02006648                ram_lock
+                0x0200666c                ram_turbo
+ .text          0x02006694      0x590 Sprintf.o
+                0x0200685c                neoVsnprintf
+                0x02006c08                neoSprintf
+ .text          0x02006c24       0x7c template.o
+                0x02006c24                main
+ .text          0x02006ca0      0x270 cache.o
+                0x02006d3c                _FAT_cache_flush
+                0x02006d80                _FAT_cache_invalidate
+                0x02006da4                _FAT_cache_eraseWritePartialSector
+                0x02006e00                _FAT_cache_writePartialSector
+                0x02006e48                _FAT_cache_readPartialSector
+                0x02006e88                _FAT_cache_destructor
+                0x02006ea4                _FAT_cache_constructor
+ .text          0x02006f10      0xe14 directory.o
+                0x02006f78                _FAT_directory_entryGetCluster
+                0x02006f90                _FAT_directory_entryStat
+                0x0200705c                _FAT_directory_getRootEntry
+                0x02007124                _FAT_directory_removeEntry
+                0x020071e4                _FAT_directory_entryFromPosition
+                0x020072ec                _FAT_directory_getNextEntry
+                0x0200749c                _FAT_directory_getFirstEntry
+                0x02007538                _FAT_directory_entryFromPath
+                0x020076cc                _FAT_directory_chdir
+                0x02007708                _FAT_directory_isValidAlias
+                0x02007790                _FAT_directory_isValidLfn
+                0x020077d4                _FAT_directory_addEntry
+ .text          0x02007d24      0x5e4 fatdir.o
+                0x02007d24                _FAT_link_r
+                0x02007d30                _FAT_dirclose_r
+                0x02007d40                _FAT_dirnext_r
+                0x02007d98                _FAT_dirreset_r
+                0x02007dcc                _FAT_stat_r
+                0x02007e30                _FAT_diropen_r
+                0x02007ebc                _FAT_mkdir_r
+                0x02008074                _FAT_rename_r
+                0x0200819c                _FAT_chdir_r
+                0x020081f8                _FAT_unlink_r
+ .text          0x02008308      0xc74 fatfile.o
+                0x02008308                _FAT_fstat_r
+                0x0200837c                _FAT_cluster_lookup
+                0x020083f4                _FAT_seek_r
+                0x0200867c                _FAT_write_r
+                0x020089b8                _FAT_read_r
+                0x02008c08                _FAT_close_r
+                0x02008d14                _FAT_open_r
+ .text          0x02008f7c      0x330 file_allocation_table.o
+                0x02008f7c                _FAT_fat_nextCluster
+                0x02009054                _FAT_fat_lastCluster
+                0x02009190                _FAT_fat_clearLinks
+                0x020091d8                _FAT_fat_linkFreeCluster
+                0x02009250                _FAT_fat_linkFreeClusterCleared
+ .text          0x020092ac      0x104 filetime.o
+                0x020092ac                _FAT_filetime_to_time_t
+                0x02009304                _FAT_filetime_getDateFromRTC
+                0x0200935c                _FAT_filetime_getTimeFromRTC
+ .text          0x020093b0       0x68 libfat.o
+                0x020093b0                fatSetDefaultInterface
+                0x020093b8                fatUnsafeUnmount
+                0x020093c0                fatUnmount
+                0x020093c8                fatMountCustomInterface
+                0x020093d0                fatMountNormalInterface
+                0x020093d8                fatInit
+                0x0200940c                fatInitDefault
+ .text          0x02009418      0x484 partition.o
+                0x02009418                _FAT_partition_setDefaultInterface
+                0x0200943c                _FAT_partition_setDefaultPartition
+                0x02009468                _FAT_partition_getPartitionFromPath
+                0x020094e8                _FAT_partition_unsafeUnmount
+                0x0200953c                _FAT_partition_unmount
+                0x020097f4                _FAT_partition_mountCustomInterface
+                0x02009838                _FAT_partition_mount
+ .text          0x0200989c       0xbc disc.o
+                0x0200989c                _FAT_disc_gbaSlotFindInterface
+                0x020098dc                _FAT_disc_dsSlotFindInterface
+                0x02009920                _FAT_disc_findInterface
+ .text          0x02009958      0x2d8 io_cf_common.o
+                0x02009958                _CF_isInserted
+                0x02009974                _CF_clearStatus
+                0x020099c4                _CF_readSectors
+                0x02009ad4                _CF_writeSectors
+                0x02009be4                _CF_shutdown
+                0x02009bec                _CF_startup
+ .text          0x02009c30      0x20c io_efa2.o
+                0x02009ce8                _EFA2_clearStatus
+                0x02009cec                _EFA2_isInserted
+                0x02009d00                _EFA2_readSectors
+                0x02009de0                _EFA2_writeSectors
+                0x02009de4                _EFA2_shutdown
+                0x02009de8                _EFA2_startUp
+ .text          0x02009e3c      0x298 io_fcsr.o
+                0x02009e3c                _FCSR_clearStatus
+                0x02009e40                _FCSR_writeSectors
+                0x02009e94                _FCSR_shutdown
+                0x02009ebc                _FCSR_startUp
+                0x0200a004                _FCSR_isInserted
+                0x0200a05c                _FCSR_readSectors
+ .text          0x0200a0d4       0x70 io_m3_common.o
+                0x0200a0d4                _M3_changeMode
+ .text          0x0200a144       0x18 io_m3cf.o
+                0x0200a144                _M3CF_startup
+ .text          0x0200a15c      0x558 io_m3sd.o
+                0x0200a354                _M3SD_cmd_6byte_response
+                0x0200a36c                _M3SD_cmd_17byte_response
+                0x0200a408                _M3SD_isInserted
+                0x0200a438                _M3SD_readSectors
+                0x0200a4a4                _M3SD_shutdown
+                0x0200a55c                _M3SD_clearStatus
+                0x0200a564                _M3SD_startUp
+                0x0200a578                _M3SD_writeSectors
+ .text          0x0200a6b4       0x10 io_mpcf.o
+                0x0200a6b4                _MPCF_startup
+ .text          0x0200a6c4      0x8ac io_njsd.o
+                0x0200a830                _NJSD_cmd_6byte_response
+                0x0200a848                _NJSD_cmd_17byte_response
+                0x0200a860                _NJSD_isInserted
+                0x0200a884                _NJSD_clearStatus
+                0x0200a8e8                _NJSD_shutdown
+                0x0200a8f0                _NJSD_readSectors
+                0x0200aaa8                _NJSD_writeSectors
+                0x0200aeac                _NJSD_startup
+ .text          0x0200af70      0x6d8 io_nmmc.o
+                0x0200b088                _NMMC_readSectors
+                0x0200b168                _NMMC_writeSectors
+                0x0200b2ec                _NMMC_clearStatus
+                0x0200b394                _NMMC_shutdown
+                0x0200b39c                _NMMC_startUp
+                0x0200b5b8                _NMMC_isInserted
+ .text          0x0200b648       0x18 io_sc_common.o
+                0x0200b648                _SC_changeMode
+ .text          0x0200b660       0x14 io_sccf.o
+                0x0200b660                _SCCF_startup
+ .text          0x0200b674      0x340 io_scsd.o
+                0x0200b764                _SCSD_shutdown
+                0x0200b830                _SCSD_clearStatus
+                0x0200b838                _SCSD_startUp
+                0x0200b848                _SCSD_readSectors
+                0x0200b8b8                _SCSD_isInserted
+                0x0200b8e8                _SCSD_cmd_17byte_response
+                0x0200b900                _SCSD_cmd_6byte_response
+                0x0200b918                _SCSD_writeSectors
+ .text          0x0200b9b4      0x208 io_sd_common.o
+                0x0200b9b4                _SD_CRC7
+                0x0200b9f4                _SD_CRC16
+                0x0200bacc                _SD_InitCard
+ .text          0x0200bbbc      0x1cc NeoIPC.o
+                0x0200bbbc                neoIPCInit
+                0x0200bbdc                neoIPCSendCommandAsync
+                0x0200bc28                neoIPCCheckCommandDone
+                0x0200bc4c                neoIPCRecvCommand
+                0x0200bc70                neoIPCAckCommand
+                0x0200bca0                neoIPCWaitCommand
+                0x0200bd0c                neoIPCWaitCommandDone
+                0x0200bd38                neoIPCSendCommand
+ *fill*         0x0200bd88        0x8 ff
+ .text          0x0200bd90    0x15840 Cyclone.o
+                0x0200bd90                CycloneVer
+                0x0200bd94                CycloneRun
+                0x0200bdf0                CycloneEndNoBack
+                0x0200be08                CycloneInit
+                0x0200be0c                CycloneSetSr
+                0x0200be3c                CycloneGetSr
+                0x0200be6c                CyclonePack
+                0x0200bec4                CycloneUnpack
+                0x0200bf24                CycloneFlushIrq
+ .text          0x020215d0       0x70 NeoAudioStreamAsm.o
+ .text          0x02021640        0x0 NeoCpuAsm.o
+ .text          0x02021640      0x1b0 NeoIOAsm.o
+                0x02021640                neoIOInit
+                0x020216b0                neoReadVideo16
+                0x020216bc                neoReadVideo8
+                0x020216e0                neoReadVideo32
+                0x02021754                neoWriteWatchdog16
+                0x02021760                neoWriteWatchdog8
+                0x02021770                neoReadCtrl116
+                0x020217ac                neoReadCtrl216
+                0x020217b4                neoReadCtrl316
+                0x020217bc                neoReadCoin16
+ .text          0x020217f0      0x198 NeoMemoryAsm.o
+                0x020217f0                neoWriteSram8
+                0x02021828                neoWriteSram16
+                0x0202185c                neoReadSram8
+                0x02021870                neoReadSram16
+                0x02021884                neoReadSram32
+                0x02021914                neoReadBankedRom8Uncached
+                0x02021930                neoReadBankedRom16Uncached
+                0x02021948                neoReadBankedRom32Uncached
+                0x02021968                neoBankedPcUncached
+ .text          0x02021988       0x90 NeoVideoAsm.o
+                0x02021988                neoVideoWritePal16
+                0x020219c4                neoVideoWritePal8
+                0x020219fc                neoVideoReadPal16
+ *fill*         0x02021a18       0x28 ff
+ .text          0x02021a40     0x8000 io_dldi.o
+                0x02021aa0                _io_dldi
+ .text          0x02029a40       0xc0 io_scsd_s.o
+                0x02029a40                _SCSD_writeData_s
+ .text          0x02029b00       0xfc C:/devkitPro/libnds/lib\libnds9.a(keys.o)
+                0x02029b00                scanKeys
+                0x02029b70                keysHeld
+                0x02029b7c                keysDown
+                0x02029b8c                keysDownRepeat
+                0x02029b9c                keysSetRepeat
+                0x02029bb4                keysUp
+                0x02029bc4                keysCurrent
+ .text          0x02029bfc       0x4c C:/devkitPro/libnds/lib\libnds9.a(touch.o)
+                0x02029bfc                touchRead
+                0x02029c24                touchReadXY
+ .text          0x02029c48       0x90 C:/devkitPro/libnds/lib\libnds9.a(video.o)
+                0x02029c48                vramSetMainBanks
+                0x02029c8c                vramRestoreMainBanks
+                0x02029c98                setBrightness
+ .text          0x02029cd8      0x10c C:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+                0x02029cd8                initSystem
+ .text          0x02029de4      0x6b0 C:/devkitPro/libnds/lib\libnds9.a(card.o)
+                0x02029de4                cardWriteCommand
+                0x02029e08                cardPolledTransfer
+                0x02029e58                cardStartTransfer
+                0x02029eb4                cardWriteAndRead
+                0x02029efc                cardParamCommand
+                0x02029f2c                cardReadHeader
+                0x02029f4c                cardReadID
+                0x02029fb0                cardEepromCommand
+                0x0202a034                cardEepromReadID
+                0x0202a044                cardEepromGetType
+                0x0202a0e4                cardReadEeprom
+                0x0202a18c                cardWriteEeprom
+                0x0202a2e0                cardEepromGetSize
+                0x0202a394                cardEepromSectorErase
+                0x0202a440                cardEepromChipErase
+ .text          0x0202a494      0xd24 C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+                0x0202a624                fifoSendAddress
+                0x0202a65c                fifoSendValue32
+                0x0202a6a4                fifoGetAddress
+                0x0202a714                fifoSetAddressHandler
+                0x0202a788                fifoGetValue32
+                0x0202a7f8                fifoSetValue32Handler
+                0x0202a86c                fifoCheckAddress
+                0x0202a890                fifoCheckDatamsg
+                0x0202a8b4                fifoCheckValue32
+                0x0202a97c                fifoInit
+                0x0202ab3c                fifoGetDatamsg
+                0x0202b0a4                fifoSetDatamsgHandler
+                0x0202b148                fifoSendDatamsg
+ .text          0x0202b1b8      0x1cc C:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+                0x0202b1b8                irqDummy
+                0x0202b1bc                irqSet
+                0x0202b220                irqInit
+                0x0202b26c                irqInitHandler
+                0x0202b29c                irqEnable
+                0x0202b2fc                irqDisable
+                0x0202b35c                irqClear
+ .text          0x0202b384       0x40 C:/devkitPro/libnds/lib\libnds9.a(libnds_exit.o)
+                0x0202b384                systemErrorExit
+                0x0202b388                __libnds_exit
+ .text          0x0202b3c4       0x70 C:/devkitPro/libnds/lib\libnds9.a(dcache.o)
+                0x0202b3c4                DC_FlushAll
+                0x0202b3f0                DC_FlushRange
+                0x0202b40c                DC_InvalidateAll
+                0x0202b418                DC_InvalidateRange
+ .text          0x0202b434      0x1b4 C:/devkitPro/libnds/lib\libnds9.a(mpu_setup.o)
+                0x0202b434                __libnds_mpu_setup
+                0x0202b574                memCached
+                0x0202b58c                memUncached
+ *fill*         0x0202b5e8        0x8 ff
+ .text          0x0202b5f0       0x70 C:/devkitPro/libnds/lib\libnds9.a(biosCalls.o)
+                0x0202b5f0                swiDelay
+                0x0202b5f4                swiIntrWait
+                0x0202b5f8                swiWaitForVBlank
+                0x0202b5fc                swiSleep
+                0x0202b600                swiChangeSoundBias
+                0x0202b604                swiDivide
+                0x0202b608                swiRemainder
+                0x0202b60e                swiDivMod
+                0x0202b61a                swiCopy
+                0x0202b61e                swiFastCopy
+                0x0202b622                swiSqrt
+                0x0202b626                swiCRC16
+                0x0202b62a                swiIsDebugger
+                0x0202b62e                swiUnpackBits
+                0x0202b632                swiDecompressLZSSWram
+                0x0202b636                swiDecompressLZSSVram
+                0x0202b63a                swiDecompressHuffman
+                0x0202b63e                swiDecompressRLEWram
+                0x0202b642                swiDecompressRLEVram
+                0x0202b646                swiWaitForIRQ
+                0x0202b64a                swiDecodeDelta8
+                0x0202b64e                swiDecodeDelta16
+                0x0202b652                swiSetHaltCR
+ .text          0x0202b660        0x0 C:/devkitPro/libnds/lib\libnds9.a(interruptDispatcher.o)
+ .text          0x0202b660       0x30 C:/devkitPro/libnds/lib\libnds9.a(swiSoftReset.o)
+                0x0202b660                swiSoftReset
+ .text          0x0202b690       0xdc C:/devkitPro/libnds/lib\libnds9.a(system.o)
+                0x0202b690                ledBlink
+                0x0202b6a4                powerOff
+                0x0202b6d0                powerOn
+                0x0202b700                systemSleep
+                0x0202b718                powerValueHandler
+                0x0202b728                systemMsgHandler
+ .text          0x0202b76c       0x8c c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb\libgcc.a(_udivsi3.o)
+                0x0202b76c                __aeabi_uidiv
+                0x0202b76c                __udivsi3
+                0x0202b7e8                __aeabi_uidivmod
+ .text          0x0202b7f8       0xa4 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb\libgcc.a(_divsi3.o)
+                0x0202b7f8                __divsi3
+                0x0202b7f8                __aeabi_idiv
+                0x0202b88c                __aeabi_idivmod
+ .text          0x0202b89c        0x4 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb\libgcc.a(_dvmd_tls.o)
+                0x0202b89c                __div0
+                0x0202b89c                __aeabi_idiv0
+                0x0202b89c                __aeabi_ldiv0
+ .text          0x0202b8a0       0x10 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-ctype_.o)
+                0x0202b8a0                __set_ctype
+ .text          0x0202b8b0       0x90 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-init.o)
+                0x0202b8b0                __libc_fini_array
+                0x0202b8ec                __libc_init_array
+ .text          0x0202b940       0x18 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-lcltime.o)
+                0x0202b940                localtime
+ .text          0x0202b958       0x10 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-lcltime_r.o)
+                0x0202b958                localtime_r
+ .text          0x0202b968       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-malloc.o)
+                0x0202b968                free
+                0x0202b980                malloc
+ .text          0x0202b998      0x504 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-mallocr.o)
+                0x0202b998                _malloc_r
+ .text          0x0202be9c       0x80 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-memcpy.o)
+                0x0202be9c                memcpy
+ .text          0x0202bf1c       0xa0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-memmove.o)
+                0x0202bf1c                memmove
+ .text          0x0202bfbc       0x94 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-memset.o)
+                0x0202bfbc                memset
+ .text          0x0202c050      0x4b0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-mktm_r.o)
+                0x0202c050                __tzcalc_limits
+                0x0202c1d4                _mktm_r
+ .text          0x0202c500        0x8 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-mlock.o)
+                0x0202c500                __malloc_lock
+                0x0202c504                __malloc_unlock
+ .text          0x0202c508      0x5a4 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-qsort.o)
+                0x0202c508                qsort
+ .text          0x0202caac       0x1c c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-realloc.o)
+                0x0202caac                realloc
+ .text          0x0202cac8      0x354 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-reallocr.o)
+                0x0202cac8                _realloc_r
+ .text          0x0202ce1c       0x54 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcasecmp.o)
+                0x0202ce1c                strcasecmp
+ .text          0x0202ce70       0x50 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcat.o)
+                0x0202ce70                strcat
+ .text          0x0202cec0       0xd4 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strchr.o)
+                0x0202cec0                strchr
+ .text          0x0202cf94       0x14 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcmp.o)
+                0x0202cf94                strcmp
+ .text          0x0202cfa8       0x10 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcpy.o)
+                0x0202cfa8                strcpy
+ .text          0x0202cfb8       0x18 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strdup.o)
+                0x0202cfb8                strdup
+ .text          0x0202cfd0       0x2c c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strdup_r.o)
+                0x0202cfd0                _strdup_r
+ .text          0x0202cffc       0x10 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strlen.o)
+                0x0202cffc                strlen
+ .text          0x0202d00c       0x74 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strncasecmp.o)
+                0x0202d00c                strncasecmp
+ .text          0x0202d080       0xac c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strncmp.o)
+                0x0202d080                strncmp
+ .text          0x0202d12c       0x64 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strncpy.o)
+                0x0202d12c                strncpy
+ .text          0x0202d190       0x2c c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strnlen.o)
+                0x0202d190                strnlen
+ .text          0x0202d1bc       0x44 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strpbrk.o)
+                0x0202d1bc                strpbrk
+ .text          0x0202d200       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strrchr.o)
+                0x0202d200                strrchr
+ .text          0x0202d230       0x3c c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strupr.o)
+                0x0202d230                strupr
+ .text          0x0202d26c       0x18 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysclose.o)
+                0x0202d26c                close
+ .text          0x0202d284       0x1c c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysfstat.o)
+                0x0202d284                fstat
+ .text          0x0202d2a0       0x20 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-syslseek.o)
+                0x0202d2a0                lseek
+ .text          0x0202d2c0       0x28 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysopen.o)
+                0x0202d2c0                open
+ .text          0x0202d2e8       0x20 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysread.o)
+                0x0202d2e8                read
+ .text          0x0202d308       0x20 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-syswrite.o)
+                0x0202d308                write
+ .text          0x0202d328       0x34 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-time.o)
+                0x0202d328                time
+ .text          0x0202d35c        0x8 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-tzlock.o)
+                0x0202d35c                __tz_lock
+                0x0202d360                __tz_unlock
+ .text          0x0202d364        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-tzvars.o)
+ .text          0x0202d364      0x250 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-freer.o)
+                0x0202d364                _malloc_trim_r
+                0x0202d408                _free_r
+ .text          0x0202d5b4        0x8 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-gettzinfo.o)
+                0x0202d5b4                __gettzinfo
+ .text          0x0202d5bc        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-impure.o)
+ .text          0x0202d5bc      0x144 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(iosupport.o)
+                0x0202d5bc                setDefaultDevice
+                0x0202d5d0                AddDevice
+                0x0202d64c                FindDevice
+                0x0202d6bc                GetDeviceOpTab
+                0x0202d6dc                RemoveDevice
+ .text          0x0202d700       0x50 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(close.o)
+                0x0202d700                _close_r
+ .text          0x0202d750       0x58 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(fstat.o)
+                0x0202d750                _fstat_r
+ .text          0x0202d7a8       0x50 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(lseek.o)
+                0x0202d7a8                _lseek_r
+ .text          0x0202d7f8       0xa0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(open.o)
+                0x0202d7f8                _open_r
+ .text          0x0202d898       0x50 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(read.o)
+                0x0202d898                _read_r
+ .text          0x0202d8e8       0x54 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(sbrk.o)
+                0x0202d8e8                _sbrk_r
+ .text          0x0202d93c       0x48 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(times.o)
+                0x0202d93c                _times_r
+                0x0202d944                _gettimeofday_r
+                0x0202d970                _times
+ .text          0x0202d984       0x50 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(write.o)
+                0x0202d984                _write_r
+ .text          0x0202d9d4        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(malloc_vars.o)
+ .text          0x0202d9d4      0x260 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(chdir.o)
+                0x0202d9d4                getcwd
+                0x0202da20                _concatenate_path
+                0x0202db38                chdir
+ .text          0x0202dc34      0x148 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(dir.o)
+                0x0202dc34                dirreset
+                0x0202dc6c                dirnext
+                0x0202dcac                dirclose
+                0x0202dcf4                diropen
+ .text          0x0202dd7c       0x54 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(build_argv.o)
+                0x0202dd7c                build_argv
+ .text          0x0202ddd0        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(syscall_support.o)
+ .text          0x0202ddd0       0x88 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(handle_manager.o)
+                0x0202ddd0                __get_handle
+                0x0202ddf0                __alloc_handle
+                0x0202de2c                __release_handle
+ .text          0x0202de58        0xc c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-errno.o)
+                0x0202de58                __errno
+ .text          0x0202de64        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtend.o
+ .text          0x0202de64        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtn.o
+ *fill*         0x0202de64        0x4 ff
+ .text.stub     0x0202de68       0x20 linker stubs
+ *(.text.*)
+ *(.stub)
+ *(.gnu.warning)
+ *(.gnu.linkonce.t*)
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+                0x0202de88                . = ALIGN (0x4)
+
+.vfp11_veneer   0x00000000        0x0 load address 0x0202de88
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00000000        0x0 load address 0x0202de88
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.fini           0x0202de88        0xc
+ *(.fini)
+ .fini          0x0202de88        0x4 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crti.o
+                0x0202de88                _fini
+ .fini          0x0202de8c        0x8 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtn.o
+                0x0202de94                __text_end = .
+
+.rodata         0x0202de94     0x3250
+ *(.rodata)
+ .rodata        0x0202de94     0x2004 gui.bin.o
+                0x0202de94                gui_bin
+                0x0202fe94                gui_bin_size
+                0x0202fe94                gui_bin_end
+ .rodata        0x0202fe98       0x10 guiBase.o
+ .rodata        0x0202fea8       0x2c guiButton.o
+                0x0202fec4                __TGuiButtonTypeHeader__
+ .rodata        0x0202fed4       0x10 guiCheckbox.o
+                0x0202fed4                __TGuiCheckboxTypeHeader__
+ .rodata        0x0202fee4       0x10 guiConsole.o
+                0x0202fee4                __TGuiConsoleTypeHeader__
+ .rodata        0x0202fef4       0x10 guiLabel.o
+                0x0202fef4                __TGuiLabelTypeHeader__
+ .rodata        0x0202ff04       0x10 guiMenu.o
+                0x0202ff04                __TGuiMenuTypeHeader__
+ .rodata        0x0202ff14       0x10 guiObject.o
+                0x0202ff14                __TGuiObjectTypeHeader__
+ .rodata        0x0202ff24       0x10 guiRadioButton.o
+                0x0202ff24                __TGuiRadioButtonTypeHeader__
+ .rodata        0x0202ff34      0x210 guiRender.o
+ .rodata        0x02030144       0x10 guiStatus.o
+                0x02030144                __TGuiStatusTypeHeader__
+ .rodata        0x02030154       0x10 LayoutInput.o
+                0x02030154                __TGuiLayoutInputTypeHeader__
+ .rodata        0x02030164       0x20 LayoutMain.o
+                0x02030164                __TGuiLayoutScreenOffTypeHeader__
+                0x02030174                __TGuiLayoutMainTypeHeader__
+ .rodata        0x02030184       0x10 LayoutRomSelect.o
+                0x02030184                __TGuiLayoutRomSelectTypeHeader__
+ .rodata        0x02030194       0x84 NeoAudioStream.arm.o
+ .rodata        0x02030218       0x20 NeoIO.o
+ .rodata        0x02030238      0x598 NeoProtection.o
+ .rodata        0x020307d0       0x20 NeoSystem.o
+ .rodata        0x020307f0       0x30 NeoVideo.o
+ .rodata        0x02030820       0x20 pd4990a.o
+ .rodata        0x02030840       0x14 ram.o
+ .rodata        0x02030854       0x1c Sprintf.o
+ .rodata        0x02030870       0x34 directory.o
+                0x02030870                LFN_offset_table
+ .rodata        0x020308a4       0x64 libfat.o
+                0x020308a4                dotab_fat
+ .rodata        0x02030908       0x20 io_efa2.o
+                0x02030908                _io_efa2
+ .rodata        0x02030928       0x2c io_fcsr.o
+                0x02030928                _FCSR_LabelString
+                0x02030934                _io_fcsr
+ .rodata        0x02030954       0x44 io_m3cf.o
+                0x02030978                _io_m3cf
+ .rodata        0x02030998       0x20 io_m3sd.o
+                0x02030998                _io_m3sd
+ .rodata        0x020309b8       0x44 io_mpcf.o
+                0x020309dc                _io_mpcf
+ .rodata        0x020309fc       0x30 io_njsd.o
+                0x02030a0c                _io_njsd
+ .rodata        0x02030a2c       0x20 io_nmmc.o
+                0x02030a2c                _io_nmmc
+ .rodata        0x02030a4c       0x44 io_sccf.o
+                0x02030a70                _io_sccf
+ .rodata        0x02030a90       0x20 io_scsd.o
+                0x02030a90                _io_scsd
+ .rodata        0x02030ab0       0x24 NeoIOAsm.o
+ .rodata        0x02030ad4      0x104 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-ctype_.o)
+                0x02030ad4                _ctype_
+ .rodata        0x02030bd8       0x68 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-mktm_r.o)
+ .rodata        0x02030c40        0x4 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-impure.o)
+                0x02030c40                _global_impure_ptr
+ .rodata        0x02030c44       0x64 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(iosupport.o)
+                0x02030c44                dotab_stdnull
+ .rodata        0x02030ca8        0xc c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(chdir.o)
+                0x02030ca8                DIRECTORY_PARENT
+                0x02030cac                DIRECTORY_SEPARATOR
+                0x02030cb0                DIRECTORY_THIS
+ *all.rodata*(*)
+ *(.roda)
+ *(.rodata.*)
+ .rodata.str1.1
+                0x02030cb4       0x25 EmuSystem.o
+ .rodata.str1.1
+                0x02030cd9       0x17 guiBase.o
+ .rodata.str1.1
+                0x02030cf0        0xb guiButton.o
+ .rodata.str1.1
+                0x02030cfb        0xd guiCheckbox.o
+ .rodata.str1.1
+                0x02030d08        0xc guiConsole.o
+ .rodata.str1.1
+                0x02030d14        0xa guiLabel.o
+ .rodata.str1.1
+                0x02030d1e        0x9 guiMenu.o
+ .rodata.str1.1
+                0x02030d27        0xb guiObject.o
+ .rodata.str1.1
+                0x02030d32       0x10 guiRadioButton.o
+ .rodata.str1.1
+                0x02030d42        0xb guiStatus.o
+ .rodata.str1.1
+                0x02030d4d       0x64 LayoutInput.o
+                                 0x7d (size before relaxing)
+ .rodata.str1.1
+                0x02030db1       0x67 LayoutMain.o
+                                 0x6d (size before relaxing)
+ .rodata.str1.1
+                0x02030e18       0x2c LayoutRomSelect.o
+ .rodata.str1.1
+                0x02030e44       0x3d NeoConfig.o
+                                 0x3e (size before relaxing)
+ .rodata.str1.1
+                0x02030e81       0x44 NeoCpu.o
+ .rodata.str1.1
+                0x02030ec5       0x64 NeoMemory.o
+ .rodata.str1.1
+                0x02030f29       0xf5 NeoSystem.o
+                                 0xf7 (size before relaxing)
+ .rodata.str1.1
+                0x0203101e       0x21 ram.o
+ .rodata.str1.1
+                0x0203103f       0x29 Sprintf.o
+ .rodata.str1.1
+                0x02031068       0x47 template.o
+ .rodata.str1.1
+                0x020310af       0x1b directory.o
+                                 0x20 (size before relaxing)
+ .rodata.str1.1
+                0x020310ca        0xa libfat.o
+ .rodata.str1.1
+                0x00000000        0x4 partition.o
+ .rodata.str1.4
+                0x020310d4        0x4 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-tzvars.o)
+ .rodata.str1.4
+                0x020310d8        0x2 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-impure.o)
+                                  0x4 (size before relaxing)
+ *fill*         0x020310da        0x2 ff
+ .rodata.str1.4
+                0x020310dc        0x8 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(iosupport.o)
+ *(.gnu.linkonce.r*)
+                0x020310e4                . = ALIGN (0x4)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x020310e4                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x020310e4                __exidx_end = .
+                0x020310e4                . = ALIGN (0x4)
+                0x020310e4                PROVIDE (__preinit_array_start, .)
+
+.preinit_array
+ *(.preinit_array)
+                0x020310e4                PROVIDE (__preinit_array_end, .)
+                0x020310e4                PROVIDE (__init_array_start, .)
+
+.init_array     0x020310e4        0x4
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x020310e4        0x4 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtbegin.o
+                0x020310e8                PROVIDE (__init_array_end, .)
+                0x020310e8                PROVIDE (__fini_array_start, .)
+
+.fini_array     0x020310e8        0x4
+ *(.fini_array)
+ .fini_array    0x020310e8        0x4 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x020310ec                PROVIDE (__fini_array_end, .)
+
+.ctors          0x020310ec        0x0
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+                0x020310ec                . = ALIGN (0x4)
+
+.dtors          0x020310ec        0x0
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+                0x020310ec                . = ALIGN (0x4)
+
+.eh_frame       0x020310ec        0x4
+ *(.eh_frame)
+ .eh_frame      0x020310ec        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtbegin.o
+ .eh_frame      0x020310ec        0x4 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtend.o
+                0x020310f0                . = ALIGN (0x4)
+
+.gcc_except_table
+                0x020310f0        0x0
+ *(.gcc_except_table)
+                0x020310f0                . = ALIGN (0x4)
+
+.jcr            0x020310f0        0x4
+ *(.jcr)
+ .jcr           0x020310f0        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtbegin.o
+ .jcr           0x020310f0        0x4 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtend.o
+
+.got
+ *(.got.plt)
+ *(.got)
+ *(.rel.got)
+
+.ewram          0x020310f4        0x0
+                0x020310f4                __ewram_start = ABSOLUTE (.)
+ *(.ewram)
+ *ewram.*(.text)
+                0x020310f4                . = ALIGN (0x4)
+
+.data           0x020310f4    0x15080
+                0x020310f4                __data_start = ABSOLUTE (.)
+ *(.data)
+ .data          0x020310f4        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb/ds_arm9_crt0.o
+ .data          0x020310f4        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crti.o
+ .data          0x020310f4        0x4 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtbegin.o
+                0x020310f4                __dso_handle
+ .data          0x020310f8        0x0 gui.bin.o
+ .data          0x020310f8        0x0 Disa.o
+ .data          0x020310f8        0x0 EmuSystem.o
+ .data          0x020310f8        0x0 guiBase.o
+ .data          0x020310f8        0x0 guiButton.o
+ .data          0x020310f8        0x0 guiCheckbox.o
+ .data          0x020310f8        0x0 guiConsole.o
+ .data          0x020310f8        0x0 guiLabel.o
+ .data          0x020310f8        0x0 guiMenu.o
+ .data          0x020310f8        0x0 guiObject.o
+ .data          0x020310f8        0x0 guiRadioButton.o
+ .data          0x020310f8        0x0 guiRender.o
+ .data          0x020310f8        0x0 guiStatus.o
+ .data          0x020310f8        0x0 LayoutDebug.o
+ .data          0x020310f8        0x0 LayoutInput.o
+ .data          0x020310f8        0x0 LayoutMain.o
+ .data          0x020310f8        0x0 LayoutRomSelect.o
+ .data          0x020310f8        0x0 LinearHeap.o
+ .data          0x020310f8        0x0 NeoAudioStream.arm.o
+ .data          0x020310f8        0x0 NeoConfig.o
+ .data          0x020310f8        0x0 NeoCpu.o
+ .data          0x020310f8        0x0 NeoIO.o
+ .data          0x020310f8        0x0 NeoMemory.o
+ .data          0x020310f8        0x0 NeoProfiler.o
+ .data          0x020310f8        0x0 NeoProtection.o
+ .data          0x020310f8        0x4 NeoSystem.o
+ .data          0x020310fc        0x0 NeoVideo.o
+ .data          0x020310fc        0x0 NeoVideoFixed.arm.o
+ .data          0x020310fc        0x4 NeoVideoPalette.arm.o
+ .data          0x02031100        0x0 NeoVideoSprites.arm.o
+ .data          0x02031100       0x20 pd4990a.o
+                0x02031100                pd4990a
+ .data          0x02031120       0x18 ram.o
+                0x02031120                _types
+ .data          0x02031138        0x0 Sprintf.o
+ .data          0x02031138        0x0 template.o
+ .data          0x02031138        0x0 cache.o
+ .data          0x02031138        0x0 directory.o
+ .data          0x02031138        0x0 fatdir.o
+ .data          0x02031138        0x0 fatfile.o
+ .data          0x02031138        0x0 file_allocation_table.o
+ .data          0x02031138        0x0 filetime.o
+ .data          0x02031138        0x0 libfat.o
+ .data          0x02031138        0x4 partition.o
+                0x02031138                DEVICE_NAME
+ .data          0x0203113c       0x20 disc.o
+                0x0203113c                ioInterfaces
+ .data          0x0203115c        0x0 io_cf_common.o
+ .data          0x0203115c        0x0 io_efa2.o
+ .data          0x0203115c        0x0 io_fcsr.o
+ .data          0x0203115c        0x0 io_m3_common.o
+ .data          0x0203115c        0x0 io_m3cf.o
+ .data          0x0203115c        0x0 io_m3sd.o
+ .data          0x0203115c        0x0 io_mpcf.o
+ .data          0x0203115c        0x0 io_njsd.o
+ .data          0x0203115c        0xc io_nmmc.o
+                0x0203115c                selectMMC_command
+                0x02031164                _NMMC_spi_freq
+ .data          0x02031168        0x0 io_sc_common.o
+ .data          0x02031168        0x0 io_sccf.o
+ .data          0x02031168        0x0 io_scsd.o
+ .data          0x02031168        0x0 io_sd_common.o
+ .data          0x02031168        0x0 NeoIPC.o
+ *fill*         0x02031168        0x8 ff
+ .data          0x02031170    0x14320 Cyclone.o
+ .data          0x02045490        0x0 NeoAudioStreamAsm.o
+ .data          0x02045490        0x0 NeoCpuAsm.o
+ .data          0x02045490        0x0 NeoIOAsm.o
+ .data          0x02045490        0x0 NeoMemoryAsm.o
+ .data          0x02045490        0x0 NeoVideoAsm.o
+ .data          0x02045490        0x0 io_dldi.o
+ .data          0x02045490        0x0 io_scsd_s.o
+ .data          0x02045490        0x3 C:/devkitPro/libnds/lib\libnds9.a(keys.o)
+ .data          0x02045493        0x0 C:/devkitPro/libnds/lib\libnds9.a(touch.o)
+ .data          0x02045493        0x0 C:/devkitPro/libnds/lib\libnds9.a(video.o)
+ .data          0x02045493        0x0 C:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+ .data          0x02045493        0x0 C:/devkitPro/libnds/lib\libnds9.a(card.o)
+ *fill*         0x02045493        0x1 ff
+ .data          0x02045494       0x10 C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+                0x02045494                fifo_freewords
+                0x02045498                fifo_send_queue
+                0x0204549c                fifo_buffer_free
+                0x020454a0                fifo_receive_queue
+ .data          0x020454a4        0x0 C:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+ .data          0x020454a4        0x0 C:/devkitPro/libnds/lib\libnds9.a(libnds_exit.o)
+ .data          0x020454a4        0x0 C:/devkitPro/libnds/lib\libnds9.a(dcache.o)
+ .data          0x020454a4        0x0 C:/devkitPro/libnds/lib\libnds9.a(mpu_setup.o)
+ .data          0x020454a4        0x0 C:/devkitPro/libnds/lib\libnds9.a(biosCalls.o)
+ .data          0x020454a4        0x0 C:/devkitPro/libnds/lib\libnds9.a(interruptDispatcher.o)
+ .data          0x020454a4        0x0 C:/devkitPro/libnds/lib\libnds9.a(swiSoftReset.o)
+ .data          0x020454a4        0x0 C:/devkitPro/libnds/lib\libnds9.a(system.o)
+ .data          0x020454a4        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb\libgcc.a(_udivsi3.o)
+ .data          0x020454a4        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb\libgcc.a(_divsi3.o)
+ .data          0x020454a4        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb\libgcc.a(_dvmd_tls.o)
+ .data          0x020454a4        0x4 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-ctype_.o)
+                0x020454a4                __ctype_ptr__
+ .data          0x020454a8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-init.o)
+ .data          0x020454a8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-lcltime.o)
+ .data          0x020454a8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-lcltime_r.o)
+ .data          0x020454a8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-malloc.o)
+ .data          0x020454a8      0x410 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-mallocr.o)
+                0x020454a8                __malloc_av_
+                0x020458b0                __malloc_sbrk_base
+                0x020458b4                __malloc_trim_threshold
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-memcpy.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-memmove.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-memset.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-mktm_r.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-mlock.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-qsort.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-realloc.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-reallocr.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcasecmp.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcat.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strchr.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcmp.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcpy.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strdup.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strdup_r.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strlen.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strncasecmp.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strncmp.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strncpy.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strnlen.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strpbrk.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strrchr.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strupr.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysclose.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysfstat.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-syslseek.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysopen.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysread.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-syswrite.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-time.o)
+ .data          0x020458b8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-tzlock.o)
+ .data          0x020458b8        0x8 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-tzvars.o)
+                0x020458b8                _tzname
+ .data          0x020458c0        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-freer.o)
+ .data          0x020458c0       0x40 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-gettzinfo.o)
+ .data          0x02045900      0x430 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-impure.o)
+                0x02045900                _impure_ptr
+ .data          0x02045d30       0x44 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(iosupport.o)
+                0x02045d34                devoptab_list
+ .data          0x02045d74        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(close.o)
+ .data          0x02045d74        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(fstat.o)
+ .data          0x02045d74        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(lseek.o)
+ .data          0x02045d74        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(open.o)
+ .data          0x02045d74        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(read.o)
+ .data          0x02045d74        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(sbrk.o)
+ .data          0x02045d74        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(times.o)
+ .data          0x02045d74        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(write.o)
+ .data          0x02045d74        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(malloc_vars.o)
+ .data          0x02045d74      0x400 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(chdir.o)
+ .data          0x02046174        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(dir.o)
+ .data          0x02046174        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(build_argv.o)
+ .data          0x02046174        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(syscall_support.o)
+ .data          0x02046174        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(handle_manager.o)
+ .data          0x02046174        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-errno.o)
+ .data          0x02046174        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtend.o
+ .data          0x02046174        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtn.o
+ *(.data.*)
+ *(.gnu.linkonce.d*)
+                0x02046174                . = ALIGN (0x4)
+                0x02046174                __data_end = ABSOLUTE (.)
+                0x02046174                __dtcm_lma = .
+                0x02046174                __bss_vma = .
+
+.dtcm           0x0b000000       0x20 load address 0x02046174
+ *(.dtcm)
+ .dtcm          0x0b000000       0x20 NeoAudioStream.arm.o
+ *(.dtcm.*)
+                0x0b000020                . = ALIGN (0x4)
+                0x0b000020                __dtcm_end = ABSOLUTE (.)
+                0x02046194                __itcm_lma = (__dtcm_lma + SIZEOF (.dtcm))
+
+.itcm           0x01000100     0x6a34 load address 0x02046194
+ *(.itcm)
+ .itcm          0x01000100     0x628c Cyclone.o
+                0x01000110                CycloneNextInterrupt
+ .itcm          0x0100638c      0x3ac NeoCpuAsm.o
+                0x0100638c                neoCpuRead8
+                0x01006398                neoCpuRead16
+                0x010063a4                neoCpuRead32
+                0x010063b0                neoDefaultRead8
+                0x010063dc                neoDefaultRead32
+                0x01006418                neoCpuWrite8
+                0x01006424                neoCpuWrite16
+                0x01006430                neoCpuWrite32
+                0x0100643c                neoDefaultWrite32
+                0x01006470                neoCpuCheckPc
+                0x01006484                neoReadRom8
+                0x01006498                neoReadRom16
+                0x010064a8                neoReadRom32
+                0x010064c0                neoRomPc
+                0x010064d4                neoReadRom18
+                0x010064e8                neoReadRom116
+                0x010064fc                neoReadRom132
+                0x01006518                neoRom1Pc
+                0x01006530                neoReadRom08
+                0x01006544                neoReadRom016
+                0x01006558                neoReadRom032
+                0x01006574                neoRom0Pc
+                0x0100658c                neoReadRam8
+                0x010065a0                neoReadRam16
+                0x010065b4                neoReadRam32
+                0x010065d0                neoWriteRam8
+                0x010065e4                neoWriteRam16
+                0x010065f8                neoWriteRam32
+                0x01006618                neoRamPc
+                0x01006630                neoReadBios8
+                0x01006644                neoReadBios16
+                0x01006658                neoReadBios32
+                0x01006674                neoBiosPc
+                0x0100668c                neoCpuEvent
+ .itcm          0x01006738      0x134 NeoIOAsm.o
+                0x01006738                neoWriteVideo16
+                0x01006744                neoWriteVideo8
+                0x0100675c                neoWriteVideo32
+ .itcm          0x0100686c      0x134 NeoMemoryAsm.o
+                0x0100686c                neoReadSlot2Rom8
+                0x01006888                neoReadSlot2Rom16
+                0x010068a0                neoReadSlot2Rom32
+                0x010068c0                neoSlot2RomPc
+                0x010068dc                neoReadBankedRom8
+                0x0100690c                neoReadBankedRom16
+                0x0100693c                neoReadBankedRom32
+ .itcm          0x010069a0       0xc8 C:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+                0x010069a0                irqTable
+ .itcm          0x01006a68       0xcc C:/devkitPro/libnds/lib\libnds9.a(interruptDispatcher.o)
+                0x01006a68                IntrMain
+ *itcm.*(.text)
+                0x01006b34                . = ALIGN (0x4)
+                0x01006b34                __itcm_end = ABSOLUTE (.)
+                0x0204cbc8                __vectors_lma = (__itcm_lma + SIZEOF (.itcm))
+
+.vectors        0x01000000        0x0 load address 0x0204cbc8
+ *(.vectors)
+ *vectors.*(.text)
+                0x01000000                . = ALIGN (0x4)
+                0x01000000                __vectors_end = ABSOLUTE (.)
+
+.sbss           0x0b000020     0x2b94 load address 0x02046194
+                0x0b000020                __sbss_start = ABSOLUTE (.)
+                0x0b000020                __sbss_start__ = ABSOLUTE (.)
+ *(.sbss)
+ .sbss          0x0b000020     0x2000 NeoSystem.o
+                0x0b000020                g_neoContext
+ .sbss          0x0b002020       0x14 NeoVideo.o
+                0x0b002020                g_frameCount
+                0x0b002024                g_videoBounds
+ .sbss          0x0b002034      0x37c NeoVideoFixed.arm.o
+ .sbss          0x0b0023b0      0x804 NeoVideoSprites.arm.o
+                0x0b002bb4                . = ALIGN (0x4)
+                0x0b002bb4                __sbss_end = ABSOLUTE (.)
+
+.bss            0x02046174   0x3854b0
+                0x02046174                __bss_start = ABSOLUTE (.)
+                0x02046174                __bss_start__ = ABSOLUTE (.)
+ *(.dynbss)
+ *(.gnu.linkonce.b*)
+ *(.bss*)
+ .bss           0x02046174        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb/ds_arm9_crt0.o
+ .bss           0x02046174        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crti.o
+ .bss           0x02046174       0x1c c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtbegin.o
+ .bss           0x02046190        0x0 gui.bin.o
+ .bss           0x02046190        0x0 Disa.o
+ *fill*         0x02046190       0x10 00
+ .bss           0x020461a0   0x196020 EmuSystem.o
+ .bss           0x021dc1c0     0x40a0 guiBase.o
+ .bss           0x021e0260        0x0 guiButton.o
+ .bss           0x021e0260        0x0 guiCheckbox.o
+ .bss           0x021e0260      0x340 guiConsole.o
+ .bss           0x021e05a0        0x0 guiLabel.o
+ .bss           0x021e05a0        0x0 guiMenu.o
+ .bss           0x021e05a0        0x0 guiObject.o
+ .bss           0x021e05a0        0x0 guiRadioButton.o
+ .bss           0x021e05a0        0x0 guiRender.o
+ .bss           0x021e05a0        0x0 guiStatus.o
+ .bss           0x021e05a0        0x0 LayoutDebug.o
+ .bss           0x021e05a0        0x0 LayoutInput.o
+ .bss           0x021e05a0        0x0 LayoutMain.o
+ .bss           0x021e05a0        0x0 LayoutRomSelect.o
+ .bss           0x021e05a0        0x0 LinearHeap.o
+ .bss           0x021e05a0    0x4a6c0 NeoAudioStream.arm.o
+ .bss           0x0222ac60      0x100 NeoConfig.o
+ .bss           0x0222ad60        0x0 NeoCpu.o
+ .bss           0x0222ad60        0x0 NeoIO.o
+ .bss           0x0222ad60   0x1578c0 NeoMemory.o
+ .bss           0x02382620        0x0 NeoProfiler.o
+ .bss           0x02382620     0x2020 NeoProtection.o
+ .bss           0x02384640      0x120 NeoSystem.o
+ .bss           0x02384760        0x8 NeoVideo.o
+ *fill*         0x02384768       0x18 00
+ .bss           0x02384780     0x42c0 NeoVideoFixed.arm.o
+ .bss           0x02388a40       0x10 NeoVideoPalette.arm.o
+ *fill*         0x02388a50      0x1b0 00
+ .bss           0x02388c00    0x40200 NeoVideoSprites.arm.o
+ .bss           0x023c8e00       0x28 pd4990a.o
+ .bss           0x023c8e28       0x10 ram.o
+ .bss           0x023c8e38        0x0 Sprintf.o
+ .bss           0x023c8e38        0x0 template.o
+ .bss           0x023c8e38        0x0 cache.o
+ .bss           0x023c8e38        0x0 directory.o
+ .bss           0x023c8e38        0x0 fatdir.o
+ .bss           0x023c8e38        0x0 fatfile.o
+ .bss           0x023c8e38        0x0 file_allocation_table.o
+ .bss           0x023c8e38        0x0 filetime.o
+ .bss           0x023c8e38        0x0 libfat.o
+ .bss           0x023c8e38       0x10 partition.o
+                0x023c8e38                _FAT_partitions
+ .bss           0x023c8e48        0x0 disc.o
+ .bss           0x023c8e48       0x24 io_cf_common.o
+                0x023c8e48                cfRegisters
+ .bss           0x023c8e6c        0x0 io_efa2.o
+ .bss           0x023c8e6c       0x34 io_fcsr.o
+                0x023c8e6c                _FCSR_SramSectorStart
+                0x023c8e7c                _FCSR_SramSectorEnd
+                0x023c8e8c                _FCSR_SramSectorPointer
+                0x023c8e9c                _FCSR_FileSysPointer
+ .bss           0x023c8ea0        0x0 io_m3_common.o
+ .bss           0x023c8ea0        0x0 io_m3cf.o
+ .bss           0x023c8ea0        0x4 io_m3sd.o
+ .bss           0x023c8ea4        0x0 io_mpcf.o
+ .bss           0x023c8ea4        0x8 io_njsd.o
+ .bss           0x023c8eac        0x0 io_nmmc.o
+ .bss           0x023c8eac        0x0 io_sc_common.o
+ .bss           0x023c8eac        0x0 io_sccf.o
+ .bss           0x023c8eac        0x4 io_scsd.o
+ .bss           0x023c8eb0        0x0 io_sd_common.o
+ .bss           0x023c8eb0        0x4 NeoIPC.o
+ .bss           0x023c8eb4        0x0 Cyclone.o
+ .bss           0x023c8eb4        0x0 NeoAudioStreamAsm.o
+ .bss           0x023c8eb4        0x0 NeoCpuAsm.o
+ .bss           0x023c8eb4        0x0 NeoIOAsm.o
+ .bss           0x023c8eb4        0x0 NeoMemoryAsm.o
+ .bss           0x023c8eb4        0x0 NeoVideoAsm.o
+ .bss           0x023c8eb4        0x0 io_dldi.o
+ .bss           0x023c8eb4        0x0 io_scsd_s.o
+ .bss           0x023c8eb4        0x6 C:/devkitPro/libnds/lib\libnds9.a(keys.o)
+ .bss           0x023c8eba        0x0 C:/devkitPro/libnds/lib\libnds9.a(touch.o)
+ .bss           0x023c8eba        0x0 C:/devkitPro/libnds/lib\libnds9.a(video.o)
+ .bss           0x023c8eba        0x0 C:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+ .bss           0x023c8eba        0x0 C:/devkitPro/libnds/lib\libnds9.a(card.o)
+ *fill*         0x023c8eba        0x2 00
+ .bss           0x023c8ebc        0x8 C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+                0x023c8ec0                processing
+ .bss           0x023c8ec4        0x0 C:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+ .bss           0x023c8ec4        0x0 C:/devkitPro/libnds/lib\libnds9.a(libnds_exit.o)
+ .bss           0x023c8ec4        0x0 C:/devkitPro/libnds/lib\libnds9.a(dcache.o)
+ .bss           0x023c8ec4        0x0 C:/devkitPro/libnds/lib\libnds9.a(mpu_setup.o)
+ .bss           0x023c8ec4        0x0 C:/devkitPro/libnds/lib\libnds9.a(biosCalls.o)
+ .bss           0x023c8ec4        0x0 C:/devkitPro/libnds/lib\libnds9.a(interruptDispatcher.o)
+ .bss           0x023c8ec4        0x0 C:/devkitPro/libnds/lib\libnds9.a(swiSoftReset.o)
+ .bss           0x023c8ec4        0x0 C:/devkitPro/libnds/lib\libnds9.a(system.o)
+ .bss           0x023c8ec4        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb\libgcc.a(_udivsi3.o)
+ .bss           0x023c8ec4        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb\libgcc.a(_divsi3.o)
+ .bss           0x023c8ec4        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb\libgcc.a(_dvmd_tls.o)
+ .bss           0x023c8ec4        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-ctype_.o)
+ .bss           0x023c8ec4        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-init.o)
+ .bss           0x023c8ec4        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-lcltime.o)
+ .bss           0x023c8ec4        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-lcltime_r.o)
+ .bss           0x023c8ec4        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-malloc.o)
+ .bss           0x023c8ec4       0x34 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-mallocr.o)
+                0x023c8ec4                __malloc_top_pad
+                0x023c8ec8                __malloc_current_mallinfo
+                0x023c8ef0                __malloc_max_sbrked_mem
+                0x023c8ef4                __malloc_max_total_mem
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-memcpy.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-memmove.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-memset.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-mktm_r.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-mlock.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-qsort.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-realloc.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-reallocr.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcasecmp.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcat.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strchr.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcmp.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcpy.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strdup.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strdup_r.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strlen.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strncasecmp.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strncmp.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strncpy.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strnlen.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strpbrk.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strrchr.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strupr.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysclose.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysfstat.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-syslseek.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysopen.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysread.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-syswrite.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-time.o)
+ .bss           0x023c8ef8        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-tzlock.o)
+ .bss           0x023c8ef8        0x8 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-tzvars.o)
+                0x023c8ef8                _daylight
+                0x023c8efc                _timezone
+ .bss           0x023c8f00        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-freer.o)
+ .bss           0x023c8f00        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-gettzinfo.o)
+ .bss           0x023c8f00        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-impure.o)
+ .bss           0x023c8f00        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(iosupport.o)
+ .bss           0x023c8f00        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(close.o)
+ .bss           0x023c8f00        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(fstat.o)
+ .bss           0x023c8f00        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(lseek.o)
+ .bss           0x023c8f00        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(open.o)
+ .bss           0x023c8f00        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(read.o)
+ .bss           0x023c8f00        0x4 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(sbrk.o)
+ .bss           0x023c8f04        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(times.o)
+ .bss           0x023c8f04        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(write.o)
+ .bss           0x023c8f04        0x8 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(malloc_vars.o)
+                0x023c8f04                fake_heap_end
+                0x023c8f08                fake_heap_start
+ .bss           0x023c8f0c        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(chdir.o)
+ .bss           0x023c8f0c        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(dir.o)
+ .bss           0x023c8f0c        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(build_argv.o)
+ .bss           0x023c8f0c        0x8 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(syscall_support.o)
+                0x023c8f0c                __syscalls
+ .bss           0x023c8f14     0x1000 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(handle_manager.o)
+ .bss           0x023c9f14        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-errno.o)
+ .bss           0x023c9f14        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtend.o
+ .bss           0x023c9f14        0x0 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtn.o
+ *(COMMON)
+ *fill*         0x023c9f14        0xc 00
+ COMMON         0x023c9f20      0xc40 NeoAudioStream.arm.o
+                0x023c9f20                g_jediTable
+ COMMON         0x023cab60       0x74 NeoSystem.o
+                0x023cab60                g_header
+ COMMON         0x023cabd4        0x8 NeoVideo.o
+                0x023cabd4                g_currentFps
+                0x023cabd8                g_frames
+ COMMON         0x023cabdc        0x4 NeoVideoSprites.arm.o
+                0x023cabdc                g_spriteCount
+ COMMON         0x023cabe0      0xa40 C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+                0x023cabe0                fifo_datamsg_data
+                0x023cac20                fifo_buffer
+                0x023cb420                fifo_value32_func
+                0x023cb460                fifo_address_func
+                0x023cb4a0                fifo_value32_data
+                0x023cb4e0                fifo_value32_queue
+                0x023cb520                fifo_data_queue
+                0x023cb560                fifo_address_data
+                0x023cb5a0                fifo_datamsg_func
+                0x023cb5e0                fifo_address_queue
+ COMMON         0x023cb620        0x4 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(times.o)
+                0x023cb620                punixTime
+                0x023cb624                . = ALIGN (0x4)
+                0x023cb624                __bss_end = ABSOLUTE (.)
+                0x023cb624                __bss_end__ = __bss_end
+                0x023cb624                _end = __bss_end__
+                0x023cb624                __end__ = __bss_end__
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.ARM.attributes
+                0x00000000       0x2d load address 0x02046174
+ .ARM.attributes
+                0x00000000       0x21 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb/ds_arm9_crt0.o
+ .ARM.attributes
+                0x00000021       0x20 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crti.o
+ .ARM.attributes
+                0x00000041       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtbegin.o
+ .ARM.attributes
+                0x00000071       0x14 gui.bin.o
+ .ARM.attributes
+                0x00000085       0x27 Disa.o
+ .ARM.attributes
+                0x000000ac       0x27 EmuSystem.o
+ .ARM.attributes
+                0x000000d3       0x27 guiBase.o
+ .ARM.attributes
+                0x000000fa       0x27 guiButton.o
+ .ARM.attributes
+                0x00000121       0x27 guiCheckbox.o
+ .ARM.attributes
+                0x00000148       0x27 guiConsole.o
+ .ARM.attributes
+                0x0000016f       0x27 guiLabel.o
+ .ARM.attributes
+                0x00000196       0x27 guiMenu.o
+ .ARM.attributes
+                0x000001bd       0x27 guiObject.o
+ .ARM.attributes
+                0x000001e4       0x27 guiRadioButton.o
+ .ARM.attributes
+                0x0000020b       0x27 guiRender.o
+ .ARM.attributes
+                0x00000232       0x27 guiStatus.o
+ .ARM.attributes
+                0x00000259       0x27 LayoutDebug.o
+ .ARM.attributes
+                0x00000280       0x27 LayoutInput.o
+ .ARM.attributes
+                0x000002a7       0x27 LayoutMain.o
+ .ARM.attributes
+                0x000002ce       0x27 LayoutRomSelect.o
+ .ARM.attributes
+                0x000002f5       0x27 LinearHeap.o
+ .ARM.attributes
+                0x0000031c       0x27 NeoAudioStream.arm.o
+ .ARM.attributes
+                0x00000343       0x27 NeoConfig.o
+ .ARM.attributes
+                0x0000036a       0x27 NeoCpu.o
+ .ARM.attributes
+                0x00000391       0x27 NeoIO.o
+ .ARM.attributes
+                0x000003b8       0x27 NeoMemory.o
+ .ARM.attributes
+                0x000003df       0x27 NeoProfiler.o
+ .ARM.attributes
+                0x00000406       0x27 NeoProtection.o
+ .ARM.attributes
+                0x0000042d       0x27 NeoSystem.o
+ .ARM.attributes
+                0x00000454       0x27 NeoVideo.o
+ .ARM.attributes
+                0x0000047b       0x27 NeoVideoFixed.arm.o
+ .ARM.attributes
+                0x000004a2       0x27 NeoVideoPalette.arm.o
+ .ARM.attributes
+                0x000004c9       0x27 NeoVideoSprites.arm.o
+ .ARM.attributes
+                0x000004f0       0x27 pd4990a.o
+ .ARM.attributes
+                0x00000517       0x27 ram.o
+ .ARM.attributes
+                0x0000053e       0x27 Sprintf.o
+ .ARM.attributes
+                0x00000565       0x27 template.o
+ .ARM.attributes
+                0x0000058c       0x27 cache.o
+ .ARM.attributes
+                0x000005b3       0x27 directory.o
+ .ARM.attributes
+                0x000005da       0x27 fatdir.o
+ .ARM.attributes
+                0x00000601       0x27 fatfile.o
+ .ARM.attributes
+                0x00000628       0x27 file_allocation_table.o
+ .ARM.attributes
+                0x0000064f       0x27 filetime.o
+ .ARM.attributes
+                0x00000676       0x27 libfat.o
+ .ARM.attributes
+                0x0000069d       0x27 partition.o
+ .ARM.attributes
+                0x000006c4       0x27 disc.o
+ .ARM.attributes
+                0x000006eb       0x27 io_cf_common.o
+ .ARM.attributes
+                0x00000712       0x27 io_efa2.o
+ .ARM.attributes
+                0x00000739       0x27 io_fcsr.o
+ .ARM.attributes
+                0x00000760       0x27 io_m3_common.o
+ .ARM.attributes
+                0x00000787       0x27 io_m3cf.o
+ .ARM.attributes
+                0x000007ae       0x27 io_m3sd.o
+ .ARM.attributes
+                0x000007d5       0x27 io_mpcf.o
+ .ARM.attributes
+                0x000007fc       0x27 io_njsd.o
+ .ARM.attributes
+                0x00000823       0x27 io_nmmc.o
+ .ARM.attributes
+                0x0000084a       0x27 io_sc_common.o
+ .ARM.attributes
+                0x00000871       0x27 io_sccf.o
+ .ARM.attributes
+                0x00000898       0x27 io_scsd.o
+ .ARM.attributes
+                0x000008bf       0x27 io_sd_common.o
+ .ARM.attributes
+                0x000008e6       0x27 NeoIPC.o
+ .ARM.attributes
+                0x0000090d       0x1b Cyclone.o
+ .ARM.attributes
+                0x00000928       0x1b NeoAudioStreamAsm.o
+ .ARM.attributes
+                0x00000943       0x1b NeoCpuAsm.o
+ .ARM.attributes
+                0x0000095e       0x1b NeoIOAsm.o
+ .ARM.attributes
+                0x00000979       0x1b NeoMemoryAsm.o
+ .ARM.attributes
+                0x00000994       0x1b NeoVideoAsm.o
+ .ARM.attributes
+                0x000009af       0x1b io_dldi.o
+ .ARM.attributes
+                0x000009ca       0x1b io_scsd_s.o
+ .ARM.attributes
+                0x000009e5       0x27 C:/devkitPro/libnds/lib\libnds9.a(keys.o)
+ .ARM.attributes
+                0x00000a0c       0x27 C:/devkitPro/libnds/lib\libnds9.a(touch.o)
+ .ARM.attributes
+                0x00000a33       0x27 C:/devkitPro/libnds/lib\libnds9.a(video.o)
+ .ARM.attributes
+                0x00000a5a       0x27 C:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+ .ARM.attributes
+                0x00000a81       0x27 C:/devkitPro/libnds/lib\libnds9.a(card.o)
+ .ARM.attributes
+                0x00000aa8       0x27 C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+ .ARM.attributes
+                0x00000acf       0x27 C:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+ .ARM.attributes
+                0x00000af6       0x27 C:/devkitPro/libnds/lib\libnds9.a(libnds_exit.o)
+ .ARM.attributes
+                0x00000b1d       0x1b C:/devkitPro/libnds/lib\libnds9.a(dcache.o)
+ .ARM.attributes
+                0x00000b38       0x21 C:/devkitPro/libnds/lib\libnds9.a(mpu_setup.o)
+ .ARM.attributes
+                0x00000b59       0x1b C:/devkitPro/libnds/lib\libnds9.a(biosCalls.o)
+ .ARM.attributes
+                0x00000b74       0x1b C:/devkitPro/libnds/lib\libnds9.a(interruptDispatcher.o)
+ .ARM.attributes
+                0x00000b8f       0x21 C:/devkitPro/libnds/lib\libnds9.a(swiSoftReset.o)
+ .ARM.attributes
+                0x00000bb0       0x27 C:/devkitPro/libnds/lib\libnds9.a(system.o)
+ .ARM.attributes
+                0x00000bd7       0x20 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000bf7       0x20 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000c17       0x20 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000c37       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-ctype_.o)
+ .ARM.attributes
+                0x00000c67       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000c97       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-lcltime.o)
+ .ARM.attributes
+                0x00000cc7       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-lcltime_r.o)
+ .ARM.attributes
+                0x00000cf7       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x00000d27       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x00000d57       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000d87       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x00000db7       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000de7       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-mktm_r.o)
+ .ARM.attributes
+                0x00000e17       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x00000e47       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-qsort.o)
+ .ARM.attributes
+                0x00000e77       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-realloc.o)
+ .ARM.attributes
+                0x00000ea7       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-reallocr.o)
+ .ARM.attributes
+                0x00000ed7       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcasecmp.o)
+ .ARM.attributes
+                0x00000f07       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcat.o)
+ .ARM.attributes
+                0x00000f37       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strchr.o)
+ .ARM.attributes
+                0x00000f67       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x00000f97       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcpy.o)
+ .ARM.attributes
+                0x00000fc7       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strdup.o)
+ .ARM.attributes
+                0x00000ff7       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strdup_r.o)
+ .ARM.attributes
+                0x00001027       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00001057       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strncasecmp.o)
+ .ARM.attributes
+                0x00001087       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strncmp.o)
+ .ARM.attributes
+                0x000010b7       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strncpy.o)
+ .ARM.attributes
+                0x000010e7       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strnlen.o)
+ .ARM.attributes
+                0x00001117       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strpbrk.o)
+ .ARM.attributes
+                0x00001147       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strrchr.o)
+ .ARM.attributes
+                0x00001177       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strupr.o)
+ .ARM.attributes
+                0x000011a7       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysclose.o)
+ .ARM.attributes
+                0x000011d7       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysfstat.o)
+ .ARM.attributes
+                0x00001207       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-syslseek.o)
+ .ARM.attributes
+                0x00001237       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysopen.o)
+ .ARM.attributes
+                0x00001267       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysread.o)
+ .ARM.attributes
+                0x00001297       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-syswrite.o)
+ .ARM.attributes
+                0x000012c7       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-time.o)
+ .ARM.attributes
+                0x000012f7       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-tzlock.o)
+ .ARM.attributes
+                0x00001327       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-tzvars.o)
+ .ARM.attributes
+                0x00001357       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-freer.o)
+ .ARM.attributes
+                0x00001387       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-gettzinfo.o)
+ .ARM.attributes
+                0x000013b7       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000013e7       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(iosupport.o)
+ .ARM.attributes
+                0x00001417       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(close.o)
+ .ARM.attributes
+                0x00001447       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(fstat.o)
+ .ARM.attributes
+                0x00001477       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(lseek.o)
+ .ARM.attributes
+                0x000014a7       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(open.o)
+ .ARM.attributes
+                0x000014d7       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(read.o)
+ .ARM.attributes
+                0x00001507       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(sbrk.o)
+ .ARM.attributes
+                0x00001537       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(times.o)
+ .ARM.attributes
+                0x00001567       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(write.o)
+ .ARM.attributes
+                0x00001597       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(malloc_vars.o)
+ .ARM.attributes
+                0x000015c7       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(chdir.o)
+ .ARM.attributes
+                0x000015f7       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(dir.o)
+ .ARM.attributes
+                0x00001627       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(build_argv.o)
+ .ARM.attributes
+                0x00001657       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(syscall_support.o)
+ .ARM.attributes
+                0x00001687       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(handle_manager.o)
+ .ARM.attributes
+                0x000016b7       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-errno.o)
+ .ARM.attributes
+                0x000016e7       0x30 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtend.o
+ .ARM.attributes
+                0x00001717       0x20 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtn.o
+
+.comment        0x00000000       0x44 load address 0x02046174
+ *(.comment)
+ .comment       0x00000000       0x22 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtbegin.o
+                                 0x23 (size before relaxing)
+ .comment       0x00000000       0x23 Disa.o
+ .comment       0x00000000       0x23 EmuSystem.o
+ .comment       0x00000000       0x23 guiBase.o
+ .comment       0x00000000       0x23 guiButton.o
+ .comment       0x00000000       0x23 guiCheckbox.o
+ .comment       0x00000000       0x23 guiConsole.o
+ .comment       0x00000000       0x23 guiLabel.o
+ .comment       0x00000000       0x23 guiMenu.o
+ .comment       0x00000000       0x23 guiObject.o
+ .comment       0x00000000       0x23 guiRadioButton.o
+ .comment       0x00000000       0x23 guiRender.o
+ .comment       0x00000000       0x23 guiStatus.o
+ .comment       0x00000000       0x23 LayoutDebug.o
+ .comment       0x00000000       0x23 LayoutInput.o
+ .comment       0x00000000       0x23 LayoutMain.o
+ .comment       0x00000000       0x23 LayoutRomSelect.o
+ .comment       0x00000000       0x23 LinearHeap.o
+ .comment       0x00000000       0x23 NeoAudioStream.arm.o
+ .comment       0x00000000       0x23 NeoConfig.o
+ .comment       0x00000000       0x23 NeoCpu.o
+ .comment       0x00000000       0x23 NeoIO.o
+ .comment       0x00000000       0x23 NeoMemory.o
+ .comment       0x00000000       0x23 NeoProfiler.o
+ .comment       0x00000000       0x23 NeoProtection.o
+ .comment       0x00000000       0x23 NeoSystem.o
+ .comment       0x00000000       0x23 NeoVideo.o
+ .comment       0x00000000       0x23 NeoVideoFixed.arm.o
+ .comment       0x00000000       0x23 NeoVideoPalette.arm.o
+ .comment       0x00000000       0x23 NeoVideoSprites.arm.o
+ .comment       0x00000000       0x23 pd4990a.o
+ .comment       0x00000000       0x23 ram.o
+ .comment       0x00000000       0x23 Sprintf.o
+ .comment       0x00000000       0x23 template.o
+ .comment       0x00000000       0x23 cache.o
+ .comment       0x00000000       0x23 directory.o
+ .comment       0x00000000       0x23 fatdir.o
+ .comment       0x00000000       0x23 fatfile.o
+ .comment       0x00000000       0x23 file_allocation_table.o
+ .comment       0x00000000       0x23 filetime.o
+ .comment       0x00000000       0x23 libfat.o
+ .comment       0x00000000       0x23 partition.o
+ .comment       0x00000000       0x23 disc.o
+ .comment       0x00000000       0x23 io_cf_common.o
+ .comment       0x00000000       0x23 io_efa2.o
+ .comment       0x00000000       0x23 io_fcsr.o
+ .comment       0x00000000       0x23 io_m3_common.o
+ .comment       0x00000000       0x23 io_m3cf.o
+ .comment       0x00000000       0x23 io_m3sd.o
+ .comment       0x00000000       0x23 io_mpcf.o
+ .comment       0x00000000       0x23 io_njsd.o
+ .comment       0x00000000       0x23 io_nmmc.o
+ .comment       0x00000000       0x23 io_sc_common.o
+ .comment       0x00000000       0x23 io_sccf.o
+ .comment       0x00000000       0x23 io_scsd.o
+ .comment       0x00000000       0x23 io_sd_common.o
+ .comment       0x00000000       0x23 NeoIPC.o
+ .comment       0x00000022       0x22 C:/devkitPro/libnds/lib\libnds9.a(keys.o)
+                                 0x23 (size before relaxing)
+ .comment       0x00000000       0x23 C:/devkitPro/libnds/lib\libnds9.a(touch.o)
+ .comment       0x00000000       0x23 C:/devkitPro/libnds/lib\libnds9.a(video.o)
+ .comment       0x00000000       0x23 C:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+ .comment       0x00000000       0x23 C:/devkitPro/libnds/lib\libnds9.a(card.o)
+ .comment       0x00000000       0x23 C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+ .comment       0x00000000       0x23 C:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+ .comment       0x00000000       0x23 C:/devkitPro/libnds/lib\libnds9.a(libnds_exit.o)
+ .comment       0x00000000       0x23 C:/devkitPro/libnds/lib\libnds9.a(system.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-ctype_.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-init.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-lcltime.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-lcltime_r.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-malloc.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-mallocr.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-memcpy.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-memmove.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-memset.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-mktm_r.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-mlock.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-qsort.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-realloc.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-reallocr.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcasecmp.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcat.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strchr.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcmp.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strcpy.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strdup.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strdup_r.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strlen.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strncasecmp.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strncmp.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strncpy.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strnlen.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strpbrk.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strrchr.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-strupr.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysclose.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysfstat.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-syslseek.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysopen.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-sysread.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-syswrite.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-time.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-tzlock.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-tzvars.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-freer.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-gettzinfo.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-impure.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(iosupport.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(close.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(fstat.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(lseek.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(open.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(read.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(sbrk.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(times.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(write.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(malloc_vars.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(chdir.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(dir.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(build_argv.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(syscall_support.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a(handle_manager.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a(lib_a-errno.o)
+ .comment       0x00000000       0x23 c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtend.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x980 load address 0x02046174
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 EmuSystem.o
+ .debug_aranges
+                0x00000020       0x20 guiBase.o
+ .debug_aranges
+                0x00000040       0x20 guiButton.o
+ .debug_aranges
+                0x00000060       0x20 guiCheckbox.o
+ .debug_aranges
+                0x00000080       0x20 guiConsole.o
+ .debug_aranges
+                0x000000a0       0x20 guiLabel.o
+ .debug_aranges
+                0x000000c0       0x20 guiMenu.o
+ .debug_aranges
+                0x000000e0       0x20 guiObject.o
+ .debug_aranges
+                0x00000100       0x20 guiRadioButton.o
+ .debug_aranges
+                0x00000120       0x20 guiRender.o
+ .debug_aranges
+                0x00000140       0x20 guiStatus.o
+ .debug_aranges
+                0x00000160       0x20 LayoutInput.o
+ .debug_aranges
+                0x00000180       0x20 LayoutMain.o
+ .debug_aranges
+                0x000001a0       0x20 LayoutRomSelect.o
+ .debug_aranges
+                0x000001c0       0x20 LinearHeap.o
+ .debug_aranges
+                0x000001e0       0x20 NeoAudioStream.arm.o
+ .debug_aranges
+                0x00000200       0x20 NeoConfig.o
+ .debug_aranges
+                0x00000220       0x20 NeoCpu.o
+ .debug_aranges
+                0x00000240       0x20 NeoIO.o
+ .debug_aranges
+                0x00000260       0x20 NeoMemory.o
+ .debug_aranges
+                0x00000280       0x20 NeoProtection.o
+ .debug_aranges
+                0x000002a0       0x20 NeoSystem.o
+ .debug_aranges
+                0x000002c0       0x20 NeoVideo.o
+ .debug_aranges
+                0x000002e0       0x20 NeoVideoFixed.arm.o
+ .debug_aranges
+                0x00000300       0x20 NeoVideoPalette.arm.o
+ .debug_aranges
+                0x00000320       0x20 NeoVideoSprites.arm.o
+ .debug_aranges
+                0x00000340       0x20 pd4990a.o
+ .debug_aranges
+                0x00000360       0x20 ram.o
+ .debug_aranges
+                0x00000380       0x20 Sprintf.o
+ .debug_aranges
+                0x000003a0       0x20 template.o
+ .debug_aranges
+                0x000003c0       0x20 cache.o
+ .debug_aranges
+                0x000003e0       0x20 directory.o
+ .debug_aranges
+                0x00000400       0x20 fatdir.o
+ .debug_aranges
+                0x00000420       0x20 fatfile.o
+ .debug_aranges
+                0x00000440       0x20 file_allocation_table.o
+ .debug_aranges
+                0x00000460       0x20 filetime.o
+ .debug_aranges
+                0x00000480       0x20 libfat.o
+ .debug_aranges
+                0x000004a0       0x20 partition.o
+ .debug_aranges
+                0x000004c0       0x20 disc.o
+ .debug_aranges
+                0x000004e0       0x20 io_cf_common.o
+ .debug_aranges
+                0x00000500       0x20 io_efa2.o
+ .debug_aranges
+                0x00000520       0x20 io_fcsr.o
+ .debug_aranges
+                0x00000540       0x20 io_m3_common.o
+ .debug_aranges
+                0x00000560       0x20 io_m3cf.o
+ .debug_aranges
+                0x00000580       0x20 io_m3sd.o
+ .debug_aranges
+                0x000005a0       0x20 io_mpcf.o
+ .debug_aranges
+                0x000005c0       0x20 io_njsd.o
+ .debug_aranges
+                0x000005e0       0x20 io_nmmc.o
+ .debug_aranges
+                0x00000600       0x20 io_sc_common.o
+ .debug_aranges
+                0x00000620       0x20 io_sccf.o
+ .debug_aranges
+                0x00000640       0x20 io_scsd.o
+ .debug_aranges
+                0x00000660       0x20 io_sd_common.o
+ .debug_aranges
+                0x00000680       0x20 NeoIPC.o
+ .debug_aranges
+                0x000006a0       0x30 Cyclone.o
+ .debug_aranges
+                0x000006d0       0x20 NeoAudioStreamAsm.o
+ .debug_aranges
+                0x000006f0       0x20 NeoCpuAsm.o
+ .debug_aranges
+                0x00000710       0x28 NeoIOAsm.o
+ .debug_aranges
+                0x00000738       0x28 NeoMemoryAsm.o
+ .debug_aranges
+                0x00000760       0x20 NeoVideoAsm.o
+ .debug_aranges
+                0x00000780       0x20 io_dldi.o
+ .debug_aranges
+                0x000007a0       0x20 io_scsd_s.o
+ .debug_aranges
+                0x000007c0       0x20 C:/devkitPro/libnds/lib\libnds9.a(keys.o)
+ .debug_aranges
+                0x000007e0       0x20 C:/devkitPro/libnds/lib\libnds9.a(touch.o)
+ .debug_aranges
+                0x00000800       0x20 C:/devkitPro/libnds/lib\libnds9.a(video.o)
+ .debug_aranges
+                0x00000820       0x20 C:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+ .debug_aranges
+                0x00000840       0x20 C:/devkitPro/libnds/lib\libnds9.a(card.o)
+ .debug_aranges
+                0x00000860       0x20 C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+ .debug_aranges
+                0x00000880       0x20 C:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+ .debug_aranges
+                0x000008a0       0x20 C:/devkitPro/libnds/lib\libnds9.a(libnds_exit.o)
+ .debug_aranges
+                0x000008c0       0x20 C:/devkitPro/libnds/lib\libnds9.a(dcache.o)
+ .debug_aranges
+                0x000008e0       0x20 C:/devkitPro/libnds/lib\libnds9.a(mpu_setup.o)
+ .debug_aranges
+                0x00000900       0x20 C:/devkitPro/libnds/lib\libnds9.a(biosCalls.o)
+ .debug_aranges
+                0x00000920       0x20 C:/devkitPro/libnds/lib\libnds9.a(interruptDispatcher.o)
+ .debug_aranges
+                0x00000940       0x20 C:/devkitPro/libnds/lib\libnds9.a(swiSoftReset.o)
+ .debug_aranges
+                0x00000960       0x20 C:/devkitPro/libnds/lib\libnds9.a(system.o)
+
+.debug_pubnames
+                0x00000000     0x26c7 load address 0x02046174
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000      0x149 EmuSystem.o
+ .debug_pubnames
+                0x00000149      0x105 guiBase.o
+ .debug_pubnames
+                0x0000024e       0x39 guiButton.o
+ .debug_pubnames
+                0x00000287       0x55 guiCheckbox.o
+ .debug_pubnames
+                0x000002dc       0x86 guiConsole.o
+ .debug_pubnames
+                0x00000362       0x61 guiLabel.o
+ .debug_pubnames
+                0x000003c3       0x61 guiMenu.o
+ .debug_pubnames
+                0x00000424       0xbc guiObject.o
+ .debug_pubnames
+                0x000004e0       0x59 guiRadioButton.o
+ .debug_pubnames
+                0x00000539       0xeb guiRender.o
+ .debug_pubnames
+                0x00000624       0x39 guiStatus.o
+ .debug_pubnames
+                0x0000065d       0x3e LayoutInput.o
+ .debug_pubnames
+                0x0000069b       0x63 LayoutMain.o
+ .debug_pubnames
+                0x000006fe       0x42 LayoutRomSelect.o
+ .debug_pubnames
+                0x00000740       0x81 LinearHeap.o
+ .debug_pubnames
+                0x000007c1       0x75 NeoAudioStream.arm.o
+ .debug_pubnames
+                0x00000836       0x40 NeoConfig.o
+ .debug_pubnames
+                0x00000876      0x113 NeoCpu.o
+ .debug_pubnames
+                0x00000989       0x6b NeoIO.o
+ .debug_pubnames
+                0x000009f4      0x12f NeoMemory.o
+ .debug_pubnames
+                0x00000b23       0x1c NeoProfiler.o
+ .debug_pubnames
+                0x00000b3f       0x35 NeoProtection.o
+ .debug_pubnames
+                0x00000b74      0x21f NeoSystem.o
+ .debug_pubnames
+                0x00000d93       0xbd NeoVideo.o
+ .debug_pubnames
+                0x00000e50       0x60 NeoVideoFixed.arm.o
+ .debug_pubnames
+                0x00000eb0       0x82 NeoVideoPalette.arm.o
+ .debug_pubnames
+                0x00000f32       0x78 NeoVideoSprites.arm.o
+ .debug_pubnames
+                0x00000faa       0xf6 pd4990a.o
+ .debug_pubnames
+                0x000010a0      0x114 ram.o
+ .debug_pubnames
+                0x000011b4       0x3c Sprintf.o
+ .debug_pubnames
+                0x000011f0       0x25 template.o
+ .debug_pubnames
+                0x00001215       0xe0 cache.o
+ .debug_pubnames
+                0x000012f5      0x1a0 directory.o
+ .debug_pubnames
+                0x00001495       0xc6 fatdir.o
+ .debug_pubnames
+                0x0000155b       0x8d fatfile.o
+ .debug_pubnames
+                0x000015e8       0x9d file_allocation_table.o
+ .debug_pubnames
+                0x00001685       0x70 filetime.o
+ .debug_pubnames
+                0x000016f5       0xb6 libfat.o
+ .debug_pubnames
+                0x000017ab      0x129 partition.o
+ .debug_pubnames
+                0x000018d4       0x84 disc.o
+ .debug_pubnames
+                0x00001958       0x93 io_cf_common.o
+ .debug_pubnames
+                0x000019eb       0x9c io_efa2.o
+ .debug_pubnames
+                0x00001a87      0x119 io_fcsr.o
+ .debug_pubnames
+                0x00001ba0       0x25 io_m3_common.o
+ .debug_pubnames
+                0x00001bc5       0x31 io_m3cf.o
+ .debug_pubnames
+                0x00001bf6       0xd7 io_m3sd.o
+ .debug_pubnames
+                0x00001ccd       0x31 io_mpcf.o
+ .debug_pubnames
+                0x00001cfe       0xd7 io_njsd.o
+ .debug_pubnames
+                0x00001dd5       0xc5 io_nmmc.o
+ .debug_pubnames
+                0x00001e9a       0x25 io_sc_common.o
+ .debug_pubnames
+                0x00001ebf       0x31 io_sccf.o
+ .debug_pubnames
+                0x00001ef0       0xd7 io_scsd.o
+ .debug_pubnames
+                0x00001fc7       0x3e io_sd_common.o
+ .debug_pubnames
+                0x00002005       0xd2 NeoIPC.o
+ .debug_pubnames
+                0x000020d7       0x79 C:/devkitPro/libnds/lib\libnds9.a(keys.o)
+ .debug_pubnames
+                0x00002150       0x30 C:/devkitPro/libnds/lib\libnds9.a(touch.o)
+ .debug_pubnames
+                0x00002180       0x52 C:/devkitPro/libnds/lib\libnds9.a(video.o)
+ .debug_pubnames
+                0x000021d2       0x21 C:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+ .debug_pubnames
+                0x000021f3      0x150 C:/devkitPro/libnds/lib\libnds9.a(card.o)
+ .debug_pubnames
+                0x00002343      0x259 C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+ .debug_pubnames
+                0x0000259c       0x80 C:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+ .debug_pubnames
+                0x0000261c       0x38 C:/devkitPro/libnds/lib\libnds9.a(libnds_exit.o)
+ .debug_pubnames
+                0x00002654       0x73 C:/devkitPro/libnds/lib\libnds9.a(system.o)
+
+.debug_info     0x00000000    0x37643 load address 0x02046174
+ *(.debug_info)
+ .debug_info    0x00000000        0x0 Disa.o
+ .debug_info    0x00000000     0x1548 EmuSystem.o
+ .debug_info    0x00001548     0x1757 guiBase.o
+ .debug_info    0x00002c9f     0x1245 guiButton.o
+ .debug_info    0x00003ee4     0x12c4 guiCheckbox.o
+ .debug_info    0x000051a8     0x1317 guiConsole.o
+ .debug_info    0x000064bf     0x11e6 guiLabel.o
+ .debug_info    0x000076a5     0x1366 guiMenu.o
+ .debug_info    0x00008a0b     0x131a guiObject.o
+ .debug_info    0x00009d25     0x1372 guiRadioButton.o
+ .debug_info    0x0000b097     0x13bb guiRender.o
+ .debug_info    0x0000c452     0x11c6 guiStatus.o
+ .debug_info    0x0000d618        0x0 LayoutDebug.o
+ .debug_info    0x0000d618     0x153a LayoutInput.o
+ .debug_info    0x0000eb52     0x1b9d LayoutMain.o
+ .debug_info    0x000106ef     0x174e LayoutRomSelect.o
+ .debug_info    0x00011e3d      0xee5 LinearHeap.o
+ .debug_info    0x00012d22     0x1acd NeoAudioStream.arm.o
+ .debug_info    0x000147ef      0xf87 NeoConfig.o
+ .debug_info    0x00015776      0xfc1 NeoCpu.o
+ .debug_info    0x00016737     0x10a1 NeoIO.o
+ .debug_info    0x000177d8     0x14ef NeoMemory.o
+ .debug_info    0x00018cc7      0xd82 NeoProfiler.o
+ .debug_info    0x00019a49     0x15f0 NeoProtection.o
+ .debug_info    0x0001b039     0x1cad NeoSystem.o
+ .debug_info    0x0001cce6     0x17c5 NeoVideo.o
+ .debug_info    0x0001e4ab     0x13df NeoVideoFixed.arm.o
+ .debug_info    0x0001f88a     0x113b NeoVideoPalette.arm.o
+ .debug_info    0x000209c5     0x16f7 NeoVideoSprites.arm.o
+ .debug_info    0x000220bc     0x10c1 pd4990a.o
+ .debug_info    0x0002317d      0x779 ram.o
+ .debug_info    0x000238f6     0x13de Sprintf.o
+ .debug_info    0x00024cd4     0x1239 template.o
+ .debug_info    0x00025f0d      0x6f4 cache.o
+ .debug_info    0x00026601     0x12a5 directory.o
+ .debug_info    0x000278a6     0x1655 fatdir.o
+ .debug_info    0x00028efb     0x1b8f fatfile.o
+ .debug_info    0x0002aa8a      0x6fe file_allocation_table.o
+ .debug_info    0x0002b188      0x231 filetime.o
+ .debug_info    0x0002b3b9     0x1293 libfat.o
+ .debug_info    0x0002c64c      0x9cb partition.o
+ .debug_info    0x0002d017      0x67a disc.o
+ .debug_info    0x0002d691      0x32f io_cf_common.o
+ .debug_info    0x0002d9c0      0x595 io_efa2.o
+ .debug_info    0x0002df55      0x4b3 io_fcsr.o
+ .debug_info    0x0002e408      0x250 io_m3_common.o
+ .debug_info    0x0002e658      0x2a7 io_m3cf.o
+ .debug_info    0x0002e8ff      0x946 io_m3sd.o
+ .debug_info    0x0002f245      0x2a7 io_mpcf.o
+ .debug_info    0x0002f4ec      0xe99 io_njsd.o
+ .debug_info    0x00030385      0xd72 io_nmmc.o
+ .debug_info    0x000310f7       0xbf io_sc_common.o
+ .debug_info    0x000311b6      0x2a7 io_sccf.o
+ .debug_info    0x0003145d      0x779 io_scsd.o
+ .debug_info    0x00031bd6      0x2a1 io_sd_common.o
+ .debug_info    0x00031e77     0x13cf NeoIPC.o
+ .debug_info    0x00033246       0x81 Cyclone.o
+ .debug_info    0x000332c7       0x8f NeoAudioStreamAsm.o
+ .debug_info    0x00033356       0x87 NeoCpuAsm.o
+ .debug_info    0x000333dd       0x82 NeoIOAsm.o
+ .debug_info    0x0003345f       0x86 NeoMemoryAsm.o
+ .debug_info    0x000334e5       0x89 NeoVideoAsm.o
+ .debug_info    0x0003356e       0x94 io_dldi.o
+ .debug_info    0x00033602       0x96 io_scsd_s.o
+ .debug_info    0x00033698      0x3ad C:/devkitPro/libnds/lib\libnds9.a(keys.o)
+ .debug_info    0x00033a45      0x2c5 C:/devkitPro/libnds/lib\libnds9.a(touch.o)
+ .debug_info    0x00033d0a      0x301 C:/devkitPro/libnds/lib\libnds9.a(video.o)
+ .debug_info    0x0003400b      0xd2f C:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+ .debug_info    0x00034d3a      0x8d3 C:/devkitPro/libnds/lib\libnds9.a(card.o)
+ .debug_info    0x0003560d      0xf8d C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+ .debug_info    0x0003659a      0x3ec C:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+ .debug_info    0x00036986      0x2a7 C:/devkitPro/libnds/lib\libnds9.a(libnds_exit.o)
+ .debug_info    0x00036c2d       0xba C:/devkitPro/libnds/lib\libnds9.a(dcache.o)
+ .debug_info    0x00036ce7       0xc4 C:/devkitPro/libnds/lib\libnds9.a(mpu_setup.o)
+ .debug_info    0x00036dab       0xbf C:/devkitPro/libnds/lib\libnds9.a(biosCalls.o)
+ .debug_info    0x00036e6a       0xc9 C:/devkitPro/libnds/lib\libnds9.a(interruptDispatcher.o)
+ .debug_info    0x00036f33       0xc2 C:/devkitPro/libnds/lib\libnds9.a(swiSoftReset.o)
+ .debug_info    0x00036ff5      0x64e C:/devkitPro/libnds/lib\libnds9.a(system.o)
+
+.debug_abbrev   0x00000000     0x9da8 load address 0x02046174
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000        0x1 Disa.o
+ .debug_abbrev  0x00000001      0x316 EmuSystem.o
+ .debug_abbrev  0x00000317      0x41f guiBase.o
+ .debug_abbrev  0x00000736      0x28f guiButton.o
+ .debug_abbrev  0x000009c5      0x29b guiCheckbox.o
+ .debug_abbrev  0x00000c60      0x332 guiConsole.o
+ .debug_abbrev  0x00000f92      0x2d1 guiLabel.o
+ .debug_abbrev  0x00001263      0x2f4 guiMenu.o
+ .debug_abbrev  0x00001557      0x328 guiObject.o
+ .debug_abbrev  0x0000187f      0x2ba guiRadioButton.o
+ .debug_abbrev  0x00001b39      0x35a guiRender.o
+ .debug_abbrev  0x00001e93      0x27f guiStatus.o
+ .debug_abbrev  0x00002112        0x1 LayoutDebug.o
+ .debug_abbrev  0x00002113      0x2aa LayoutInput.o
+ .debug_abbrev  0x000023bd      0x28c LayoutMain.o
+ .debug_abbrev  0x00002649      0x2de LayoutRomSelect.o
+ .debug_abbrev  0x00002927      0x264 LinearHeap.o
+ .debug_abbrev  0x00002b8b      0x3e3 NeoAudioStream.arm.o
+ .debug_abbrev  0x00002f6e      0x264 NeoConfig.o
+ .debug_abbrev  0x000031d2      0x329 NeoCpu.o
+ .debug_abbrev  0x000034fb      0x242 NeoIO.o
+ .debug_abbrev  0x0000373d      0x38f NeoMemory.o
+ .debug_abbrev  0x00003acc      0x1c8 NeoProfiler.o
+ .debug_abbrev  0x00003c94      0x38b NeoProtection.o
+ .debug_abbrev  0x0000401f      0x4b8 NeoSystem.o
+ .debug_abbrev  0x000044d7      0x3d3 NeoVideo.o
+ .debug_abbrev  0x000048aa      0x2c1 NeoVideoFixed.arm.o
+ .debug_abbrev  0x00004b6b      0x30f NeoVideoPalette.arm.o
+ .debug_abbrev  0x00004e7a      0x36e NeoVideoSprites.arm.o
+ .debug_abbrev  0x000051e8      0x35e pd4990a.o
+ .debug_abbrev  0x00005546      0x305 ram.o
+ .debug_abbrev  0x0000584b      0x355 Sprintf.o
+ .debug_abbrev  0x00005ba0      0x249 template.o
+ .debug_abbrev  0x00005de9      0x1e4 cache.o
+ .debug_abbrev  0x00005fcd      0x369 directory.o
+ .debug_abbrev  0x00006336      0x312 fatdir.o
+ .debug_abbrev  0x00006648      0x343 fatfile.o
+ .debug_abbrev  0x0000698b      0x1db file_allocation_table.o
+ .debug_abbrev  0x00006b66       0xe0 filetime.o
+ .debug_abbrev  0x00006c46      0x1cc libfat.o
+ .debug_abbrev  0x00006e12      0x273 partition.o
+ .debug_abbrev  0x00007085      0x1ae disc.o
+ .debug_abbrev  0x00007233      0x177 io_cf_common.o
+ .debug_abbrev  0x000073aa      0x254 io_efa2.o
+ .debug_abbrev  0x000075fe      0x1b0 io_fcsr.o
+ .debug_abbrev  0x000077ae       0xbe io_m3_common.o
+ .debug_abbrev  0x0000786c       0xf8 io_m3cf.o
+ .debug_abbrev  0x00007964      0x341 io_m3sd.o
+ .debug_abbrev  0x00007ca5       0xf8 io_mpcf.o
+ .debug_abbrev  0x00007d9d      0x3a4 io_njsd.o
+ .debug_abbrev  0x00008141      0x291 io_nmmc.o
+ .debug_abbrev  0x000083d2       0x85 io_sc_common.o
+ .debug_abbrev  0x00008457       0xf8 io_sccf.o
+ .debug_abbrev  0x0000854f      0x2b0 io_scsd.o
+ .debug_abbrev  0x000087ff      0x134 io_sd_common.o
+ .debug_abbrev  0x00008933      0x355 NeoIPC.o
+ .debug_abbrev  0x00008c88       0x12 Cyclone.o
+ .debug_abbrev  0x00008c9a       0x14 NeoAudioStreamAsm.o
+ .debug_abbrev  0x00008cae       0x14 NeoCpuAsm.o
+ .debug_abbrev  0x00008cc2       0x12 NeoIOAsm.o
+ .debug_abbrev  0x00008cd4       0x12 NeoMemoryAsm.o
+ .debug_abbrev  0x00008ce6       0x14 NeoVideoAsm.o
+ .debug_abbrev  0x00008cfa       0x14 io_dldi.o
+ .debug_abbrev  0x00008d0e       0x14 io_scsd_s.o
+ .debug_abbrev  0x00008d22      0x185 C:/devkitPro/libnds/lib\libnds9.a(keys.o)
+ .debug_abbrev  0x00008ea7      0x12c C:/devkitPro/libnds/lib\libnds9.a(touch.o)
+ .debug_abbrev  0x00008fd3       0xe2 C:/devkitPro/libnds/lib\libnds9.a(video.o)
+ .debug_abbrev  0x000090b5      0x220 C:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+ .debug_abbrev  0x000092d5      0x2c2 C:/devkitPro/libnds/lib\libnds9.a(card.o)
+ .debug_abbrev  0x00009597      0x317 C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+ .debug_abbrev  0x000098ae      0x1bd C:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+ .debug_abbrev  0x00009a6b      0x138 C:/devkitPro/libnds/lib\libnds9.a(libnds_exit.o)
+ .debug_abbrev  0x00009ba3       0x14 C:/devkitPro/libnds/lib\libnds9.a(dcache.o)
+ .debug_abbrev  0x00009bb7       0x14 C:/devkitPro/libnds/lib\libnds9.a(mpu_setup.o)
+ .debug_abbrev  0x00009bcb       0x14 C:/devkitPro/libnds/lib\libnds9.a(biosCalls.o)
+ .debug_abbrev  0x00009bdf       0x14 C:/devkitPro/libnds/lib\libnds9.a(interruptDispatcher.o)
+ .debug_abbrev  0x00009bf3       0x14 C:/devkitPro/libnds/lib\libnds9.a(swiSoftReset.o)
+ .debug_abbrev  0x00009c07      0x1a1 C:/devkitPro/libnds/lib\libnds9.a(system.o)
+
+.debug_line     0x00000000    0x146b3 load address 0x02046174
+ *(.debug_line)
+ .debug_line    0x00000000        0x0 Disa.o
+ .debug_line    0x00000000      0x3d3 EmuSystem.o
+ .debug_line    0x000003d3      0x346 guiBase.o
+ .debug_line    0x00000719      0x25b guiButton.o
+ .debug_line    0x00000974      0x27c guiCheckbox.o
+ .debug_line    0x00000bf0      0x2eb guiConsole.o
+ .debug_line    0x00000edb      0x29a guiLabel.o
+ .debug_line    0x00001175      0x29a guiMenu.o
+ .debug_line    0x0000140f      0x27e guiObject.o
+ .debug_line    0x0000168d      0x297 guiRadioButton.o
+ .debug_line    0x00001924      0x2ed guiRender.o
+ .debug_line    0x00001c11      0x26d guiStatus.o
+ .debug_line    0x00001e7e        0x0 LayoutDebug.o
+ .debug_line    0x00001e7e      0x2c9 LayoutInput.o
+ .debug_line    0x00002147      0x3a0 LayoutMain.o
+ .debug_line    0x000024e7      0x2d9 LayoutRomSelect.o
+ .debug_line    0x000027c0      0x220 LinearHeap.o
+ .debug_line    0x000029e0      0x4bd NeoAudioStream.arm.o
+ .debug_line    0x00002e9d      0x27e NeoConfig.o
+ .debug_line    0x0000311b      0x32f NeoCpu.o
+ .debug_line    0x0000344a      0x230 NeoIO.o
+ .debug_line    0x0000367a      0x34b NeoMemory.o
+ .debug_line    0x000039c5      0x1af NeoProfiler.o
+ .debug_line    0x00003b74      0x308 NeoProtection.o
+ .debug_line    0x00003e7c      0x4be NeoSystem.o
+ .debug_line    0x0000433a      0x407 NeoVideo.o
+ .debug_line    0x00004741      0x353 NeoVideoFixed.arm.o
+ .debug_line    0x00004a94      0x329 NeoVideoPalette.arm.o
+ .debug_line    0x00004dbd      0x424 NeoVideoSprites.arm.o
+ .debug_line    0x000051e1      0x2f3 pd4990a.o
+ .debug_line    0x000054d4      0x2c4 ram.o
+ .debug_line    0x00005798      0x385 Sprintf.o
+ .debug_line    0x00005b1d      0x270 template.o
+ .debug_line    0x00005d8d      0x27a cache.o
+ .debug_line    0x00006007      0x5ba directory.o
+ .debug_line    0x000065c1      0x43f fatdir.o
+ .debug_line    0x00006a00      0x5fb fatfile.o
+ .debug_line    0x00006ffb      0x237 file_allocation_table.o
+ .debug_line    0x00007232      0x186 filetime.o
+ .debug_line    0x000073b8      0x2e4 libfat.o
+ .debug_line    0x0000769c      0x2da partition.o
+ .debug_line    0x00007976      0x218 disc.o
+ .debug_line    0x00007b8e      0x1ba io_cf_common.o
+ .debug_line    0x00007d48      0x245 io_efa2.o
+ .debug_line    0x00007f8d      0x1d1 io_fcsr.o
+ .debug_line    0x0000815e      0x10e io_m3_common.o
+ .debug_line    0x0000826c      0x121 io_m3cf.o
+ .debug_line    0x0000838d      0x32b io_m3sd.o
+ .debug_line    0x000086b8      0x120 io_mpcf.o
+ .debug_line    0x000087d8      0x41c io_njsd.o
+ .debug_line    0x00008bf4      0x43a io_nmmc.o
+ .debug_line    0x0000902e      0x10a io_sc_common.o
+ .debug_line    0x00009138      0x121 io_sccf.o
+ .debug_line    0x00009259      0x254 io_scsd.o
+ .debug_line    0x000094ad      0x19b io_sd_common.o
+ .debug_line    0x00009648      0x287 NeoIPC.o
+ .debug_line    0x000098cf     0x8b77 Cyclone.o
+ .debug_line    0x00012446       0x85 NeoAudioStreamAsm.o
+ .debug_line    0x000124cb      0x156 NeoCpuAsm.o
+ .debug_line    0x00012621      0x125 NeoIOAsm.o
+ .debug_line    0x00012746      0x130 NeoMemoryAsm.o
+ .debug_line    0x00012876       0x8a NeoVideoAsm.o
+ .debug_line    0x00012900       0x74 io_dldi.o
+ .debug_line    0x00012974       0xa1 io_scsd_s.o
+ .debug_line    0x00012a15      0x23e C:/devkitPro/libnds/lib\libnds9.a(keys.o)
+ .debug_line    0x00012c53      0x21e C:/devkitPro/libnds/lib\libnds9.a(touch.o)
+ .debug_line    0x00012e71      0x1a8 C:/devkitPro/libnds/lib\libnds9.a(video.o)
+ .debug_line    0x00013019      0x342 C:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+ .debug_line    0x0001335b      0x415 C:/devkitPro/libnds/lib\libnds9.a(card.o)
+ .debug_line    0x00013770      0x5d4 C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+ .debug_line    0x00013d44      0x1b8 C:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+ .debug_line    0x00013efc      0x1ca C:/devkitPro/libnds/lib\libnds9.a(libnds_exit.o)
+ .debug_line    0x000140c6       0xa2 C:/devkitPro/libnds/lib\libnds9.a(dcache.o)
+ .debug_line    0x00014168       0xe1 C:/devkitPro/libnds/lib\libnds9.a(mpu_setup.o)
+ .debug_line    0x00014249       0xbf C:/devkitPro/libnds/lib\libnds9.a(biosCalls.o)
+ .debug_line    0x00014308       0xc2 C:/devkitPro/libnds/lib\libnds9.a(interruptDispatcher.o)
+ .debug_line    0x000143ca       0x91 C:/devkitPro/libnds/lib\libnds9.a(swiSoftReset.o)
+ .debug_line    0x0001445b      0x258 C:/devkitPro/libnds/lib\libnds9.a(system.o)
+
+.debug_frame    0x00000000     0x3614 load address 0x02046174
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x21c EmuSystem.o
+ .debug_frame   0x0000021c      0x15c guiBase.o
+ .debug_frame   0x00000378       0x34 guiButton.o
+ .debug_frame   0x000003ac       0x50 guiCheckbox.o
+ .debug_frame   0x000003fc       0xac guiConsole.o
+ .debug_frame   0x000004a8       0x68 guiLabel.o
+ .debug_frame   0x00000510       0x70 guiMenu.o
+ .debug_frame   0x00000580       0xe8 guiObject.o
+ .debug_frame   0x00000668       0x64 guiRadioButton.o
+ .debug_frame   0x000006cc      0x128 guiRender.o
+ .debug_frame   0x000007f4       0x34 guiStatus.o
+ .debug_frame   0x00000828       0xa8 LayoutInput.o
+ .debug_frame   0x000008d0      0x16c LayoutMain.o
+ .debug_frame   0x00000a3c       0x8c LayoutRomSelect.o
+ .debug_frame   0x00000ac8       0x70 LinearHeap.o
+ .debug_frame   0x00000b38      0x110 NeoAudioStream.arm.o
+ .debug_frame   0x00000c48       0x58 NeoConfig.o
+ .debug_frame   0x00000ca0      0x150 NeoCpu.o
+ .debug_frame   0x00000df0       0x64 NeoIO.o
+ .debug_frame   0x00000e54      0x194 NeoMemory.o
+ .debug_frame   0x00000fe8      0x1a8 NeoProtection.o
+ .debug_frame   0x00001190      0x2ac NeoSystem.o
+ .debug_frame   0x0000143c       0xec NeoVideo.o
+ .debug_frame   0x00001528       0x98 NeoVideoFixed.arm.o
+ .debug_frame   0x000015c0       0xa8 NeoVideoPalette.arm.o
+ .debug_frame   0x00001668       0xa4 NeoVideoSprites.arm.o
+ .debug_frame   0x0000170c       0xf8 pd4990a.o
+ .debug_frame   0x00001804      0x1b0 ram.o
+ .debug_frame   0x000019b4       0x74 Sprintf.o
+ .debug_frame   0x00001a28       0x2c template.o
+ .debug_frame   0x00001a54      0x158 cache.o
+ .debug_frame   0x00001bac      0x218 directory.o
+ .debug_frame   0x00001dc4      0x154 fatdir.o
+ .debug_frame   0x00001f18      0x14c fatfile.o
+ .debug_frame   0x00002064       0xf8 file_allocation_table.o
+ .debug_frame   0x0000215c       0x6c filetime.o
+ .debug_frame   0x000021c8       0xd4 libfat.o
+ .debug_frame   0x0000229c      0x11c partition.o
+ .debug_frame   0x000023b8       0x70 disc.o
+ .debug_frame   0x00002428       0xc4 io_cf_common.o
+ .debug_frame   0x000024ec       0xc4 io_efa2.o
+ .debug_frame   0x000025b0       0xcc io_fcsr.o
+ .debug_frame   0x0000267c       0x28 io_m3_common.o
+ .debug_frame   0x000026a4       0x2c io_m3cf.o
+ .debug_frame   0x000026d0      0x18c io_m3sd.o
+ .debug_frame   0x0000285c       0x2c io_mpcf.o
+ .debug_frame   0x00002888      0x160 io_njsd.o
+ .debug_frame   0x000029e8      0x140 io_nmmc.o
+ .debug_frame   0x00002b28       0x20 io_sc_common.o
+ .debug_frame   0x00002b48       0x2c io_sccf.o
+ .debug_frame   0x00002b74      0x178 io_scsd.o
+ .debug_frame   0x00002cec       0x84 io_sd_common.o
+ .debug_frame   0x00002d70       0xd4 NeoIPC.o
+ .debug_frame   0x00002e44       0x98 C:/devkitPro/libnds/lib\libnds9.a(keys.o)
+ .debug_frame   0x00002edc       0x48 C:/devkitPro/libnds/lib\libnds9.a(touch.o)
+ .debug_frame   0x00002f24       0x5c C:/devkitPro/libnds/lib\libnds9.a(video.o)
+ .debug_frame   0x00002f80       0x30 C:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+ .debug_frame   0x00002fb0      0x1f8 C:/devkitPro/libnds/lib\libnds9.a(card.o)
+ .debug_frame   0x000031a8      0x2bc C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+ .debug_frame   0x00003464       0xbc C:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+ .debug_frame   0x00003520       0x3c C:/devkitPro/libnds/lib\libnds9.a(libnds_exit.o)
+ .debug_frame   0x0000355c       0xb8 C:/devkitPro/libnds/lib\libnds9.a(system.o)
+
+.debug_str      0x00000000     0x81cc load address 0x02046174
+ *(.debug_str)
+ .debug_str     0x00000000      0xc21 EmuSystem.o
+                                0xd52 (size before relaxing)
+ .debug_str     0x00000c21      0x4c7 guiBase.o
+                                0xe8b (size before relaxing)
+ .debug_str     0x000010e8      0x17d guiButton.o
+                                0xcbc (size before relaxing)
+ .debug_str     0x00001265      0x160 guiCheckbox.o
+                                0xd95 (size before relaxing)
+ .debug_str     0x000013c5      0x138 guiConsole.o
+                                0xcc8 (size before relaxing)
+ .debug_str     0x000014fd       0x6f guiLabel.o
+                                0xc4c (size before relaxing)
+ .debug_str     0x0000156c       0xbe guiMenu.o
+                                0xd0e (size before relaxing)
+ .debug_str     0x0000162a      0x109 guiObject.o
+                                0xc2f (size before relaxing)
+ .debug_str     0x00001733       0xba guiRadioButton.o
+                                0xde1 (size before relaxing)
+ .debug_str     0x000017ed      0x26e guiRender.o
+                                0xbde (size before relaxing)
+ .debug_str     0x00001a5b       0xd9 guiStatus.o
+                                0xc5f (size before relaxing)
+ .debug_str     0x00001b34      0x155 LayoutInput.o
+                                0xdb3 (size before relaxing)
+ .debug_str     0x00001c89      0x42a LayoutMain.o
+                               0x123c (size before relaxing)
+ .debug_str     0x000020b3      0x27e LayoutRomSelect.o
+                                0xf57 (size before relaxing)
+ .debug_str     0x00002331       0x8e LinearHeap.o
+                                0x989 (size before relaxing)
+ .debug_str     0x000023bf      0x3e5 NeoAudioStream.arm.o
+                                0xe8f (size before relaxing)
+ .debug_str     0x000027a4       0xfa NeoConfig.o
+                                0xa40 (size before relaxing)
+ .debug_str     0x0000289e      0x112 NeoCpu.o
+                                0x9e4 (size before relaxing)
+ .debug_str     0x000029b0       0x84 NeoIO.o
+                                0xb88 (size before relaxing)
+ .debug_str     0x00002a34      0x24c NeoMemory.o
+                                0xcd2 (size before relaxing)
+ .debug_str     0x00002c80       0x38 NeoProfiler.o
+                                0x8fd (size before relaxing)
+ .debug_str     0x00002cb8      0x2a6 NeoProtection.o
+                                0xbfb (size before relaxing)
+ .debug_str     0x00002f5e      0x3ea NeoSystem.o
+                               0x1267 (size before relaxing)
+ .debug_str     0x00003348      0x799 NeoVideo.o
+                               0x12c1 (size before relaxing)
+ .debug_str     0x00003ae1      0x171 NeoVideoFixed.arm.o
+                                0xd2d (size before relaxing)
+ .debug_str     0x00003c52       0xdf NeoVideoPalette.arm.o
+                                0xd3a (size before relaxing)
+ .debug_str     0x00003d31      0x7f5 NeoVideoSprites.arm.o
+                               0x11df (size before relaxing)
+ .debug_str     0x00004526      0x208 pd4990a.o
+                                0xae8 (size before relaxing)
+ .debug_str     0x0000472e      0x161 ram.o
+                                0x476 (size before relaxing)
+ .debug_str     0x0000488f       0xde Sprintf.o
+                                0x9fa (size before relaxing)
+ .debug_str     0x0000496d       0x4c template.o
+                                0xcb7 (size before relaxing)
+ .debug_str     0x000049b9      0x2b3 cache.o
+                                0x3b0 (size before relaxing)
+ .debug_str     0x00004c6c      0x76f directory.o
+                                0xaf4 (size before relaxing)
+ .debug_str     0x000053db      0x52c fatdir.o
+                                0xb56 (size before relaxing)
+ .debug_str     0x00005907      0x1ea fatfile.o
+                                0xc26 (size before relaxing)
+ .debug_str     0x00005af1      0x10f file_allocation_table.o
+                                0x495 (size before relaxing)
+ .debug_str     0x00005c00       0x9c filetime.o
+                                0x1b5 (size before relaxing)
+ .debug_str     0x00005c9c      0x217 libfat.o
+                                0x92c (size before relaxing)
+ .debug_str     0x00005eb3      0x448 partition.o
+                                0x863 (size before relaxing)
+ .debug_str     0x000062fb      0x10f disc.o
+                                0x520 (size before relaxing)
+ .debug_str     0x0000640a      0x101 io_cf_common.o
+                                0x1ea (size before relaxing)
+ .debug_str     0x0000650b      0x155 io_efa2.o
+                                0x32c (size before relaxing)
+ .debug_str     0x00006660      0x180 io_fcsr.o
+                                0x35d (size before relaxing)
+ .debug_str     0x000067e0       0x68 io_m3_common.o
+                                0x118 (size before relaxing)
+ .debug_str     0x00006848       0x61 io_m3cf.o
+                                0x25f (size before relaxing)
+ .debug_str     0x000068a9      0x235 io_m3sd.o
+                                0x44d (size before relaxing)
+ .debug_str     0x00006ade       0x61 io_mpcf.o
+                                0x25f (size before relaxing)
+ .debug_str     0x00006b3f      0x1fc io_njsd.o
+                                0x767 (size before relaxing)
+ .debug_str     0x00006d3b      0x1a8 io_nmmc.o
+                                0x3ae (size before relaxing)
+ .debug_str     0x00006ee3       0x65 io_sc_common.o
+                                0x106 (size before relaxing)
+ .debug_str     0x00006f48       0x61 io_sccf.o
+                                0x25f (size before relaxing)
+ .debug_str     0x00006fa9      0x1b6 io_scsd.o
+                                0x3f4 (size before relaxing)
+ .debug_str     0x0000715f       0xd1 io_sd_common.o
+                                0x1da (size before relaxing)
+ .debug_str     0x00007230      0x213 NeoIPC.o
+                                0xe36 (size before relaxing)
+ .debug_str     0x00007443      0x165 C:/devkitPro/libnds/lib\libnds9.a(keys.o)
+                                0x2d2 (size before relaxing)
+ .debug_str     0x000075a8       0x70 C:/devkitPro/libnds/lib\libnds9.a(touch.o)
+                                0x1f6 (size before relaxing)
+ .debug_str     0x00007618       0x9b C:/devkitPro/libnds/lib\libnds9.a(video.o)
+                                0x641 (size before relaxing)
+ .debug_str     0x000076b3      0x17c C:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+                                0x7f4 (size before relaxing)
+ .debug_str     0x0000782f      0x1d2 C:/devkitPro/libnds/lib\libnds9.a(card.o)
+                                0x2e4 (size before relaxing)
+ .debug_str     0x00007a01      0x420 C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+                                0x726 (size before relaxing)
+ .debug_str     0x00007e21      0x126 C:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+                                0x32a (size before relaxing)
+ .debug_str     0x00007f47       0x86 C:/devkitPro/libnds/lib\libnds9.a(libnds_exit.o)
+                                0x296 (size before relaxing)
+ .debug_str     0x00007fcd      0x1ff C:/devkitPro/libnds/lib\libnds9.a(system.o)
+                                0x48d (size before relaxing)
+
+.debug_loc      0x00000000     0xbc8e load address 0x02046174
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x53e EmuSystem.o
+ .debug_loc     0x0000053e      0x376 guiBase.o
+ .debug_loc     0x000008b4       0xe5 guiButton.o
+ .debug_loc     0x00000999      0x11f guiCheckbox.o
+ .debug_loc     0x00000ab8      0x255 guiConsole.o
+ .debug_loc     0x00000d0d      0x153 guiLabel.o
+ .debug_loc     0x00000e60      0x1cc guiMenu.o
+ .debug_loc     0x0000102c      0x3d1 guiObject.o
+ .debug_loc     0x000013fd      0x1b0 guiRadioButton.o
+ .debug_loc     0x000015ad      0x464 guiRender.o
+ .debug_loc     0x00001a11       0xda guiStatus.o
+ .debug_loc     0x00001aeb      0x3b1 LayoutInput.o
+ .debug_loc     0x00001e9c      0x78b LayoutMain.o
+ .debug_loc     0x00002627      0x302 LayoutRomSelect.o
+ .debug_loc     0x00002929       0xb3 LinearHeap.o
+ .debug_loc     0x000029dc      0x89a NeoAudioStream.arm.o
+ .debug_loc     0x00003276       0xc7 NeoConfig.o
+ .debug_loc     0x0000333d      0x145 NeoCpu.o
+ .debug_loc     0x00003482      0x166 NeoIO.o
+ .debug_loc     0x000035e8      0x45a NeoMemory.o
+ .debug_loc     0x00003a42      0x526 NeoProtection.o
+ .debug_loc     0x00003f68      0x672 NeoSystem.o
+ .debug_loc     0x000045da      0x17b NeoVideo.o
+ .debug_loc     0x00004755      0x152 NeoVideoFixed.arm.o
+ .debug_loc     0x000048a7       0xcc NeoVideoPalette.arm.o
+ .debug_loc     0x00004973      0x3a6 NeoVideoSprites.arm.o
+ .debug_loc     0x00004d19      0x169 pd4990a.o
+ .debug_loc     0x00004e82      0x241 ram.o
+ .debug_loc     0x000050c3      0x711 Sprintf.o
+ .debug_loc     0x000057d4       0x1f template.o
+ .debug_loc     0x000057f3      0x575 cache.o
+ .debug_loc     0x00005d68      0xb37 directory.o
+ .debug_loc     0x0000689f      0x5fa fatdir.o
+ .debug_loc     0x00006e99      0x85c fatfile.o
+ .debug_loc     0x000076f5      0x5b0 file_allocation_table.o
+ .debug_loc     0x00007ca5       0xb9 filetime.o
+ .debug_loc     0x00007d5e      0x19a libfat.o
+ .debug_loc     0x00007ef8      0x3cf partition.o
+ .debug_loc     0x000082c7       0xb7 disc.o
+ .debug_loc     0x0000837e      0x2c0 io_cf_common.o
+ .debug_loc     0x0000863e       0xe7 io_efa2.o
+ .debug_loc     0x00008725      0x2de io_fcsr.o
+ .debug_loc     0x00008a03       0x32 io_m3_common.o
+ .debug_loc     0x00008a35       0x1f io_m3cf.o
+ .debug_loc     0x00008a54      0x60d io_m3sd.o
+ .debug_loc     0x00009061       0x1f io_mpcf.o
+ .debug_loc     0x00009080      0x607 io_njsd.o
+ .debug_loc     0x00009687      0x4a1 io_nmmc.o
+ .debug_loc     0x00009b28       0x1f io_sccf.o
+ .debug_loc     0x00009b47      0x61d io_scsd.o
+ .debug_loc     0x0000a164      0x209 io_sd_common.o
+ .debug_loc     0x0000a36d      0x1e6 NeoIPC.o
+ .debug_loc     0x0000a553       0x51 C:/devkitPro/libnds/lib\libnds9.a(keys.o)
+ .debug_loc     0x0000a5a4       0x3e C:/devkitPro/libnds/lib\libnds9.a(touch.o)
+ .debug_loc     0x0000a5e2       0xb3 C:/devkitPro/libnds/lib\libnds9.a(video.o)
+ .debug_loc     0x0000a695       0x32 C:/devkitPro/libnds/lib\libnds9.a(initSystem.o)
+ .debug_loc     0x0000a6c7      0x62c C:/devkitPro/libnds/lib\libnds9.a(card.o)
+ .debug_loc     0x0000acf3      0xc6e C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+ .debug_loc     0x0000b961      0x150 C:/devkitPro/libnds/lib\libnds9.a(interrupts.o)
+ .debug_loc     0x0000bab1       0x66 C:/devkitPro/libnds/lib\libnds9.a(libnds_exit.o)
+ .debug_loc     0x0000bb17      0x177 C:/devkitPro/libnds/lib\libnds9.a(system.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.stack          0x00080000        0x0 load address 0x02046174
+                0x00080000                _stack = .
+ *(.stack)
+LOAD c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb/ds_arm9_crt0.o
+LOAD c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crti.o
+LOAD c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtbegin.o
+LOAD gui.bin.o
+LOAD Disa.o
+LOAD EmuSystem.o
+LOAD guiBase.o
+LOAD guiButton.o
+LOAD guiCheckbox.o
+LOAD guiConsole.o
+LOAD guiLabel.o
+LOAD guiMenu.o
+LOAD guiObject.o
+LOAD guiRadioButton.o
+LOAD guiRender.o
+LOAD guiStatus.o
+LOAD LayoutDebug.o
+LOAD LayoutInput.o
+LOAD LayoutMain.o
+LOAD LayoutRomSelect.o
+LOAD LinearHeap.o
+LOAD NeoAudioStream.arm.o
+LOAD NeoConfig.o
+LOAD NeoCpu.o
+LOAD NeoIO.o
+LOAD NeoMemory.o
+LOAD NeoProfiler.o
+LOAD NeoProtection.o
+LOAD NeoSystem.o
+LOAD NeoVideo.o
+LOAD NeoVideoFixed.arm.o
+LOAD NeoVideoPalette.arm.o
+LOAD NeoVideoSprites.arm.o
+LOAD pd4990a.o
+LOAD ram.o
+LOAD Sprintf.o
+LOAD template.o
+LOAD cache.o
+LOAD directory.o
+LOAD fatdir.o
+LOAD fatfile.o
+LOAD file_allocation_table.o
+LOAD filetime.o
+LOAD libfat.o
+LOAD partition.o
+LOAD disc.o
+LOAD io_cf_common.o
+LOAD io_efa2.o
+LOAD io_fcsr.o
+LOAD io_m3_common.o
+LOAD io_m3cf.o
+LOAD io_m3sd.o
+LOAD io_mpcf.o
+LOAD io_njsd.o
+LOAD io_nmmc.o
+LOAD io_sc_common.o
+LOAD io_sccf.o
+LOAD io_scsd.o
+LOAD io_sd_common.o
+LOAD NeoIPC.o
+LOAD Cyclone.o
+LOAD NeoAudioStreamAsm.o
+LOAD NeoCpuAsm.o
+LOAD NeoIOAsm.o
+LOAD NeoMemoryAsm.o
+LOAD NeoVideoAsm.o
+LOAD io_dldi.o
+LOAD io_scsd_s.o
+LOAD C:/devkitPro/libnds/lib\libnds9.a
+START GROUP
+LOAD c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb\libgcc.a
+LOAD c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libg.a
+LOAD c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libc.a
+LOAD c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/lib/thumb\libsysbase.a
+END GROUP
+LOAD c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtend.o
+LOAD c:/devkitpro/devkitarm/bin/../lib/gcc/arm-eabi/4.4.3/thumb/crtn.o
+OUTPUT(C:/Users/GRX/NeoDS-master-old/arm9/NeoDS-master-old.arm9.elf elf32-littlearm)
+
+.debug_ranges   0x00000000     0x23c8 load address 0x02046174
+ .debug_ranges  0x00000000       0x60 guiBase.o
+ .debug_ranges  0x00000060       0x48 guiButton.o
+ .debug_ranges  0x000000a8       0x60 guiCheckbox.o
+ .debug_ranges  0x00000108       0x38 guiConsole.o
+ .debug_ranges  0x00000140       0x18 guiMenu.o
+ .debug_ranges  0x00000158       0x18 guiRender.o
+ .debug_ranges  0x00000170       0x18 LayoutRomSelect.o
+ .debug_ranges  0x00000188      0x1a8 NeoAudioStream.arm.o
+ .debug_ranges  0x00000330       0x38 NeoConfig.o
+ .debug_ranges  0x00000368       0x18 NeoIO.o
+ .debug_ranges  0x00000380       0x18 NeoMemory.o
+ .debug_ranges  0x00000398      0x118 NeoProtection.o
+ .debug_ranges  0x000004b0      0x128 NeoSystem.o
+ .debug_ranges  0x000005d8       0xe0 NeoVideo.o
+ .debug_ranges  0x000006b8       0xa0 NeoVideoFixed.arm.o
+ .debug_ranges  0x00000758       0xb8 NeoVideoPalette.arm.o
+ .debug_ranges  0x00000810      0x140 NeoVideoSprites.arm.o
+ .debug_ranges  0x00000950       0x38 pd4990a.o
+ .debug_ranges  0x00000988       0x20 ram.o
+ .debug_ranges  0x000009a8       0xd8 Sprintf.o
+ .debug_ranges  0x00000a80       0x98 directory.o
+ .debug_ranges  0x00000b18       0x88 fatdir.o
+ .debug_ranges  0x00000ba0       0x90 fatfile.o
+ .debug_ranges  0x00000c30       0x20 file_allocation_table.o
+ .debug_ranges  0x00000c50       0x18 partition.o
+ .debug_ranges  0x00000c68      0x290 io_efa2.o
+ .debug_ranges  0x00000ef8       0x50 io_m3_common.o
+ .debug_ranges  0x00000f48      0x220 io_m3sd.o
+ .debug_ranges  0x00001168      0x260 io_njsd.o
+ .debug_ranges  0x000013c8      0x780 io_nmmc.o
+ .debug_ranges  0x00001b48      0x110 io_scsd.o
+ .debug_ranges  0x00001c58       0xc0 NeoIPC.o
+ .debug_ranges  0x00001d18       0x28 Cyclone.o
+ .debug_ranges  0x00001d40       0x20 NeoIOAsm.o
+ .debug_ranges  0x00001d60       0x20 NeoMemoryAsm.o
+ .debug_ranges  0x00001d80       0x18 C:/devkitPro/libnds/lib\libnds9.a(touch.o)
+ .debug_ranges  0x00001d98      0x1f0 C:/devkitPro/libnds/lib\libnds9.a(card.o)
+ .debug_ranges  0x00001f88      0x410 C:/devkitPro/libnds/lib\libnds9.a(fifosystem.o)
+ .debug_ranges  0x00002398       0x30 C:/devkitPro/libnds/lib\libnds9.a(interrupts.o)

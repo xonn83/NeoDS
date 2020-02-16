@@ -173,6 +173,7 @@ void neoSystem7Execute()
 	s32 cycles = 0;
 	u32 i;
 	neoBacklightOff();
+	
 	while(1) {
 		for(i = 0; i < Z80_TIMESLICE_PER_FRAME; i++) {
 			cycles += Z80_CLOCKS_PER_TIMESLICE;

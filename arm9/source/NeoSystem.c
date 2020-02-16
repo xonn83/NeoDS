@@ -362,6 +362,8 @@ bool neoSystemOpen(const char* szFileName)
 	ASSERTMSG(g_neo->cpuClockDivide == 2 || g_neo->cpuClockDivide == 3, "%d",
 		g_neo->cpuClockDivide);
 	
+	lcdSwap();
+	
 	return true;
 }
 
@@ -478,6 +480,7 @@ static void neoDoInput(u32 mask, bool pressed)
 	//this is the only input that works when emulation is disabled
 	//also, this only works when key is pressed (not held)
 	if((mask & NEOINPUT_PAUSE) && pressed) {
+		lcdSwap();
 		neoSystemSetEnabled(g_paused);
 		g_paused = !g_paused;
 	}
@@ -533,7 +536,7 @@ static void neoSystemDoKeys(u32 keys)
 		}
 	}
 
-	if(keys & KEY_LID) {
+	if (!(keys & KEY_LID)) {
 		neoSystemLidClose();
 	}
 
