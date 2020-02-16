@@ -52,7 +52,7 @@ static void neoLoadDefaultConfig()
 	g_neo->keyGrid[6] = NEOINPUT_START;
 	g_neo->keyGrid[7] = NEOINPUT_COIN;
 	neoSystemSetClockDivide(2);
-	neoVideoSetSize(NEOVIDEO_NORMAL);
+	neoVideoSetSize(NEOVIDEO_SCALED);
 	memset(g_neo->pSram, 0, 64*KB);
 	memset(g_neo->pCard, 0, 2*KB);
 }
