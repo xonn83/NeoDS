@@ -95,23 +95,23 @@ static inline bool _NJSD_waitIRQ(void) {
 static inline void _NJSD_writeCardCommand 
 	(u8 cmd0, u8 cmd1, u8 cmd2, u8 cmd3, u8 cmd4, u8 cmd5, u8 cmd6, u8 cmd7) 
 {
-	REG_CARD_COMMAND[0] = cmd0;
-	REG_CARD_COMMAND[1] = cmd1;
-	REG_CARD_COMMAND[2] = cmd2;
-	REG_CARD_COMMAND[3] = cmd3;
-	REG_CARD_COMMAND[4] = cmd4;
-	REG_CARD_COMMAND[5] = cmd5;
-	REG_CARD_COMMAND[6] = cmd6;
-	REG_CARD_COMMAND[7] = cmd7;
+	CARD_COMMAND[0] = cmd0;
+	CARD_COMMAND[1] = cmd1;
+	CARD_COMMAND[2] = cmd2;
+	CARD_COMMAND[3] = cmd3;
+	CARD_COMMAND[4] = cmd4;
+	CARD_COMMAND[5] = cmd5;
+	CARD_COMMAND[6] = cmd6;
+	CARD_COMMAND[7] = cmd7;
 }
 
 static bool _NJSD_reset (void) {
 	int i;
-	REG_AUXSPICNTH = CARD_CR1_ENABLE;
+	CARD_CR1H = CARD_CR1_ENABLE;
 	_NJSD_writeCardCommand (0x20, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00);
-	REG_ROMCTRL = 0xA0406000;
+	CARD_CR2 = 0xA0406000;
 	i = RESET_TIMEOUT;
-	while ((REG_ROMCTRL & CARD_BUSY) && --i);
+	while ((CARD_CR2 & CARD_BUSY) && --i);
 	if (i <= 0) {
 		return false;
 	}
@@ -144,26 +144,26 @@ static bool _NJSD_sendCMDR (int speed, u8 *rsp_buf, int type, u8 cmd, u32 param)
 
 	REG_IF = 0x100000;
 
-	REG_AUXSPICNTH = CARD_CR1_ENABLE;
+	CARD_CR1H = CARD_CR1_ENABLE;
 
 	if ((type & 3) < 2) {
-		REG_CARD_COMMAND[0] = 0xF0 | (speed << 2) | 1 | (type << 1);
+		CARD_COMMAND[0] = 0xF0 | (speed << 2) | 1 | (type << 1);
 	} else if ((type & 3) == 2) {
-		REG_CARD_COMMAND[0] = 0xE0 | (speed << 2) | 0 | (1 << 1);
+		CARD_COMMAND[0] = 0xE0 | (speed << 2) | 0 | (1 << 1);
 	} else {
-		REG_CARD_COMMAND[0] = 0xF0 | (speed << 2) | 0 | (1 << 1);
+		CARD_COMMAND[0] = 0xF0 | (speed << 2) | 0 | (1 << 1);
 	}
 	
-	REG_CARD_COMMAND[1] = (type & 0x40) | ((( type >> 2) & 7) << 3);
-	REG_CARD_COMMAND[2] = 0x40 | cmd;
-	REG_CARD_COMMAND[3] = (param>>24) & 0xFF;
-	REG_CARD_COMMAND[4] = (param>>16) & 0xFF;
-	REG_CARD_COMMAND[5] = (param>>8) & 0xFF;
-	REG_CARD_COMMAND[6] = (param>>0) & 0xFF;
-	REG_CARD_COMMAND[7] = 0; // offset = 0
+	CARD_COMMAND[1] = (type & 0x40) | ((( type >> 2) & 7) << 3);
+	CARD_COMMAND[2] = 0x40 | cmd;
+	CARD_COMMAND[3] = (param>>24) & 0xFF;
+	CARD_COMMAND[4] = (param>>16) & 0xFF;
+	CARD_COMMAND[5] = (param>>8) & 0xFF;
+	CARD_COMMAND[6] = (param>>0) & 0xFF;
+	CARD_COMMAND[7] = 0; // offset = 0
 
 	if ((type & 3) < 2) {
-		REG_ROMCTRL = _NJSD_cardFlags | 0x01000000;
+		CARD_CR2 = _NJSD_cardFlags | 0x01000000;
 
 		// wait for ninja DS to be done!
 		if (!_NJSD_waitIRQ ()) {
@@ -176,8 +176,8 @@ static bool _NJSD_sendCMDR (int speed, u8 *rsp_buf, int type, u8 cmd, u32 param)
 		i = 0;
 		do {
 			// Read data if available
-			if (REG_ROMCTRL & CARD_DATA_READY) {
-				data=REG_CARD_DATA_RD;
+			if (CARD_CR2 & CARD_DATA_READY) {
+				data=CARD_DATA_RD;
 				if (rsp_buf != NULL) {
 					if (i == 4) {
 						rsp_buf[0] = (data>>0)&0xFF;
@@ -191,10 +191,10 @@ static bool _NJSD_sendCMDR (int speed, u8 *rsp_buf, int type, u8 cmd, u32 param)
 				}
 				i++;
 			}
-		} while (REG_ROMCTRL & CARD_BUSY);
+		} while (CARD_CR2 & CARD_BUSY);
 	} else {
-		REG_ROMCTRL = _NJSD_cardFlags;
-		while (REG_ROMCTRL & CARD_BUSY);
+		CARD_CR2 = _NJSD_cardFlags;
+		while (CARD_CR2 & CARD_BUSY);
 
 		// wait for ninja DS to be done!
 		if (!_NJSD_waitIRQ ()) {
@@ -222,11 +222,11 @@ static bool _NJSD_writeSector (u8 *buffer, u8 *crc_buf, u32 offset) {
 	REG_IME = 0;
 #endif
 
-	REG_AUXSPICNTH = CARD_CR1_ENABLE;
+	CARD_CR1H = CARD_CR1_ENABLE;
 	_NJSD_writeCardCommand (0x80, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00);
-	REG_ROMCTRL = 0xA0406000;
+	CARD_CR2 = 0xA0406000;
 	i = COMMAND_TIMEOUT;
-	while ((REG_ROMCTRL & CARD_BUSY) && --i);
+	while ((CARD_CR2 & CARD_BUSY) && --i);
 	if (i <= 0) {
 #ifdef _NJSD_SYNC
 		REG_IME = old_REG_IME;
@@ -236,7 +236,7 @@ static bool _NJSD_writeSector (u8 *buffer, u8 *crc_buf, u32 offset) {
 
 	for (i = 0; i < 65; i++)
 	{
-		REG_AUXSPICNTH = CARD_CR1_ENABLE; // | CARD_CR1_IRQ;
+		CARD_CR1H = CARD_CR1_ENABLE; // | CARD_CR1_IRQ;
 		if (i < 64)
 		{
 			_NJSD_writeCardCommand (buffer[i*8+0], buffer[i*8+1], buffer[i*8+2], buffer[i*8+3],
@@ -245,20 +245,20 @@ static bool _NJSD_writeSector (u8 *buffer, u8 *crc_buf, u32 offset) {
 			_NJSD_writeCardCommand (crc_buf[0], crc_buf[1], crc_buf[2], crc_buf[3],
 				crc_buf[4], crc_buf[5], crc_buf[6], crc_buf[7]);
 		}
-		REG_ROMCTRL = 0xA7406000;
+		CARD_CR2 = 0xA7406000;
 
 		do {
 			// Read data if available
-			if (REG_ROMCTRL & CARD_DATA_READY) {
-				data=REG_CARD_DATA_RD;
+			if (CARD_CR2 & CARD_DATA_READY) {
+				data=CARD_DATA_RD;
 			}
-		} while (REG_ROMCTRL & CARD_BUSY);
+		} while (CARD_CR2 & CARD_BUSY);
 	}
 
-	REG_AUXSPICNTH = CARD_CR1_ENABLE;
+	CARD_CR1H = CARD_CR1_ENABLE;
 	_NJSD_writeCardCommand (0xF0 | (1 << 2) | 1, 0x80, 0x40 | WRITE_BLOCK, (u8)(offset>>24),
 		(u8)(offset>>16), (u8)(offset>>8), (u8)(offset>>0), 0x00);
-	REG_ROMCTRL = 0xA7406000;
+	CARD_CR2 = 0xA7406000;
 
 	// wait for ninja DS to be done!
 	if (!_NJSD_waitIRQ ()) {
@@ -271,8 +271,8 @@ static bool _NJSD_writeSector (u8 *buffer, u8 *crc_buf, u32 offset) {
 	i = 0;
 	do {
 		// Read data if available
-		if (REG_ROMCTRL & CARD_DATA_READY) {
-			data = REG_CARD_DATA_RD;
+		if (CARD_CR2 & CARD_DATA_READY) {
+			data = CARD_DATA_RD;
 			if (i == 2) {
 				responseBuffer[0] = (u8)(data>>0);
 				responseBuffer[1] = (u8)(data>>8);
@@ -284,7 +284,7 @@ static bool _NJSD_writeSector (u8 *buffer, u8 *crc_buf, u32 offset) {
 			}
 			i++;
 		}
-	} while (REG_ROMCTRL & CARD_BUSY);
+	} while (CARD_CR2 & CARD_BUSY);
 	
 	i = WRITE_TIMEOUT;
 	responseBuffer[3] = 0;
@@ -318,12 +318,12 @@ static bool _NJSD_sendCLK (int speed, int count) {
 	REG_IF = 0x100000;
 #endif
 
-	//REG_AUXSPICNTH = CARD_CR1_ENABLE; // | CARD_CR1_IRQ;
+	//CARD_CR1H = CARD_CR1_ENABLE; // | CARD_CR1_IRQ;
 	_NJSD_writeCardCommand (0xE0 | ((speed & 3) << 2), 0, (count - 1), 0, 0, 0, 0, 0);
 	
-	REG_ROMCTRL = _NJSD_cardFlags;
+	CARD_CR2 = _NJSD_cardFlags;
 	i = COMMAND_TIMEOUT;
-	while ((REG_ROMCTRL & CARD_BUSY) && --i);
+	while ((CARD_CR2 & CARD_BUSY) && --i);
 	if (i <= 0) {
 #ifdef _NJSD_SYNC
 		REG_IME = old_REG_IME;
@@ -356,13 +356,13 @@ static bool _NJSD_sendCMDN (int speed, u8 cmd, u32 param) {
 
 	REG_IF = 0x100000;
 
-	REG_AUXSPICNTH = CARD_CR1_ENABLE; // | CARD_CR1_IRQ;
+	CARD_CR1H = CARD_CR1_ENABLE; // | CARD_CR1_IRQ;
 	_NJSD_writeCardCommand (0xF0 | ((speed & 3) << 2), 0x00, 0x40 | cmd, (param>>24) & 0xFF,
 		(param>>16) & 0xFF, (param>>8) & 0xFF, (param>>0) & 0xFF, 0x00);
 
-	REG_ROMCTRL = _NJSD_cardFlags;
+	CARD_CR2 = _NJSD_cardFlags;
 	i = COMMAND_TIMEOUT;
-	while ((REG_ROMCTRL & CARD_BUSY) && --i);
+	while ((CARD_CR2 & CARD_BUSY) && --i);
 	if (i <= 0) {
 #ifdef _NJSD_SYNC
 		REG_IME = old_REG_IME;
