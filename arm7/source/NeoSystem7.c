@@ -14,7 +14,7 @@ static void neoBacklightOff()
 	u32 enabled = REG_IME;
 	REG_IME = 0;
 	u32 value = readPowerManagement(PM_CONTROL_REG);
-	writePowerManagement(PM_CONTROL_REG, value & ~PM_BACKLIGHT_BOTTOM);
+	writePowerManagement(PM_CONTROL_REG, value & ~PM_BACKLIGHT_TOP);
 	REG_IME = enabled;
 }
 
@@ -172,7 +172,7 @@ void neoSystem7Execute()
 {
 	s32 cycles = 0;
 	u32 i;
-
+	neoBacklightOff();
 	while(1) {
 		for(i = 0; i < Z80_TIMESLICE_PER_FRAME; i++) {
 			cycles += Z80_CLOCKS_PER_TIMESLICE;
