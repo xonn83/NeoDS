@@ -2,7 +2,6 @@
 #include <fat.h>
 #include <sys/dir.h>
 #include <stdlib.h> //for qsort
-#include <string.h>
 
 #include "EmuSystem.h"
 #include "NeoSystem.h"
@@ -202,29 +201,31 @@ bool neoSystemInit()
 	g_romCount = 0;
 	memset(g_romNames, 0, sizeof(g_romNames));
 
-	DIR* dir;
-	struct dirent st, *stnext;
+	DIR_ITER* dir;
+	struct stat st;
+	char szFilename[256];
 
-	dir = opendir("/");
+	dir = diropen("/");
 	if(!dir) {
 		return false;
 	}
-	while(g_romCount < 256 && readdir_r(dir,&st,&stnext)==0 && stnext!=NULL) {
-		if(st.d_type & S_IFDIR) {
+
+	while(g_romCount < NEO_ROM_MAX && dirnext(dir, szFilename, &st) == 0) {
+		if(st.st_mode & S_IFDIR) {
 			continue;
 		}
-		const char* szExt = strchr(st.d_name, '.');
-		if(strcmp(".neo", szExt)) {
+		const char* szExt = strchr(szFilename, '.');
+		if(strcmpi(".NEO", szExt)) {
 			continue;
 		}
 		
 		g_romCount++;
-		g_romNames[g_romCount - 1] = strdup(st.d_name);
+		g_romNames[g_romCount - 1] = strdup(szFilename);
 		ASSERT(g_romNames[g_romCount - 1]);
 	}
 	qsort(g_romNames, g_romCount, sizeof(const char*), stringCompare);
 
-	closedir(dir);
+	dirclose(dir);
 
 	neoResetContext();
 	neoSystemSetClockDivide(2);
@@ -436,9 +437,6 @@ void neoSystemSetEnabled(bool enable)
 			//only turn on arm7 if audio is on
 			neoIPCSendCommand(NEOARM7_RESUME);
 		}
-		//xonn83 ini mod
-		lcdSwap();
-		//xonn83 end mod
 	} else if(!enable && g_pauseCount == 0) {
 		//pausing
 		g_neo->active = false;
@@ -446,9 +444,6 @@ void neoSystemSetEnabled(bool enable)
 			//only turn on arm7 if audio is on
 			neoIPCSendCommand(NEOARM7_PAUSE);
 		}
-		//xonn83 ini mod
-		lcdSwap();
-		//xonn83 end mod
 	}
 
 	if(enable) g_pauseCount--;
@@ -625,3 +620,6 @@ void neoSystemExecute()
 	}
 	profilerPop();
 }
+
+	
+		
