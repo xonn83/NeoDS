@@ -31,7 +31,7 @@ $(TARGET).ds.gba	: $(TARGET).nds
 
 #---------------------------------------------------------------------------------
 $(TARGET).nds	:	$(TARGET).arm7 $(TARGET).arm9
-	ndstool	-c $(TARGET).nds -7 $(TARGET).arm7 -9 $(TARGET).arm9
+	ndstool	-b icon.bmp "NeoDS 0.2.0 for GBMacro" -c $(TARGET).nds -7 $(TARGET).arm7 -9 $(TARGET).arm9
 #cp $(TARGET).nds $(TARGET).x9sd.nds
 #cp $(TARGET).nds $(TARGET).sclt.nds
 #cp $(TARGET).nds $(TARGET).mmcf.nds
