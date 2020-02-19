@@ -1,3 +1,8 @@
+This version has been modified to use in a GameBoy Macro
+by JDSoft
+
+----
+
 NeoDS v0.2.0 by Ben Ingram
 Website: http://groups.google.com/group/neods
 Forums: http://boards.pocketheaven.com/viewforum.php?f=43
