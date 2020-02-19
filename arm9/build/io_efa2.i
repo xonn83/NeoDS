@@ -1,19 +1,19 @@
-# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
-# 1 "C:\\Users\\GRX\\NeoDS\\arm9\\build//"
+# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_efa2.c"
+# 1 "C:\\Users\\GRX\\NeoDS-GBMacro\\arm9\\build//"
 # 1 "<built-in>"
-# 1 "<command-line>"
-# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
-# 17 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
-# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.h" 1
-# 18 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.h"
-# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h" 1
-# 39 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
-# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h" 1
-# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h"
-# 1 "C:/devkitPro/libnds/include/nds/ndstypes.h" 1
-# 68 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 1 3
-# 41 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 1 "<command line>"
+# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_efa2.c"
+# 17 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_efa2.c"
+# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_efa2.h" 1
+# 18 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_efa2.h"
+# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/disc_io.h" 1
+# 39 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/disc_io.h"
+# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/../common.h" 1
+# 43 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/../common.h"
+# 1 "C:/devkitPro/libnds/include/nds/jtypes.h" 1
+# 65 "C:/devkitPro/libnds/include/nds/jtypes.h"
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 1 3
+# 45 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
 typedef signed char int8_t ;
 typedef unsigned char uint8_t ;
 
@@ -28,22 +28,22 @@ typedef unsigned char uint_least8_t;
 
 typedef signed short int16_t;
 typedef unsigned short uint16_t;
-# 67 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 71 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
 typedef int16_t int_least16_t;
 typedef uint16_t uint_least16_t;
-# 79 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
-typedef signed int int32_t;
-typedef unsigned int uint32_t;
-# 97 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 83 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
+typedef signed long int32_t;
+typedef unsigned long uint32_t;
+# 101 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
 typedef int32_t int_least32_t;
 typedef uint32_t uint_least32_t;
-# 119 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 123 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
 typedef signed long long int64_t;
 typedef unsigned long long uint64_t;
-# 129 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 133 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
 typedef int64_t int_least64_t;
 typedef uint64_t uint_least64_t;
-# 159 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 163 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
   typedef signed int int_fast8_t;
   typedef unsigned int uint_fast8_t;
 
@@ -58,7 +58,7 @@ typedef uint64_t uint_least64_t;
 
   typedef signed int int_fast32_t;
   typedef unsigned int uint_fast32_t;
-# 213 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 217 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
   typedef int_least64_t int_fast64_t;
   typedef uint_least64_t uint_fast64_t;
 
@@ -69,12 +69,12 @@ typedef uint64_t uint_least64_t;
 
 
   typedef long long int intmax_t;
-# 231 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 235 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
   typedef long long unsigned int uintmax_t;
-# 243 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 247 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
 typedef signed int intptr_t;
 typedef unsigned int uintptr_t;
-# 69 "C:/devkitPro/libnds/include/nds/ndstypes.h" 2
+# 66 "C:/devkitPro/libnds/include/nds/jtypes.h" 2
 
 typedef uint8_t uint8;
 typedef uint16_t uint16;
@@ -123,17 +123,31 @@ typedef volatile s8 vs8;
 typedef volatile s16 vs16;
 typedef volatile s32 vs32;
 typedef volatile s64 vs64;
-# 125 "C:/devkitPro/libnds/include/nds/ndstypes.h"
+
+typedef struct touchPosition {
+ int16 x;
+ int16 y;
+ int16 px;
+ int16 py;
+ int16 z1;
+ int16 z2;
+} touchPosition;
+
+
+
+
+
+
 typedef enum { false, true } bool;
 
 
 
 typedef void ( * IntFn)(void);
-typedef void (* VoidFn)(void);
+typedef void (* VoidFunctionPointer)(void);
 typedef void (* fp)(void);
-# 44 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h" 2
-# 40 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h" 2
-# 61 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
+# 44 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/../common.h" 2
+# 40 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/disc_io.h" 2
+# 61 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/disc_io.h"
 typedef bool (* FN_MEDIUM_STARTUP)(void) ;
 typedef bool (* FN_MEDIUM_ISINSERTED)(void) ;
 typedef bool (* FN_MEDIUM_READSECTORS)(u32 sector, u32 numSectors, void* buffer) ;
@@ -153,12 +167,12 @@ struct IO_INTERFACE_STRUCT {
 } ;
 
 typedef struct IO_INTERFACE_STRUCT IO_INTERFACE ;
-# 19 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.h" 2
+# 19 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_efa2.h" 2
 
 
 extern const IO_INTERFACE _io_efa2;
-# 18 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c" 2
-# 56 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
+# 18 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_efa2.c" 2
+# 56 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_efa2.c"
 static inline void _EFA2_rtc_deactivate(void) {
  (*(vu16*)0x080000c8) = 0;
 }
@@ -182,7 +196,7 @@ static void _EFA2_global_unlock(void) {
  *(vu16*)0x09880000 = 0x08000;
  _EFA2_reg_lock();
 }
-# 87 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
+# 87 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_efa2.c"
 static void _EFA2_nand_unlock(void) {
  _EFA2_reg_unlock();
  (*(vu16*)0x09c40000) = 0x01500;
@@ -195,7 +209,7 @@ static void _EFA2_nand_lock(void) {
  (*(vu16*)0x09c40000) = 0x0d200;
  _EFA2_reg_lock();
 }
-# 110 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
+# 110 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_efa2.c"
 static void _EFA2_nand_enable(u16 val) {
  _EFA2_reg_unlock();
  (*(vu16*)0x09400000) = val;
@@ -209,7 +223,7 @@ static void _EFA2_nand_enable(u16 val) {
 static inline void _EFA2_nand_reset(void) {
  (*(vu8*)0x09ffffe2) = 0xff;
 }
-# 135 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
+# 135 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_efa2.c"
 static u32 _EFA2_nand_id(void) {
  u8 byte;
  u32 id;
@@ -232,7 +246,7 @@ static u32 _EFA2_nand_id(void) {
  _EFA2_nand_lock();
  return (id);
 }
-# 167 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
+# 167 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_efa2.c"
 bool _EFA2_clearStatus (void)
 {
 
@@ -250,11 +264,11 @@ bool _EFA2_isInserted (void)
  _EFA2_clearStatus();
  return (_EFA2_nand_id() == 0xEC79A5C0);
 }
-# 194 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
+# 194 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_efa2.c"
 bool _EFA2_readSectors (u32 sector, u32 numSecs, void* buffer)
 {
  int i;
-# 211 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
+# 211 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_efa2.c"
  u32 page = 0x40 + sector;
 
 
@@ -285,14 +299,14 @@ bool _EFA2_readSectors (u32 sector, u32 numSecs, void* buffer)
 
   for (i=0 ; i < 512 ; i++)
    ((u8*)buffer)[i] = (*(vu8*)0x09ffc000);
-# 251 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
+# 251 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_efa2.c"
  }
 
  _EFA2_nand_enable(0);
  _EFA2_nand_lock();
  return true;
 }
-# 268 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_efa2.c"
+# 268 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_efa2.c"
 bool _EFA2_writeSectors (u32 sector, u8 numSecs, void* buffer)
 {
 

@@ -1,1 +1,1 @@
-Disa.o: C:/Users/GRX/NeoDS/arm9/source/Disa.c
+Disa.o: C:/Users/GRX/NeoDS-GBMacro/arm9/source/Disa.c

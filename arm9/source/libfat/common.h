@@ -40,7 +40,7 @@
 #endif
 
 #ifdef NDS
- #include <nds/ndstypes.h>
+ #include <nds/jtypes.h>
 #else
  #include "gba_types.h"
 #endif

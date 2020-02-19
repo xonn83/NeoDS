@@ -18,7 +18,7 @@
 #include "guiConsole.h"
 #include "guiBase.h"
 
-#define NEO_ROM_MAX 64
+#define NEO_ROM_MAX 256
 
 #define NEO_HEADER_SIZE 512
 
@@ -40,6 +40,7 @@ static u32 g_romCount = 0;
 static char* g_romNames[NEO_ROM_MAX];
 static s32 g_pauseCount = 0;
 static bool g_paused = false;
+static bool forceunpause = false;
 
 #ifndef NEO_SHIPPING
 static const char* const g_neoRomRegionNames[] = {
@@ -205,10 +206,7 @@ bool neoSystemInit()
 	struct stat st;
 	char szFilename[256];
 
-	dir = diropen("/");
-	if(!dir) {
-		return false;
-	}
+	dir = diropen("/neogeo/");
 
 	while(g_romCount < NEO_ROM_MAX && dirnext(dir, szFilename, &st) == 0) {
 		if(st.st_mode & S_IFDIR) {
@@ -249,13 +247,18 @@ bool neoSystemOpen(const char* szFileName)
 	TNeoRomHeader header;
 	int rom;
 	u32 bit;
+	char rompath[256];
 
 	ASSERT(g_neo->cpuClockDivide == 2 || g_neo->cpuClockDivide == 3);
 
-	guiConsoleLogf("Loading %s...", szFileName);
+	guiConsoleLogf("1)ROM: %s", szFileName);
+	guiConsoleLog("----");
+	strcpy(rompath, "/neogeo/");
+	strcat(rompath,szFileName);
+	guiConsoleLogf("2)PATH: %s", rompath);
 	guiConsoleDump();
 
-	rom = systemOpen(szFileName, false);
+	rom = systemOpen(rompath, false);
 
 	ASSERTMSG(g_neo->cpuClockDivide == 2 || g_neo->cpuClockDivide == 3, "%d", g_neo->cpuClockDivide);
 
@@ -339,6 +342,7 @@ bool neoSystemOpen(const char* szFileName)
 	guiConsoleDump();
 
 	systemRamReset();
+	systemSlot2Reset();
 
 	cpuInit();
 	neoMemoryInit();
@@ -358,12 +362,13 @@ bool neoSystemOpen(const char* szFileName)
 
 	neoLoadConfig(szFileName);
 	neoResetContext();
-
 	ASSERTMSG(g_neo->cpuClockDivide == 2 || g_neo->cpuClockDivide == 3, "%d",
 		g_neo->cpuClockDivide);
-	
 	lcdSwap();
-	
+	if(g_paused){
+		neoSystemSetEnabled(g_paused);
+		g_paused = !g_paused;
+	}
 	return true;
 }
 
@@ -536,7 +541,7 @@ static void neoSystemDoKeys(u32 keys)
 		}
 	}
 
-	if (!(keys & KEY_LID)) {
+	if(keys & KEY_LID) {
 		neoSystemLidClose();
 	}
 

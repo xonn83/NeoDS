@@ -1,1 +1,1 @@
-LayoutDebug.o: C:/Users/GRX/NeoDS/arm9/source/LayoutDebug.c
+LayoutDebug.o: C:/Users/GRX/NeoDS-GBMacro/arm9/source/LayoutDebug.c

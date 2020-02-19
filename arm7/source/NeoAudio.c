@@ -119,8 +119,8 @@ static inline void neoAudioIOWrite16(vu16* reg, u16 value)
 
 void neoAudioInit()
 {
-	//powerON(POWER_SOUND);
-	REG_SOUNDCNT = SOUND_ENABLE | SOUND_VOL(0x7F);
+	powerON(POWER_SOUND);
+	SOUND_CR = SOUND_ENABLE | SOUND_VOL(0x7F);
 	neoAudioReset();
 }
 
@@ -270,12 +270,12 @@ void neoAudioPause()
 	for(i = 11; i <= 15; i++) {
 		SCHANNEL_CR(i) = 0;
 	}
-	REG_SOUNDCNT = SOUND_ENABLE;
+	SOUND_CR = SOUND_ENABLE;
 }
 
 void neoAudioResume()
 {
-	REG_SOUNDCNT = SOUND_ENABLE | SOUND_VOL(0x7F);
+	SOUND_CR = SOUND_ENABLE | SOUND_VOL(0x7F);
 }
 
 void neoAudioUpdate()

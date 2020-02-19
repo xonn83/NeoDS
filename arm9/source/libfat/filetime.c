@@ -38,7 +38,6 @@
 
 
 #include "filetime.h"
-#include <time.h>
 
 #ifdef NDS
 #include <nds/ipc.h>
@@ -67,24 +66,21 @@
 
 u16 _FAT_filetime_getTimeFromRTC (void) {
 #ifdef NDS
-	//time_t now = IPC->unixTime;
-	time_t now;
-	time(&now);
-	struct tm  ts = *localtime(&now);;
-	
-	int hour;
-	hour = (ts.tm_hour >= HOUR_PM_INDICATOR ? ts.tm_hour - HOUR_PM_INDICATOR : ts.tm_hour);
+	int hour, minute, second;
+	hour = (IPC->time.rtc.hours >= HOUR_PM_INDICATOR ? IPC->time.rtc.hours - HOUR_PM_INDICATOR : IPC->time.rtc.hours);
+	minute = IPC->time.rtc.minutes;
+	second = IPC->time.rtc.seconds;
 	
 	// Check that the values are all in range.
 	// If they are not, return 0 (no timestamp)
 	if ((hour < 0) || (hour > MAX_HOUR))	return 0;
-	if ((ts.tm_min < 0) || (ts.tm_min > MAX_MINUTE)) return 0;
-	if ((ts.tm_sec < 0) || (ts.tm_sec > MAX_SECOND)) return 0;
+	if ((minute < 0) || (minute > MAX_MINUTE)) return 0;
+	if ((second  < 0) || (second > MAX_SECOND)) return 0;
 	
 	return (
 		((hour & 0x1F) << 11) |
-		((ts.tm_min & 0x3F) << 5) |
-		((ts.tm_sec >> 1) & 0x1F) 
+		((minute & 0x3F) << 5) |
+		((second >> 1) & 0x1F) 
 	);
 #else
 	return 0;
@@ -94,19 +90,20 @@ u16 _FAT_filetime_getTimeFromRTC (void) {
 
 u16 _FAT_filetime_getDateFromRTC (void) {
 #ifdef NDS
-//	time_t now = IPC->unixTime;
-	time_t now;
-	time(&now);
-	struct tm  ts = *localtime(&now);;
+	int year, month, day;
+
+	year = IPC->time.rtc.year;
+	month = IPC->time.rtc.month;
+	day = IPC->time.rtc.day;
 	
-	if ((ts.tm_year < MIN_YEAR) || (ts.tm_year > MAX_YEAR)) return 0;
-	if ((ts.tm_mon < MIN_MONTH) || (ts.tm_mon > MAX_MONTH)) return 0;
-	if ((ts.tm_mday < MIN_DAY) || (ts.tm_mday > MAX_DAY)) return 0;
+	if ((year < MIN_YEAR) || (year > MAX_YEAR)) return 0;
+	if ((month < MIN_MONTH) || (month > MAX_MONTH)) return 0;
+	if ((day < MIN_DAY) || (day > MAX_DAY)) return 0;
 	
 	return ( 
-		(((ts.tm_year + 20) & 0x7F) <<9) |	// Adjust for MS-FAT base year (1980 vs 2000 for DS clock)
-		((ts.tm_mon & 0xF) << 5) |
-		(ts.tm_mday & 0x1F)
+		(((year + 20) & 0x7F) <<9) |	// Adjust for MS-FAT base year (1980 vs 2000 for DS clock)
+		((month & 0xF) << 5) |
+		(day & 0x1F)
 	);
 #else
 	return 0;

@@ -24,24 +24,24 @@ export PATH		:=	$(DEVKITARM)/bin:$(PATH)
 all: $(TARGET).ds.gba
 
 $(TARGET).ds.gba	: $(TARGET).nds
-	#dsbuild $(TARGET).nds
-	#padbin 512 $(TARGET).ds.gba
-	#cat $(TARGET).ds.gba neo.img  > $(TARGET)_fs.ds.gba
-	#dlditool fcsr.dldi $(TARGET)_fs.ds.gba
+#dsbuild $(TARGET).nds
+#padbin 512 $(TARGET).ds.gba
+#cat $(TARGET).ds.gba neo.img  > $(TARGET)_fs.ds.gba
+#dlditool fcsr.dldi $(TARGET)_fs.ds.gba
 
 #---------------------------------------------------------------------------------
 $(TARGET).nds	:	$(TARGET).arm7 $(TARGET).arm9
 	ndstool	-c $(TARGET).nds -7 $(TARGET).arm7 -9 $(TARGET).arm9
-#	cp $(TARGET).nds $(TARGET).x9sd.nds
-#	cp $(TARGET).nds $(TARGET).sclt.nds
-#	cp $(TARGET).nds $(TARGET).mmcf.nds
-#	cp $(TARGET).nds $(TARGET).mpcf.nds
-#	cp $(TARGET).nds $(TARGET).scp.nds
-#	dlditool x9sd.dldi $(TARGET).x9sd.nds
-#	dlditool sclt.dldi $(TARGET).sclt.nds
-#	dlditool mmcf.dldi $(TARGET).mmcf.nds
-#	dlditool mpcf.dldi $(TARGET).mpcf.nds
-#	dlditool scp.dldi $(TARGET).scp.nds
+#cp $(TARGET).nds $(TARGET).x9sd.nds
+#cp $(TARGET).nds $(TARGET).sclt.nds
+#cp $(TARGET).nds $(TARGET).mmcf.nds
+#cp $(TARGET).nds $(TARGET).mpcf.nds
+#cp $(TARGET).nds $(TARGET).scp.nds
+#dlditool x9sd.dldi $(TARGET).x9sd.nds
+#dlditool sclt.dldi $(TARGET).sclt.nds
+#dlditool mmcf.dldi $(TARGET).mmcf.nds
+#dlditool mpcf.dldi $(TARGET).mpcf.nds
+#dlditool scp.dldi $(TARGET).scp.nds
 	
 
 #---------------------------------------------------------------------------------
@@ -61,6 +61,3 @@ clean:
 	$(MAKE) -C arm9 clean
 	$(MAKE) -C arm7 clean
 	rm -f $(TARGET).ds.gba $(TARGET).nds $(TARGET).arm7 $(TARGET).arm9
-
-rebuild:
-	clean $(BUILD)

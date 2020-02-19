@@ -34,21 +34,21 @@ void neoFixedInit()
 	s32 i;
 
 	//set up fixed display
-	REG_BG2CNT =
+	BG2_CR =
 		BG_PRIORITY_0 |
 		BG_TILE_BASE(0) |
 		BG_MAP_BASE(28) |
 		BG_RS_64x64;
 
-	REG_BG3CNT =
+	BG3_CR =
 		BG_PRIORITY_1 |
 		BG_TILE_BASE(0) |
 		BG_MAP_BASE(28) |
 		BG_RS_64x64;
-
+	
 	//blend 2 backgrounds together (3 has lower priority than 2)
-	REG_BLDCNT = BLEND_ALPHA | BLEND_SRC_BG2 | BLEND_DST_BG3;
-	REG_BLDALPHA = (8 << 0) | (8 << 8);
+	BLEND_CR = BLEND_ALPHA | BLEND_SRC_BG2 | BLEND_DST_BG3;
+	BLEND_AB = (8 << 0) | (8 << 8);
 
 	g_neo->pTileBuffer = (u16*)neoSystemVramHAlloc(64 * 32 * sizeof(u16));
 

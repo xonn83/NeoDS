@@ -9,12 +9,18 @@ STATIC_ASSERT(sizeof(TNeoContext7) == NEO_CONTEXTEND7);
 
 static TNeoContext7 g_neoContext7;
 
+static void neoBacklightOffUpper()
+{
+	u32 value = readPowerManagement(PM_CONTROL_REG);
+	writePowerManagement(PM_CONTROL_REG, value & ~PM_BACKLIGHT_TOP);
+}
+
 static void neoBacklightOff()
 {
 	u32 enabled = REG_IME;
 	REG_IME = 0;
 	u32 value = readPowerManagement(PM_CONTROL_REG);
-	writePowerManagement(PM_CONTROL_REG, value & ~PM_BACKLIGHT_TOP);
+	writePowerManagement(PM_CONTROL_REG, value & ~PM_BACKLIGHT_BOTTOM);
 	REG_IME = enabled;
 }
 
@@ -172,8 +178,7 @@ void neoSystem7Execute()
 {
 	s32 cycles = 0;
 	u32 i;
-	neoBacklightOff();
-	
+	neoBacklightOffUpper();
 	while(1) {
 		for(i = 0; i < Z80_TIMESLICE_PER_FRAME; i++) {
 			cycles += Z80_CLOCKS_PER_TIMESLICE;

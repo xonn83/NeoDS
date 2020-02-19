@@ -189,7 +189,7 @@ void guiSystemProcess()
 	
 	//calculate input data
 	scanKeys();
-	touchRead(&touch);
+	touch = touchReadXY();
 	touchX = touch.px / 8;
 	touchY = touch.py / 8;
 

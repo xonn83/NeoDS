@@ -1,11 +1,3 @@
-	.arch armv5te
-	.fpu softvfp
-	.eabi_attribute 23, 1
-	.eabi_attribute 24, 1
-	.eabi_attribute 25, 1
-	.eabi_attribute 26, 1
-	.eabi_attribute 30, 4
-	.eabi_attribute 18, 4
 	.code	16
 	.file	"Disa.c"
 	.section	.debug_abbrev,"",%progbits
@@ -19,4 +11,4 @@
 .Letext0:
 	.section	.debug_abbrev
 	.byte	0x0
-	.ident	"GCC: (devkitARM release 30) 4.4.3"
+	.ident	"GCC: (GNU) 4.1.1 (devkitARM release 20)"

@@ -9,7 +9,7 @@
 #include "LayoutRomSelect.h"
 #include "LayoutMain.h"
 
-//STATIC_ASSERT(sizeof(TransferRegion) < 0x800);
+STATIC_ASSERT(sizeof(TransferRegion) < 0x800);
 
 /*extern u16 __vram_lma[];
 extern u16 __vram_start[];
@@ -60,7 +60,7 @@ int main(void)
 	//NEOIPC->pZ80DaaTable = Z80DaaTable;
 
 	neoIPCInit();
-	
+
 	guiSystemInit();
 
 	bool initOk = systemInit();
@@ -72,11 +72,13 @@ int main(void)
 	//neoCrt0();
 
 	neoSystemInit();
+
 	guiFrameNew(TGuiLayoutMain);
 	guiSystemProcess();
 	guiFramePush(TGuiLayoutRomSelect);
 
 	g_neo->active = false;
+
 	neoSystemExecute();
 
 	return 0;

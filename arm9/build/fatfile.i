@@ -1,56 +1,28 @@
-# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatfile.c"
-# 1 "C:\\Users\\GRX\\NeoDS\\arm9\\build//"
+# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/fatfile.c"
+# 1 "C:\\Users\\GRX\\NeoDS-GBMacro\\arm9\\build//"
 # 1 "<built-in>"
-# 1 "<command-line>"
-# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatfile.c"
-# 45 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatfile.c"
-# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatfile.h" 1
-# 48 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatfile.h"
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/reent.h" 1 3
-# 13 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/reent.h" 3
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/_ansi.h" 1 3
-# 15 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/_ansi.h" 3
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/newlib.h" 1 3
-# 16 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/_ansi.h" 2 3
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/config.h" 1 3
+# 1 "<command line>"
+# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/fatfile.c"
+# 45 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/fatfile.c"
+# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/fatfile.h" 1
+# 48 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/fatfile.h"
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/reent.h" 1 3
+# 13 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/reent.h" 3
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/_ansi.h" 1 3
+# 15 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/_ansi.h" 3
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/newlib.h" 1 3
+# 16 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/_ansi.h" 2 3
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/config.h" 1 3
 
 
 
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/machine/ieeefp.h" 1 3
-# 5 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/config.h" 2 3
-# 17 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/_ansi.h" 2 3
-# 14 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/reent.h" 2 3
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/_types.h" 1 3
-# 12 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/_types.h" 3
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/machine/_types.h" 1 3
-
-
-
-
-
-
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/machine/_default_types.h" 1 3
-# 26 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/machine/_default_types.h" 3
-typedef signed char __int8_t ;
-typedef unsigned char __uint8_t ;
-# 36 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/machine/_default_types.h" 3
-typedef signed short __int16_t;
-typedef unsigned short __uint16_t;
-# 46 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/machine/_default_types.h" 3
-typedef __int16_t __int_least16_t;
-typedef __uint16_t __uint_least16_t;
-# 58 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/machine/_default_types.h" 3
-typedef signed int __int32_t;
-typedef unsigned int __uint32_t;
-# 76 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/machine/_default_types.h" 3
-typedef __int32_t __int_least32_t;
-typedef __uint32_t __uint_least32_t;
-# 99 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/machine/_default_types.h" 3
-typedef signed long long __int64_t;
-typedef unsigned long long __uint64_t;
-# 8 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/machine/_types.h" 2 3
-# 13 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/_types.h" 2 3
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/lock.h" 1 3
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/machine/ieeefp.h" 1 3
+# 5 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/config.h" 2 3
+# 17 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/_ansi.h" 2 3
+# 14 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/reent.h" 2 3
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/_types.h" 1 3
+# 12 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/_types.h" 3
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/lock.h" 1 3
 
 
 
@@ -58,51 +30,22 @@ typedef unsigned long long __uint64_t;
 
 typedef int _LOCK_T;
 typedef int _LOCK_RECURSIVE_T;
-# 14 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/_types.h" 2 3
-
+# 13 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/_types.h" 2 3
 
 typedef long _off_t;
-
-
-
-
-
-
-
-typedef int __dev_t;
-
-
-
-
-typedef unsigned short __uid_t;
-
-
-typedef unsigned short __gid_t;
-
-
-
 __extension__ typedef long long _off64_t;
 
 
-
-
-
-
-
-typedef long _fpos_t;
-# 56 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/_types.h" 3
 typedef int _ssize_t;
 
 
 
 
 
-
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/include/stddef.h" 1 3 4
-# 352 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/include/stddef.h" 3 4
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/include/stddef.h" 1 3 4
+# 355 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/include/stddef.h" 3 4
 typedef unsigned int wint_t;
-# 64 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/_types.h" 2 3
-
+# 25 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/_types.h" 2 3
 
 
 typedef struct
@@ -115,15 +58,11 @@ typedef struct
   } __value;
 } _mbstate_t;
 
-
-
 typedef _LOCK_RECURSIVE_T _flock_t;
 
 
-
-
 typedef void *_iconv_t;
-# 15 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/reent.h" 2 3
+# 15 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/reent.h" 2 3
 
 
 
@@ -131,14 +70,7 @@ typedef void *_iconv_t;
 
 
 typedef unsigned long __ULong;
-# 37 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/reent.h" 3
-struct _reent;
-
-
-
-
-
-
+# 42 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/reent.h" 3
 struct _Bigint
 {
   struct _Bigint *_next;
@@ -175,7 +107,7 @@ struct _on_exit_args {
 
  __ULong _is_cxa;
 };
-# 89 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/reent.h" 3
+# 87 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/reent.h" 3
 struct _atexit {
  struct _atexit *_next;
  int _ind;
@@ -183,18 +115,25 @@ struct _atexit {
  void (*_fns[32])(void);
         struct _on_exit_args _on_exit_args;
 };
-# 105 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/reent.h" 3
+# 103 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/reent.h" 3
 struct __sbuf {
  unsigned char *_base;
  int _size;
 };
-# 169 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/reent.h" 3
+
+
+
+
+
+
+typedef long _fpos_t;
+# 168 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/reent.h" 3
 struct __sFILE {
   unsigned char *_p;
   int _r;
   int _w;
   short _flags;
-  short _file;
+  int _file;
   struct __sbuf _bf;
   int _lbfsize;
 
@@ -205,12 +144,11 @@ struct __sFILE {
 
   void * _cookie;
 
-  int (* _read) (struct _reent *, void *, char *, int);
+  int (*_read) (void * _cookie, char *_buf, int _n);
+  int (*_write) (void * _cookie, const char *_buf, int _n);
 
-  int (* _write) (struct _reent *, void *, const char *, int);
-
-  _fpos_t (* _seek) (struct _reent *, void *, _fpos_t, int);
-  int (* _close) (struct _reent *, void *);
+  _fpos_t (*_seek) (void * _cookie, _fpos_t _offset, int _whence);
+  int (*_close) (void * _cookie);
 
 
   struct __sbuf _ub;
@@ -235,12 +173,9 @@ struct __sFILE {
 
   _flock_t _lock;
 
-  _mbstate_t _mbstate;
-  int _flags2;
 };
-# 273 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/reent.h" 3
+# 261 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/reent.h" 3
 typedef struct __sFILE __FILE;
-
 
 
 struct _glue
@@ -249,7 +184,7 @@ struct _glue
   int _niobs;
   __FILE *_iobs;
 };
-# 305 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/reent.h" 3
+# 292 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/reent.h" 3
 struct _rand48 {
   unsigned short _seed[3];
   unsigned short _mult[3];
@@ -259,7 +194,7 @@ struct _rand48 {
 
 
 };
-# 579 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/reent.h" 3
+# 561 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/reent.h" 3
 struct _reent
 {
   int _errno;
@@ -277,7 +212,7 @@ struct _reent
 
   int __sdidinit;
 
-  void (* __cleanup) (struct _reent *);
+  void (*__cleanup) (struct _reent *);
 
 
   struct _Bigint *_result;
@@ -311,7 +246,6 @@ struct _reent
           _mbstate_t _mbsrtowcs_state;
           _mbstate_t _wcrtomb_state;
           _mbstate_t _wcsrtombs_state;
-   int _h_errno;
         } _reent;
 
 
@@ -337,18 +271,18 @@ struct _reent
   struct _glue __sglue;
   __FILE __sf[3];
 };
-# 817 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/reent.h" 3
+# 793 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/reent.h" 3
 extern struct _reent *_impure_ptr ;
 extern struct _reent *const _global_impure_ptr ;
 
 void _reclaim_reent (struct _reent *);
-# 49 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatfile.h" 2
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/stat.h" 1 3
-# 9 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/stat.h" 3
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/time.h" 1 3
-# 10 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/time.h" 3
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/_ansi.h" 1 3
-# 11 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/time.h" 2 3
+# 49 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/fatfile.h" 2
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/stat.h" 1 3
+# 9 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/stat.h" 3
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/time.h" 1 3
+# 10 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/time.h" 3
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/_ansi.h" 1 3
+# 11 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/time.h" 2 3
 
 
 
@@ -356,30 +290,56 @@ void _reclaim_reent (struct _reent *);
 
 
 
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/machine/time.h" 1 3
-# 19 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/time.h" 2 3
-# 27 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/time.h" 3
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/include/stddef.h" 1 3 4
-# 211 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/include/stddef.h" 3 4
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/machine/time.h" 1 3
+# 19 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/time.h" 2 3
+# 27 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/time.h" 3
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/include/stddef.h" 1 3 4
+# 214 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/include/stddef.h" 3 4
 typedef unsigned int size_t;
-# 28 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/time.h" 2 3
+# 28 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/time.h" 2 3
 
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/types.h" 1 3
-# 69 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/types.h" 3
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/include/stddef.h" 1 3 4
-# 149 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/include/stddef.h" 3 4
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/types.h" 1 3
+# 25 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/types.h" 3
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/machine/_types.h" 1 3
+# 22 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/machine/_types.h" 3
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/include/limits.h" 1 3 4
+# 23 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/machine/_types.h" 2 3
+
+
+
+typedef signed char __int8_t ;
+typedef unsigned char __uint8_t ;
+# 36 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/machine/_types.h" 3
+typedef signed short __int16_t;
+typedef unsigned short __uint16_t;
+# 46 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/machine/_types.h" 3
+typedef __int16_t __int_least16_t;
+typedef __uint16_t __uint_least16_t;
+# 58 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/machine/_types.h" 3
+typedef signed int __int32_t;
+typedef unsigned int __uint32_t;
+# 76 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/machine/_types.h" 3
+typedef __int32_t __int_least32_t;
+typedef __uint32_t __uint_least32_t;
+# 99 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/machine/_types.h" 3
+typedef signed long long __int64_t;
+typedef unsigned long long __uint64_t;
+# 26 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/types.h" 2 3
+# 69 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/types.h" 3
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/include/stddef.h" 1 3 4
+# 152 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/include/stddef.h" 3 4
 typedef int ptrdiff_t;
-# 323 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/include/stddef.h" 3 4
+# 326 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/include/stddef.h" 3 4
 typedef unsigned int wchar_t;
-# 70 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/types.h" 2 3
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/machine/types.h" 1 3
-# 19 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/machine/types.h" 3
+# 70 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/types.h" 2 3
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/machine/types.h" 1 3
+# 19 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/machine/types.h" 3
 typedef long int __off_t;
 typedef int __pid_t;
 
 __extension__ typedef long long int __loff_t;
-# 71 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/types.h" 2 3
-# 92 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/types.h" 3
+# 71 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/types.h" 2 3
+# 92 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/types.h" 3
 typedef unsigned char u_char;
 typedef unsigned short u_short;
 typedef unsigned int u_int;
@@ -422,31 +382,31 @@ typedef char * caddr_t;
 
 
 typedef unsigned int ino_t;
-# 162 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/types.h" 3
-typedef _off_t off_t;
-typedef __dev_t dev_t;
-typedef __uid_t uid_t;
-typedef __gid_t gid_t;
+# 166 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/types.h" 3
+typedef int dev_t;
 
 
 
+
+typedef long off_t;
+
+typedef unsigned short uid_t;
+typedef unsigned short gid_t;
 
 
 typedef int pid_t;
 
-
-
 typedef long key_t;
 
 typedef _ssize_t ssize_t;
-# 191 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/types.h" 3
+# 195 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/types.h" 3
 typedef unsigned int mode_t __attribute__ ((__mode__ (__SI__)));
 
 
 
 
 typedef unsigned short nlink_t;
-# 218 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/types.h" 3
+# 222 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/types.h" 3
 typedef long fd_mask;
 
 
@@ -458,7 +418,7 @@ typedef long fd_mask;
 typedef struct _types_fd_set {
  fd_mask fds_bits[(((64)+(((sizeof (fd_mask) * 8))-1))/((sizeof (fd_mask) * 8)))];
 } _types_fd_set;
-# 249 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/types.h" 3
+# 253 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/types.h" 3
 typedef unsigned long clockid_t;
 
 
@@ -471,12 +431,9 @@ typedef unsigned long timer_t;
 typedef unsigned long useconds_t;
 typedef long suseconds_t;
 
-typedef __uint32_t fsblkcnt_t;
-typedef __uint32_t fsfilcnt_t;
-
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/features.h" 1 3
-# 265 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/types.h" 2 3
-# 30 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/time.h" 2 3
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/features.h" 1 3
+# 266 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/types.h" 2 3
+# 30 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/time.h" 2 3
 
 
 
@@ -540,12 +497,12 @@ typedef struct __tzinfo_struct
 } __tzinfo_type;
 
 __tzinfo_type *__gettzinfo (void);
-# 118 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/time.h" 3
+# 118 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/time.h" 3
 extern long _timezone;
 extern int _daylight;
 extern char *_tzname[2];
-# 10 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/stat.h" 2 3
-# 25 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/stat.h" 3
+# 10 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/stat.h" 2 3
+# 25 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/stat.h" 3
 struct stat
 {
   dev_t st_dev;
@@ -556,7 +513,12 @@ struct stat
   gid_t st_gid;
   dev_t st_rdev;
   off_t st_size;
-# 48 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/stat.h" 3
+
+
+
+
+
+
   time_t st_atime;
   long st_spare1;
   time_t st_mtime;
@@ -567,9 +529,8 @@ struct stat
   long st_blocks;
   long st_spare4[2];
 
-
 };
-# 139 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/stat.h" 3
+# 119 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/stat.h" 3
 int chmod ( const char *__path, mode_t __mode );
 int fchmod (int __fd, mode_t __mode);
 int fstat ( int __fd, struct stat *__sbuf );
@@ -577,14 +538,14 @@ int mkdir ( const char *_path, mode_t __mode );
 int mkfifo ( const char *__path, mode_t __mode );
 int stat ( const char *__path, struct stat *__sbuf );
 mode_t umask ( mode_t __mask );
-# 50 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatfile.h" 2
+# 50 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/fatfile.h" 2
 
-# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/common.h" 1
-# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/common.h"
-# 1 "C:/devkitPro/libnds/include/nds/ndstypes.h" 1
-# 68 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 1 3
-# 41 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/common.h" 1
+# 43 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/common.h"
+# 1 "C:/devkitPro/libnds/include/nds/jtypes.h" 1
+# 65 "C:/devkitPro/libnds/include/nds/jtypes.h"
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 1 3
+# 45 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
 typedef signed char int8_t ;
 typedef unsigned char uint8_t ;
 
@@ -599,22 +560,22 @@ typedef unsigned char uint_least8_t;
 
 typedef signed short int16_t;
 typedef unsigned short uint16_t;
-# 67 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 71 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
 typedef int16_t int_least16_t;
 typedef uint16_t uint_least16_t;
-# 79 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
-typedef signed int int32_t;
-typedef unsigned int uint32_t;
-# 97 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 83 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
+typedef signed long int32_t;
+typedef unsigned long uint32_t;
+# 101 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
 typedef int32_t int_least32_t;
 typedef uint32_t uint_least32_t;
-# 119 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 123 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
 typedef signed long long int64_t;
 typedef unsigned long long uint64_t;
-# 129 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 133 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
 typedef int64_t int_least64_t;
 typedef uint64_t uint_least64_t;
-# 159 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 163 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
   typedef signed int int_fast8_t;
   typedef unsigned int uint_fast8_t;
 
@@ -629,7 +590,7 @@ typedef uint64_t uint_least64_t;
 
   typedef signed int int_fast32_t;
   typedef unsigned int uint_fast32_t;
-# 213 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 217 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
   typedef int_least64_t int_fast64_t;
   typedef uint_least64_t uint_fast64_t;
 
@@ -640,12 +601,12 @@ typedef uint64_t uint_least64_t;
 
 
   typedef long long int intmax_t;
-# 231 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 235 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
   typedef long long unsigned int uintmax_t;
-# 243 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 247 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
 typedef signed int intptr_t;
 typedef unsigned int uintptr_t;
-# 69 "C:/devkitPro/libnds/include/nds/ndstypes.h" 2
+# 66 "C:/devkitPro/libnds/include/nds/jtypes.h" 2
 
 typedef uint8_t uint8;
 typedef uint16_t uint16;
@@ -694,24 +655,38 @@ typedef volatile s8 vs8;
 typedef volatile s16 vs16;
 typedef volatile s32 vs32;
 typedef volatile s64 vs64;
-# 125 "C:/devkitPro/libnds/include/nds/ndstypes.h"
+
+typedef struct touchPosition {
+ int16 x;
+ int16 y;
+ int16 px;
+ int16 py;
+ int16 z1;
+ int16 z2;
+} touchPosition;
+
+
+
+
+
+
 typedef enum { false, true } bool;
 
 
 
 typedef void ( * IntFn)(void);
-typedef void (* VoidFn)(void);
+typedef void (* VoidFunctionPointer)(void);
 typedef void (* fp)(void);
-# 44 "C:/Users/GRX/NeoDS/arm9/source/libfat/common.h" 2
-# 52 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatfile.h" 2
-# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/partition.h" 1
-# 38 "C:/Users/GRX/NeoDS/arm9/source/libfat/partition.h"
-# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.h" 1
-# 36 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.h"
-# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h" 1
-# 37 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.h" 2
-# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h" 1
-# 61 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
+# 44 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/common.h" 2
+# 52 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/fatfile.h" 2
+# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/partition.h" 1
+# 38 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/partition.h"
+# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/disc.h" 1
+# 36 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/disc.h"
+# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/../common.h" 1
+# 37 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/disc.h" 2
+# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/disc_io.h" 1
+# 61 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/disc_io.h"
 typedef bool (* FN_MEDIUM_STARTUP)(void) ;
 typedef bool (* FN_MEDIUM_ISINSERTED)(void) ;
 typedef bool (* FN_MEDIUM_READSECTORS)(u32 sector, u32 numSectors, void* buffer) ;
@@ -731,7 +706,7 @@ struct IO_INTERFACE_STRUCT {
 } ;
 
 typedef struct IO_INTERFACE_STRUCT IO_INTERFACE ;
-# 38 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc.h" 2
+# 38 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/disc.h" 2
 
 
 
@@ -819,11 +794,11 @@ static inline u32 _FAT_disc_hostType (const IO_INTERFACE* disc) {
 static inline u32 _FAT_disc_features (const IO_INTERFACE* disc) {
  return disc->features;
 }
-# 39 "C:/Users/GRX/NeoDS/arm9/source/libfat/partition.h" 2
-# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.h" 1
-# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.h"
-# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h" 1
-# 44 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.h" 2
+# 39 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/partition.h" 2
+# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/cache.h" 1
+# 43 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/cache.h"
+# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/disc_io.h" 1
+# 44 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/cache.h" 2
 
 
 
@@ -839,11 +814,11 @@ typedef struct {
  CACHE_ENTRY* cacheEntries;
  u8* pages;
 } CACHE;
-# 68 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.h"
+# 68 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/cache.h"
 bool _FAT_cache_readPartialSector (CACHE* cache, void* buffer, u32 sector, u32 offset, u32 size);
-# 78 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.h"
+# 78 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/cache.h"
 bool _FAT_cache_writePartialSector (CACHE* cache, const void* buffer, u32 sector, u32 offset, u32 size);
-# 88 "C:/Users/GRX/NeoDS/arm9/source/libfat/cache.h"
+# 88 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/cache.h"
 bool _FAT_cache_eraseWritePartialSector (CACHE* cache, const void* buffer, u32 sector, u32 offset, u32 size);
 
 
@@ -873,7 +848,7 @@ void _FAT_cache_invalidate (CACHE* cache);
 CACHE* _FAT_cache_constructor (u32 numberOfPages, const IO_INTERFACE* discInterface);
 
 void _FAT_cache_destructor (CACHE* cache);
-# 40 "C:/Users/GRX/NeoDS/arm9/source/libfat/partition.h" 2
+# 40 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/partition.h" 2
 
 
 extern const char* DEVICE_NAME;
@@ -957,9 +932,9 @@ bool _FAT_partition_setDefaultPartition (PARTITION* partition);
 
 
 PARTITION* _FAT_partition_getPartitionFromPath (const char* path);
-# 53 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatfile.h" 2
-# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/directory.h" 1
-# 58 "C:/Users/GRX/NeoDS/arm9/source/libfat/directory.h"
+# 53 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/fatfile.h" 2
+# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/directory.h" 1
+# 58 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/directory.h"
 typedef enum {FT_DIRECTORY, FT_FILE} FILE_TYPE;
 
 typedef struct {
@@ -1023,7 +998,7 @@ bool _FAT_directory_getFirstEntry (PARTITION* partition, DIR_ENTRY* entry, u32 d
 
 
 bool _FAT_directory_getNextEntry (PARTITION* partition, DIR_ENTRY* entry);
-# 131 "C:/Users/GRX/NeoDS/arm9/source/libfat/directory.h"
+# 131 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/directory.h"
 bool _FAT_directory_entryFromPath (PARTITION* partition, DIR_ENTRY* entry, const char* path, const char* pathEnd);
 
 
@@ -1063,7 +1038,7 @@ bool _FAT_directory_entryFromPosition (PARTITION* partition, DIR_ENTRY* entry);
 
 
 void _FAT_directory_entryStat (PARTITION* partition, DIR_ENTRY* entry, struct stat *st);
-# 54 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatfile.h" 2
+# 54 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/fatfile.h" 2
 
 typedef struct {
  u32 cluster;
@@ -1109,15 +1084,11 @@ extern int _FAT_unlink_r (struct _reent *r, const char *name);
 extern int _FAT_chdir_r (struct _reent *r, const char *name);
 
 extern int _FAT_rename_r (struct _reent *r, const char *oldName, const char *newName);
-# 46 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatfile.c" 2
+# 46 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/fatfile.c" 2
 
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/fcntl.h" 1 3
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/fcntl.h" 1 3
-
-
-
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/_default_fcntl.h" 1 3
-# 149 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/_default_fcntl.h" 3
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/fcntl.h" 1 3
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/fcntl.h" 1 3
+# 138 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/fcntl.h" 3
 struct flock {
  short l_type;
  short l_whence;
@@ -1149,13 +1120,12 @@ struct eflock {
 extern int open (const char *, int, ...);
 extern int creat (const char *, mode_t);
 extern int fcntl (int, int, ...);
-# 5 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/fcntl.h" 2 3
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/fcntl.h" 2 3
-# 48 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatfile.c" 2
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/string.h" 1 3
-# 14 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/string.h" 3
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/include/stddef.h" 1 3 4
-# 15 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/string.h" 2 3
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/fcntl.h" 2 3
+# 48 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/fatfile.c" 2
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/string.h" 1 3
+# 14 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/string.h" 3
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/include/stddef.h" 1 3 4
+# 15 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/string.h" 2 3
 
 
 
@@ -1200,12 +1170,11 @@ int ffs (int);
 char *index (const char *, int);
 void * memccpy (void *, const void *, int, size_t);
 void * mempcpy (void *, const void *, size_t);
-void * memmem (const void *, size_t, const void *, size_t);
+
+
+
 char *rindex (const char *, int);
-char *stpcpy (char *, const char *);
-char *stpncpy (char *, const char *, size_t);
 int strcasecmp (const char *, const char *);
-char *strcasestr (const char *, const char *);
 char *strdup (const char *);
 char *_strdup_r (struct _reent *, const char *);
 char *strndup (const char *, size_t);
@@ -1218,13 +1187,13 @@ size_t strnlen (const char *, size_t);
 char *strsep (char **, const char *);
 char *strlwr (char *);
 char *strupr (char *);
-# 100 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/string.h" 3
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/string.h" 1 3
-# 101 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/string.h" 2 3
+# 99 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/string.h" 3
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/string.h" 1 3
+# 100 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/string.h" 2 3
 
 
-# 49 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatfile.c" 2
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/errno.h" 1 3
+# 49 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/fatfile.c" 2
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/errno.h" 1 3
 
 
 
@@ -1233,8 +1202,8 @@ typedef int error_t;
 
 
 
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/errno.h" 1 3
-# 15 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/errno.h" 3
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/errno.h" 1 3
+# 15 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/errno.h" 3
 extern int *__errno (void);
 
 
@@ -1242,9 +1211,9 @@ extern int *__errno (void);
 
 extern const char * const _sys_errlist[];
 extern int _sys_nerr;
-# 10 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/errno.h" 2 3
-# 50 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatfile.c" 2
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/ctype.h" 1 3
+# 10 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/errno.h" 2 3
+# 50 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/fatfile.c" 2
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/ctype.h" 1 3
 
 
 
@@ -1268,26 +1237,24 @@ int toupper (int __c);
 
 
 int isblank (int __c);
-
-
-
 int isascii (int __c);
 int toascii (int __c);
-# 45 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/ctype.h" 3
-extern char *__ctype_ptr__;
-# 109 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/ctype.h" 3
+int _tolower (int __c);
+int _toupper (int __c);
+# 39 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/ctype.h" 3
+extern const char *__ctype_ptr;
 extern const char _ctype_[];
+# 71 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/ctype.h" 3
+
+# 51 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/fatfile.c" 2
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/unistd.h" 1 3
 
 
-# 51 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatfile.c" 2
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/unistd.h" 1 3
 
-
-
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/unistd.h" 1 3
-# 13 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/unistd.h" 3
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/include/stddef.h" 1 3 4
-# 14 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/unistd.h" 2 3
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/unistd.h" 1 3
+# 13 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/unistd.h" 3
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/include/stddef.h" 1 3 4
+# 14 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/unistd.h" 2 3
 
 extern char **environ;
 
@@ -1304,18 +1271,13 @@ int chown (const char *__path, uid_t __owner, gid_t __group );
 
 
 int close (int __fildes );
-
-
-
-char * ctermid (char *__s );
-char * cuserid (char *__s );
+char *ctermid (char *__s );
+char *cuserid (char *__s );
 
 
 
 int dup (int __fildes );
 int dup2 (int __fildes, int __fildes2 );
-
-
 
 
 
@@ -1328,23 +1290,15 @@ int execvp (const char *__file, char * const __argv[] );
 
 
 
-
-
-
-
 int fchmod (int __fildes, mode_t __mode );
 
 int fchown (int __fildes, uid_t __owner, gid_t __group );
-
-
-
-
 
 pid_t fork (void );
 long fpathconf (int __fd, int __name );
 int fsync (int __fd);
 int fdatasync (int __fd);
-char * getcwd (char *__buf, size_t __size );
+char *getcwd (char *__buf, size_t __size );
 
 
 
@@ -1357,12 +1311,12 @@ int getgroups (int __gidsetsize, gid_t __grouplist[] );
 
 
 
-char * getlogin (void );
+char *getlogin (void );
 
 
 
-char * getpass (const char *__prompt);
-int getpagesize (void);
+char *getpass (const char *__prompt);
+size_t getpagesize (void);
 
 
 
@@ -1386,13 +1340,10 @@ int isatty (int __fildes );
 int lchown (const char *__path, uid_t __owner, gid_t __group );
 
 int link (const char *__path1, const char *__path2 );
-
-
-
 int nice (int __nice_value );
 
 off_t lseek (int __fildes, off_t __offset, int __whence );
-# 126 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/unistd.h" 3
+
 long pathconf (const char *__path, int __name );
 int pause (void );
 
@@ -1439,12 +1390,11 @@ void swab (const void *, void *, ssize_t);
 long sysconf (int __name );
 pid_t tcgetpgrp (int __fildes );
 int tcsetpgrp (int __fildes, pid_t __pgrp_id );
-char * ttyname (int __fildes );
+char *ttyname (int __fildes );
 
 
 
 int unlink (const char *__path );
-int usleep (useconds_t __useconds);
 int vhangup (void );
 int write (int __fd, const void *__buf, size_t __nbyte );
 
@@ -1464,21 +1414,15 @@ pid_t vfork (void );
 
 extern char *suboptarg;
 int getsubopt(char **, char * const *, char **);
-# 219 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/unistd.h" 3
-int ftruncate (int __fd, off_t __length);
-int truncate (const char *, off_t __length);
-# 238 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/sys/unistd.h" 3
-ssize_t readlink (const char *__path, char *__buf, size_t __buflen);
-
-
-
+# 215 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/sys/unistd.h" 3
+int readlink (const char *__path, char *__buf, int __buflen);
 int symlink (const char *__name1, const char *__name2);
-# 5 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/unistd.h" 2 3
-# 52 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatfile.c" 2
+# 5 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/unistd.h" 2 3
+# 52 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/fatfile.c" 2
 
 
-# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/file_allocation_table.h" 1
-# 51 "C:/Users/GRX/NeoDS/arm9/source/libfat/file_allocation_table.h"
+# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/file_allocation_table.h" 1
+# 51 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/file_allocation_table.h"
 u32 _FAT_fat_nextCluster(PARTITION* partition, u32 cluster);
 
 u32 _FAT_fat_linkFreeCluster(PARTITION* partition, u32 cluster);
@@ -1491,9 +1435,9 @@ u32 _FAT_fat_lastCluster (PARTITION* partition, u32 cluster);
 static inline u32 _FAT_fat_clusterToSector (PARTITION* partition, u32 cluster) {
  return (cluster >= 2) ? ((cluster - 2) * partition->sectorsPerCluster) + partition->dataStart : partition->rootDirStart;
 }
-# 55 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatfile.c" 2
-# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/bit_ops.h" 1
-# 38 "C:/Users/GRX/NeoDS/arm9/source/libfat/bit_ops.h"
+# 55 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/fatfile.c" 2
+# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/bit_ops.h" 1
+# 38 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/bit_ops.h"
 static inline u16 u8array_to_u16 (const u8* item, int offset) {
  return ( item[offset] | (item[offset + 1] << 8));
 }
@@ -1513,14 +1457,14 @@ static inline void u32_to_u8array (u8* item, int offset, u32 value) {
  item[offset + 2] = (u8)(value >> 16);
  item[offset + 3] = (u8)(value >> 24);
 }
-# 56 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatfile.c" 2
-# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/filetime.h" 1
-# 38 "C:/Users/GRX/NeoDS/arm9/source/libfat/filetime.h"
+# 56 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/fatfile.c" 2
+# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/filetime.h" 1
+# 38 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/filetime.h"
 u16 _FAT_filetime_getTimeFromRTC (void);
 u16 _FAT_filetime_getDateFromRTC (void);
 
 time_t _FAT_filetime_to_time_t (u16 time, u16 date);
-# 57 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatfile.c" 2
+# 57 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/fatfile.c" 2
 
 u32 _FAT_cluster_lookup(FILE_STRUCT* file, u32 clusterTableIndex)
 {
@@ -1675,7 +1619,7 @@ int _FAT_open_r (struct _reent *r, void *fileStruct, const char *path, int flags
 
 
  file->filesize = u8array_to_u32 (dirEntry.entryData, DIR_ENTRY_fileSize);
-# 223 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatfile.c"
+# 223 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/fatfile.c"
  if (file->write && !_FAT_directory_isWritable(&dirEntry)) {
   r->_errno = 30;
   return -1;
@@ -2269,7 +2213,7 @@ int _FAT_seek_r (struct _reent *r, int fd, int pos, int dir) {
 
   file->rwPosition.sector = (position % partition->bytesPerCluster) / 512;
   file->rwPosition.byte = position % 512;
-# 834 "C:/Users/GRX/NeoDS/arm9/source/libfat/fatfile.c"
+# 834 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/fatfile.c"
   clusCount = position / partition->bytesPerCluster;
   clusterTableIndex = clusCount / file->clustersPerEntry;
   clusterTableOffset = clusCount % file->clustersPerEntry;

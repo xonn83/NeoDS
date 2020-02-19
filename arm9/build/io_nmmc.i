@@ -1,19 +1,19 @@
-# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_nmmc.c"
-# 1 "C:\\Users\\GRX\\NeoDS\\arm9\\build//"
+# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_nmmc.c"
+# 1 "C:\\Users\\GRX\\NeoDS-GBMacro\\arm9\\build//"
 # 1 "<built-in>"
-# 1 "<command-line>"
-# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_nmmc.c"
-# 22 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_nmmc.c"
-# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_nmmc.h" 1
-# 40 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_nmmc.h"
-# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h" 1
-# 39 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
-# 1 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h" 1
-# 43 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h"
-# 1 "C:/devkitPro/libnds/include/nds/ndstypes.h" 1
-# 68 "C:/devkitPro/libnds/include/nds/ndstypes.h"
-# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 1 3
-# 41 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 1 "<command line>"
+# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_nmmc.c"
+# 22 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_nmmc.c"
+# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_nmmc.h" 1
+# 40 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_nmmc.h"
+# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/disc_io.h" 1
+# 39 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/disc_io.h"
+# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/../common.h" 1
+# 43 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/../common.h"
+# 1 "C:/devkitPro/libnds/include/nds/jtypes.h" 1
+# 65 "C:/devkitPro/libnds/include/nds/jtypes.h"
+# 1 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 1 3
+# 45 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
 typedef signed char int8_t ;
 typedef unsigned char uint8_t ;
 
@@ -28,22 +28,22 @@ typedef unsigned char uint_least8_t;
 
 typedef signed short int16_t;
 typedef unsigned short uint16_t;
-# 67 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 71 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
 typedef int16_t int_least16_t;
 typedef uint16_t uint_least16_t;
-# 79 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
-typedef signed int int32_t;
-typedef unsigned int uint32_t;
-# 97 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 83 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
+typedef signed long int32_t;
+typedef unsigned long uint32_t;
+# 101 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
 typedef int32_t int_least32_t;
 typedef uint32_t uint_least32_t;
-# 119 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 123 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
 typedef signed long long int64_t;
 typedef unsigned long long uint64_t;
-# 129 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 133 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
 typedef int64_t int_least64_t;
 typedef uint64_t uint_least64_t;
-# 159 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 163 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
   typedef signed int int_fast8_t;
   typedef unsigned int uint_fast8_t;
 
@@ -58,7 +58,7 @@ typedef uint64_t uint_least64_t;
 
   typedef signed int int_fast32_t;
   typedef unsigned int uint_fast32_t;
-# 213 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 217 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
   typedef int_least64_t int_fast64_t;
   typedef uint_least64_t uint_fast64_t;
 
@@ -69,12 +69,12 @@ typedef uint64_t uint_least64_t;
 
 
   typedef long long int intmax_t;
-# 231 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 235 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
   typedef long long unsigned int uintmax_t;
-# 243 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.4.3/../../../../arm-eabi/include/stdint.h" 3
+# 247 "c:\\devkitpro\\devkitarm\\bin\\../lib/gcc/arm-eabi/4.1.1/../../../../arm-eabi/include/stdint.h" 3
 typedef signed int intptr_t;
 typedef unsigned int uintptr_t;
-# 69 "C:/devkitPro/libnds/include/nds/ndstypes.h" 2
+# 66 "C:/devkitPro/libnds/include/nds/jtypes.h" 2
 
 typedef uint8_t uint8;
 typedef uint16_t uint16;
@@ -123,17 +123,31 @@ typedef volatile s8 vs8;
 typedef volatile s16 vs16;
 typedef volatile s32 vs32;
 typedef volatile s64 vs64;
-# 125 "C:/devkitPro/libnds/include/nds/ndstypes.h"
+
+typedef struct touchPosition {
+ int16 x;
+ int16 y;
+ int16 px;
+ int16 py;
+ int16 z1;
+ int16 z2;
+} touchPosition;
+
+
+
+
+
+
 typedef enum { false, true } bool;
 
 
 
 typedef void ( * IntFn)(void);
-typedef void (* VoidFn)(void);
+typedef void (* VoidFunctionPointer)(void);
 typedef void (* fp)(void);
-# 44 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/../common.h" 2
-# 40 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h" 2
-# 61 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/disc_io.h"
+# 44 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/../common.h" 2
+# 40 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/disc_io.h" 2
+# 61 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/disc_io.h"
 typedef bool (* FN_MEDIUM_STARTUP)(void) ;
 typedef bool (* FN_MEDIUM_ISINSERTED)(void) ;
 typedef bool (* FN_MEDIUM_READSECTORS)(u32 sector, u32 numSectors, void* buffer) ;
@@ -153,28 +167,29 @@ struct IO_INTERFACE_STRUCT {
 } ;
 
 typedef struct IO_INTERFACE_STRUCT IO_INTERFACE ;
-# 41 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_nmmc.h" 2
-# 49 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_nmmc.h"
+# 41 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_nmmc.h" 2
+# 49 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_nmmc.h"
 extern const IO_INTERFACE _io_nmmc;
-# 23 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_nmmc.c" 2
+# 23 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_nmmc.c" 2
 
 
 
 # 1 "C:/devkitPro/libnds/include/nds/card.h" 1
-# 31 "C:/devkitPro/libnds/include/nds/card.h"
-# 1 "C:/devkitPro/libnds/include/nds/ndstypes.h" 1
-# 32 "C:/devkitPro/libnds/include/nds/card.h" 2
-# 91 "C:/devkitPro/libnds/include/nds/card.h"
-void cardWriteCommand(const uint8 *command);
-void cardPolledTransfer(uint32 flags, uint32 *destination, uint32 length, const uint8 *command);
-void cardStartTransfer(const uint8 *command, uint32 *destination, int channel, uint32 flags);
-uint32 cardWriteAndRead(const uint8 *command, uint32 flags);
-void cardParamCommand (uint8 command, uint32 parameter, uint32 flags, uint32 *destination, uint32 length);
+# 32 "C:/devkitPro/libnds/include/nds/card.h"
+# 1 "C:/devkitPro/libnds/include/nds/jtypes.h" 1
+# 33 "C:/devkitPro/libnds/include/nds/card.h" 2
+# 78 "C:/devkitPro/libnds/include/nds/card.h"
+void cardWriteCommand(const uint8 * command);
+
+void cardPolledTransfer(uint32 flags, uint32 * destination, uint32 length, const uint8 * command);
+void cardStartTransfer(const uint8 * command, uint32 * destination, int channel, uint32 flags);
+uint32 cardWriteAndRead(const uint8 * command, uint32 flags);
 
 
 
-void cardReadHeader(uint8 *header);
-uint32 cardReadID(uint32 flags);
+void cardRead00(uint32 address, uint32 * destination, uint32 length, uint32 flags);
+void cardReadHeader(uint8 * header);
+int cardReadID(uint32 flags);
 
 
 void cardReadEeprom(uint32 address, uint8 *data, uint32 length, uint32 addrtype);
@@ -188,7 +203,7 @@ uint8 cardEepromReadID(uint8 i);
 
 
 uint8 cardEepromCommand(uint8 command, uint32 address);
-# 122 "C:/devkitPro/libnds/include/nds/card.h"
+# 110 "C:/devkitPro/libnds/include/nds/card.h"
 int cardEepromGetType(void);
 
 
@@ -199,10 +214,10 @@ void cardEepromChipErase(void);
 
 
 void cardEepromSectorErase(uint32 address);
-# 27 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_nmmc.c" 2
+# 27 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_nmmc.c" 2
 
 int _NMMC_spi_freq = 3;
-# 46 "C:/Users/GRX/NeoDS/arm9/source/libfat/disc_io/io_nmmc.c"
+# 46 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/libfat/disc_io/io_nmmc.c"
 static inline void _Neo_OpenSPI( u8 frequency )
 {
  (*(vuint16*)0x040001A0) = 0x0000A040 | frequency;
