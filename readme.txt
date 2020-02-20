@@ -1,6 +1,8 @@
 This version has been modified to use in a GameBoy Macro
 by JDSoft
 
+Impotant: I forgot to say, this version looks for roms in "/neogeo/" folder
+
 ----
 
 NeoDS v0.2.0 by Ben Ingram
