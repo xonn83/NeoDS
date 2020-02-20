@@ -1,7 +1,7 @@
 This version has been modified to use in a GameBoy Macro
 by JDSoft
 
-Impotant: I forgot to say, this version looks for roms in "/neogeo/" folder
+Impotant: This version looks for roms in "/neogeo/" folder
 
 ----
 
