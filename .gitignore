@@ -1,0 +1,26 @@
+# Binary File
+*.nds
+*.NDS
+*.cia
+*.app
+*.srldr
+*.elf
+*.arm7
+*.arm9
+*.DS_Store
+*soundbank*.bin
+!GBARunner2_arm9dldi_ds.nds
+!GBARunner2_arm7dldi_ds.nds
+!GBARunner2_arm7dldi_dsi.nds
+!GBARunner2_arm7dldi_3ds.nds
+!/7zfile/Flashcard users/Autoboot/*/*.NDS
+!/7zfile/Flashcard users/Autoboot/*/*/*.NDS
+
+# Build Directory
+build/
+data/
+
+# Project Files
+.idea/
+.vscode/
+ipch/
