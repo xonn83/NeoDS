@@ -60,7 +60,8 @@ static void neoLoadDefaultConfig()
 bool neoLoadConfig(const char* szFileName)
 {
 	u32 i;
-
+	char path[256];
+	
 	//load default values (will be over-written below if everything loads properly)
 	neoLoadDefaultConfig();
 
@@ -68,7 +69,9 @@ bool neoLoadConfig(const char* szFileName)
 	char* pExt = strrchr(g_szConfigFile, '.');
 	if(pExt) *pExt = 0;
 	strcat(g_szConfigFile, ".cfg");
-	int fd = systemOpen(g_szConfigFile, false);
+	strcpy(path, "/neogeo/");
+	strcat(path, g_szConfigFile);
+	int fd = systemOpen(path, false);
 	if(fd < 0) {
 		systemWriteLine("Failed to load config: %s", g_szConfigFile);
 		return false;
