@@ -134,8 +134,11 @@ bool neoSaveConfig()
 	guiConsoleLog("Saving config...");
 	guiConsoleLog("*** DON'T POWER OFF ***");
 	guiConsoleDump();
-
-	int fd = systemOpen(g_szConfigFile, true);
+	char path[256];
+	
+	strcpy(path,"/neogeo/");
+	strcat(path, g_szConfigFile);
+	int fd = systemOpen(path, true);
 	systemWriteLine("opened: %d", fd);
 	guiConsoleDump();
 

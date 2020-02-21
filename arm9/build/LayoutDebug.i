@@ -1,5 +1,0 @@
-# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/LayoutDebug.c"
-# 1 "C:\\Users\\GRX\\NeoDS-GBMacro\\arm9\\build//"
-# 1 "<built-in>"
-# 1 "<command line>"
-# 1 "C:/Users/GRX/NeoDS-GBMacro/arm9/source/LayoutDebug.c"
